@@ -1,0 +1,55 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+TITLE: Horard TOC
+#+STARTUP: showall
+#+PROPERTY: filename
+  :PROPERTIES:
+  :Name: /home/deerpig/proj/chenla/hoard/index.org
+  :Created: 2017-03-12T11:00@Prek Leap (11.642600N-104.919210W)
+  :ID: 15c2014b-0cb2-4637-b168-c2c098e0d2a6
+  :URL:
+  :END:
+#+INCLUDE: ./inc/head.org
+#+INCLUDE: ./inc/macros.org
+
+{{{breadcrumbs}}}
+
+#+HTML: <div class="outline-2" id="meta">
+| *Author*  | Brad Collins <brad@chenla.org>             |
+| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
+#+HTML: </div>
+
+#+TOC: headlines 4
+
+* About these pages
+
+#+begin_quote
+The Hoard collects all types of information: text, images, audio and video.
+#+end_quote
+
+* Recent Activity
+
+Recent change activity on http://github.com/deerpig/deerpig-install
+
+#+BEGIN_SRC sh :exports results :results silent
+githubchart -u deerpig ~/proj/img/contrib.svg
+#+END_SRC
+
+#+RESULTS:
+
+[[~/proj/img/contrib.svg]]
+
+#+HTML: <div class="contrib-legend text-small text-muted" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
+#+HTML:  <span>Less</span>
+#+HTML:   <ul class="legend">
+#+HTML:     <li style="background-color: #eee"></li>
+#+HTML:     <li style="background-color: #d6e685"></li>
+#+HTML:     <li style="background-color: #8cc665"></li>
+#+HTML:     <li style="background-color: #44a340"></li>
+#+HTML:     <li style="background-color: #1e6823"></li>
+#+HTML:   </ul>
+#+HTML:  <span>More</span>
+#+HTML: </div>
+
+
+* Introduction
+
