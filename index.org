@@ -1,5 +1,5 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Chenla Institute Hoard Table of Contents
+#+TITLE: Chenla Institute Hoard | Table of Contents
 #+STARTUP: showall
 #+PROPERTY: filename
   :PROPERTIES:
