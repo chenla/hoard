@@ -1,0 +1,17 @@
+* The Chenla Institute Hoard
+
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/category-primer-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
+
+
+This will become the core Hoard for the Chenla Institute.  A /hoard/
+can hold pretty much anything, text, code, rulesets etc.  This
+particular Hoard will be used for anything and everything that falls
+outside of the Primer.
+
+You may notice that the category for the hoard is /primer/.  It might
+be more correct to say that the Primer is a subset of the Hoard, but
+since the Institute's primary goal is to create the Primer and not the
+Encyclopedia Gallactica it seemed a little less daunting to choose
+primer for the name of the category.

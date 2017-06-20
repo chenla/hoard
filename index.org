@@ -26,30 +26,6 @@
 The Hoard collects all types of information: text, images, audio and video.
 #+end_quote
 
-* Recent Activity
-
-Recent change activity on http://github.com/deerpig/deerpig-install
-
-#+BEGIN_SRC sh :exports results :results silent
-githubchart -u deerpig ~/proj/img/contrib.svg
-#+END_SRC
-
-#+RESULTS:
-
-[[~/proj/img/contrib.svg]]
-
-#+HTML: <div class="contrib-legend text-small text-muted" title="A summary of pull requests, issues opened, and commits to the default and gh-pages branches.">
-#+HTML:  <span>Less</span>
-#+HTML:   <ul class="legend">
-#+HTML:     <li style="background-color: #eee"></li>
-#+HTML:     <li style="background-color: #d6e685"></li>
-#+HTML:     <li style="background-color: #8cc665"></li>
-#+HTML:     <li style="background-color: #44a340"></li>
-#+HTML:     <li style="background-color: #1e6823"></li>
-#+HTML:   </ul>
-#+HTML:  <span>More</span>
-#+HTML: </div>
-
 
 * Introduction
 
