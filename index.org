@@ -1,5 +1,5 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Chenla Institure Hoard Table of Contents
+#+TITLE: Chenla Institute Hoard Table of Contents
 #+STARTUP: showall
 #+PROPERTY: filename
   :PROPERTIES:
@@ -10,14 +10,6 @@
   :END:
 #+INCLUDE: ./inc/head.org
 #+INCLUDE: ./inc/macros.org
-
-{{{breadcrumbs}}}
-
-#+HTML: <div class="outline-2" id="meta">
-| *Author*  | Brad Collins <brad@chenla.org>             |
-| *Date*    | {{{time(%Y-%m-%d %H:%M:%S)}}}              |
-#+HTML: </div>
-
 #+TOC: headlines 4
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
