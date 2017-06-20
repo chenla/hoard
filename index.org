@@ -1,5 +1,5 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Horard TOC
+#+TITLE: Chenla Institure Hoard Table of Contents
 #+STARTUP: showall
 #+PROPERTY: filename
   :PROPERTIES:
@@ -20,12 +20,14 @@
 
 #+TOC: headlines 4
 
-* About these pages
-
-#+begin_quote
-The Hoard collects all types of information: text, images, audio and video.
-#+end_quote
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/category-primer-56B4E9.svg?style=flat-square]] 
+[[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
+[[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
 
 * Introduction
 
+
+The Hoard collects all types of information: text, images, audio and video.
