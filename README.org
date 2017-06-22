@@ -1,9 +1,26 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+
 * The Chenla Institute Hoard
+  :PROPERTIES:
+  :CUSTOM_ID: 
+  :Name:      /home/deerpig/proj/chenla/hoard/README.org
+  :Created:   2017-06-22T11:28@Prek Leap (11.642600N-104.919210W)
+  :ID:        9f2c02a7-7609-4c7c-9c2e-018e82799c27
+  :VER:       551377799.625587555
+  :GEO:       48P-491193-1287029-15
+  :BXID:      proj:QVP1-0725
+  :Category:  primer
+  :Entity:    readme
+  :Status:    stub
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
 
-[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
+[[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
 [[https://img.shields.io/badge/category-primer-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/entity-readme-0072B2.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
-
 
 This will become the core Hoard for the Chenla Institute.  A /hoard/
 can hold pretty much anything, text, code, rulesets etc.  This
