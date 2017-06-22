@@ -1,0 +1,3 @@
+#+PROPERTY: TT  [[hord:top]]
+#+PROPERTY: BTI [[bmf:burr]] [[bmf:work]]
+
