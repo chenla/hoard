@@ -1,3 +1,58 @@
 #+PROPERTY: TT  [[hord:top]]
 #+PROPERTY: BTI [[bmf:burr]] [[bmf:work]]
+* BURR Entity Class
+  :PROPERTIES:
+  :CUSTOM_ID: Entity_class_(bmf)
+  :Created:   2017-06-22T17:01@Prek Leap (11.642600N-104.919210W)
+  :ID:        d8a12c0f-7b87-4000-99f7-df1a329c7c6a
+  :VER:       551397729.139512310
+  :GEO:       48P-491193-1287029-15
+  :BXID:      bmf:VRO2-1742
+  :Class:     core
+  :Type:      concept
+  :Status:    wip 
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
 
+  :TREE:
+  :UF:    
+  :BTI+:  [[bmf:entity]]
+  :BT:    [[bmf:entity_group]]
+  :RT:    [[bmf:enity_type]]
+  :END:
+
+** Scope
+
+
+/Entity classes/ describe entites that represent groups of things in
+contrast with /entity types/ which describe entities that are mutually
+exclusive atoms Most records are described by both an /entity class/
+that they are part of and an /entity type/ which they are an instance
+of.
+
+#+begin_src ascii
+entity
+ group
+   \
+    `----> class | type
+#+end_src
+
+In this example the /civilization entity group/ can be seen as a
+hierarchy of classes each of which is a a group of other items that
+are each specific type of entities.
+
+#+begin_src ascii
+civilization                        (concept)
+    \
+     `--> primer                    (expression)
+             \
+              `--> deploy           (manifestation)
+                      \
+                       `--> project (instance)
+#+end_src
+
+
+
+** Macro
+
+** Ref
