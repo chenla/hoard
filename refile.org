@@ -56,3 +56,29 @@ civilization                        (concept)
 ** Macro
 
 ** Ref
+* Mars Notes (work)
+  :PROPERTIES:
+  :CUSTOM_ID: Mars_Notes_(work)
+  :Created:   2017-06-23T10:13@Prek Leap (11.642600N-104.919210W)
+  :ID:        606ef984-66e7-40ac-b2e2-e89ceb5360a4
+  :VER:       551459693.769278008
+  :GEO:       48P-491193-1287029-15
+  :BXID:      hord:LBR3-3530
+  :Class:     deploy
+  :Type:      work
+  :Status:    wip 
+  :Licence:   MIT/CC BY-SA 4.0
+  :END:
+
+  :TREE:
+  :UF:
+  :BTI+: 
+  :BT:
+  :RT:
+  :END:
+
+** Scope
+
+Notes for establishing a distibuted civilization on Mars.
+
+** Ref
