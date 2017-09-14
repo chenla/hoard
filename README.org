@@ -1,7 +1,7 @@
 #   -*- mode: org; fill-column: 60 -*-
 #+STARTUP: showall
 
-* The Chenla Institute Hoard
+* The Chenla Institute Hoard | README
   :PROPERTIES:
   :CUSTOM_ID: 
   :Name:      /home/deerpig/proj/chenla/hoard/README.org
@@ -10,14 +10,14 @@
   :VER:       551377799.625587555
   :GEO:       48P-491193-1287029-15
   :BXID:      proj:QVP1-0725
-  :Class:     primer
+  :Class:     docs
   :Type:      readme
   :Status:    stub
   :Licence:   MIT/CC BY-SA 4.0
   :END:
 
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]]
-[[https://img.shields.io/badge/class-primer-56B4E9.svg?style=flat-square]]
+[[https://img.shields.io/badge/class-docs-56B4E9.svg?style=flat-square]]
 [[https://img.shields.io/badge/type-readme-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
