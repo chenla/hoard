@@ -15,14 +15,14 @@
 :Licence:   MIT/CC BY-SA 4.0
 :END:
 
-* Table of Contents
+* Chenla Institute Hoard | Table of Contents
+
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
 [[https://img.shields.io/badge/class-docs-56B4E9.svg?style=flat-square]]
 [[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
-* Chenla Institute Hoard | Table of Contents
 
-
-The Hoard collects all types of information: text, images, audio and video.
+The Hoard collects all types of information: text, images,
+audio and video.
