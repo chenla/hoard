@@ -1,25 +1,28 @@
 #   -*- mode: org; fill-column: 60 -*-
-#+TITLE: Chenla Institute Hoard | Table of Contents
 #+STARTUP: showall
-#+PROPERTY: filename
-  :PROPERTIES:
-  :Name: /home/deerpig/proj/chenla/hoard/index.org
-  :Created: 2017-03-12T11:00@Prek Leap (11.642600N-104.919210W)
-  :ID: 15c2014b-0cb2-4637-b168-c2c098e0d2a6
-  :URL:
-  :END:
-#+INCLUDE: ./inc/head.org
-#+INCLUDE: ./inc/macros.org
-#+TOC: headlines 4
+#+TITLE:   Chenla Institute Hoard | Table of Contents
+:PROPERTIES:
+:CUSTOM_ID:
+:Name:      /home/deerpig/proj/chenla/hoard/index.org
+:Created:   2017-03-12T11:00@Prek Leap (11.642600N-104.919210W)
+:ID:        15c2014b-0cb2-4637-b168-c2c098e0d2a6
+:VER:       558648683.706049160
+:GEO:       48P-491193-1287029-15
+:BXID:      proj:LKL5-1432
+:Class:     docs
+:Entity:    toc
+:Status:    wip 
+:Licence:   MIT/CC BY-SA 4.0
+:END:
 
+* Table of Contents
 [[https://img.shields.io/badge/made%20by-Chenla%20Institute-999999.svg?style=flat-square]] 
-[[https://img.shields.io/badge/category-primer-56B4E9.svg?style=flat-square]] 
+[[https://img.shields.io/badge/class-docs-56B4E9.svg?style=flat-square]]
 [[https://img.shields.io/badge/entity-TOC-0072B2.svg?style=flat-square]]
-[[https://img.shields.io/badge/status-stub-CC79A7.svg?style=flat-square]]
+[[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
-
-* Introduction
+* Chenla Institute Hoard | Table of Contents
 
 
 The Hoard collects all types of information: text, images, audio and video.
