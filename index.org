@@ -8,6 +8,51 @@
 [[https://img.shields.io/badge/status-wip-D55E00.svg?style=flat-square]]
 [[https://img.shields.io/badge/licence-MIT%2FCC%20BY--SA%204.0-000000.svg?style=flat-square]]
 
+
+#+begin_src emacs-lisp
+(defun pig/find-custom-id-in-file (id file &optional markerp)
+  "Return the position of the entry CUSTOM_ID in FILE.
+If that files does not exist, or if it does not contain this ID,
+return nil.
+
+The position is returned as a cons cell (file-name . position).  With
+optional argument MARKERP, return the position as a new marker.
+
+This function is based on org-id-find-id-in-file"
+  (let (org-agenda-new-buffers buf pos)
+    (cond
+     ((not file) nil)
+     ((not (file-exists-p file)) nil)
+     (t (with-current-buffer (setq buf (org-get-agenda-file-buffer file))
+	  (setq pos (org-find-entry-with-id id))
+	  (when pos
+	    (if markerp
+		(move-marker (make-marker) pos buf)
+	      (cons file pos))))))))
+#+end_src
+
+
+#+name: pig
+#+begin_src emacs-lisp :results silent
+
+(setq pig/hoard-dir "~/org/")
+
+(defun pig/include-subtree (id file)
+  ""
+  (save-excursion
+    (let ((n (org-id-find-id-in-file id (concat pig/hoard-dir file ".org"))))
+      (find-file (car n))
+      (goto-char  (cdr n))
+      (org-copy-subtree)))
+  (forward-line 1)
+  (yank))
+#+end_src
+
+#+name: tree
+#+begin_src emacs-lisp :var id=" " :var file=" " :exports none
+(pig/include-subtree id file)
+#+end_src
+
 * Chenla Institute Hoard | Table of Contents
 :PROPERTIES:
 :CUSTOM_ID:
@@ -23,8 +68,16 @@
 :Licence:   MIT/CC BY-SA 4.0
 :END:
 
+  - auth  :: authorities, a named entity (persons, places, places, events)
+  - work  :: works, expressions, manifsestation and items
+  - top   :: topics, an abstract idea (terms, concepts, subjects, memes)
+  - read  :: readings
+  - quote :: 
+  - bib   :: bib.org --tangle--> bib.bib
+  - lib   :: ~/htdocs/lib/<author>--<title>-<year>.pdf  
+               --symbolic link--> <author>:<year><title> 
+
+#+call: tree(id="fd51da82-eaaa-4a7a-95c7-bc69c3778b4b",file="quotes")
 
 
-
-The Hoard collects all types of information: text, images,
-audio and video.
+#+call: tree(id="e003ef12-4eb4-4a6e-8944-4272744f3517",file="quotes",file="quotes")
