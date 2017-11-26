@@ -98,7 +98,7 @@ cite:scott:2009art
 
 ** TODO 2012 - Two cheers for anarchism : six easy pieces on autonomy, dignity, and meaningful work and play
  :PROPERTIES:
-  :Custom_ID: scott:2012cheers
+  :Custom_ID: scott:2012two
   :AUTHOR:    Scott
   :JOURNAL: 
   :YEAR:      2012
@@ -106,10 +106,10 @@ cite:scott:2009art
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=8CCB39685697A9F94D9256078BC757AE
-  :INTERLEAVE_PDF: ./lib/scott:2012cheers
+  :INTERLEAVE_PDF: ./lib/scott:2012two
  :END:
 
-cite:scott:2012cheers
+cite:scott:2012two
 
 ** TODO 2008 - The Craftsman
  :PROPERTIES:
@@ -121,6 +121,31 @@ cite:scott:2012cheers
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=83EA08204F779770FC663FAABCE44DFA
+  :INTERLEAVE_PDF: ./lib/sennett:2008craftsman
  :END:
 
 cite:sennett:2008craftsman
+
+** TODO 2017 - Reading for Programmers
+ :PROPERTIES:
+  :Custom_ID: limanowski:2017reading
+  :AUTHOR: Piotr Limanowski
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://codearsonist.com/reading-for-programmers
+ :END:
+
+cite:limanowski:2017reading
+
+Good article about how to read scientific papers and how to use Emacs
+with =pdftools=, =org-ref= and =interleave= to take names.
+
+#+begin_quote
+TD;DR: Use a three-pass (verify-grasp-analyse) reading algorithm and
+get comfortable with reading hundreds of papers. Use org-mode (w/
+helm-bibtex, org-ref and interleave) and keep the notes in check.
+#+end_quote
+
