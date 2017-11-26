@@ -140,8 +140,8 @@ cite:sennett:2008craftsman
 
 cite:limanowski:2017reading
 
-Good article about how to read scientific papers and how to use Emacs
-with =pdftools=, =org-ref= and =interleave= to take names.
+Good article about how to read technical/scientific papers and how to
+use Emacs with =pdftools=, =org-ref= and =interleave= to take names.
 
 #+begin_quote
 TD;DR: Use a three-pass (verify-grasp-analyse) reading algorithm and
@@ -149,3 +149,16 @@ get comfortable with reading hundreds of papers. Use org-mode (w/
 helm-bibtex, org-ref and interleave) and keep the notes in check.
 #+end_quote
 
+** TODO 2015 - How to Write a Thesis
+ :PROPERTIES:
+  :Custom_ID: eco:2015how
+  :AUTHOR: Umberto Eco
+  :JOURNAL: 
+  :YEAR: 2015
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=0CB7CE1EB2D3F6DA02F957FC1F895B08
+ :END:
+
+cite:eco:2015how
