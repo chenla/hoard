@@ -1,0 +1,112 @@
+bibliography:bib.bib
+
+
+** TODO 1963 - Preface to Plato (History of the Greek Mind)
+ :PROPERTIES:
+  :Custom_ID: havelock:1963preface
+  :Created:   2017-11-26T10:12@Prek Leap (11.642600N-104.919210W)
+  :ID:        c6058915-a027-491a-94d7-1b861fed65a3
+  :VER:       564938011.269353929
+  :GEO:       48P-491193-1287029-15
+  :BXID:      hord:TDM6-3263
+  :Class:     primer
+  :Type:      concept 
+  :Status:    stub 
+  :Licence:   MIT/CC BY-SA 4.0
+  :AUTHOR:    Eric Havelock
+  :JOURNAL: 
+  :YEAR:      1963
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=0A7B0BA8B7466F1ECC8FED21683372C6
+  :INTERLEAVE_PDF: ./lib/havelock:1963preface.pdf
+ :END:
+
+cite:havelock:1963preface 
+
+*** Cross Refs
+
+cite:minoni:1966review,wiki:2017eric-havelock
+
+*** Notes for page 8
+:PROPERTIES:
+:interleave_page_note: 8
+:END:
+
+#+begin_quote 
+All human civilizations rely on a sort of cultural 'book', that is, on
+the capacity to put information in storage in order to use it.  Before
+Homer's day, the Greek cultural 'book' had been stored in oral
+memory.  Discoveries and conclusions associated with the recent
+deciphermenf of 'Linear B', facinating and fashionable though they
+are, must not be allowed to obscure this essential fact.  Between Homer
+and Plato, the method of storage began to alter, as the information
+became alphabetised, and correspondingly the eye supplanted the ear as
+the chief organ employed for this purpose.  The complete results of
+literacy did not supervene in Greece until the ushering in of the
+Hellenistic age, when conceptual thought achieved as it were fluency
+and its vocabulary became more or less standardised.  Plato, living in
+the midst of of this revolution, accounced it and became it's prophet.
+#+end_quote
+
+
+** TODO 2017 - Against the Grain. A Deep History of the Earliest States
+ :PROPERTIES:
+  :Custom_ID: scott:2016against
+  :AUTHOR: James Scott
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=65A0DCDD231DF0E360B657A6FFFE6ACB
+  :INTERLEAVE_PDF: ./lib/scott:2017against.pdf
+ :END:
+
+cite:scott:2017against
+
+** TODO 1998 - Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
+ :PROPERTIES:
+  :Custom_ID: scott:1998seeing
+  :AUTHOR: James Scott
+  :JOURNAL: 
+  :YEAR: 1998
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=46FCDF402AE8A5F7C6D1A65081BFC249
+  :INTERLEAVE_PDF: ./lib/scott:1998seeing
+ :END:
+
+cite:scott:1998seeing
+
+** TODO 2009 - The art of not being governed : an anarchist history of upland Southeast Asia
+ :PROPERTIES:
+  :Custom_ID: scott:2009art
+  :AUTHOR: Scott
+  :JOURNAL: 
+  :YEAR: 2009
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=5398F3E6D49568F9D7097002DF59B1A9
+  :INTERLEAVE_PDF: ./lib/scott:2009art
+ :END:
+
+cite:scott:2009art
+
+** TODO 2012 - Two cheers for anarchism : six easy pieces on autonomy, dignity, and meaningful work and play
+ :PROPERTIES:
+  :Custom_ID: scott:2012cheers
+  :AUTHOR: Scott
+  :JOURNAL: 
+  :YEAR: 2012
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=8CCB39685697A9F94D9256078BC757AE
+  :INTERLEAVE_PDF: ./lib/scott:2012cheers
+ :END:
+
+cite:scott:2012cheers
