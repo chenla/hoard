@@ -51,10 +51,7 @@ civilization                        (concept)
                        `--> project (instance)
 #+end_src
 
-
-
 ** Macro
-
 ** Ref
 * Mars Notes (work)
   :PROPERTIES:

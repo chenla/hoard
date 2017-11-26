@@ -54,9 +54,9 @@ the midst of of this revolution, accounced it and became it's prophet.
 ** TODO 2017 - Against the Grain. A Deep History of the Earliest States
  :PROPERTIES:
   :Custom_ID: scott:2016against
-  :AUTHOR: James Scott
+  :AUTHOR:    James Scott
   :JOURNAL: 
-  :YEAR: 2017
+  :YEAR:      2017
   :VOLUME: 
   :PAGES: 
   :DOI: 
@@ -69,9 +69,9 @@ cite:scott:2017against
 ** TODO 1998 - Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
  :PROPERTIES:
   :Custom_ID: scott:1998seeing
-  :AUTHOR: James Scott
+  :AUTHOR:    James Scott
   :JOURNAL: 
-  :YEAR: 1998
+  :YEAR:      1998
   :VOLUME: 
   :PAGES: 
   :DOI: 
@@ -84,9 +84,9 @@ cite:scott:1998seeing
 ** TODO 2009 - The art of not being governed : an anarchist history of upland Southeast Asia
  :PROPERTIES:
   :Custom_ID: scott:2009art
-  :AUTHOR: Scott
+  :AUTHOR:    Scott
   :JOURNAL: 
-  :YEAR: 2009
+  :YEAR:      2009
   :VOLUME: 
   :PAGES: 
   :DOI: 
@@ -99,9 +99,9 @@ cite:scott:2009art
 ** TODO 2012 - Two cheers for anarchism : six easy pieces on autonomy, dignity, and meaningful work and play
  :PROPERTIES:
   :Custom_ID: scott:2012cheers
-  :AUTHOR: Scott
+  :AUTHOR:    Scott
   :JOURNAL: 
-  :YEAR: 2012
+  :YEAR:      2012
   :VOLUME: 
   :PAGES: 
   :DOI: 
