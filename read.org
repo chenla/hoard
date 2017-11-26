@@ -159,6 +159,10 @@ helm-bibtex, org-ref and interleave) and keep the notes in check.
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=0CB7CE1EB2D3F6DA02F957FC1F895B08
+  :INTERLEAVE_PDF: ./lib/eco:2015how
  :END:
 
 cite:eco:2015how
+
+*** Cross Ref
+cite:wiki:2017umberto-eco
