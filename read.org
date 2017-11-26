@@ -110,3 +110,17 @@ cite:scott:2009art
  :END:
 
 cite:scott:2012cheers
+
+** TODO 2008 - The Craftsman
+ :PROPERTIES:
+  :Custom_ID: sennett:2008craftsman
+  :AUTHOR: Richard Sennett
+  :JOURNAL: 
+  :YEAR: 2008
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=83EA08204F779770FC663FAABCE44DFA
+ :END:
+
+cite:sennett:2008craftsman
