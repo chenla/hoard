@@ -263,10 +263,12 @@ worst-case scenario, to shake people up.
 
 cite:wallace-wells:2017uninhabitable,wallace-wells:uninabitable-annotated
 
+
+
 This article scared the living crap out of a lot of people, including
-me.  It raised a huge stink in mainstream media who pretty much agreed
-that it wasn't as bad as Wallace said, and that it's not productive to
-scare people.
+me cite:holthaus:2017stop-scaring.  It raised a huge stink in
+mainstream media who pretty much agreed that it wasn't as bad as
+Wallace said, and that it's not productive to scare people.
 
 As I write this, it's now five months since the article came out and I
 tend to think he was right and that people have since pretty much gone
