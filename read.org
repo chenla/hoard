@@ -493,3 +493,18 @@ cite:broecker:2012how
  :END:
 
 cite:wheeler:1992itfrombit
+
+** TODO 2017 - The Little Book of big history
+ :PROPERTIES:
+  :Custom_ID: crofton:2017little
+  :AUTHOR: Ian Crofton \& Jeremy Black
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: 
+  :INTERLEAVE_PDF: ./lib/crofton:2017little.pdf
+ :END:
+
+cite:crofton:2017little
