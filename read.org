@@ -508,3 +508,18 @@ cite:wheeler:1992itfrombit
  :END:
 
 cite:crofton:2017little
+
+** TODO 2011 - Sapiens: A Brief History of Humankind
+ :PROPERTIES:
+  :Custom_ID: harari:2011sapiens
+  :AUTHOR: Yuval Harari
+  :JOURNAL: 
+  :YEAR: 2011
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=B71E01E3A3165F5E7762528A3C5EF88E
+  :INTERLEAVE_PDF: ./lib/harari:2011sapiens.pdf
+ :END:
+
+cite:harari:2011sapiens
