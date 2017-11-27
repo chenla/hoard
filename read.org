@@ -478,3 +478,18 @@ The climate system is an angry beast and we are poking it with sticks.
  :END:
 
 cite:broecker:2012how
+
+** TODO 1992 - Recent Thinking about the Nature of the Physical World: It from Bit
+ :PROPERTIES:
+  :Custom_ID: wheeler:1992itfrombit
+  :AUTHOR: Wheeler
+  :JOURNAL: Annals of the New York Academy of Sciences
+  :YEAR: 1992
+  :VOLUME: 655
+  :PAGES: 
+  :DOI: 10.1111/j.1749-6632.1992.tb17083.x
+  :URL: 
+  :INTERLEAVE_PDF: ./lib/wheeler:1992itfrombit.pdf
+ :END:
+
+cite:wheeler:1992itfrombit
