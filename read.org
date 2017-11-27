@@ -76,7 +76,7 @@ cite:scott:2017against
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=46FCDF402AE8A5F7C6D1A65081BFC249
-  :INTERLEAVE_PDF: ./lib/scott:1998seeing
+  :INTERLEAVE_PDF: ./lib/scott:1998seeing.pdf
  :END:
 
 cite:scott:1998seeing
@@ -91,7 +91,7 @@ cite:scott:1998seeing
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=5398F3E6D49568F9D7097002DF59B1A9
-  :INTERLEAVE_PDF: ./lib/scott:2009art
+  :INTERLEAVE_PDF: ./lib/scott:2009art.pdf
  :END:
 
 cite:scott:2009art
@@ -106,7 +106,7 @@ cite:scott:2009art
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=8CCB39685697A9F94D9256078BC757AE
-  :INTERLEAVE_PDF: ./lib/scott:2012two
+  :INTERLEAVE_PDF: ./lib/scott:2012two.pdf
  :END:
 
 cite:scott:2012two
@@ -121,7 +121,7 @@ cite:scott:2012two
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=83EA08204F779770FC663FAABCE44DFA
-  :INTERLEAVE_PDF: ./lib/sennett:2008craftsman
+  :INTERLEAVE_PDF: ./lib/sennett:2008craftsman.pdf
  :END:
 
 cite:sennett:2008craftsman
@@ -159,10 +159,273 @@ helm-bibtex, org-ref and interleave) and keep the notes in check.
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=0CB7CE1EB2D3F6DA02F957FC1F895B08
-  :INTERLEAVE_PDF: ./lib/eco:2015how
+  :INTERLEAVE_PDF: ./lib/eco:2015how.pdf
  :END:
 
 cite:eco:2015how
 
 *** Cross Ref
 cite:wiki:2017umberto-eco
+
+
+** TODO 2004 - World Population to 2300
+ :PROPERTIES:
+  :Custom_ID: united:2004world
+  :AUTHOR: United of Economic \& Social Population Division
+  :JOURNAL: 
+  :YEAR: 2004
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://books.google.com.kh/books?id=a30FuXyiBV4C
+  :INTERLEAVE_PDF: ./lib/united:2004world.pdf
+ :END:
+
+cite:united:2004world
+
+*** Notes for page 15
+:PROPERTIES:
+:interleave_page_note: 15
+:END:
+
+#+begin_quote
+In these projections, world population peaks at 9.22 billion
+in 2075. Population therefore grows slightly beyond the level of 8.92
+billion projected for 2050 in the 2002 Revision, on which these pro-
+jections are based. However, after reaching its maximum, world
+population declines slightly and then resumes increasing, slowly, to
+reach a level of 8.97 billion by 2300, not much different from the
+projected 2050 figure.
+#+end_quote
+
+
+** TODO 2017 - Climate Change and the Health of Nations: Famines, Fevers, and the Fate of Populations
+ :PROPERTIES:
+  :Custom_ID: mcmichael:2017climate
+  :AUTHOR: Anthony McMichael
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=F64CE3325EAAA092B5C59967F89B7258
+  :INTERLEAVE_PDF: ./lib/mcmichael:2017climate.pdf
+ :END:
+
+cite:mcmichael:2017climate
+
+** TODO 2009 - Scientist: Warming Could Cut Population to 1 Billion
+ :PROPERTIES:
+  :Custom_ID: kantor2009:scientist-warming-could
+  :AUTHOR: James Kantor
+  :JOURNAL: 
+  :YEAR: 2009
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://dotearth.blogs.nytimes.com/2009/03/13/scientist-warming-could-cut-population-to-1-billion/
+ :END:
+
+cite:kantor2009:scientist-warming-could
+
+#+begin_quote
+Hans Joachim Schellnhuber, the director of the Potsdam Institute for
+Climate Impact Research in Germany, said that if the buildup of
+greenhouse gases and its consequences pushed global temperatures 9
+degrees Fahrenheit higher than today — well below the upper
+temperature range that scientists project could occur from global
+warming — Earth’s population would be devastated.
+#+end_quote
+
+#+begin_quote
+“In a very cynical way, it’s a triumph for science because at last we
+have stabilized something –- namely the estimates for the carrying
+capacity of the planet, namely below 1 billion people,” said
+Dr. Schellnhuber, who has advised German Chancellor Angela Merkel on
+climate policy and is a visiting professor at Oxford.
+#+end_quote
+
+The article mentions that Dr. Schellnhuber was not describing a
+worst-case scenario, to shake people up.
+
+
+** TODO 2017 - The Unihabitable Earth
+ :PROPERTIES:
+  :Custom_ID: wallace-wells:2017uninhabitable
+  :AUTHOR: David Wallace-Wells
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://nymag.com/daily/intelligencer/2017/07/climate-change-earth-too-hot-for-humans.html
+ :END:
+
+cite:wallace-wells:2017uninhabitable,wallace-wells:uninabitable-annotated
+
+This article scared the living crap out of a lot of people, including
+me.  It raised a huge stink in mainstream media who pretty much agreed
+that it wasn't as bad as Wallace said, and that it's not productive to
+scare people.
+
+As I write this, it's now five months since the article came out and I
+tend to think he was right and that people have since pretty much gone
+back to worrying about climate change without really doing anything
+about it.  In fact, since then Trump has pulled out of the Paris
+Climate Accord.
+
+** TODO 2017 - The Unihabitable Earth, Annotated Edition
+ :PROPERTIES:
+  :Custom_ID: wallace-wells:uninabitable-annotated
+  :AUTHOR: David Wallace-Wells
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://nymag.com/daily/intelligencer/2017/07/climate-change-earth-too-hot-for-humans-annotated.html
+ :END:
+
+cite:wallace-wells:uninabitable-annotated
+
+#+begin_quote
+We published “The Uninhabitable Earth” on Sunday night, and the
+response since has been extraordinary — both in volume (it is already
+the most-read article in New York Magazine’s history) and in
+kind. Within hours, the article spawned a fleet of commentary across
+newspapers, magazines, blogs, and Twitter, much of which came from
+climate scientists and the journalists who cover them.
+
+Some of this conversation has been about the factual basis for various
+claims that appear in the article. To address those questions, and to
+give all readers more context for how the article was reported and
+what further reading is available, we are publishing here a version of
+the article filled with research annotations. They include quotations
+from scientists I spoke with throughout the reporting process;
+citations to scientific papers, articles, and books I drew from;
+additional research provided by my colleague Julia Mead; and context
+surrounding some of the more contested claims. Since the article was
+published, we have made four corrections and adjustments, which are
+noted in the annotations (as well as at the end of the original
+version). They are all minor, and none affects the central project of
+the story: to apply the best science we have today to the median and
+high-end “business-as-usual” warming projections produced by the
+U.N.’s “gold standard” Intergovernmental Panel on Climate Change.
+
+But the debate this article has kicked up is less about specific facts
+than the article’s overarching conceit. Is it helpful, or
+journalistically ethical, to explore the worst-case scenarios of
+climate change, however unlikely they are? How much should a writer
+contextualize scary possibilities with information about how probable
+those outcomes are, however speculative those probabilities may be?
+What are the risks of terrifying or depressing readers so much they
+disengage from the issue, and what should a journalist make of those
+risks?
+#+end_quote
+
+** TODO 2007 - Scientific reticence and sea level rise
+ :PROPERTIES:
+  :Custom_ID: hansen:2007scientific
+  :AUTHOR: Hansen
+  :JOURNAL: Environmental research letters
+  :YEAR: 2007
+  :VOLUME: 2
+  :PAGES: 024002
+  :DOI: 
+  :URL: https://pubs.giss.nasa.gov/docs/2007/2007_Hansen_ha01210n.pdf
+  :INTERLEAVE_PDF: ./lib/hansen:2007scientific.pdf
+ :END:
+
+cite:hansen:2007scientific,eipper:1970pollution
+*** Notes for page 3
+:PROPERTIES:
+:interleave_page_note: 3
+:END:
+
+#+begin_quote
+Clearly, there is not sufficiently widespread appreciation of
+the implications of putting back into the air a large fraction
+of the carbon stored in the ground over epochs of geologic
+time. Climate forcing due to these greenhouse gases would
+dwarf the climate forcing for any time in the past several
+hundred thousand years, when accurate records of atmospheric
+composition are available from ice cores.
+#+end_quote
+
+
+** TODO 1970 - Pollution problems, resource policy, and the scientist
+ :PROPERTIES:
+  :Custom_ID: eipper:1970pollution
+  :AUTHOR: Eipper
+  :JOURNAL: Science
+  :YEAR: 1970
+  :VOLUME: 169
+  :PAGES: 11--15
+  :DOI: 10.1126/science.169.3940.11
+  :URL: http://sci-hub.bz/10.1126~/proj/chenla/hoard/libeipper:1970pollution.pdfscience.169.3940.11
+  :INTERLEAVE_PDF: ./lib/eipper:1970pollution.pdf
+ :END:
+
+cite:eipper:1970pollution,hansen:2007scientific 
+
+*** Notes for page 4
+:PROPERTIES:
+:interleave_page_note: 4
+:END:
+
+
+#+begin_quote
+Global ecologiests point out that our planet is in fact a space
+vehicle with a mushromming human populationand a balanced,
+continuously recycling life-support system.  Because key elements of
+this system are increasingly threatened by man's pollution activities,
+we must develop an effective early-warning process.  Scientists must
+be willing to involve themselves in this process by detecting and
+publicizing forefeeable threats to the environment (13).  This is not
+to suggest any lessened importance of long-term research on the causes
+and effects of pollution.  Our focus here is simply on another
+dimension of pollution: those impending problems which require
+preventitive action now.
+
+What are some of the functions required of the scientist in this
+early-warning approach to a potential pollution situation?  First,
+this approach involveds ferreting out and analyzing all pertinent data
+that are availible /now/.  Frank Di Luzio, former Assistant Secretary
+of the Interior for Water Pollution Control, stated the concept well
+(14):
+
+    ... al of us would like to know all of the facts about the
+    problems we are dealing with.  Since we never will know all of the
+    facts, we've got to do the best we can with the facts at hand. To
+    a considerable extent we must forego the satisfaction of dealing
+    with incontrovertible scientific data and be guided simply by
+    facie evidene.
+
+Next, the scientist must be willing to publicize his tentative
+conclusions from the data, and his assessment of alternative managment
+measures and the likely effects of each which these conclusions
+suggest to him.  It is not enough to "let the facts speak for
+themselves."  The scientist, as a trained and experienced specialist,
+has an obligation to give society his professional interpretation of
+those facts.  It  is also essential to the validity of the
+decision-making process that he identity this as /his/--not
+/the/--interpretation.  When scientists disagree in their
+interpretations, they should discuss and analyze the sources of
+disagreement, for the ultimate benefit of society.
+
+I suspect that a majority of scientists are disquieted by at least
+some aspects of the role outlined above.  It stipulated the unpleasant
+necessity of going out on a shaky limb of tentative conclusions.  It
+often involves a kind of limelight the scientist would rather avoid,
+and it may involve him, at least peripherally in unaccustomed
+controversy.  Nevertheless the scientist must face the fact that he is
+not living in a different ecosystem, with critical problems, on a new
+time scale that require new approaches.  Only the dedicated scientific
+recluse can total ignore these new responsibilities.  The
+early-warning approach requires that scientists all the shots as they
+see them and remember that debate is central to scientific progress.
+They should recognize that straddling the fence too long can produce
+sterility, and that when one has reached the point of making all his
+communications noncontroversial there is no further need for him to
+communicate.
+#+end_quote
