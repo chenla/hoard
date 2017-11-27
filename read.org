@@ -444,3 +444,21 @@ communicate.
  :END:
 
 cite:lynas:2007six
+
+** TODO 1998 - Scientists at work, Wallace Broecker: Iconoclastic guru of the climate debate
+ :PROPERTIES:
+  :Custom_ID: stevens:1998scientists
+  :AUTHOR: Stevens
+  :JOURNAL: New York Times, March
+  :YEAR: 1998
+  :VOLUME: 17
+  :PAGES: 
+  :DOI: 
+  :URL: http://www.nytimes.com/1998/03/17/science/scientist-at-work-wallace-s-broecker-iconoclastic-guru-of-the-climate-debate.html
+ :END:
+
+cite:stevens:1998scientists
+
+#+begin_quote
+The climate system is an angry beast and we are poking it with sticks.
+#+end_quote
