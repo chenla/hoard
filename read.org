@@ -462,3 +462,19 @@ cite:stevens:1998scientists
 #+begin_quote
 The climate system is an angry beast and we are poking it with sticks.
 #+end_quote
+
+
+** TODO 2012 - How to Build a Habitable Planet: The Story of Earth from the Big Bang to Humankind
+ :PROPERTIES:
+  :Custom_ID: broecker:2012how
+  :AUTHOR: Charles Langmuir \& Wallace Broecker
+  :JOURNAL: 
+  :YEAR: 2012
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=A0C56D92B8231AD08854AC521FCFB18A
+  :INTERLEAVE_PDF: ./lib/broecker:2012how.pdf
+ :END:
+
+cite:broecker:2012how
