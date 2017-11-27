@@ -523,3 +523,48 @@ cite:crofton:2017little
  :END:
 
 cite:harari:2011sapiens
+
+** TODO 2001 - A Brief History of Everything
+ :PROPERTIES:
+  :Custom_ID: wilbur:2001brief
+  :AUTHOR: Ken Wilber
+  :JOURNAL: 
+  :YEAR: 2001
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=A0B4B92C84130A0755CF042960F4CCAF
+  :INTERLEAVE_PDF: ./lib/wilbur:2001brief.pdf
+ :END:
+
+cite:wilbur:2001brief
+
+** TODO 1996 - A Brief History of Everything
+ :PROPERTIES:
+  :Custom_ID: wilbur:1996brief
+  :AUTHOR: Ken Wilber
+  :JOURNAL: 
+  :YEAR: 1996
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=C1C804E9F6DA8E1FE2F4B00C73F71DB0
+  :INTERLEAVE_PDF: ./lib/wilbur:1996brief.pdf
+ :END:
+
+cite:wilbur:1996brief
+
+** TODO 1980 - Cosmos
+ :PROPERTIES:
+  :Custom_ID: sagan:1985cosmos
+  :AUTHOR: Sagan
+  :JOURNAL: 
+  :YEAR: 1980
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: 
+  :INTERLEAVE_PDF: ./lib/sagan:1985cosmos.pdf
+ :END:
+
+cite:sagan:1985cosmos
