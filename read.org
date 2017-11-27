@@ -261,8 +261,14 @@ worst-case scenario, to shake people up.
   :URL: http://nymag.com/daily/intelligencer/2017/07/climate-change-earth-too-hot-for-humans.html
  :END:
 
-cite:wallace-wells:2017uninhabitable,wallace-wells:uninabitable-annotated
-
+ - Wallace-Wells, D., /The Unihabitable Earth/ (2017).
+   cite:wallace-wells:2017uninhabitable
+ - Wallace-Wells, D., /The unihabitable earth, annotated edition/
+   (2017).
+   cite:wallace-wells:uninabitable-annotated
+ - Holthaus, E., /Stop scaring people about climate change. it doesn’t
+   work/ (2017).
+   cite:holthaus:2017stop-scaring
 
 
 This article scared the living crap out of a lot of people, including
