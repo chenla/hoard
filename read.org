@@ -517,6 +517,17 @@ cite:wheeler:1992itfrombit
 
 cite:crofton:2017little
 
+ - Project, B. H., /Big History Project/ (2017).
+   cite:big:2017big-history-project
+ - Wikipedia, , /Big history project --- wikipedia, the free
+   encyclopedia/ (2017).
+   cite:wiki:2017big-history-project
+ - Christian, D., /The history of our world in 18 minutes |
+   david christian/ (2011).
+   cite:ted:2011:history-david-christian
+
+Companion book to the Big History Project 
+
 ** TODO 2011 - Sapiens: A Brief History of Humankind
  :PROPERTIES:
   :Custom_ID: harari:2011sapiens
@@ -564,6 +575,16 @@ cite:wilbur:2001brief,wilbur:1996brief
 
 cite:sagan:1985cosmos,wiki:2017cosmos-book,wiki:2107carl-sagan
 
+ - Wikipedia, , /Cosmos (carl sagan book) --- wikipedia, the
+   free encyclopedia/ (2017).
+   cite:wiki:2017cosmos-book
+ - Wikipedia, , /Cosmos: a personal voyage --- wikipedia,
+   the free encyclopedia/ (2017).
+   cite:wiki:2017cosmos-a-personal-voyage
+ - Wikipedia, , /Cosmos: a spacetime odyssey --- wikipedia,
+   the free encyclopedia/ (2017).
+   cite:wiki:2017cosmos-spacetime-odyssey
+
 ** TODO 1998 - A Brief History of Time
  :PROPERTIES:
   :Custom_ID: hawking:1998brief
@@ -582,9 +603,36 @@ anniversery edition which is now nearly 20 years old.
 
 cite:hawking:1998brief,hawking:1988brief,wiki:2017brief-history-of-time
 
+ - Wikipedia, , /A brief history of time --- wikipedia, the
+   free encyclopedia/ (2017).
+   cite:wiki:2017brief-history-of-time
 
 I'm mostly interested in this as a book that provides a big picture
 story of the universe.  Hawking doesn't talk about Earth, the
 evolution of life or man, but it's still worth looking at.  This and
 Sagan's /Cosmos/ are the two best selling science books of all time.
 
+
+** TODO 2011 - The Ascent of Man
+ :PROPERTIES:
+  :Custom_ID: bronowski:2011ascent
+  :AUTHOR: Jacob Bronowski
+  :JOURNAL: 
+  :YEAR: 2011
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=D0C4C6964AB41FEFFF08DEF9ECCDA0B2
+  :INTERLEAVE_PDF: ./lib/bronowski:2011ascent.pdf
+ :END:
+
+cite:bronowski:2011ascent 
+
+The companion book to the 13 part 1973 BBC Documentory.
+
+ - Wikipedia, , /The ascent of man --- wikipedia, the free
+   encyclopedia/ (2017).
+  cite:wiki:2017ascent-of-man
+- Wikipedia, , /Jacob bronowski --- wikipedia, the free encyclopedia/
+  (2017).
+  cite:wiki:2017jacob-bronowski
