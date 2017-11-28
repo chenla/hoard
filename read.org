@@ -690,3 +690,35 @@ Citation: cite:sagan:1994pale
  - Wikipedia, , /Pale blue dot --- wikipedia, the free encyclopedia/
    (2017).
    cite:wiki:2017pale-blue-dot
+
+** TODO 2017 - Cosmic Calendar --- Wikipedia{,} The Free Encyclopedia
+ :PROPERTIES:
+  :Custom_ID: wiki:2017cosmic-calendar
+  :AUTHOR: Wikipedia
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://en.wikipedia.org/w/index.php?title=Cosmic_Calendar&oldid=810875886
+ :END:
+
+Citation: cite:wiki:2017cosmic-calendar
+
+*** Examples:
+  - [[http://www.cosmiccalendar.net/#The_Cosmic_Calendar][cosmiccalendar.net]] | sagan's cosmic calendar
+  - [[http://palaeos.com/time/cosmic_calendar.html][Palaeos: Time: The Cosmic Calendar]] 
+
+** TODO 2003 - A Short History of Nearly Everything
+ :PROPERTIES:
+  :Custom_ID: bryson:2003short
+  :AUTHOR: Bill Bryson
+  :JOURNAL: 
+  :YEAR: 2003
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=a413ba7f83350b9bae13040dde886307
+ :END:
+
+Citation cite:bryson:2003short
