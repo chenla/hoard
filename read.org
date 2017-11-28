@@ -545,22 +545,9 @@ cite:harari:2011sapiens
   :INTERLEAVE_PDF: ./lib/wilbur:2001brief.pdf
  :END:
 
-cite:wilbur:2001brief
+Book was originally published in 1996.  I'll be using the 2001 revised edition.
 
-** TODO 1996 - A Brief History of Everything
- :PROPERTIES:
-  :Custom_ID: wilbur:1996brief
-  :AUTHOR: Ken Wilber
-  :JOURNAL: 
-  :YEAR: 1996
-  :VOLUME: 
-  :PAGES: 
-  :DOI: 
-  :URL: http://gen.lib.rus.ec/book/index.php?md5=C1C804E9F6DA8E1FE2F4B00C73F71DB0
-  :INTERLEAVE_PDF: ./lib/wilbur:1996brief.pdf
- :END:
-
-cite:wilbur:1996brief
+cite:wilbur:2001brief,wilbur:1996brief
 
 ** TODO 1980 - Cosmos
  :PROPERTIES:
@@ -575,4 +562,29 @@ cite:wilbur:1996brief
   :INTERLEAVE_PDF: ./lib/sagan:1985cosmos.pdf
  :END:
 
-cite:sagan:1985cosmos
+cite:sagan:1985cosmos,wiki:2017cosmos-book,wiki:2107carl-sagan
+
+** TODO 1998 - A Brief History of Time, Updated and Expanded Tenth Anniversary Edition
+ :PROPERTIES:
+  :Custom_ID: hawking:1998brief
+  :AUTHOR: Stephen Hawking
+  :JOURNAL: 
+  :YEAR: 1998
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=A13348B11961577A5C8111D5D1838F65
+  :INTERLEAVE_PDF: ./lib/hawking:1998brief.pdf
+ :END:
+
+NOTE: Published in 1988, but I will work from the revised expanded 10th
+anniversery edition which is now nearly 20 years old.
+
+cite:hawking:1998brief,hawking:1988brief,wiki:2017brief-history-of-time
+
+
+I'm mostly interested in this as a book that provides a big picture
+story of the universe.  Hawking doesn't talk about Earth, the
+evolution of life or man, but it's still worth looking at.  This and
+Sagan's /Cosmos/ are the two best selling science books of all time.
+
