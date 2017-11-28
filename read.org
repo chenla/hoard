@@ -879,7 +879,6 @@ in turn results in stratification and the need for hierarchical
 organization and structures.
 
 The mixture of Pynx, Agora and Stoa are all equally important.
-
 ** TODO 2017 - White Collar: The American Middle Classes --- Wikipedia{,} The Free Encyclopedia
  :PROPERTIES:
   :Custom_ID: wiki:2017white-collar-book
@@ -930,3 +929,180 @@ pages 182,183,187
   - Wikipedia, , /White collar: the american middle classes ---
     wikipedia, the free encyclopedia/ (2017).
     cite:wiki:2017white-collar-book
+
+** TODO 2002 - The Tipping Point: How Little Things Can Make a Big Difference
+ :PROPERTIES:
+  :Custom_ID: gladwell:2002tipping
+  :AUTHOR: Malcolm Gladwell
+  :JOURNAL: 
+  :YEAR: 2002
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=3B3DCD183BB01705A052AB9F26F22AC5
+  :INTERLEAVE_PDF: ./lib/gladwell:2002tipping.pdf
+ :END:
+
+Citation: cite:gladwell:2002tipping
+
+
+*** Notes for page 183
+:PROPERTIES:
+:interleave_page_note: 183
+:END:
+
+#+begin_quote
+Perhaps the most interesting natural limit, however, is what might be
+called our social channel capacity. The case for a social capacity has
+been made, most persuasively, by the British anthropologist Robin
+Dunbar. Dunbar begins with a simple observation. Primates — monkeys,
+chimps, baboons, humans — have the biggest brains of all mam-
+mals. More important, a specific part of the brain of humans and other
+primates — the region known as the neocortex, which deals with complex
+thought and reasoning— is huge by mammal standards. For years,
+scientists have argued back and forth about why this is the case. One
+theory is that our brains evolved because our primate ancestors began
+to engage in more sophisticated food gathering: instead of just eating
+grasses and leaves they began eating fruit, which takes more thinking
+power. You travel much farther to find fruit than leaves, so you need
+to be able to create mental maps. You have to worry about
+ripeness. You have to peel parts away in order to eat the flesh of a
+fruit, and so on. The problem with that theory is that if vou try to
+match up brain size with eating patterns among primates, it doesn't
+work. There are primate leaf-eaters with big brains and fruit-eaters
+with smaller brains, just as there are primates with small cortexes
+who travel great distances for their food and primates with big brains
+who stay at home to eat, so the food argument is a dead end. So what
+does correlate with brain size? The answer, Dunbar argues, is group
+size. If you look at any species of primate — at every variety of
+monkey and ape — the larger their neocortex is, the larger the average
+size of the groups they live with.
+
+Dunbar's argument is that brains evolve, they get big- ger, in order
+to handle the complexities of larger social groups. If you belong to a
+group of five people, Dunbar points out, vou have to keep track of ten
+separate relation- ships: your relationships with the four others in
+your circle and the six other two-way relationships between the
+others. That's what it means to know everyone in the circle. You have
+to understand the personal dynamics of the group, juggle different
+personalities, keep people happy, manage the demands on your own time
+and attention, and so on. If you belong to a group of twenty people,
+however, there are now 190 two-way relationships to keep track of: 19
+involv- ing yourself and 171 involving the rest of the group. That's a
+fivefold increase in the size of the group, but a twentyfold increase
+in the amount of information processing needed to "know" the other
+members of the group. Even a relatively small increase in the size of
+a group, in other words, creates a significant additional social and
+intellectual burden.
+
+Humans socialize in the largest groups of all primates because we are
+the only animals with brains large enough to handle the complexities
+of that social arrangement.  Dunbar has actually developed an
+equation, which works for most primates, in which he plugs in what he
+calls the neocortex ratio of a particular species — the size of the
+neocortex relative to the size of the brain — and the equation spits
+out the expected maximum group size of the ani- mal. If you plug in
+the neocortex ratio for Homo sapiens, you get a group estimate of
+147.8 — or roughly 150. "The figure of 150 seems to represent the
+maximum number of individuals with whom we can have a genuinely social
+relationship, the kind of relationship that goes with know- ing who
+they are and how they relate to us. Putting it another way, it's the
+number of people you would not feel embarrassed about joining
+uninvited for a drink if you happened to bump into them in a bar."
+
+Dunbar has combed through the anthropological literature and found
+that the number 150 pops up again and again. For example, he looks at
+21 different hunter- gatherer societies for which we have solid
+historical evi- dence, from the Walbiri of Australia to the Tauade of
+New Guinea to the Ammassalik of Greenland to the Ona of Tierra del
+Fuego and found that the average number of people in their villages
+was 148.4. The same pattern holds true for military
+organization. "Over the years military planners have arrived at a rule
+of thumb which dictates that functional fighting units cannot be
+substantially larger than 200 men," Dunbar writes. "This, I suspect,
+is not simply a matter of how the generals in the rear exercise
+control and coordination, because companies have remained obdurately
+stuck at this size despite all the advances in communications
+technology since the first world war. Rather, it is as though the
+planners have dis- covered, by trial and error over the centuries,
+that it is hard to get more than this number of men sufficiently
+familiar with each other so that they can work together as a func-
+tional unit." It is still possible, of course, to run an army with
+larger groups. But at a bigger size you have to impose complicated
+hierarchies and rules and regulations and for- mal measures to try to
+command loyalty and cohesion.  But below 150, Dunbar argues, it is
+possible to achieve these same goals informally: "At this size, orders
+can be implemented and unruly behavior controlled on the basis of
+personal loyalties and direct man-to-man contacts.  With larger
+groups, this becomes impossible."
+
+Then there is the example of the religious group known as the
+Hutterites, who for hundreds of years have lived in self-sufficient
+agricultural colonies in Europe and, since the early twentieth
+century, in North America. The Hutterites (who came out of the same
+tradition as the Amish and the Mennonites) have a strict policy that
+every time a colony approaches 150, they split it in two and start a
+new one. "Keeping things under 150 just seems to be the best and most
+efficient way to manage a group of people," Bill Gross, one of the
+leaders of a Hutterite colony outside Spokane told me. "When things
+get larger than that, people become strangers to one another." The
+Hutterites, obvi- ously, didn't get this idea from contemporary
+evolutionary psychology. They've been following the 150 rule for cen-
+turies. But their rationale fits perfectly with Dunbar's theories. At
+150, the Hutterites believe, something happens — something indefinable
+but very real — that somehow changes the nature of community
+overnight. "In smaller groups people are a lot closer. They're knit
+together, which is very important if you want to be effective and
+successful at community life," Gross said. "If you get too large, you
+don't have enough work in common. You don't have enough things in
+common, and then you start to become strangers and that close-knit
+fellowship starts to get lost." Gross spoke from experience. He had
+been in Hutterite colonies that had come near to that magic num- ber
+and seen firsthand how things had changed. "What happens when you get
+that big is that the group starts, just on its own, to form a sort of
+clan." He made a gesture with his hands, as if to demonstrate
+division. "You get two or three groups within the larger group. That
+is something you really try to prevent, and when it happens it is a
+good time to branch out."
+#+end_quote
+
+
+*** Notes for page 190
+:PROPERTIES:
+:interleave_page_note: 190
+:END:
+
+#+begin_quote
+Wilbert "Bill" Gore — the late founder of the company — was no more
+influenced, of course, by the ideas of Robin Dunbar than the
+Hutterites were. Like them, he seems to have stumbled on the principle
+by trial and error.  "We found again and again that things get clumsy
+at a hun- dred and fifty," he told an interviewer some years ago, so
+150 employees per plant became the company goal. In the electronics
+division of the company, that means that no plant was built larger
+than 50,000 square feet, since there was almost no way to put many
+more than 150 people in a building that size. "People used to ask me,
+how do you do your long-term planning," Hen said. "And I'd say, that's
+easy, we put a hundred and fifty parking spaces in the lot, and when
+people start parking on the grass, we know it's time to buiid a new
+plant." That new plant doesn't have to be far away. In Gore's home
+state of Delaware, for instance, the company has three plants within
+sight of each other. In fact, the company has fifteen plants within a
+twelve-mile radius in Delaware and Maryland. The buildings only have
+to be distinct enough to allow for an individual culture in
+each. "We've found that a parking lot is a big gap between buildings,"
+one longtime associate, Burt Chase, told me. "You've got to pick
+yourself up and walk across the lot, and that's a big effort. That's
+almost as much effort as it takes to get in your car and drive five
+miles.  There's a lot of independence in just having a separate
+building." As Gore has grown in recent years, the com- pany has
+undergone an almost constant process of division and redivision. Other
+companies would just keep adding additions to the main plant, or
+extend a production line, or double shifts. Gore tries to split up
+groups into smaller and smaller pieces. When I visited Gore, for
+example, they had just divided their Gore-Tex apparel business into
+two groups, in order to get under the 150 limit. The more
+fashion-oriented consumer business of boots and backpacks and hiking
+gear was going off on its own, leaving behind the institutional
+business that makes Gore-Tex uniforms for firefighters and soldiers.
+#+end_quote
