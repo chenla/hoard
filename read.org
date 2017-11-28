@@ -807,3 +807,75 @@ Citation: cite:stahl:2018epistemic
 Citation: cite:sennett:2016designing,sennet:2016pynx
 
  - [[https://www.readingdesign.org/the-pnyx-and-the-agora][The Pnyx and the Agora]] | Richard Sennett, R / D
+
+#+begin_quote
+A democracy supposes people can consider views other than their
+own. This was Aristotle’s notion in the Politics. He thought the
+awareness of difference occurs only in cities, since the every city is
+formed by synoikismos, a drawing together of different families and
+tribes, of competing economic interests, of natives with foreigners.
+
+“Difference” today seems about identity -- we think of race, gender,
+or class. Aristotle’s meant something more by difference; he included
+also the experience of doing different things, of acting in divergent
+ways which do not neatly fit together. The mixture in a city of action
+as well as identity is the foundation of its distinctive
+politics. Aristotle’s hope was that when a person becomes accustomed
+to a diverse, complex milieu he or she will cease reacting violently
+when challenged by something strange or contrary. Instead, this
+environment should create an outlook favourable to discussion of
+differing views or conflicting interests. Almost all modern urban
+planners subscribe to this Aristotelian principle. But if in the same
+space different persons or activities are merely concentrated, but
+each remains isolated and segregated, diversity loses its
+force. Differences have to interact.
+
+Classical urbanism imagines two kinds of spaces in which this
+interaction could occur. One was the pnyx, an ampitheatre in which
+citizens listed to debates and took collective decisions; the other
+was the agora, the town square in which people were exposed to
+difference in a more raw, unmediated form.
+#+end_quote
+
+The Pynx was a theatre where people gave speeches.  This required the
+audience to focus and concentrate.  There were no mobile devices to
+distract, so I would assume the only distraction would be the person
+next to you trying to talk while the speaker was speaking.
+
+The Agora was for personal interaction.  Surrounding the Agora were
+temples and "buildings called stoas, the latter sheds with an open
+side onto the agora."  Since stoa were open on one side to the Agora
+you could see what was going on outside and vice versa.  I suppose
+this worked a bit like cafes with tables on the street and tables
+inside (like you see in the tropics) so that there is no wall or glass
+separating the outside from the inside.  This differs from street
+cafe's in temperate climates where tables outside are outside and
+tables inside are inside.
+
+#+begin_quote
+Yet the most urgent social requirement for democratic deliberation
+today is that people concentrate rather than “surf” social reality. It
+is for this reason that I’ve come to believe that designers need to
+pay attention to the architecture of theatres as possible political
+spaces. Live theatre aims at concentrating the attention of those
+within it. To achieve sustained attention, to commit people to one
+another even when the going gets rough or becomes boring, to unpack
+the meaning of arguments, all require a disciplinary space for the eye
+and the voice.
+#+end_quote
+
+The role that physical architecture encourages or hinders social
+interaction and participation in a democractic society is far more
+important than many people believe.  Architecture is so bad today,
+that many people have forgotten how important well designed public
+spaces are because they don't have any experience in spaces that are
+well designed.  
+
+Today's emphasis on using online intermediaries to connect people with
+each other doesn't work.  Democracy works best in person -- it doesn't
+work well remotely.  This is why community size is so important -- a
+community larger than 5,000 people begins to alienate people, which,
+in turn results in stratification and the need for hierarchical
+organization and structures.
+
+The mixture of Pynx, Agora and Stoa are all equally important.
