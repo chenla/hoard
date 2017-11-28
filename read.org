@@ -517,7 +517,7 @@ cite:wheeler:1992itfrombit
 
 Citation: cite:crofton:2017little
 
-NOTE: Companion book to the Big History Project 
+NOTE: Companion book to the Big History Project citenum:big:2017big-history-project.
 
 
 *** References 
@@ -577,8 +577,8 @@ cite:wilbur:2001brief,wilbur:1996brief
 
 Citation:  cite:sagan:1985cosmos
 
-Note: Companion book to the 13 part Cosmos TV documentary aired in 1980.
-
+Note: Companion book to the 13 part Cosmos TV documentary aired in
+1980 citenum:wiki:2017cosmos-a-personal-voyage.
 
 *** References
  - Wikipedia, , /Carl sagan --- wikipedia, the free encyclopedia/
