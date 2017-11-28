@@ -564,7 +564,7 @@ cite:wilbur:2001brief,wilbur:1996brief
 
 cite:sagan:1985cosmos,wiki:2017cosmos-book,wiki:2107carl-sagan
 
-** TODO 1998 - A Brief History of Time, Updated and Expanded Tenth Anniversary Edition
+** TODO 1998 - A Brief History of Time
  :PROPERTIES:
   :Custom_ID: hawking:1998brief
   :AUTHOR: Stephen Hawking
