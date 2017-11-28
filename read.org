@@ -666,3 +666,27 @@ Introduces the concept of the /Cosmic
 Calendar/citenum:wiki:2017cosmic-calendar used in
 /Cosmos/citenum:wiki:2017cosmos-book.
 
+
+** TODO 1994 - Pale Blue Dot: A Vision of the Human Future in Space
+ :PROPERTIES:
+  :Custom_ID: sagan:1994pale
+  :AUTHOR: Carl Edward Sagan
+  :JOURNAL: 
+  :YEAR: 1994
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=C37B6C45FA845F7D8570C5860C69AF5F
+  :INTERLEAVE_PDF: ./lib/sagan:1994pale.pdf
+ :END:
+
+Citation: cite:sagan:1994pale
+
+*** References
+
+ - Wikipedia, , /Pale blue dot (book) --- wikipedia, the free
+   encyclopedia/ (2017).
+   cite:wiki:2017pale-blue-dot-book
+ - Wikipedia, , /Pale blue dot --- wikipedia, the free encyclopedia/
+   (2017).
+   cite:wiki:2017pale-blue-dot
