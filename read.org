@@ -879,3 +879,54 @@ in turn results in stratification and the need for hierarchical
 organization and structures.
 
 The mixture of Pynx, Agora and Stoa are all equally important.
+
+** TODO 2017 - White Collar: The American Middle Classes --- Wikipedia{,} The Free Encyclopedia
+ :PROPERTIES:
+  :Custom_ID: wiki:2017white-collar-book
+  :AUTHOR: Wikipedia
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://en.wikipedia.org/w/index.php?title=White_Collar:_The_American_Middle_Classes&oldid=784057049
+ :END:
+
+Citation: cite:wiki:2017white-collar-book
+
+The following was quoted from wikipedia article -- look up quotes in
+book.
+
+#+begin_quote
+In a society of employees dominated by the marketing mentality, it is
+inevitable that a personality market should arise. For in the great
+shift from manual skills to the art of ‘handling’, selling and
+servicing people, personal or even intimate traits of employees are
+drawn into the sphere of exchange and become commodities in the labor
+market…
+
+Kindness and friendliness become aspects of personalized service or of
+public relations of big firms, rationalized to further the sale of
+something. With anonymous insincerity, the successful person thus
+makes an instrument of his own appearance and personality…In the
+formulas of ‘personnel experts’, men and women are to be shaped into
+the ‘well rounded, acceptable, effective personality’ (to close the
+deal or to make the sale)… the personality market, the most decisive
+effect and symptom of the great salesroom, underlies the all pervasive
+distrust and self-alienation so characteristic of metropolitan
+people. Without common values and mutual trust, the cash nexus that
+links one man to another in transient contact has been made subtle in
+a dozen ways, and made to bite deeper into all areas of life and
+relations People are required by the salesman ethic and convention to
+pretend interest in others in order to manipulate them…Men are
+estranged from one another as each secretly tries to make an
+instrument of the other, and in time a full circle is made: one makes
+an instrument of himself and is estranged from it also.
+
+pages 182,183,187
+#+end_quote
+
+*** References
+  - Wikipedia, , /White collar: the american middle classes ---
+    wikipedia, the free encyclopedia/ (2017).
+    cite:wiki:2017white-collar-book
