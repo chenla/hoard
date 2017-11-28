@@ -756,3 +756,22 @@ secret by making all of it soberly unfathomable.
 Citation:  cite:urban:2013putting-time
 
 Nested timelines...
+
+** TODO 1998 - Spotting the losers: seven signs of non-competitive states
+ :PROPERTIES:
+  :Custom_ID: peters:1998spotting
+  :AUTHOR: Peters
+  :JOURNAL: Parameters
+  :YEAR: 1998
+  :VOLUME: 28
+  :PAGES: 36
+  :DOI: 
+  :URL: http://ssi.armywarcollege.edu/pubs/parameters/Articles/98spring/peters.htm
+  :INTERLEAVE_PDF: ./lib/peters:1998spotting.pdf
+ :END:
+
+Citation: cite:peters:1998spotting
+
+Found this paper when reading [[https://www.uwgb.edu/dutchs/PSEUDOSC/TOXICVAL.HTM][The World's Most Toxic Value System]] by
+Steven Dutch. 
+
