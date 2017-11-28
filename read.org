@@ -558,9 +558,12 @@ cite:harari:2011sapiens
   :INTERLEAVE_PDF: ./lib/wilbur:2001brief.pdf
  :END:
 
-Book was originally published in 1996.  I'll be using the 2001 revised edition.
+Citation: cite:wilbur:2001brief,wilbur:1996brief
 
-cite:wilbur:2001brief,wilbur:1996brief
+NOTE: Book was originally published in 1996.  I'll be using the 2001
+revised edition.
+
+
 
 ** TODO 1980 - Cosmos
  :PROPERTIES:
@@ -722,3 +725,34 @@ Citation: cite:wiki:2017cosmic-calendar
  :END:
 
 Citation cite:bryson:2003short
+
+#+begin_quote
+It was as if [the textbook writer] wanted to keep the good stuff
+secret by making all of it soberly unfathomable.
+
+— Bryson, on the state of science books used within his school.
+#+end_quote
+
+
+*** References
+
+- Wikipedia, , /A short history of nearly everything --- wikipedia,
+  the free encyclopedia/ (2017).
+  cite:wiki:2017short-history-everything
+
+
+** TODO 2013 - Putting Time In Perspective – Updated
+ :PROPERTIES:
+  :Custom_ID: urban:2013putting-time
+  :AUTHOR: Tim Urban
+  :JOURNAL: 
+  :YEAR: 2013
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: https://waitbutwhy.com/2013/08/putting-time-in-perspective.html
+ :END:
+
+Citation:  cite:urban:2013putting-time
+
+Nested timelines...
