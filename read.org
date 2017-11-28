@@ -773,5 +773,37 @@ Nested timelines...
 Citation: cite:peters:1998spotting
 
 Found this paper when reading [[https://www.uwgb.edu/dutchs/PSEUDOSC/TOXICVAL.HTM][The World's Most Toxic Value System]] by
-Steven Dutch. 
+Steven Dutch.
+** TODO 2018 - Epistemic Rationality: Skepticism Toward Unfounded Beliefs Requires Sufficient Cognitive Ability and Motivation To Be Rational
+ :PROPERTIES:
+  :Custom_ID: stahl:2018epistemic
+  :AUTHOR: Tomas St\aahl \& Jan-Willem van Prooijen
+  :JOURNAL: Personality and Individual Differences
+  :YEAR: 2018
+  :VOLUME: 122
+  :PAGES: 155-163
+  :DOI: 10.1016/j.paid.2017.10.026
+  :URL: https://doi.org/10.1016/j.paid.2017.10.026
+  :INTERLEAVE_PDF: ./lib/stahl:2018epistemic.pdf
+ :END:
 
+Citation: cite:stahl:2018epistemic
+
+  - [[https://arstechnica.com/science/2017/11/to-think-critically-you-have-to-be-both-analytical-and-motivated/][To think critically, you have to be both analytical and motivated]] | Ars Technica
+
+** TODO 2016 - Designing Politics: the limits of design
+ :PROPERTIES:
+  :Custom_ID: sennett:2016designing
+  :AUTHOR: Richard Sennett {\it et al.}
+  :JOURNAL: 
+  :YEAR: 2016
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 10.21953/LSE.68075
+  :URL: 
+  :INTERLEAVE_PDF: ./lib/sennett:2016designing.pdf
+ :END:
+
+Citation: cite:sennett:2016designing,sennet:2016pynx
+
+ - [[https://www.readingdesign.org/the-pnyx-and-the-agora][The Pnyx and the Agora]] | Richard Sennett, R / D
