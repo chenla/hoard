@@ -515,8 +515,12 @@ cite:wheeler:1992itfrombit
   :INTERLEAVE_PDF: ./lib/crofton:2017little.pdf
  :END:
 
-cite:crofton:2017little
+Citation: cite:crofton:2017little
 
+NOTE: Companion book to the Big History Project 
+
+
+*** References 
  - Project, B. H., /Big History Project/ (2017).
    cite:big:2017big-history-project
  - Wikipedia, , /Big history project --- wikipedia, the free
@@ -525,8 +529,6 @@ cite:crofton:2017little
  - Christian, D., /The history of our world in 18 minutes |
    david christian/ (2011).
    cite:ted:2011:history-david-christian
-
-Companion book to the Big History Project 
 
 ** TODO 2011 - Sapiens: A Brief History of Humankind
  :PROPERTIES:
@@ -573,8 +575,15 @@ cite:wilbur:2001brief,wilbur:1996brief
   :INTERLEAVE_PDF: ./lib/sagan:1985cosmos.pdf
  :END:
 
-cite:sagan:1985cosmos,wiki:2017cosmos-book,wiki:2107carl-sagan
+Citation:  cite:sagan:1985cosmos
 
+Note: Companion book to the 13 part Cosmos TV documentary aired in 1980.
+
+
+*** References
+ - Wikipedia, , /Carl sagan --- wikipedia, the free encyclopedia/
+   (2017). 
+    cite:wiki:2107carl-sagan
  - Wikipedia, , /Cosmos (carl sagan book) --- wikipedia, the
    free encyclopedia/ (2017).
    cite:wiki:2017cosmos-book
