@@ -1208,18 +1208,30 @@ organise work in such a manner that it becomes meaningless, boring,
 stultifying, or nerve-racking for the worker would be little short of
 criminal; it would indicate a greater concern with goods than with
 people, an evil lack of compassion and a soul-destroying degree of
-attachment to the most primitive side of this worldly
-existence. Equally, to strive for leisure as an alternative to work
-would be considered a complete misunderstanding of one of the basic
-truths of human existence, namely that work and leisure are
-complementary parts of the same living process and cannot be separated
-without destroying the joy of work and the bliss of leisure.
+attachment to the most primitive side of this worldly existence.
 #+end_quote
 
 This is echoed repeatedly in /The Craftsman/
 citenum:sennett:2008craftsman which stresses the connection between
 the head and the hand and the need for work to be more than simply
 production.  
+
+#+begin_quote
+Equally, to strive for leisure as an alternative to work
+would be considered a complete misunderstanding of one of the basic
+truths of human existence, namely that work and leisure are
+complementary parts of the same living process and cannot be separated
+without destroying the joy of work and the bliss of leisure.
+#+end_quote
+
+The alienation of the worker has taken away half of what a
+fulfilled life is made of and filled that half with meaningless labor
+that serves no purpose for the worker and serves no purpose for
+society.  There is only production and consumption.  And if all you
+have left is consumption, than leisure is the only pursuit left as
+well, giving you time to consume.  
+
+
 
 Adam Smith points out that a great deal of innovation and invention is
 the result of workers who are trying to automate things to make their
