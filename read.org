@@ -1272,3 +1272,17 @@ Rather machinery is thought to be a product, which is used, not
 tinkered with or extended or even fixed.
 
 
+
+** TODO 1977 - The Wealth of Nations - An Inquiry Into the Nature and Causes of the Wealth of Nations
+ :PROPERTIES:
+  :Custom_ID: smith:1977wealth
+  :AUTHOR: Adam Smith
+  :JOURNAL: 
+  :YEAR: 1977
+  :VOLUME: [reprint of Edwin Cannan's definitive 1904 edition]
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=82D82B24C8C2EFDACCE57357B85418DA
+ :END:
+
+cite:smith:1977wealth
