@@ -946,6 +946,42 @@ pages 182,183,187
 Citation: cite:gladwell:2002tipping
 
 
+
+#+begin_quote
+
+Ch 5: The Power of Context (Part Two): The Magic Number One Hundred and Fifty
+
+   1. The growth of the Divine Secrets of the Ya-Ya Sisterhood was
+      because book clubs discovered it and discussed it.
+
+   2. Groups play a critical role in social epidemics.
+
+   3. The Rule of 150: a group bigger than 150 loses the peer pressure
+      and personal loyalties and isn’t as powerful:
+
+      a.  e.g. the Hutterites and Gore Associates (Gore-Tex)
+
+   4. People can’t remember or organize information into more than
+      seven categories – we can only handle so much information at
+      once.
+
+   5. “The figure 150 seems to represent the maximum number of
+      individuals with whom we can have a genuinely social
+      relationship, the kind of relationship that goes with knowing
+      who they are and how they relate to us.  Putting it another way,
+      it’s the number of people you would not feel embarrassed about
+      joining uninvited for a drink in you happened to bump into them
+      in a bar.”
+
+   6. People store information in other people:
+
+      a. e.g. families – computer expert, etc.
+
+      b. Causes greater efficiency
+
+-- [[http://bookoutlines.pbworks.com/w/page/14422727/The%20Tipping%20Point][Tipping Point]] | The Book Outlines Wiki
+#+end_quote
+
 *** Notes for page 183
 :PROPERTIES:
 :interleave_page_note: 183
