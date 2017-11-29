@@ -1283,6 +1283,104 @@ tinkered with or extended or even fixed.
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=82D82B24C8C2EFDACCE57357B85418DA
+  :INTERLEAVE_PDF: ./lib/smith:1977wealth.pdf
  :END:
 
-cite:smith:1977wealth
+Citation: cite:smith:1977wealth
+
+
+*** References
+
+- Wikipedia, , /The wealth of nations --- wikipedia, the free
+  encyclopedia/ (2017).
+  cite:wiki:2017wealth-of-nations
+- Haakonssen, K., The cambridge companion to adam smith (2006), :
+  Cambridge University Press.
+  cite:haakonssen:2006cambridge
+- Read, L. E., I, pencil, The Freeman, (),  (1958). 
+  cite:read:1958pencil
+
+*** Book I chapters 1-4:
+
+=division of labour= and the famous "pin maker"
+
+=specialization= how complex civilizations are made up of highly
+complex interconnected hierarchies of specializations.
+
+SEE: cite:read:1958pencil
+
+
+=unskilled labor= focus on production using people with no education.
+This basically means that workers no longer have to go through an
+apprenticeship under a master to learn a complex trade and can simply
+be trained to do very narrow single purpose tasks.
+
+=innovation= comes from workers trying to make their lives easier.
+
+=geographical advantage= different places are suited to different
+kinds of production, he uses the example of France being better at
+silk production, because of the climate and England being better at
+wool production.
+
+=context shifting= cite:wiki:2017task-switching though he says
+that it results in laziness and sloth and poor work.  Poor work yes,
+but sloth?
+
+#+begin_quote
+A man commonly saunters a little in turning his hand from one sort of
+employment to another. When he first begins the new work he is seldom
+very keen and hearty; his mind, as they say, does not go to it, and
+for some time he rather trifles than applies to good purpose. The
+habit of sauntering and of indolent careless application, which is
+naturally, or rather necessarily acquired by every country workman who
+is obliged to change his work and his tools every half hour, and to
+apply his hand in twenty different ways almost every day of his life,
+renders him almost always slothful and lazy, and incapable of any
+vigorous application even on the most pressing occasions.
+#+end_quote
+
+=seasonal labour= 
+
+*** Book 5
+
+#+begin_quote
+The man whose whole life is spent in performing a few simple
+operations, of which the effects are perhaps always the same, or very
+nearly the same, has no occasion to exert his understanding or to
+exercise his invention in finding out expedients for removing
+difficulties which never occur. He naturally loses, therefore, the
+habit of such exertion, and generally becomes as stupid and ignorant
+as it is possible for a human creature to become. The torpor of his
+mind renders him not only incapable of relishing or bearing a part in
+any rational conversation, but of conceiving any generous, noble, or
+tender sentiment, and consequently of forming any just judgment
+concerning many even of the ordinary duties of private life. Of the
+great and extensive interests of his country he is altogether
+incapable of judging, and unless very particular pains have been taken
+to render him otherwise, he is equally incapable of defending his
+country in war. The uniformity of his stationary life naturally
+corrupts the courage of his mind, and makes him regard with abhorrence
+the irregular, uncertain, and adventurous life of a soldier. It
+corrupts even the activity of his body, and renders him incapable of
+exerting his strength with vigour and perseverance in any other
+employment than that to which he has been bred. His dexterity at his
+own particular trade seems, in this manner, to be acquired at the
+expense of his intellectual, social, and martial virtues. But in every
+improved and civilised society this is the state into which the
+labouring poor, that is, the great body of the people, must
+necessarily fall, unless government takes some pains to prevent it.
+#+end_quote
+
+The answer to this is the government, not free markets as some would
+have you believe today..
+
+#+begin_quote
+In some cases the state of the society necessarily places the greater
+part of individuals in such situations as naturally form in them,
+without any attention of government, almost all the abilities and
+virtues which that state requires, or perhaps can admit of. In other
+cases the state of the society does not place the part of individuals
+in such situations, and some attention of government is necessary in
+order to prevent the almost entire corruption and degeneracy of the
+great body of the people.
+#+end_quote
