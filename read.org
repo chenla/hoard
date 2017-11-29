@@ -1142,3 +1142,133 @@ fashion-oriented consumer business of boots and backpacks and hiking
 gear was going off on its own, leaving behind the institutional
 business that makes Gore-Tex uniforms for firefighters and soldiers.
 #+end_quote
+
+** TODO 2013 - Buddhist economics
+ :PROPERTIES:
+  :Custom_ID: schumacher:2013buddhist
+  :AUTHOR: Schumacher
+  :JOURNAL: 
+  :YEAR: 2013
+  :VOLUME: 
+  :PAGES: 114
+  :DOI: 
+  :URL: 
+  :INTERLEAVE_PDF: ./lib/schumacher:2013buddhist.pdf
+ :END:
+
+cite:schumacher:2013buddhist
+
+*** Notes for page 132
+:PROPERTIES:
+:interleave_page_note: 132
+:END:
+
+APL.80 Self-Governing Workshops and Offices linked to this article.
+
+
+*** Notes for page 133
+:PROPERTIES:
+:interleave_page_note: 133
+:END:
+
+References Adam Smith's /pin factory/ thought experiment in /Wealth of
+Nations/.  See Wealth of Nations, Book I Chapters 1-4 cite:smith:1977wealth.
+
+#+begin_quote
+The most potent method, short of automation, is the so-called
+‘division of labour’ and the classical example is the pin factory
+eulogised in Adam Smith’s /Wealth of Nations/. Here it is not a matter
+of ordinary specialisation, which mankind has practiced from time
+immemorial, but of dividing up every complete process of production
+into minute parts, so that the final product can be produced at great
+speed without anyone having had to contribute more than a totally
+insignificant and, in most cases, unskilled movement of his limbs.
+#+end_quote
+
+Not sure but I think it was Scott who commented on the pin factory
+thought experiment saying, what is the effect on a worker who's entire
+life is spent fixing the heads on pins.
+
+#+begin_quote
+The Buddhist point of view takes the function of work to be at least
+threefold: to give man a chance to utilise and develop his faculties; to
+enable him to overcome his ego-centeredness by joining with other people
+in a common task; and to bring forth the goods and services needed for a
+becoming existence.
+#+end_quote
+
+The Buddhist function of work:
+  - give a chance to use and develop skills/knowledge
+  - overcome ego-centerdness by collaborating with others on common tasks.
+  - create the goods and services for existence.
+
+#+begin_quote
+Again, the consequences that flow from this view are endless. To
+organise work in such a manner that it becomes meaningless, boring,
+stultifying, or nerve-racking for the worker would be little short of
+criminal; it would indicate a greater concern with goods than with
+people, an evil lack of compassion and a soul-destroying degree of
+attachment to the most primitive side of this worldly
+existence. Equally, to strive for leisure as an alternative to work
+would be considered a complete misunderstanding of one of the basic
+truths of human existence, namely that work and leisure are
+complementary parts of the same living process and cannot be separated
+without destroying the joy of work and the bliss of leisure.
+#+end_quote
+
+This is echoed repeatedly in /The Craftsman/
+citenum:sennett:2008craftsman which stresses the connection between
+the head and the hand and the need for work to be more than simply
+production.  
+
+Adam Smith points out that a great deal of innovation and invention is
+the result of workers who are trying to automate things to make their
+lives easier.  
+
+#+begin_quote
+I shall only observe, therefore, that the invention of all those
+machines by which labour is so much facilitated and abridged, seems to
+have been originally owing to the division of labour. Men are much
+more likely to discover easier and readier methods of attaining any
+object, when the whole attention of their minds is directed towards
+that single object, than when it is dissipated among a great variety
+of things. But in consequence of the division of labour, the whole of
+every man's attention comes naturally to be directed towards some one
+very simple object. It is naturally to be expected, therefore, that
+some one or other of those who are employed in each particular branch
+of labour should soon find out easier and readier methods of
+performing their own particular work, wherever the nature of it admits
+of such improvement. A great part of the machines made use of in
+those manufactures in which labour is most subdivided, were originally
+the inventions of common workmen, who, being each of them employed in
+some very simple operation, naturally turned their thoughts towards
+finding out easier and readier methods of performing it. Whoever has
+been much accustomed to visit such manufactures, must frequently have
+been shewn very pretty machines, which were the inventions of such
+workmen, in order to facilitate and quicken their own particular
+part of the work. In the first fire-engines, a boy was constantly
+employed to open and shut alternately the communication between the
+boiler and the cylinder, according as the piston either ascended or
+descended. One of those boys, who loved to play with his companions,
+observed that, by tying a string from the handle of the valve which
+opened this communication, to another part of the machine, the valve
+would open and shut without his assistance, and leave him at liberty
+to divert himself with his play-fellows. One of the greatest
+improvements that has been made upon this machine, since it was first
+invented, was in this manner the discovery of a boy who wanted to save
+his own labour.
+
+-- Wealth of Nations, Book I Chapters 1-4 cite:smith:1977wealth
+#+end_quote
+
+The problem with this is that modern workers are not allowed to do
+this.  They are machine operators, and in that respect are thought of
+and treated as machines.  You don't ask a machine for input or
+creativity.  Taking /any/ level of control over the process of work,
+no matter how small, from the worker not only dehumanizes the worker
+but ensures that the process never improves from within, thus throwing
+away a crucial means of gaining advantage over the competition.
+Rather machinery is thought to be a product, which is used, not
+tinkered with or extended or even fixed.
+
+
