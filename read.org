@@ -1396,3 +1396,23 @@ in such situations, and some attention of government is necessary in
 order to prevent the almost entire corruption and degeneracy of the
 great body of the people.
 #+end_quote
+
+** TODO 1977 - A Pattern Language: 148 Small Work Groups**
+ :PROPERTIES:
+  :Custom_ID: apl148
+  :AUTHOR: Christopher Alexander, Sara Ishikawa \& Murray Silverstein
+  :JOURNAL: 
+  :YEAR: 1977
+  :VOLUME: 
+  :PAGES: 701-704
+  :DOI: 
+  :URL: 
+ :END:
+
+Citation: cite:apl148
+
+
+*** References
+
+  - Unit, P. R., Office design: a study of environment., , (),  (1965). 
+    cite:manning:1965office
