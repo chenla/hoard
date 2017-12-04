@@ -1400,7 +1400,7 @@ great body of the people.
 ** TODO 1977 - A Pattern Language: 148 Small Work Groups**
  :PROPERTIES:
   :Custom_ID: apl148
-  :AUTHOR: Christopher Alexander, Sara Ishikawa \& Murray Silverstein
+  :AUTHOR: Christopher Alexander and Sara Ishikawa and Murray Silverstein
   :JOURNAL: 
   :YEAR: 1977
   :VOLUME: 
@@ -1416,3 +1416,7 @@ Citation: cite:apl148
 
   - Unit, P. R., Office design: a study of environment., , (),  (1965). 
     cite:manning:1965office
+  - Wells, B., & Pierrepont, W., The psycho-social influence of
+    building environment: sociometric findings in large and small
+    office spaces, Building Science, 1(2), 153–165 (1965).
+    cite:wells:1965psycho
