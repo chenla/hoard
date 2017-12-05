@@ -1420,3 +1420,46 @@ Citation: cite:apl148
     building environment: sociometric findings in large and small
     office spaces, Building Science, 1(2), 153–165 (1965).
     cite:wells:1965psycho
+** TODO 1977 - A Pattern Language: 8 Mosaic of Subcultures**
+ :PROPERTIES:
+  :Custom_ID: apl6
+  :AUTHOR: Christopher Alexander, Sara Ishikawa \& Murray Silverstein
+  :JOURNAL: 
+  :YEAR: 1977
+  :VOLUME: 
+  :PAGES: 33-35
+  :DOI: 
+  :URL: 
+ :END:
+
+Citation: cite:apl6
+
+*** References
+
+ - Hendricks, F., & MacNair, M., Concepts of environmental quality
+   standards based on life styles, Ekistics, (), 139–144 (1970).
+   cite:hendricks:1970concepts
+
+
+
+** TODO 1970 - Concepts of environmental quality standards based on life styles
+ :PROPERTIES:
+  :Custom_ID: hendricks:1970concepts
+  :AUTHOR: Hendricks \& MacNair
+  :JOURNAL: Ekistics
+  :YEAR: 1970
+  :VOLUME: 
+  :PAGES: 139--144
+  :DOI: 
+  :URL: http://www.jstor.org/stable/43614934
+ :END:
+
+Citation: cite:hendricks:1970concepts
+
+*** References
+
+- Alexander, C., Ishikawa, S., & Silverstein, M., A pattern language:
+  towns, buildings, construction, In (Eds.), (pp. 33–35) (1977). :
+  Oxford University Press.  
+  cite:apl6
+
