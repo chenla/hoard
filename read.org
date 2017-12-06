@@ -1438,9 +1438,7 @@ Citation: cite:apl6
 
  - Hendricks, F., & MacNair, M., Concepts of environmental quality
    standards based on life styles, Ekistics, (), 139–144 (1970).
-   cite:hendricks:1970concepts
-
-
+   cite:hendricks:1970concepts 
 
 ** TODO 1970 - Concepts of environmental quality standards based on life styles
  :PROPERTIES:
