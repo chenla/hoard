@@ -1422,7 +1422,7 @@ Citation: cite:apl148
     cite:wells:1965psycho
 ** TODO 1977 - A Pattern Language: 8 Mosaic of Subcultures**
  :PROPERTIES:
-  :Custom_ID: apl6
+  :Custom_ID: apl006
   :AUTHOR: Christopher Alexander, Sara Ishikawa \& Murray Silverstein
   :JOURNAL: 
   :YEAR: 1977
@@ -1432,7 +1432,7 @@ Citation: cite:apl148
   :URL: 
  :END:
 
-Citation: cite:apl6
+Citation: cite:apl006
 
 *** References
 
@@ -1471,6 +1471,72 @@ Citation: cite:hendricks:1970concepts
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=B6C7C73A7BA22C075625B9494B2E07E6
+  :INTERLEAVE_PDF: ./lib/willingham:2010why.pdf
  :END:
 
 cite:willingham:2010why
+
+
+The brain is not very good at thinking
+
+people enjoy mental work if it is successful
+
+*** Notes for page 12
+:PROPERTIES:
+:interleave_page_note: 12
+:END:
+
+The mind is not designed for thinking.
+
+#+begin_quote
+By thinking I mean solving problems, reasoning, reading something
+complex, or doing any mental work that requires some effort.
+#+end_quote
+
+#+begin_quote
+Humans are good at certain types of reason- ing, particularly in
+comparison to other animals, but we exercise those abilities
+infrequently. A cognitive scientist would add another observation:
+Humans don ’ t think very often because our brains are designed not
+for thought but for the avoidance of thought.
+#+end_quote
+
+*** Notes for page 18
+:PROPERTIES:
+:interleave_page_note: 18
+:END:
+
+He keeps hammering on the idea that we enjoy mental work that can be
+solved.
+
+
+#+begin_quote
+In the last ten years neuroscientists have discovered that there is
+overlap between the brain areas and chemicals that are important in
+learning and those that are important in the brain ’ s natural reward
+system.
+#+end_quote
+
+
+#+begin_quote
+It ’ s notable too that the pleasure is in the solving of the problem.
+Working on a problem with no sense that you ’ re making progress is
+not pleasurable. In fact, it ’ s frustrating. Then too, there ’ s not
+great pleasure in simply knowing the answer.
+#+end_quote
+
+*** Notes for page 19
+:PROPERTIES:
+:interleave_page_note: 19
+:END:
+
+#+begin_quote
+I once made this point to a group of teachers when talking about
+motivation and cognition. About ﬁ ve minutes into the talk I pre-
+sented a slide depicting the model of motivation shown in Figure 5 .
+I didn ’ t prepare the audience for the slide in any way; I just put
+it up and started describing it. After about ﬁ fteen seconds I stopped
+and said to the audience, “ Anyone who is still listening to me,
+please raise your hand. ” One person did.
+#+end_quote
+
