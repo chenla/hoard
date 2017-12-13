@@ -1572,3 +1572,6 @@ Citation: cite:yudkowsky:2017inadequate
 
 [[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]] 
 
+
+
+cite:sennett:2008craftsman
