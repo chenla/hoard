@@ -1,4 +1,4 @@
-bibliography:bib.bib
+bibliography:./bib.bib
 
 
 ** TODO 1963 - Preface to Plato (History of the Greek Mind)
@@ -1459,7 +1459,7 @@ Citation: cite:hendricks:1970concepts
 - Alexander, C., Ishikawa, S., & Silverstein, M., A pattern language:
   towns, buildings, construction, In (Eds.), (pp. 33–35) (1977). :
   Oxford University Press.  
-  cite:apl6
+  cite:apl006
 
 ** TODO 2010 - Why Don't Students Like School: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom
  :PROPERTIES:
@@ -1539,4 +1539,36 @@ it up and started describing it. After about ﬁ fteen seconds I stopped
 and said to the audience, “ Anyone who is still listening to me,
 please raise your hand. ” One person did.
 #+end_quote
+
+
+
+cite:apl001
+
+cite:yudkowsky:2017inadequate
+cite:yudkowsky:2017inadequate
+
+[[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]]
+
+
+cite:yudkowsky:2017inadequate
+
+
+
+
+
+** TODO 2017 - Inadequate Equilibria: Where and How Civilizations Get Stuck
+ :PROPERTIES:
+  :Custom_ID: yudkowsky:2017inadequate
+  :AUTHOR: Eliezer Yudkowsky
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=669c9877982ce6b8b126dd193e251c87
+ :END:
+
+Citation: cite:yudkowsky:2017inadequate
+
+[[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]] 
 
