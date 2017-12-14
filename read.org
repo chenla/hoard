@@ -1540,22 +1540,6 @@ and said to the audience, “ Anyone who is still listening to me,
 please raise your hand. ” One person did.
 #+end_quote
 
-
-
-cite:apl001
-
-cite:yudkowsky:2017inadequate
-cite:yudkowsky:2017inadequate
-
-[[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]]
-
-
-cite:yudkowsky:2017inadequate
-
-
-
-
-
 ** TODO 2017 - Inadequate Equilibria: Where and How Civilizations Get Stuck
  :PROPERTIES:
   :Custom_ID: yudkowsky:2017inadequate
@@ -1566,12 +1550,10 @@ cite:yudkowsky:2017inadequate
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=669c9877982ce6b8b126dd193e251c87
+  :INTERLEAVE_PDF: yudkowsky:2017inadequate.pdf
  :END:
 
 Citation: cite:yudkowsky:2017inadequate
 
 [[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]] 
 
-
-
-cite:sennett:2008craftsman
