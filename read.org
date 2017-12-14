@@ -1571,5 +1571,7 @@ Citation: cite:yudkowsky:2017inadequate
   :INTERLEAVE_PDF: xenophon:2010landmark.pdf
 :END:
 
-cite:xenophon:2010landmark
+Citation: cite:strassler:2010xenophon-hellenica
 
+
+cite:markoff:2015machines
