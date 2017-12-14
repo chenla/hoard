@@ -1,7 +1,7 @@
 bibliography:./bib.bib
 
 
-** TODO 1963 - Preface to Plato (History of the Greek Mind)
+** 1963 - Preface to Plato (History of the Greek Mind)
  :PROPERTIES:
   :Custom_ID: havelock:1963preface
   :Created:   2017-11-26T10:12@Prek Leap (11.642600N-104.919210W)
@@ -51,7 +51,7 @@ the midst of of this revolution, accounced it and became it's prophet.
 #+end_quote
 
 
-** TODO 2017 - Against the Grain. A Deep History of the Earliest States
+** 2017 - Against the Grain. A Deep History of the Earliest States
  :PROPERTIES:
   :Custom_ID: scott:2016against
   :AUTHOR:    James Scott
@@ -66,7 +66,7 @@ the midst of of this revolution, accounced it and became it's prophet.
 
 cite:scott:2017against
 
-** TODO 1998 - Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
+** 1998 - Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
  :PROPERTIES:
   :Custom_ID: scott:1998seeing
   :AUTHOR:    James Scott
@@ -81,7 +81,7 @@ cite:scott:2017against
 
 cite:scott:1998seeing
 
-** TODO 2009 - The art of not being governed : an anarchist history of upland Southeast Asia
+** 2009 - The art of not being governed : an anarchist history of upland Southeast Asia
  :PROPERTIES:
   :Custom_ID: scott:2009art
   :AUTHOR:    Scott
@@ -96,7 +96,7 @@ cite:scott:1998seeing
 
 cite:scott:2009art
 
-** TODO 2012 - Two cheers for anarchism : six easy pieces on autonomy, dignity, and meaningful work and play
+** 2012 - Two cheers for anarchism : six easy pieces on autonomy, dignity, and meaningful work and play
  :PROPERTIES:
   :Custom_ID: scott:2012two
   :AUTHOR:    Scott
@@ -111,7 +111,7 @@ cite:scott:2009art
 
 cite:scott:2012two
 
-** TODO 2008 - The Craftsman
+** 2008 - The Craftsman
  :PROPERTIES:
   :Custom_ID: sennett:2008craftsman
   :AUTHOR: Richard Sennett
@@ -126,7 +126,7 @@ cite:scott:2012two
 
 cite:sennett:2008craftsman
 
-** TODO 2017 - Reading for Programmers
+** 2017 - Reading for Programmers
  :PROPERTIES:
   :Custom_ID: limanowski:2017reading
   :AUTHOR: Piotr Limanowski
@@ -149,7 +149,7 @@ get comfortable with reading hundreds of papers. Use org-mode (w/
 helm-bibtex, org-ref and interleave) and keep the notes in check.
 #+end_quote
 
-** TODO 2015 - How to Write a Thesis
+** 2015 - How to Write a Thesis
  :PROPERTIES:
   :Custom_ID: eco:2015how
   :AUTHOR: Umberto Eco
@@ -168,7 +168,7 @@ cite:eco:2015how
 cite:wiki:2017umberto-eco
 
 
-** TODO 2004 - World Population to 2300
+**2004 - World Population to 2300
  :PROPERTIES:
   :Custom_ID: united:2004world
   :AUTHOR: United of Economic \& Social Population Division
@@ -199,7 +199,7 @@ projected 2050 figure.
 #+end_quote
 
 
-** TODO 2017 - Climate Change and the Health of Nations: Famines, Fevers, and the Fate of Populations
+** 2017 - Climate Change and the Health of Nations: Famines, Fevers, and the Fate of Populations
  :PROPERTIES:
   :Custom_ID: mcmichael:2017climate
   :AUTHOR: Anthony McMichael
@@ -214,7 +214,7 @@ projected 2050 figure.
 
 cite:mcmichael:2017climate
 
-** TODO 2009 - Scientist: Warming Could Cut Population to 1 Billion
+** 2009 - Scientist: Warming Could Cut Population to 1 Billion
  :PROPERTIES:
   :Custom_ID: kantor2009:scientist-warming-could
   :AUTHOR: James Kantor
@@ -249,7 +249,7 @@ The article mentions that Dr. Schellnhuber was not describing a
 worst-case scenario, to shake people up.
 
 
-** TODO 2017 - The Unihabitable Earth
+** 2017 - The Unihabitable Earth
  :PROPERTIES:
   :Custom_ID: wallace-wells:2017uninhabitable
   :AUTHOR: David Wallace-Wells
@@ -282,7 +282,7 @@ back to worrying about climate change without really doing anything
 about it.  In fact, since then Trump has pulled out of the Paris
 Climate Accord.
 
-** TODO 2017 - The Unihabitable Earth, Annotated Edition
+** 2017 - The Unihabitable Earth, Annotated Edition
  :PROPERTIES:
   :Custom_ID: wallace-wells:uninabitable-annotated
   :AUTHOR: David Wallace-Wells
@@ -331,7 +331,7 @@ disengage from the issue, and what should a journalist make of those
 risks?
 #+end_quote
 
-** TODO 2007 - Scientific reticence and sea level rise
+** 2007 - Scientific reticence and sea level rise
  :PROPERTIES:
   :Custom_ID: hansen:2007scientific
   :AUTHOR: Hansen
@@ -361,7 +361,7 @@ composition are available from ice cores.
 #+end_quote
 
 
-** TODO 1970 - Pollution problems, resource policy, and the scientist
+** 1970 - Pollution problems, resource policy, and the scientist
  :PROPERTIES:
   :Custom_ID: eipper:1970pollution
   :AUTHOR: Eipper
@@ -438,7 +438,7 @@ communications noncontroversial there is no further need for him to
 communicate.
 #+end_quote
 
-** TODO 2007 - Six degrees: Our future on a hotter planet
+** 2007 - Six degrees: Our future on a hotter planet
  :PROPERTIES:
   :Custom_ID: lynas:2007six
   :AUTHOR: Mark Lynas
@@ -453,7 +453,7 @@ communicate.
 
 cite:lynas:2007six
 
-** TODO 1998 - Scientists at work, Wallace Broecker: Iconoclastic guru of the climate debate
+** 1998 - Scientists at work, Wallace Broecker: Iconoclastic guru of the climate debate
  :PROPERTIES:
   :Custom_ID: stevens:1998scientists
   :AUTHOR: Stevens
@@ -472,7 +472,7 @@ The climate system is an angry beast and we are poking it with sticks.
 #+end_quote
 
 
-** TODO 2012 - How to Build a Habitable Planet: The Story of Earth from the Big Bang to Humankind
+** 2012 - How to Build a Habitable Planet: The Story of Earth from the Big Bang to Humankind
  :PROPERTIES:
   :Custom_ID: broecker:2012how
   :AUTHOR: Charles Langmuir \& Wallace Broecker
@@ -487,7 +487,7 @@ The climate system is an angry beast and we are poking it with sticks.
 
 cite:broecker:2012how
 
-** TODO 1992 - Recent Thinking about the Nature of the Physical World: It from Bit
+** 1992 - Recent Thinking about the Nature of the Physical World: It from Bit
  :PROPERTIES:
   :Custom_ID: wheeler:1992itfrombit
   :AUTHOR: Wheeler
@@ -502,7 +502,7 @@ cite:broecker:2012how
 
 cite:wheeler:1992itfrombit
 
-** TODO 2017 - The Little Book of big history
+** 2017 - The Little Book of big history
  :PROPERTIES:
   :Custom_ID: crofton:2017little
   :AUTHOR: Ian Crofton \& Jeremy Black
@@ -530,7 +530,7 @@ NOTE: Companion book to the Big History Project citenum:big:2017big-history-proj
    david christian/ (2011).
    cite:ted:2011:history-david-christian
 
-** TODO 2011 - Sapiens: A Brief History of Humankind
+** 2011 - Sapiens: A Brief History of Humankind
  :PROPERTIES:
   :Custom_ID: harari:2011sapiens
   :AUTHOR: Yuval Harari
@@ -545,7 +545,7 @@ NOTE: Companion book to the Big History Project citenum:big:2017big-history-proj
 
 cite:harari:2011sapiens
 
-** TODO 2001 - A Brief History of Everything
+** 2001 - A Brief History of Everything
  :PROPERTIES:
   :Custom_ID: wilbur:2001brief
   :AUTHOR: Ken Wilber
@@ -565,7 +565,7 @@ revised edition.
 
 
 
-** TODO 1980 - Cosmos
+** 1980 - Cosmos
  :PROPERTIES:
   :Custom_ID: sagan:1985cosmos
   :AUTHOR: Sagan
@@ -597,7 +597,7 @@ Note: Companion book to the 13 part Cosmos TV documentary aired in
    the free encyclopedia/ (2017).
    cite:wiki:2017cosmos-spacetime-odyssey
 
-** TODO 1998 - A Brief History of Time
+** 1998 - A Brief History of Time
  :PROPERTIES:
   :Custom_ID: hawking:1998brief
   :AUTHOR: Stephen Hawking
@@ -625,7 +625,7 @@ evolution of life or man, but it's still worth looking at.  This and
 Sagan's /Cosmos/ are the two best selling science books of all time.
 
 
-** TODO 2011 - The Ascent of Man
+** 2011 - The Ascent of Man
  :PROPERTIES:
   :Custom_ID: bronowski:2011ascent
   :AUTHOR: Jacob Bronowski
@@ -650,7 +650,7 @@ The companion book to the 13 part 1973 BBC Documentory citenum:wiki:2017ascent-o
   (2017).
   cite:wiki:2017jacob-bronowski
 
-** TODO 1986 - The Dragons of Eden: Speculations on the Evolution of Human Intelligence
+** 1986 - The Dragons of Eden: Speculations on the Evolution of Human Intelligence
  :PROPERTIES:
   :Custom_ID: sagan:1986dragons
   :AUTHOR: Carl Sagan
@@ -670,7 +670,7 @@ Calendar/citenum:wiki:2017cosmic-calendar used in
 /Cosmos/citenum:wiki:2017cosmos-book.
 
 
-** TODO 1994 - Pale Blue Dot: A Vision of the Human Future in Space
+** 1994 - Pale Blue Dot: A Vision of the Human Future in Space
  :PROPERTIES:
   :Custom_ID: sagan:1994pale
   :AUTHOR: Carl Edward Sagan
@@ -694,7 +694,7 @@ Citation: cite:sagan:1994pale
    (2017).
    cite:wiki:2017pale-blue-dot
 
-** TODO 2017 - Cosmic Calendar --- Wikipedia{,} The Free Encyclopedia
+** 2017 - Cosmic Calendar --- Wikipedia{,} The Free Encyclopedia
  :PROPERTIES:
   :Custom_ID: wiki:2017cosmic-calendar
   :AUTHOR: Wikipedia
@@ -712,7 +712,7 @@ Citation: cite:wiki:2017cosmic-calendar
   - [[http://www.cosmiccalendar.net/#The_Cosmic_Calendar][cosmiccalendar.net]] | sagan's cosmic calendar
   - [[http://palaeos.com/time/cosmic_calendar.html][Palaeos: Time: The Cosmic Calendar]] 
 
-** TODO 2003 - A Short History of Nearly Everything
+** 2003 - A Short History of Nearly Everything
  :PROPERTIES:
   :Custom_ID: bryson:2003short
   :AUTHOR: Bill Bryson
@@ -741,7 +741,7 @@ secret by making all of it soberly unfathomable.
   cite:wiki:2017short-history-everything
 
 
-** TODO 2013 - Putting Time In Perspective – Updated
+** 2013 - Putting Time In Perspective – Updated
  :PROPERTIES:
   :Custom_ID: urban:2013putting-time
   :AUTHOR: Tim Urban
@@ -757,7 +757,7 @@ Citation:  cite:urban:2013putting-time
 
 Nested timelines...
 
-** TODO 1998 - Spotting the losers: seven signs of non-competitive states
+** 1998 - Spotting the losers: seven signs of non-competitive states
  :PROPERTIES:
   :Custom_ID: peters:1998spotting
   :AUTHOR: Peters
@@ -774,7 +774,7 @@ Citation: cite:peters:1998spotting
 
 Found this paper when reading [[https://www.uwgb.edu/dutchs/PSEUDOSC/TOXICVAL.HTM][The World's Most Toxic Value System]] by
 Steven Dutch.
-** TODO 2018 - Epistemic Rationality: Skepticism Toward Unfounded Beliefs Requires Sufficient Cognitive Ability and Motivation To Be Rational
+**2018 - Epistemic Rationality: Skepticism Toward Unfounded Beliefs Requires Sufficient Cognitive Ability and Motivation To Be Rational
  :PROPERTIES:
   :Custom_ID: stahl:2018epistemic
   :AUTHOR: Tomas St\aahl \& Jan-Willem van Prooijen
@@ -791,7 +791,7 @@ Citation: cite:stahl:2018epistemic
 
   - [[https://arstechnica.com/science/2017/11/to-think-critically-you-have-to-be-both-analytical-and-motivated/][To think critically, you have to be both analytical and motivated]] | Ars Technica
 
-** TODO 2016 - Designing Politics: the limits of design
+** 2016 - Designing Politics: the limits of design
  :PROPERTIES:
   :Custom_ID: sennett:2016designing
   :AUTHOR: Richard Sennett {\it et al.}
@@ -879,7 +879,8 @@ in turn results in stratification and the need for hierarchical
 organization and structures.
 
 The mixture of Pynx, Agora and Stoa are all equally important.
-** TODO 2017 - White Collar: The American Middle Classes --- Wikipedia{,} The Free Encyclopedia
+
+** 2017 - White Collar: The American Middle Classes --- Wikipedia{,} The Free Encyclopedia
  :PROPERTIES:
   :Custom_ID: wiki:2017white-collar-book
   :AUTHOR: Wikipedia
@@ -930,7 +931,7 @@ pages 182,183,187
     wikipedia, the free encyclopedia/ (2017).
     cite:wiki:2017white-collar-book
 
-** TODO 2002 - The Tipping Point: How Little Things Can Make a Big Difference
+** 2002 - The Tipping Point: How Little Things Can Make a Big Difference
  :PROPERTIES:
   :Custom_ID: gladwell:2002tipping
   :AUTHOR: Malcolm Gladwell
@@ -1143,7 +1144,7 @@ gear was going off on its own, leaving behind the institutional
 business that makes Gore-Tex uniforms for firefighters and soldiers.
 #+end_quote
 
-** TODO 2013 - Buddhist economics
+** 2013 - Buddhist economics
  :PROPERTIES:
   :Custom_ID: schumacher:2013buddhist
   :AUTHOR: Schumacher
@@ -1285,7 +1286,7 @@ tinkered with or extended or even fixed.
 
 
 
-** TODO 1977 - The Wealth of Nations - An Inquiry Into the Nature and Causes of the Wealth of Nations
+** 1977 - The Wealth of Nations - An Inquiry Into the Nature and Causes of the Wealth of Nations
  :PROPERTIES:
   :Custom_ID: smith:1977wealth
   :AUTHOR: Adam Smith
@@ -1397,7 +1398,7 @@ order to prevent the almost entire corruption and degeneracy of the
 great body of the people.
 #+end_quote
 
-** TODO 1977 - A Pattern Language: 148 Small Work Groups**
+** 1977 - A Pattern Language: 148 Small Work Groups**
  :PROPERTIES:
   :Custom_ID: apl148
   :AUTHOR: Christopher Alexander and Sara Ishikawa and Murray Silverstein
@@ -1420,7 +1421,7 @@ Citation: cite:apl148
     building environment: sociometric findings in large and small
     office spaces, Building Science, 1(2), 153–165 (1965).
     cite:wells:1965psycho
-** TODO 1977 - A Pattern Language: 8 Mosaic of Subcultures**
+** 1977 - A Pattern Language: 8 Mosaic of Subcultures**
  :PROPERTIES:
   :Custom_ID: apl006
   :AUTHOR: Christopher Alexander, Sara Ishikawa \& Murray Silverstein
@@ -1440,7 +1441,7 @@ Citation: cite:apl006
    standards based on life styles, Ekistics, (), 139–144 (1970).
    cite:hendricks:1970concepts 
 
-** TODO 1970 - Concepts of environmental quality standards based on life styles
+** 1970 - Concepts of environmental quality standards based on life styles
  :PROPERTIES:
   :Custom_ID: hendricks:1970concepts
   :AUTHOR: Hendricks \& MacNair
@@ -1461,7 +1462,7 @@ Citation: cite:hendricks:1970concepts
   Oxford University Press.  
   cite:apl006
 
-** TODO 2010 - Why Don't Students Like School: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom
+** 2010 - Why Don't Students Like School: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom
  :PROPERTIES:
   :Custom_ID: willingham:2010why
   :AUTHOR: Daniel Willingham
@@ -1540,7 +1541,7 @@ and said to the audience, “ Anyone who is still listening to me,
 please raise your hand. ” One person did.
 #+end_quote
 
-** TODO 2017 - Inadequate Equilibria: Where and How Civilizations Get Stuck
+** 2017 - Inadequate Equilibria: Where and How Civilizations Get Stuck
  :PROPERTIES:
   :Custom_ID: yudkowsky:2017inadequate
   :AUTHOR: Eliezer Yudkowsky
@@ -1557,3 +1558,17 @@ Citation: cite:yudkowsky:2017inadequate
 
 [[https://slatestarcodex.com/2017/11/30/book-review-inadequate-equilibria/][Book Review: Inadequate Equilibria]] 
 
+** 2010 - The Landmark Xenophon’s Hellenika
+ :PROPERTIES:
+  :Custom_ID: xenophon:2010landmark
+  :AUTHOR: Xenophon; Robert Strassler ()
+  :JOURNAL: 
+  :YEAR: 2010
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=580fb6b8988de01b8854787546d6ddd4
+  :INTERLEAVE_PDF: xenophon:2010landmark.pdf
+:END:
+
+cite:xenophon:2010landmark
