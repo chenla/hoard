@@ -1573,5 +1573,3 @@ Citation: cite:yudkowsky:2017inadequate
 
 Citation: cite:strassler:2010xenophon-hellenica
 
-
-cite:markoff:2015machines
