@@ -804,7 +804,7 @@ Citation: cite:stahl:2018epistemic
   :INTERLEAVE_PDF: ./lib/sennett:2016designing.pdf
  :END:
 
-Citation: cite:sennett:2016designing,sennet:2016pynx
+Citation: cite:sennett:2016designing,sennett:2016pynx
 
  - [[https://www.readingdesign.org/the-pnyx-and-the-agora][The Pnyx and the Agora]] | Richard Sennett, R / D
 
