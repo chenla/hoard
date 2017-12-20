@@ -1574,7 +1574,18 @@ Citation: cite:yudkowsky:2017inadequate
 Citation: cite:strassler:2010xenophon-hellenica
 
 
-cite:dick:2006vintage
+** 2009 - The Holonic Revolution: Holons, Holarchies and Holonic Networks:The Ghost in the Production Machine
+ :PROPERTIES:
+  :Custom_ID: mella:2009holon-revolution
+  :AUTHOR: Piero Mella
+  :JOURNAL: 
+  :YEAR: 2009
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=098757C55F3FACF3AF0D37C44B03C202
+  :INTERLEAVE_PDF: mella:2009holon-revolution.pdf
+:END:
 
+Citation: cite:mella:2009holon-revolution
 
-cite:dick:1980lucky-dog
