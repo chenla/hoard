@@ -1589,3 +1589,24 @@ Citation: cite:strassler:2010xenophon-hellenica
 
 Citation: cite:mella:2009holon-revolution
 
+
+** 2017 - Labor Market Concentration
+ :PROPERTIES:
+  :Custom_ID: azar:2017labor
+  :AUTHOR: José Azar, Ioana Elena Marinescu \& Marshall Steinbaum
+  :JOURNAL: SRRN
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 33
+  :DOI: 
+  :URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3088767
+  :INTERLEAVE_PDF: azar:2017labor.pdf
+:END:
+
+Citation: cite:azar:2017labor
+
+
+ [[http://rooseveltinstitute.org/how-widespread-labor-monopsony-some-new-results-suggest-its-pervasive/][How Widespread Is Labor Monopsony? Some New Results Suggest It’s Pervasive]] | Roosevelt Institute
+
+One indicator of unhealthy centralization is monopsony, when there is
+essentially one or two employers in a place.
