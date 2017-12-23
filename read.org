@@ -1610,3 +1610,30 @@ Citation: cite:azar:2017labor
 
 One indicator of unhealthy centralization is monopsony, when there is
 essentially one or two employers in a place.
+
+** 2012 - The Clash of the Cultures: Investment vs. Speculation
+ :PROPERTIES:
+  :Custom_ID: bogle:2012clash
+  :AUTHOR: John Bogle \& Arthur Levitt Jr
+  :JOURNAL: 
+  :YEAR: 2012
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=0cc2b3ddcb7ac943d98b6729c2a11210
+  :INTERLEAVE_PDF: bogle:2012clash.pdf
+:END:
+
+Citation: cite:bogle:2012clash
+
+#+begin_quote
+In recent years, annual trading in stocks—necessarily creating, by
+reason of the transaction costs involved, negative value for
+traders—averaged some $33 trillion. But capital formation—that is,
+directing fresh investment capital to its highest and best uses, such
+as new businesses, new technology, medical breakthroughs, and modern
+plant and equipment for existing business—averaged some $250
+billion. Put another way, speculation represented about 99.2 percent
+of the activities of our equity market system, with capital formation
+accounting for 0.8 percent.
+#+end_quote
