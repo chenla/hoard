@@ -1637,3 +1637,39 @@ billion. Put another way, speculation represented about 99.2 percent
 of the activities of our equity market system, with capital formation
 accounting for 0.8 percent.
 #+end_quote
+
+
+
+** 2009 - Thinking in Systems: A Primer
+ :PROPERTIES:
+  :Custom_ID: meadows:2009thinking
+  :AUTHOR: Donella Meadows \& Diana Wright
+  :JOURNAL: 
+  :YEAR: 2009
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=2EE4A14A158E824B867E07AD95005643
+  :INTERLEAVE_PDF: meadows:2009thinking.pdf
+:END:
+
+Citation: cite:meadows:2009thinking
+
+*** Notes for page 28
+:PROPERTIES:
+:interleave_page_note: 28
+:END:
+
+
+#+begin_quote
+A system isn’t just any old collection of things. A system is an
+interconnected set of elements that is coherently organized in a way
+that achieves something. If you look at that definition closely for a
+minute, you can see that a system must consist of three kinds of
+things: /elements/, /interconnections/, and a /function or purpose/.
+#+end_quote
+
+A system is larger than the sum of its parts....
+
+"Systems can be embedded in systems, which are embedded in yet other
+systems."  In otherwords systems are holons
