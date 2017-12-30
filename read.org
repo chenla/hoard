@@ -1673,3 +1673,29 @@ A system is larger than the sum of its parts....
 
 "Systems can be embedded in systems, which are embedded in yet other
 systems."  In otherwords systems are holons
+
+** 2017 - Walkaway. A novel
+ :PROPERTIES:
+  :Custom_ID: doctorow:2017walkaway
+  :AUTHOR: Cory Doctorow
+  :JOURNAL: 
+  :YEAR: 2017
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=e9e393b4ccf16f609b6418f2d65bbe4a
+  :INTERLEAVE_PDF: doctorow:2017walkaway.pdf
+:END:
+
+Citation: cite:doctorow:2017walkaway
+
+
+#+begin_quote
+We're not making a world without greed, Jacob. We're making a world
+where greed is a perversion. Where grabbing everything for yourself
+instead of sharing is like smearing yourself with shit:
+gross. Wrong. Our winning doesn't mean you don't get to be greedy. It
+means people will be ashamed for you, will pity you and want to
+distance themselves from you. You can be as greedy as you want, but no
+one will admire you for it.
+#+end_quote
