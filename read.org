@@ -1621,7 +1621,7 @@ essentially one or two employers in a place.
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=0cc2b3ddcb7ac943d98b6729c2a11210
-  :INTERLEAVE_PDF: bogle:2012clash.pdf
+  :INTERLEAVE_PDF: ./lib/bogle:2012clash.pdf
 :END:
 
 Citation: cite:bogle:2012clash
@@ -1684,7 +1684,7 @@ systems."  In otherwords systems are holons
   :PAGES: 
   :DOI: 
   :URL: http://gen.lib.rus.ec/book/index.php?md5=e9e393b4ccf16f609b6418f2d65bbe4a
-  :INTERLEAVE_PDF: doctorow:2017walkaway.pdf
+  :INTERLEAVE_PDF: ./lib/doctorow:2017walkaway.pdf
 :END:
 
 Citation: cite:doctorow:2017walkaway
@@ -1719,28 +1719,4 @@ Book was cited in Pinker cite:pinker:2018enlightenment about innate
 illiteracy and innumeracy.
 
 
-*** Notes for page 129
-:PROPERTIES:
-:interleave_page_note: 129
-:END:
-
-#+begin_quote
-Human adults, human infants, and nonhuman animals deploy a system of
-analog magnitude representations of number. Number is represented by a
-physical magnitude that is roughly proportional to the number of
-individuals in the set being enumerated.
-#+end_quote
-
-*** Notes for page 138
-:PROPERTIES:
-:interleave_page_note: 138
-:END:
-
-#+begin_quote
-Under a wide variety of conditions, adult humans create analog
-magnitude representation of number of individuals. For example, analog
-magnitude representations of number are deployed when participants
-must estimate the number of individuals in large sets under conditions
-when they cannot or do not count.
-#+end_quote
 
