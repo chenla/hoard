@@ -1720,3 +1720,20 @@ illiteracy and innumeracy.
 
 
 
+*** Notes for page 458
+:PROPERTIES:
+:interleave_page_note: 458
+:END:
+
+#+begin_quote
+A full account of the origin of human concepts must appeal to three
+different time scales and three different types of processes. Over
+millions of years, evolutionary processes create innate
+representational capacities.  Over hundreds of years, learning
+processes in a cultural-historical context create new representational
+resources that, in turn, are expressed and maintained in language and
+in the cultural products they make possible.  And then, over years,
+each child must transcend the innately given representational
+capacities by mastering the culturally constructed ones.
+#+end_quote
+
