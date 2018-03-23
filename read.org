@@ -1699,3 +1699,48 @@ means people will be ashamed for you, will pity you and want to
 distance themselves from you. You can be as greedy as you want, but no
 one will admire you for it.
 #+end_quote
+
+** 2009 - The Origin of Concepts
+ :PROPERTIES:
+  :Custom_ID: carey:2009origin
+  :AUTHOR: Susan Carey
+  :JOURNAL: 
+  :YEAR: 2009
+  :VOLUME: 
+  :PAGES: 
+  :DOI: 
+  :URL: http://gen.lib.rus.ec/book/index.php?md5=6FF79D29B3B18C1981F35D8C112E6155
+  :INTERLEAVE_PDF: ./lib/carey:2009origin.pdf
+:END:
+
+cite:carey:2009origin
+
+Book was cited in Pinker cite:pinker:2018enlightenment about innate
+illiteracy and innumeracy.
+
+
+*** Notes for page 129
+:PROPERTIES:
+:interleave_page_note: 129
+:END:
+
+#+begin_quote
+Human adults, human infants, and nonhuman animals deploy a system of
+analog magnitude representations of number. Number is represented by a
+physical magnitude that is roughly proportional to the number of
+individuals in the set being enumerated.
+#+end_quote
+
+*** Notes for page 138
+:PROPERTIES:
+:interleave_page_note: 138
+:END:
+
+#+begin_quote
+Under a wide variety of conditions, adult humans create analog
+magnitude representation of number of individuals. For example, analog
+magnitude representations of number are deployed when participants
+must estimate the number of individuals in large sets under conditions
+when they cannot or do not count.
+#+end_quote
+
