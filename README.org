@@ -36,6 +36,6 @@ primer for the name of the category.
 
 --- 
 
-*NOTE*: The primary repo is @ [[http://git.chenla.org/hoard/ ]] 
+*NOTE*: The primary repo is @ [[http://git.chenla.org/hoard/hoard ]] 
 Please submit pull requests and issues there.  A read
-only-mirror is maintained @ [[https://github.com/chenla/ ]]
+only-mirror is maintained @ [[https://github.com/chenla/hoard ]]
