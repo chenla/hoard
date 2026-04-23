@@ -178,7 +178,14 @@ In Hoard, each is a `UF` (Used For) entry pointing at a single UUID. The concept
 
 Hoard v0.1 is a proof of concept. It demonstrates the core architecture — quads, vocabulary control, identity, provenance — with working tooling and a real dataset. What it doesn't yet have:
 
-**Overlay branches.** The current version stores all metadata on a single branch. The design supports multiple metadata overlays on separate git branches — different maps of the same territory. A *Strata* overlay describing what things are (identity, type, entity relationships). A *Structural* overlay describing how things are organized (thesaurus hierarchies, sequences, groupings). These answer different questions about the same content and can coexist without conflict.
+**Overlay branches.** The current version stores all metadata on a single branch. The design supports multiple metadata overlays on separate git branches — different maps of the same territory:
+
+- *Strata* — what things **are**: identity, type, entity relationships across time and form.
+- *Structural* — how things are **organized**: thesaurus hierarchies, sequences, groupings.
+- *Flow* — how things **change**: dynamics, propagation, interoperability between systems.
+- *Persona* — **who is looking**, in what capacity: role-based views that compose with other overlays.
+
+These answer fundamentally different questions about the same content and can coexist without conflict. Persona overlays enable shared hords where a team works on the same knowledge base but each member — or each role — sees a different composite view. Compose Persona/researcher with Structural/thesaurus for deep work; compose Persona/board-member with Structural/governance for board decisions. Same territory, different maps.
 
 **Cross-hord vocabulary sharing.** Vocabularies can be shared across hords as git submodules, with crosswalk tables mapping between different term sets. This is how the system scales beyond personal use — shared vocabularies enable interoperability between independent knowledge bases without requiring a central authority.
 
