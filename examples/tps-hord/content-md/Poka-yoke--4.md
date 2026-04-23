@@ -1,0 +1,35 @@
+---
+id: d4e5f6a7-1007-4000-8000-000000000017
+type: wh:con
+title: Poka-yoke—4
+created: 2026-04-22T10:00@Hong Kong
+license: MIT/CC BY-SA 4.0
+relations:
+  - "TT: 852a6e49-4b9c-429e-b612-6c505ab78827  # Concept—8"
+  - "BT: c348132e-7cdf-438d-9a1f-69d75f382bee  # Toyota Production System—4"
+  - "RT: d4e5f6a7-1002-4000-8000-000000000012  # Jidoka—4"
+  - "UF: ポカヨケ"
+  - "UF: Mistake-proofing"
+  - "UF: Error-proofing"
+  - "PT: Poka-yoke—4"
+---
+
+# Poka-yoke—4
+
+Poka-yoke (ポカヨケ) means "mistake-proofing" — designing
+processes or devices so that errors are either impossible
+to make or immediately obvious when they occur.  The term
+was coined by Shigeo Shingo as part of the Toyota
+Production System.
+
+Examples include:
+- USB connectors that only fit one way
+- Car ignition systems that require the brake to be
+  pressed before starting
+- Assembly jigs that only accept correctly oriented parts
+
+Poka-yoke devices fall into two categories: prevention
+(making the error physically impossible) and detection
+(alerting when an error has occurred).  Both support the
+jidoka principle of building quality into the process
+rather than inspecting for defects after the fact.

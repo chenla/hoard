@@ -1,0 +1,34 @@
+---
+id: e5f6a7b8-2001-4000-8000-000000000021
+type: wh:per
+title: Taiichi Ohno—7
+created: 2026-04-22T10:00@Hong Kong
+license: MIT/CC BY-SA 4.0
+relations:
+  - "TT: a1b2c3d4-0001-4000-8000-000000000001  # Person—8"
+  - "RT: c348132e-7cdf-438d-9a1f-69d75f382bee  # Toyota Production System—4"
+  - "RT: d4e5f6a7-1001-4000-8000-000000000011  # Kanban—4"
+  - "RT: d4e5f6a7-1003-4000-8000-000000000013  # Just-in-Time Manufacturing—4"
+  - "RT: d4e5f6a7-1009-4000-8000-000000000019  # Genchi Genbutsu—4"
+  - "UF: 大野耐一"
+  - "PT: Taiichi Ohno—7"
+---
+
+# Taiichi Ohno—7
+
+Taiichi Ohno (大野耐一, 1912–1990) was a Japanese
+industrial engineer and businessman.  He is considered
+the father of the Toyota Production System, which became
+the basis for lean manufacturing worldwide.
+
+Ohno joined Toyota in 1943 and spent decades developing
+the production system.  His key innovations include the
+kanban system (inspired by American supermarkets), the
+concept of eliminating muda (waste), and the practice of
+genchi genbutsu (going to see the actual situation
+firsthand).
+
+His chalk circle exercise — making engineers stand in a
+circle on the factory floor and observe for hours — is
+legendary in manufacturing circles as an embodiment of
+the "go and see" philosophy.

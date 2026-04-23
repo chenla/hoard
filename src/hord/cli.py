@@ -22,8 +22,10 @@ from hord.init import init_cmd
 from hord.compile import compile_cmd
 from hord.query import query_cmd
 from hord.status import status_cmd
+from hord.convert import convert_cmd
 
 cli.add_command(init_cmd, "init")
 cli.add_command(compile_cmd, "compile")
 cli.add_command(query_cmd, "query")
 cli.add_command(status_cmd, "status")
+cli.add_command(convert_cmd, "convert")

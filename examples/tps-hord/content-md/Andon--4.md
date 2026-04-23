@@ -1,0 +1,33 @@
+---
+id: d4e5f6a7-1006-4000-8000-000000000016
+type: wh:con
+title: Andon—4
+created: 2026-04-22T10:00@Hong Kong
+license: MIT/CC BY-SA 4.0
+relations:
+  - "TT: 852a6e49-4b9c-429e-b612-6c505ab78827  # Concept—8"
+  - "BT: c348132e-7cdf-438d-9a1f-69d75f382bee  # Toyota Production System—4"
+  - "RT: d4e5f6a7-1002-4000-8000-000000000012  # Jidoka—4"
+  - "UF: 行灯"
+  - "UF: Andon cord"
+  - "PT: Andon—4"
+---
+
+# Andon—4
+
+Andon (行灯, literally "paper lantern") is a visual
+feedback system used in manufacturing to alert workers
+and managers to quality or process problems.  In the
+Toyota Production System, an andon is typically a cord or
+button at each workstation that any worker can activate to
+signal a problem.
+
+When the andon is activated, a signal light illuminates
+on a board visible to the entire production area, and a
+team leader responds.  If the problem cannot be resolved
+within the takt time, the production line stops.
+
+The andon system embodies the jidoka principle: problems
+are surfaced immediately rather than passed downstream.
+This culture of "stop and fix" is central to TPS quality
+management.

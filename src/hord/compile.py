@@ -1,11 +1,14 @@
-"""hord compile — parse org files into quads and build the index."""
+"""hord compile — parse org and markdown files into quads and build the index."""
 
 import os
 
 import click
 
 from hord.git_utils import find_hord_root, blob_hash
-from hord.org_parser import parse_org_file, scan_directory
+from hord.org_parser import parse_org_file
+from hord.org_parser import scan_directory as scan_org
+from hord.md_parser import parse_md_file
+from hord.md_parser import scan_directory as scan_md
 from hord.quad import Quad, write_quads, quad_path
 from hord.vocab import Vocabulary, find_vocab
 
@@ -55,13 +58,15 @@ def compile_cmd(path, verbose):
     vocab_path = find_vocab(hord_root)
     vocab = Vocabulary.load(vocab_path) if vocab_path else None
 
-    # Scan for org files
+    # Scan for org and markdown files
     if os.path.isfile(scan_path):
-        from hord.org_parser import parse_org_file
-        records = [parse_org_file(scan_path)]
+        if scan_path.endswith(".md"):
+            records = [parse_md_file(scan_path)]
+        else:
+            records = [parse_org_file(scan_path)]
         records = [r for r in records if r.is_valid]
     else:
-        records = scan_directory(scan_path)
+        records = scan_org(scan_path) + scan_md(scan_path)
 
     if not records:
         click.echo("No valid org records found.")
