@@ -23,7 +23,7 @@ Systems like Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf55591
 ## Quick start
 
 ```bash
-git clone https://github.com/deerpig/hoard
+git clone https://github.com/chenla/hoard
 cd hoard
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e .
@@ -76,11 +76,49 @@ That's one query showing: 5 sub-concepts, 4 related concepts, an alias, and 14 i
 mkdir my-knowledge && cd my-knowledge
 git init
 hord init --name "my-knowledge"
-# Add org-mode files to content/
+# Add org-mode or markdown files to content/
 hord compile content/
 hord query <filename-or-uuid>
 hord status
 ```
+
+Hoard supports both **org-mode** and **markdown** content files. Use whichever you prefer — both produce identical quads.
+
+### Markdown format
+
+Markdown records use YAML frontmatter for metadata:
+
+```markdown
+---
+id: c348132e-7cdf-438d-9a1f-69d75f382bee
+type: wh:con
+title: Kanban—4
+created: 2026-04-22T10:00@Hong Kong
+license: MIT/CC BY-SA 4.0
+relations:
+  - "TT: 852a6e49-4b9c-429e-b612-6c505ab78827  # Concept"
+  - "BT: c348132e-7cdf-438d-9a1f-69d75f382bee  # Toyota Production System"
+aliases:
+  - "看板"
+  - "Signboard system"
+---
+
+# Kanban
+
+Kanban (看板, literally "signboard") is a scheduling system...
+```
+
+### Converting between formats
+
+```bash
+# Convert org files to markdown
+hord convert content/ --to md --output content-md/
+
+# Convert markdown to org
+hord convert content-md/ --to org --output content-org/
+```
+
+The TPS demo ships with both formats: `content/` (org-mode) and `content-md/` (markdown).
 
 ## How it works
 
@@ -134,13 +172,14 @@ The context column in every quad is the git blob hash of the source file at the 
 | Command | Purpose |
 |---|---|
 | `hord init` | Create `.hord/` skeleton in a git repo |
-| `hord compile <path>` | Parse org files → generate quads + index |
+| `hord compile <path>` | Parse org/markdown files → generate quads + index |
 | `hord query <term>` | Look up entity, show quads + incoming links |
 | `hord status` | Show entities with stale metadata |
+| `hord convert <path> --to md\|org` | Convert between org-mode and markdown |
 
 ## The demo dataset
 
-The `examples/tps-hord/` directory contains 21 org-mode records about the Toyota Production System — concepts (Kanban, Jidoka, Kaizen, JIT, Muda), people (Taiichi Ohno, Shigeo Shingo, W. Edwards Deming), and bibliographic works. It demonstrates:
+The `examples/tps-hord/` directory contains 21 records about the Toyota Production System in both org-mode (`content/`) and markdown (`content-md/`) formats — concepts (Kanban, Jidoka, Kaizen, JIT, Muda), people (Taiichi Ohno, Shigeo Shingo, W. Edwards Deming), and bibliographic works. It demonstrates:
 
 - **Identity**: every entity has a UUID, independent of filename
 - **Typed relationships**: `BT` (broader), `NT` (narrower), `RT` (related) — not just "links"
@@ -163,10 +202,11 @@ Hoard is built on three principles from library science and knowledge engineerin
 
 This is v0.1 — a proof of concept. Currently supports:
 
-- Org-mode files as content (both old and new format records)
+- Org-mode and markdown content files (both produce identical quads)
+- Format conversion between org and markdown (`hord convert`)
 - Single-branch metadata (overlay branches coming in v0.2)
 - Local vocabulary (cross-hord vocabulary sharing coming in v0.3)
 
 ## License
 
-MIT
+Code: MIT | Content: CC BY-SA 4.0
