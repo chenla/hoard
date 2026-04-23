@@ -20,6 +20,8 @@ Systems like Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf55591
 
 **The core idea:** Hoard separates *territory* (your files) from *map* (the metadata about them). The map is version-controlled, vocabulary-controlled, and agent-friendly. A flat wiki gives you one view; Hoard gives you as many views as you need.
 
+For the full story — the problem, the library science background, and why the design works the way it does — read **[Why Hoard](docs/WHY-HOARD.md)**.
+
 ## Quick start
 
 ```bash
