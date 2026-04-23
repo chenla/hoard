@@ -1,0 +1,27 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+FILETAGS: "hord" "category"
+#+TITLE:   Concept—8
+
+* Concept—8
+  :PROPERTIES:
+  :Name:      /home/deerpig/proj/ybr/hord/Concept--8.org
+  :Created:   2020-06-10T10:21@Prek Leap (11.642600N-104.919210W)
+  :VER:       645031374.312086758
+  :GEO:       48P-491193-1287029-15
+  :Licence:   MIT/CC BY-SA 4.0
+  :ID:       852a6e49-4b9c-429e-b612-6c505ab78827
+  :END:
+
+  - TT :: [[id:b1680d5e-f7db-44ea-ba2e-a08a7b878f61][Yellow Brick Road—8]]
+    - PT :: Concept—8
+
+Category for concepts and ideas.
+
+
+** References
+bibliography:~/proj/hord/bib/bib.bib
+
+
+  - [[https://en.wikipedia.org/wiki/Concept][Concept]], Wikipedia.
+  - [[https://plato.stanford.edu/entries/concepts/][Concepts]], Stanford Encyclopedia of Philosophy.

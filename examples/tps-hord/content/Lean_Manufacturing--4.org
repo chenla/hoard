@@ -1,0 +1,80 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Lean Manufacturing—4
+#+FILETAGS: "hord" "concept"
+#+bibliography: ~/proj/hord/bib/bib.bib
+
+
+* Lean Manufacturing—4
+  :PROPERTIES:
+  :ID:        9916ba93-6978-4406-b96f-1d1a476c1931
+  :TYPE:      con/concept
+  :NAME:      /home/deerpig/proj/ybr/hord/Lean_Manufacturing--4.org
+  :CREATED:   2022-08-31T07:18
+  :VER:       715177203.912829681
+  :GEO:       48P-491193-1287029-15
+  :LICENCE:   MIT/CC BY-SA 4.0
+  :ROAM_ALIASES: "Toyota Production System—4" "The Toyota Way" "JIT" "Just-In-Time Manufacturing"
+  :END:
+
+    - TT :: [[id:852a6e49-4b9c-429e-b612-6c505ab78827][Concept—8]]
+      - PT :: Lean Manufacturing—4
+      - RT :: [[id:32f8e2e5-ca35-4038-8261-1c873c95e7f7][Visual Workplace—4]]
+      - RT :: [[id:09090797-d1c4-44e7-a18d-45f253b53d97][Uddevalla Production System—4]]
+      - RT :: [[id:b65136a2-13b9-4296-920f-4058f1dd90ae][Assembly Line—4]]
+      - RT :: [[id:69b7de54-38c7-4733-8241-b73804aaafa6][Taylorism—4]]
+
+
+
+* References
+bibliography:~/proj/hord/bib/bib.bib
+
+  - Wikipedia, , Lean manufacturing --- wikipedia (english) (2022).
+    cite:wiki:2022lean-manufacturing
+  - Wikipedia, , Organic organisation --- wikipedia (english) (2022).
+    cite:wiki:2022organic-organisation
+  - Wikipedia, , Toyota production system --- wikipedia (english) (2022).
+    cite:wiki:2022toyota-production-system
+  - Wikipedia, , The toyota way --- wikipedia (english) (2022).
+    cite:wiki:2022toyota-way
+  - Womack, J. P., The machine that changed the world : based on the
+    massachusetts institute of technology 5-million-dollar 5-year study on the
+    future of the automobile (1990), : Scribner.
+    cite:womack:1990machine
+  - Liker, J. K., The Toyota Way (2021), : McGraw-Hill Education.
+    cite:linker:2021toyota-way
+  - Taiichi Ohno, N. B., Toyota production system: beyond large-scale production
+    (1988), : Productivity Press.
+    cite:ohno:1988beyond
+  - Ohno, T., Taiichi ohno’s workplace management: special 100th birthday
+    edition (2012), : McGraw-Hill Education.
+    cite:ohno:2012ohno-workplace
+  - Do, D., What is muda, mura, and muri? (2017).
+    cite:do::2017muda-mura-muri
+  - Jeffrey Liker, M. H., Toyota culture: the heart and soul of the toyota way
+    (2008), : McGraw-Hill Education.
+    cite:liker:2008toyota-culture
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 1 -- the just-in-time production system (2009), : CRC
+    Press.
+    cite:hirano:2009jit-man-v1
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 2 -- waste and the 5s’s (2009), : CRC Press.
+    cite:hirano:2009jit-man-v2
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 3 -- flow manufacturing -- multi-process operations
+    and kanban (2009), : CRC Press.
+    cite:hirano:2009jit-man-v3
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 4 -- leveling -- changeover and quality assurance
+    (2009), : CRC Press.
+    cite:hirano:2009jit-man-v4
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 5 -- standardized operations -- jidoka and maintenance
+    safety (2009), : Productivity Press.
+    cite:hirano:2009jit-man-v5
+  - Hirano, H., Jit implementation manual -- the complete guide to just-in-time
+    manufacturing: volume 6 -- jit implementation forms and charts (2009), :
+    Productivity Press.
+    cite:hirano:2009jit-man-v6
+  -

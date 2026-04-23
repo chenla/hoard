@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hoard-git"
+version = "0.1.0"
+description = "Semantic metadata overlays for git repositories"
+readme = "README.md"
+license = "MIT AND CC-BY-SA-4.0"
+requires-python = ">=3.10"
+authors = [
+    {name = "Ford Collins", email = "deerpig@gmail.com"},
+]
+dependencies = [
+    "click>=8.0",
+]
+
+[project.scripts]
+hord = "hord.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

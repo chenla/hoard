@@ -1,0 +1,9 @@
+subject	predicate	object	note
+v:bt	v:rt	v:nt	BT and NT are inverse thesaurus relations
+v:btg	v:bt	v:bt	BTG is a subtype of BT (generic)
+v:bti	v:bt	v:bt	BTI is a subtype of BT (instance)
+v:btp	v:bt	v:bt	BTP is a subtype of BT (partitive)
+v:ntg	v:bt	v:nt	NTG is a subtype of NT (generic)
+v:nti	v:bt	v:nt	NTI is a subtype of NT (instance)
+v:ntp	v:bt	v:nt	NTP is a subtype of NT (partitive)
+v:uf	v:rt	v:use	UF and USE are inverse preference relations

@@ -1,0 +1,6 @@
+[hord]
+name = "tps-demo"
+version = "0.1.0"
+
+[vocab]
+source = "local"

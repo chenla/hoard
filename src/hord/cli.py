@@ -1,0 +1,29 @@
+"""Hoard CLI — semantic metadata overlays for git repositories."""
+
+import click
+
+from hord import __version__
+
+
+@click.group()
+@click.version_option(version=__version__, prog_name="hord")
+def cli():
+    """Hoard: semantic metadata overlays for git repositories.
+
+    Hoard adds a .hord/ directory to any git repo, storing
+    structured metadata (quads) alongside your content. Think
+    .git/ but for knowledge structure.
+    """
+    pass
+
+
+# Import and register subcommands
+from hord.init import init_cmd
+from hord.compile import compile_cmd
+from hord.query import query_cmd
+from hord.status import status_cmd
+
+cli.add_command(init_cmd, "init")
+cli.add_command(compile_cmd, "compile")
+cli.add_command(query_cmd, "query")
+cli.add_command(status_cmd, "status")

@@ -1,0 +1,18 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Person—8
+#+FILETAGS: "hord" "category"
+
+* Person—8
+  :PROPERTIES:
+  :ID:       a1b2c3d4-0001-4000-8000-000000000001
+  :TYPE:      wh:cat
+  :CREATED:   2026-04-22T10:00@Hong Kong
+  :LICENCE:   MIT/CC BY-SA 4.0
+  :END:
+
+** Relations
+   - TT :: [[id:852a6e49-4b9c-429e-b612-6c505ab78827][Concept—8]]
+   - PT :: Person—8
+
+Category for person and named entity records.

@@ -1,0 +1,35 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Toyota Production System: Beyond Large-Scale Production—6
+#+FILETAGS: "hord" "work"
+
+* Toyota Production System: Beyond Large-Scale Production—6
+  :PROPERTIES:
+  :ID:       f6a7b8c9-3001-4000-8000-000000000031
+  :TYPE:      wh:wrk
+  :CREATED:   2026-04-22T10:00@Hong Kong
+  :LICENCE:   MIT/CC BY-SA 4.0
+  :END:
+
+** Relations
+   - TT :: [[id:a1b2c3d4-0002-4000-8000-000000000002][Work—8]]
+   - RT :: [[id:c348132e-7cdf-438d-9a1f-69d75f382bee][Toyota Production System—4]]
+   - RT :: [[id:e5f6a7b8-2001-4000-8000-000000000021][Taiichi Ohno—7]]
+   - PT :: Toyota Production System: Beyond Large-Scale Production—6
+
+** Bibliographic Data
+   :PROPERTIES:
+   :BIB-TYPE:   book
+   :AUTHOR:     Ohno, Taiichi
+   :TITLE:      Toyota Production System: Beyond Large-Scale Production
+   :YEAR:       1988
+   :PUBLISHER:  Productivity Press
+   :CITEKEY:    ohno:1988beyond
+   :END:
+
+** Notes
+
+The foundational text on the Toyota Production System,
+written by its creator.  Ohno describes the development
+of JIT and jidoka, the elimination of waste (muda), and
+the philosophical underpinnings of the system.
