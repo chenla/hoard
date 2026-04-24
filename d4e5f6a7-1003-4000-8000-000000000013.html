@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Just-in-Time Manufacturing—4</title>
+<style>:root {
+  --bg: #fafaf8;
+  --fg: #2c2c2c;
+  --accent: #2d6a4f;
+  --border: #d4d4d0;
+  --muted: #6b6b68;
+  --link: #2d6a4f;
+  --tag-bg: #e8e8e4;
+  --card-bg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #d4d4d0;
+    --accent: #52b788;
+    --border: #3a3a38;
+    --muted: #9a9a96;
+    --link: #52b788;
+    --tag-bg: #2a2a28;
+    --card-bg: #222220;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  background: var(--bg); color: var(--fg);
+  max-width: 52rem; margin: 0 auto;
+  padding: 2rem 1.5rem; line-height: 1.6;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+h2 { font-size: 1.1rem; color: var(--accent); margin: 1.5rem 0 .5rem; }
+code {
+  font-size: .75rem; word-break: break-all;
+}
+.subtitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem;
+}
+.type-tag {
+  display: inline-block; background: var(--tag-bg);
+  padding: .1rem .5rem; border-radius: 3px;
+  font-size: .8rem; font-family: "IBM Plex Mono", monospace;
+}
+.quad-table { width: 100%; border-collapse: collapse; margin: .5rem 0; }
+.quad-table td {
+  padding: .35rem .5rem; border-bottom: 1px solid var(--border);
+  font-size: .9rem; vertical-align: top;
+}
+.quad-table td:first-child {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .8rem; color: var(--muted);
+  white-space: nowrap; width: 10rem; text-align: right;
+  padding-right: 1rem;
+}
+.strata-section { border-left: 3px solid var(--accent); padding-left: 1rem; }
+.incoming { color: var(--muted); font-size: .85rem; }
+.incoming a { color: var(--link); }
+.incoming > div { padding: .2rem 0; }
+.notes {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 4px; padding: 1rem 1.25rem; margin: .5rem 0;
+  font-size: .95rem;
+}
+.notes p { margin-bottom: .75rem; }
+.notes p:last-child { margin-bottom: 0; }
+.index-group { margin-bottom: 1.5rem; }
+.index-item {
+  padding: .4rem 0; border-bottom: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: .5rem;
+}
+.index-item a { flex: 1; min-width: 0; }
+.index-item .type-tag { font-size: .75rem; flex-shrink: 0; }
+nav { margin-bottom: 2rem; font-size: .9rem; }
+nav a { margin-right: 1rem; }
+.breadcrumb { font-size: .85rem; color: var(--muted); margin-bottom: 1rem; }
+.breadcrumb a { color: var(--muted); }
+footer {
+  margin-top: 3rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: .8rem; color: var(--muted);
+}
+@media (max-width: 600px) {
+  body { padding: 1rem .75rem; }
+  h1 { font-size: 1.25rem; }
+  .quad-table td:first-child {
+    width: auto; min-width: 5rem;
+    font-size: .7rem;
+  }
+  .quad-table td { font-size: .85rem; padding: .3rem .25rem; }
+  .index-item { flex-wrap: wrap; }
+  .subtitle code { display: block; margin-top: .25rem; }
+}
+</style>
+</head>
+<body>
+<div class="breadcrumb"><a href="index.html">&larr; Index</a></div>
+<h1>Just-in-Time Manufacturing—4</h1>
+<div class="subtitle"><span class="type-tag">Concept</span> <code>d4e5f6a7-1003-4000-8000-000000000013</code></div>
+<h2>Relationships</h2>
+<table class="quad-table"><tr><td>TYPE</td><td>wh:con</td></tr>
+<tr><td>TT</td><td><a href="852a6e49-4b9c-429e-b612-6c505ab78827.html">Concept—8</a></td></tr>
+<tr><td>BT</td><td><a href="c348132e-7cdf-438d-9a1f-69d75f382bee.html">Toyota Production System—4</a></td></tr>
+<tr><td>RT</td><td><a href="d4e5f6a7-1001-4000-8000-000000000011.html">Kanban—4</a></td></tr>
+<tr><td>RT</td><td><a href="d4e5f6a7-1008-4000-8000-000000000018.html">Heijunka—4</a></td></tr>
+<tr><td>RT</td><td><a href="d4e5f6a7-1005-4000-8000-000000000015.html">Muda—4</a></td></tr>
+<tr><td>UF</td><td>JIT</td></tr>
+<tr><td>UF</td><td>Just-in-Time</td></tr>
+<tr><td>PT</td><td>Just-in-Time Manufacturing—4</td></tr></table>
+<h2>Incoming Links</h2>
+<div class="incoming">
+<div><a href="e5f6a7b8-2001-4000-8000-000000000021.html">Taiichi Ohno—7</a> &larr; RT</div>
+<div><a href="d4e5f6a7-1008-4000-8000-000000000018.html">Heijunka—4</a> &larr; RT</div>
+<div><a href="d4e5f6a7-1005-4000-8000-000000000015.html">Muda—4</a> &larr; RT</div>
+<div><a href="d4e5f6a7-1001-4000-8000-000000000011.html">Kanban—4</a> &larr; RT</div>
+<div><a href="c348132e-7cdf-438d-9a1f-69d75f382bee.html">Toyota Production System—4</a> &larr; NT</div>
+</div>
+<h2>Notes</h2>
+<div class="notes"><p>Just-in-Time (JIT) manufacturing is a production strategy that strives to improve return on investment by reducing in-process inventory and associated carrying costs.  In JIT, parts arrive at each production stage precisely when needed — not before, not after.</p>
+<p>JIT is one of the two pillars of the Toyota Production System, alongside Jidoka.  The system was developed by Taiichi Ohno, who was inspired by American supermarkets where shelves were restocked only as customers purchased items.</p>
+<p>The JIT approach requires: reliable supplier delivery, small lot sizes, quick changeover times, and a level production schedule (heijunka).  Kanban is the primary signaling mechanism that makes JIT work in practice.</p></div>
+<footer>Generated by Hoard</footer>
+</body>
+</html>
