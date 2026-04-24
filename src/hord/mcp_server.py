@@ -28,6 +28,7 @@ from hord.quad import Quad, read_quads, write_quads, quad_path
 from hord.vocab import Vocabulary, find_vocab
 from hord.query import load_index, find_incoming, resolve_uuid_label
 from hord.compile import REL_TO_PREDICATE
+from hord.new import TYPE_SHORTCUTS, TYPE_SUFFIX, slugify, scaffold_org, scaffold_md, make_timestamp
 
 
 def get_hord_root() -> str:
@@ -418,6 +419,58 @@ def read_content(term: str) -> str:
 
     with open(filepath, "r") as f:
         return f.read()
+
+
+@mcp.tool()
+def new_card(title: str, entity_type: str = "con", fmt: str = "org",
+             content_dir: str = "content") -> str:
+    """Create a new card with a UUID and metadata scaffold.
+
+    Creates a properly formatted org-mode or markdown file
+    with a unique UUID, type classification, and timestamp.
+    Returns the path, UUID, and type of the new card.
+
+    entity_type can be a shortcut (con, per, wrk, pat, etc.)
+    or a full vocab ID (wh:con, wh:per, etc.).
+    """
+    import uuid as uuid_mod
+
+    hord_root = get_hord_root()
+
+    # Resolve entity type
+    etype = entity_type.lower()
+    if etype.startswith("wh:"):
+        resolved_type = etype
+    else:
+        resolved_type = TYPE_SHORTCUTS.get(etype)
+        if not resolved_type:
+            return f"Unknown type '{entity_type}'. Valid: {', '.join(sorted(TYPE_SHORTCUTS.keys()))}"
+
+    card_uuid = str(uuid_mod.uuid4())
+    timestamp = make_timestamp()
+
+    suffix = TYPE_SUFFIX.get(resolved_type, "4")
+    slug = slugify(title)
+    ext = "org" if fmt == "org" else "md"
+    filename = f"{slug}--{suffix}.{ext}"
+
+    out_dir = os.path.join(hord_root, content_dir)
+    os.makedirs(out_dir, exist_ok=True)
+    filepath = os.path.join(out_dir, filename)
+
+    if os.path.exists(filepath):
+        return f"File already exists: {filepath}"
+
+    if fmt == "org":
+        content = scaffold_org(card_uuid, title, resolved_type, timestamp)
+    else:
+        content = scaffold_md(card_uuid, title, resolved_type, timestamp)
+
+    with open(filepath, "w") as f:
+        f.write(content)
+
+    relpath = os.path.relpath(filepath, hord_root)
+    return f"Created {relpath}\n  UUID: {card_uuid}\n  Type: {resolved_type}"
 
 
 def main():

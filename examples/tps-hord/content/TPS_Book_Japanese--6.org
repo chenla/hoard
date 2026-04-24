@@ -1,0 +1,28 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   TPS Book — Japanese Original
+#+FILETAGS: "hord" "work"
+
+* TPS Book — Japanese Original
+  :PROPERTIES:
+  :ID:       f6a7b8c9-3004-4000-8000-000000000034
+  :TYPE:      wh:wrk
+  :CREATED:   2026-04-24T14:00@Phnom Penh
+  :LICENCE:   MIT/CC BY-SA 4.0
+  :END:
+
+** Relations
+   - TT :: [[id:a1b2c3d4-0002-4000-8000-000000000002][Work—8]]
+   - RT :: [[id:e5f6a7b8-2001-4000-8000-000000000021][Taiichi Ohno—7]]
+   - UF :: トヨタ生産方式
+   - PT :: TPS Book — Japanese Original
+
+** Strata
+   - WO :: [[id:f6a7b8c9-3003-4000-8000-000000000033][Toyota Production System: Beyond Large-Scale Production—6]]
+
+** Notes
+
+The original Japanese edition, published by Diamond, Inc.
+in 1978.  This is the Expression of Ohno's work as first
+written — in Japanese, for a Japanese audience familiar
+with the manufacturing context.

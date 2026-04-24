@@ -28,6 +28,10 @@ REL_TO_PREDICATE = {
     "RT": "v:rt",
     "UF": "v:uf",
     "USE": "v:use",
+    "WO": "v:s-wo",
+    "EO": "v:s-eo",
+    "MO": "v:s-mo",
+    "IO": "v:s-io",
 }
 
 

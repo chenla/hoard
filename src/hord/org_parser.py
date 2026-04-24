@@ -54,7 +54,7 @@ ID_LINK_RE = re.compile(r"\[\[id:([0-9a-f-]+)\]\[([^\]]*)\]\]")
 
 # Regex for relation lines: - TT :: ... or - RT :: ...
 RELATION_RE = re.compile(
-    r"^\s*-\s*(TT|PT|BT|BTG|BTI|BTP|NT|NTG|NTI|NTP|RT|UF|USE)\s*::\s*(.*)",
+    r"^\s*-\s*(TT|PT|BT|BTG|BTI|BTP|NT|NTG|NTI|NTP|RT|UF|USE|WO|EO|MO|IO)\s*::\s*(.*)",
     re.IGNORECASE,
 )
 

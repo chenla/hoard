@@ -118,21 +118,43 @@ def query_cmd(term, fmt):
     click.echo(f"  {uuid}")
     click.echo(f"{'═' * 60}")
 
-    # Group quads by predicate
-    click.echo()
+    # Separate quads into structural and strata
+    strata_predicates = {"v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type"}
+    structural_quads = []
+    strata_quads = []
     for q in quads:
         if q.predicate == "v:title":
             continue  # Already shown in header
-        pred_label = vocab.label(q.predicate) if vocab else q.predicate
+        if q.predicate in strata_predicates:
+            strata_quads.append(q)
+        else:
+            structural_quads.append(q)
 
-        # Try to resolve object UUIDs to labels
+    # Display structural relationships
+    click.echo()
+    for q in structural_quads:
+        pred_label = vocab.label(q.predicate) if vocab else q.predicate
         obj_display = q.object
         if _looks_like_uuid(q.object):
             resolved = resolve_uuid_label(hord_root, q.object, vocab)
             if resolved != q.object:
                 obj_display = f"{resolved}  ({q.object[:8]}…)"
-
         click.echo(f"  {pred_label:>12}  {obj_display}")
+
+    # Display strata (WEMI) relationships
+    if strata_quads:
+        click.echo()
+        click.echo(f"{'─' * 60}")
+        click.echo("  Strata (WEMI):")
+        click.echo()
+        for q in strata_quads:
+            pred_label = vocab.label(q.predicate) if vocab else q.predicate
+            obj_display = q.object
+            if _looks_like_uuid(q.object):
+                resolved = resolve_uuid_label(hord_root, q.object, vocab)
+                if resolved != q.object:
+                    obj_display = f"{resolved}  ({q.object[:8]}…)"
+            click.echo(f"  {pred_label:>20}  {obj_display}")
 
     # Find incoming links
     incoming = find_incoming(hord_root, uuid)
