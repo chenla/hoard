@@ -423,15 +423,18 @@ def read_content(term: str) -> str:
 
 @mcp.tool()
 def new_card(title: str, entity_type: str = "con", fmt: str = "org",
-             content_dir: str = "content") -> str:
+             content_dir: str = "content", source: str = "") -> str:
     """Create a new card with a UUID and metadata scaffold.
 
     Creates a properly formatted org-mode or markdown file
     with a unique UUID, type classification, and timestamp.
     Returns the path, UUID, and type of the new card.
 
-    entity_type can be a shortcut (con, per, wrk, pat, etc.)
-    or a full vocab ID (wh:con, wh:per, etc.).
+    entity_type can be a shortcut (con, per, wrk, pat, cap, etc.)
+    or a full vocab ID (wh:con, wh:per, wh:cap, etc.).
+
+    For capture cards (type=cap), defaults to capture/ directory
+    and supports a source field (reading, conversation, observation, etc.).
     """
     import uuid as uuid_mod
 
@@ -445,6 +448,10 @@ def new_card(title: str, entity_type: str = "con", fmt: str = "org",
         resolved_type = TYPE_SHORTCUTS.get(etype)
         if not resolved_type:
             return f"Unknown type '{entity_type}'. Valid: {', '.join(sorted(TYPE_SHORTCUTS.keys()))}"
+
+    # Default capture cards to capture/ directory
+    if resolved_type == "wh:cap" and content_dir == "content":
+        content_dir = "capture"
 
     card_uuid = str(uuid_mod.uuid4())
     timestamp = make_timestamp()
@@ -462,9 +469,9 @@ def new_card(title: str, entity_type: str = "con", fmt: str = "org",
         return f"File already exists: {filepath}"
 
     if fmt == "org":
-        content = scaffold_org(card_uuid, title, resolved_type, timestamp)
+        content = scaffold_org(card_uuid, title, resolved_type, timestamp, source)
     else:
-        content = scaffold_md(card_uuid, title, resolved_type, timestamp)
+        content = scaffold_md(card_uuid, title, resolved_type, timestamp, source)
 
     with open(filepath, "w") as f:
         f.write(content)

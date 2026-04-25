@@ -34,6 +34,8 @@ TYPE_SHORTCUTS = {
     "object": "wh:obj",
     "org": "wh:org",
     "organization": "wh:org",
+    "cap": "wh:cap",
+    "capture": "wh:cap",
 }
 
 # Map vocab IDs to filename suffixes
@@ -49,6 +51,7 @@ TYPE_SUFFIX = {
     "wh:evt": "11",
     "wh:obj": "12",
     "wh:org": "13",
+    "wh:cap": "14",
 }
 
 
@@ -72,11 +75,20 @@ def make_timestamp() -> str:
 
 
 def scaffold_org(card_uuid: str, title: str, entity_type: str,
-                 timestamp: str) -> str:
+                 timestamp: str, source: str = "") -> str:
     """Generate org-mode card content."""
     suffix = TYPE_SUFFIX.get(entity_type, "4")
-    display_title = f"{title}\u20144"  # em-dash + suffix placeholder
     display_title = f"{title}\u2014{suffix}"
+
+    props = [
+        "  :PROPERTIES:",
+        f"  :ID:        {card_uuid}",
+        f"  :TYPE:      {entity_type}",
+        f"  :CREATED:   {timestamp}",
+    ]
+    if source:
+        props.append(f"  :SOURCE:    {source}")
+    props.append("  :END:")
 
     lines = [
         "#   -*- mode: org; fill-column: 60 -*-",
@@ -84,11 +96,7 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
         f"#+TITLE:   {display_title}",
         "",
         f"* {display_title}",
-        "  :PROPERTIES:",
-        f"  :ID:       {card_uuid}",
-        f"  :TYPE:      {entity_type}",
-        f"  :CREATED:   {timestamp}",
-        "  :END:",
+        *props,
         "",
         "** Relations",
         f"   - PT :: {display_title}",
@@ -101,7 +109,7 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
 
 
 def scaffold_md(card_uuid: str, title: str, entity_type: str,
-                timestamp: str) -> str:
+                timestamp: str, source: str = "") -> str:
     """Generate markdown card content."""
     suffix = TYPE_SUFFIX.get(entity_type, "4")
     display_title = f"{title}\u2014{suffix}"
@@ -112,6 +120,10 @@ def scaffold_md(card_uuid: str, title: str, entity_type: str,
         f"type: {entity_type}",
         f"title: {display_title}",
         f"created: {timestamp}",
+    ]
+    if source:
+        lines.append(f"source: {source}")
+    lines += [
         "relations:",
         f"  - \"PT: {display_title}\"",
         "aliases: []",
@@ -132,9 +144,11 @@ def scaffold_md(card_uuid: str, title: str, entity_type: str,
               default="org", help="File format (default: org)")
 @click.option("--dir", "-d", "content_dir", default="content",
               help="Content directory (default: content/)")
+@click.option("--source", "-s", default="",
+              help="Source context (e.g. reading, conversation, observation)")
 @click.option("--edit", "-e", is_flag=True,
               help="Open the new file in $EDITOR")
-def new_cmd(title, entity_type, fmt, content_dir, edit):
+def new_cmd(title, entity_type, fmt, content_dir, source, edit):
     """Create a new card with a UUID and metadata scaffold.
 
     TITLE is the card's display name (e.g. "Kanban" or
@@ -169,6 +183,10 @@ def new_cmd(title, entity_type, fmt, content_dir, edit):
     card_uuid = str(uuid.uuid4())
     timestamp = make_timestamp()
 
+    # Default capture cards to capture/ directory
+    if resolved_type == "wh:cap" and content_dir == "content":
+        content_dir = "capture"
+
     # Build filename
     suffix = TYPE_SUFFIX.get(resolved_type, "4")
     slug = slugify(title)
@@ -188,9 +206,9 @@ def new_cmd(title, entity_type, fmt, content_dir, edit):
 
     # Generate content
     if fmt == "org":
-        content = scaffold_org(card_uuid, title, resolved_type, timestamp)
+        content = scaffold_org(card_uuid, title, resolved_type, timestamp, source)
     else:
-        content = scaffold_md(card_uuid, title, resolved_type, timestamp)
+        content = scaffold_md(card_uuid, title, resolved_type, timestamp, source)
 
     with open(filepath, "w") as f:
         f.write(content)

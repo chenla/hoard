@@ -30,3 +30,4 @@ wh:pla	Place	Word-hord: place record
 wh:evt	Event	Word-hord: event record
 wh:obj	Object	Word-hord: object record
 wh:org	Organization	Word-hord: organization record
+wh:cap	Capture	Word-hord: capture card (quick notes, observations, fleeting thoughts)
