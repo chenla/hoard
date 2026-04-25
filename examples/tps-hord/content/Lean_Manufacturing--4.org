@@ -8,7 +8,7 @@
 * Lean Manufacturing—4
   :PROPERTIES:
   :ID:        9916ba93-6978-4406-b96f-1d1a476c1931
-  :TYPE:      con/concept
+  :TYPE:      wh:con
   :NAME:      /home/deerpig/proj/ybr/hord/Lean_Manufacturing--4.org
   :CREATED:   2022-08-31T07:18
   :VER:       715177203.912829681
