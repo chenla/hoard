@@ -195,14 +195,14 @@ def scan_directory(directory: str, recursive: bool = True) -> list[OrgRecord]:
     if recursive:
         for root, dirs, files in os.walk(directory):
             for fname in sorted(files):
-                if fname.endswith(".org") and not fname.startswith("#"):
+                if fname.endswith(".org") and not fname.startswith("#") and not fname.startswith(".#"):
                     fpath = os.path.join(root, fname)
                     record = parse_org_file(fpath)
                     if record.is_valid:
                         records.append(record)
     else:
         for fname in sorted(os.listdir(directory)):
-            if fname.endswith(".org") and not fname.startswith("#"):
+            if fname.endswith(".org") and not fname.startswith("#") and not fname.startswith(".#"):
                 fpath = os.path.join(directory, fname)
                 record = parse_org_file(fpath)
                 if record.is_valid:
