@@ -7,6 +7,11 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- `wh:cap` capture card type (suffix `--14`): quick notes, observations, fleeting
+  thoughts; defaults to `capture/` directory (separate from reference cards in
+  `content/`); includes `SOURCE` property for context reconstruction (reading,
+  conversation, observation, etc.); supported in CLI (`hord new -t cap -s reading`),
+  MCP (`new_card` with `source` parameter), and Emacs (`C-c w c`)
 - Strata overlay: compiler recognizes WO, EO, MO, IO relations in card files,
   emits `v:s-wo`, `v:s-eo`, `v:s-mo`, `v:s-io` quads; query displays WEMI
   relationships in a separate section from structural relationships
