@@ -156,8 +156,9 @@ def find_existing_citekeys(content_dir):
 def make_work_card(citekey, fields):
     """Generate an org-mode work card from bib fields."""
     title = fields.get('title', citekey)
-    # Clean braces from title
+    # Clean braces and collapse whitespace from title
     title = re.sub(r'[{}]', '', title)
+    title = re.sub(r'\s+', ' ', title).strip()
     author = fields.get('author', '')
     year = fields.get('year', fields.get('date', ''))
     if re.match(r'(\d{4})', year):
