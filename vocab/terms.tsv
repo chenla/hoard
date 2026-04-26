@@ -14,6 +14,7 @@ v:tt	TT	Top term in thesaurus hierarchy
 v:pt	PT	Preferred term (self-reference, display label)
 v:type	TYPE	Entity type classification
 v:title	TITLE	Display title of the entity
+v:author	AUTHOR	Author or creator of a work
 v:s-wo	strata:isWholeOf	Strata: entity is a Whole
 v:s-eo	strata:isExpressionOf	Strata: is an Expression of a Whole
 v:s-mo	strata:isManifestationOf	Strata: is a Manifestation of an Expression

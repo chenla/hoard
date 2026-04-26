@@ -76,6 +76,7 @@ class OrgRecord:
     uuid: str | None = None
     entity_type: str | None = None  # vocab term ID (e.g. wh:con)
     title: str | None = None
+    author: str | None = None
     created: str | None = None
     geo: str | None = None
     filetags: list[str] = field(default_factory=list)
@@ -148,6 +149,8 @@ def parse_org_file(filepath: str) -> OrgRecord:
                     record.created = val
                 elif key == "GEO":
                     record.geo = val
+                elif key == "AUTHOR":
+                    record.author = val
                 elif key == "ROAM_ALIASES":
                     record.aliases = ROAM_ALIAS_RE.findall(val)
 

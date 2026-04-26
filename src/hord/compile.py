@@ -112,6 +112,15 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
+        # Author quad
+        if record.author:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:author",
+                object=record.author,
+                context=context,
+            ))
+
         # Relation quads
         for rel in record.relations:
             predicate = REL_TO_PREDICATE.get(rel.rel_type)
