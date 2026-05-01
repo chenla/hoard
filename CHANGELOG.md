@@ -6,17 +6,28 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-### Fixed
-- Vocabulary files (terms.tsv, relations.tsv) now ship as package data inside
-  the `hord` package; `hord init` works correctly from pipx/pip installs, not
-  just development checkouts
-
 ### Added
+- **Overlay support**: quads now route to `.hord/overlays/strata/quads/` and
+  `.hord/overlays/structural/quads/` based on predicate namespace; views
+  compose across overlays at query time — no merge needed; backwards
+  compatible with legacy `.hord/quads/` layout
+- **`hord capture`** command and MCP `capture` tool: zero-friction quick
+  capture of thoughts, notes, observations; creates `wh:cap` card in
+  `capture/` and compiles to quads immediately; supports tags (`-t`),
+  source context (`-s`), stdin piping (`--stdin`), custom title
+- **Formal tagging system**: `v:tag` predicate emitted from `:TAGS:` property
+  (org) or `tags:` frontmatter (md); tags are free-form by default, formalized
+  by creating `wh:tag` cards (suffix `--15`) with Notes and Processing sections
+- **`hord tags`** command: list tag usage across the hord with counts;
+  audit which tags have `wh:tag` definitions; `--undefined` filter
+- **Format config**: `hord init --format md|org` sets default card format
+  in `config.toml`; `hord new` and MCP `new_card` read the config;
+  `--format` flag overrides for one-offs
+- Four implementor-facing specs in `docs/` (markdown + org-mode):
+  quad format, directory conventions and card types, vocabulary system,
+  MCP tool contract
 - `wh:cap` capture card type (suffix `--14`): quick notes, observations, fleeting
-  thoughts; defaults to `capture/` directory (separate from reference cards in
-  `content/`); includes `SOURCE` property for context reconstruction (reading,
-  conversation, observation, etc.); supported in CLI (`hord new -t cap -s reading`),
-  MCP (`new_card` with `source` parameter), and Emacs (`C-c w c`)
+  thoughts; defaults to `capture/` directory; includes `SOURCE` property
 - Strata overlay: compiler recognizes WO, EO, MO, IO relations in card files,
   emits `v:s-wo`, `v:s-eo`, `v:s-mo`, `v:s-io` quads; query displays WEMI
   relationships in a separate section from structural relationships
@@ -32,6 +43,14 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   one page per entity with clickable links, Strata section, incoming links,
   notes; index page grouped by entity type; self-contained (inline CSS, no
   external dependencies)
+- MCP server now exposes 10 tools (added `capture`, `new_card`)
+- README: pipx install instructions, cloud brain comparison table,
+  MCP server setup, capture examples
+
+### Fixed
+- Vocabulary files (terms.tsv, relations.tsv) now ship as package data inside
+  the `hord` package; `hord init` works correctly from pipx/pip installs, not
+  just development checkouts
 
 ## [0.1.0] - 2026-04-10
 
