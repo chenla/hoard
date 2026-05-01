@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 
 import click
 
-from hord.git_utils import find_hord_root
+from hord.git_utils import find_hord_root, read_config
 
 
 # Entity type shortcuts — accept short names or full vocab IDs
@@ -141,7 +141,7 @@ def scaffold_md(card_uuid: str, title: str, entity_type: str,
 @click.option("--type", "-t", "entity_type", default="con",
               help="Entity type: con, pat, key, wrk, per, cat, sys, pla, evt, obj, org (or wh:con etc.)")
 @click.option("--format", "-f", "fmt", type=click.Choice(["org", "md"]),
-              default="org", help="File format (default: org)")
+              default=None, help="File format (default: from config.toml)")
 @click.option("--dir", "-d", "content_dir", default="content",
               help="Content directory (default: content/)")
 @click.option("--source", "-s", default="",
@@ -167,6 +167,11 @@ def new_cmd(title, entity_type, fmt, content_dir, source, edit):
     if hord_root is None:
         click.echo("Error: not inside a hord. Run 'hord init' first.", err=True)
         raise SystemExit(1)
+
+    # Default format from config if not specified on command line
+    if fmt is None:
+        config = read_config(hord_root)
+        fmt = config.get("format", "org")
 
     # Resolve entity type
     etype = entity_type.lower()

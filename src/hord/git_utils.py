@@ -30,6 +30,22 @@ def find_hord_root(path: str = ".") -> str | None:
         path = parent
 
 
+def read_config(hord_root: str) -> dict:
+    """Read .hord/config.toml and return a flat dict of settings.
+    Handles basic TOML parsing (key = "value" pairs)."""
+    config = {}
+    config_path = os.path.join(hord_root, ".hord", "config.toml")
+    if not os.path.exists(config_path):
+        return config
+    import re
+    with open(config_path, "r") as f:
+        for line in f:
+            m = re.match(r'^(\w+)\s*=\s*"(.+)"', line.strip())
+            if m:
+                config[m.group(1)] = m.group(2)
+    return config
+
+
 def blob_hash(filepath: str) -> str:
     """Compute the git blob hash for a file without requiring
     it to be in a git repo. Uses git hash-object."""

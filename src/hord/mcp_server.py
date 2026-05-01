@@ -21,7 +21,7 @@ import sys
 from mcp.server.fastmcp import FastMCP
 
 # Import hord internals
-from hord.git_utils import find_hord_root, blob_hash
+from hord.git_utils import find_hord_root, blob_hash, read_config
 from hord.org_parser import parse_org_file, scan_directory as scan_org
 from hord.md_parser import parse_md_file, scan_directory as scan_md
 from hord.quad import (Quad, read_quads, write_quads, quad_path,
@@ -460,6 +460,11 @@ def new_card(title: str, entity_type: str = "con", fmt: str = "org",
     # Default capture cards to capture/ directory
     if resolved_type == "wh:cap" and content_dir == "content":
         content_dir = "capture"
+
+    # Default format from config if not specified
+    if not fmt:
+        config = read_config(hord_root)
+        fmt = config.get("format", "org")
 
     card_uuid = str(uuid_mod.uuid4())
     timestamp = make_timestamp()

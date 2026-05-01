@@ -11,7 +11,9 @@ from hord.vocab import default_vocab_path
 
 @click.command("init")
 @click.option("--name", default=None, help="Hord name (defaults to directory name)")
-def init_cmd(name):
+@click.option("--format", "-f", "fmt", type=click.Choice(["org", "md"]),
+              default="org", help="Default card format (org or md)")
+def init_cmd(name, fmt):
     """Initialize a new .hord/ overlay in the current git repository."""
     git_root = find_git_root(".")
     if git_root is None:
@@ -34,7 +36,7 @@ def init_cmd(name):
     # Write config.toml
     config_path = os.path.join(hord_dir, "config.toml")
     with open(config_path, "w") as f:
-        f.write(f'[hord]\nname = "{name}"\nversion = "0.1.0"\n\n')
+        f.write(f'[hord]\nname = "{name}"\nversion = "0.1.0"\nformat = "{fmt}"\n\n')
         f.write('[vocab]\nsource = "local"\n')
 
     # Write empty index.tsv
