@@ -141,6 +141,29 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
+        # Status, due, scheduled quads
+        if record.status:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:status",
+                object=record.status,
+                context=context,
+            ))
+        if record.due:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:due",
+                object=record.due,
+                context=context,
+            ))
+        if record.scheduled:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:scheduled",
+                object=record.scheduled,
+                context=context,
+            ))
+
         # Tag quads
         for tag in record.tags:
             quads.append(Quad(

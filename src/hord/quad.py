@@ -76,6 +76,7 @@ def quad_path(hord_root: str, uuid: str, overlay: str | None = None) -> str:
 STRATA_PREDICATES = {
     "v:type", "v:title", "v:author",
     "v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type",
+    "v:status", "v:due", "v:scheduled",
 }
 
 STRUCTURAL_PREDICATES = {

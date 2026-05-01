@@ -39,6 +39,8 @@ TYPE_SHORTCUTS = {
     "tag": "wh:tag",
     "persona": "wh:persona",
     "office": "wh:office",
+    "task": "wh:task",
+    "event": "wh:event",
 }
 
 # Map vocab IDs to filename suffixes
@@ -58,6 +60,8 @@ TYPE_SUFFIX = {
     "wh:tag": "15",
     "wh:persona": "16",
     "wh:office": "17",
+    "wh:task": "18",
+    "wh:event": "19",
 }
 
 
@@ -81,7 +85,8 @@ def make_timestamp() -> str:
 
 
 def scaffold_org(card_uuid: str, title: str, entity_type: str,
-                 timestamp: str, source: str = "") -> str:
+                 timestamp: str, source: str = "",
+                 due: str = "", scheduled: str = "") -> str:
     """Generate org-mode card content."""
     suffix = TYPE_SUFFIX.get(entity_type, "4")
     display_title = f"{title}\u2014{suffix}"
@@ -109,6 +114,38 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
             "",
             "",
             "** Processing",
+            "",
+            "",
+        ]
+    elif entity_type == "wh:task":
+        date_lines = []
+        if scheduled:
+            date_lines.append(f"   SCHEDULED: <{scheduled}>")
+        if due:
+            date_lines.append(f"   DEADLINE: <{due}>")
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* TODO {display_title}",
+            *props,
+            *date_lines,
+            "",
+            "** Notes",
+            "",
+            "",
+        ]
+    elif entity_type == "wh:event":
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "** Notes",
             "",
             "",
         ]
@@ -188,9 +225,13 @@ def scaffold_md(card_uuid: str, title: str, entity_type: str,
               help="Content directory (default: content/)")
 @click.option("--source", "-s", default="",
               help="Source context (e.g. reading, conversation, observation)")
+@click.option("--due", default="",
+              help="Due date for tasks (YYYY-MM-DD)")
+@click.option("--scheduled", default="",
+              help="Scheduled date for tasks (YYYY-MM-DD)")
 @click.option("--edit", "-e", is_flag=True,
               help="Open the new file in $EDITOR")
-def new_cmd(title, entity_type, fmt, content_dir, source, edit):
+def new_cmd(title, entity_type, fmt, content_dir, source, due, scheduled, edit):
     """Create a new card with a UUID and metadata scaffold.
 
     TITLE is the card's display name (e.g. "Kanban" or
@@ -253,7 +294,8 @@ def new_cmd(title, entity_type, fmt, content_dir, source, edit):
 
     # Generate content
     if fmt == "org":
-        content = scaffold_org(card_uuid, title, resolved_type, timestamp, source)
+        content = scaffold_org(card_uuid, title, resolved_type, timestamp, source,
+                               due=due, scheduled=scheduled)
     else:
         content = scaffold_md(card_uuid, title, resolved_type, timestamp, source)
 

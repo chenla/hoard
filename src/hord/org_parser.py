@@ -47,6 +47,8 @@ SUFFIX_TYPE_MAP = {
     "15": "wh:tag",
     "16": "wh:persona",
     "17": "wh:office",
+    "18": "wh:task",
+    "19": "wh:event",
 }
 
 # Regex for org property drawer entries (case-insensitive keys)
@@ -86,6 +88,9 @@ class OrgRecord:
     relations: list[Relation] = field(default_factory=list)
     aliases: list[str] = field(default_factory=list)
     tags: list[str] = field(default_factory=list)
+    status: str | None = None       # todo, done, waiting, cancelled
+    due: str | None = None           # ISO date YYYY-MM-DD
+    scheduled: str | None = None     # ISO date YYYY-MM-DD
     filepath: str | None = None
 
     @property
@@ -160,6 +165,12 @@ def parse_org_file(filepath: str) -> OrgRecord:
                 elif key == "TAGS":
                     record.tags = [t.strip() for t in val.split()
                                    if t.strip()]
+                elif key == "STATUS":
+                    record.status = val.lower()
+                elif key == "DUE":
+                    record.due = val
+                elif key == "SCHEDULED":
+                    record.scheduled = val
 
     # If no TYPE in properties, try to infer from filename
     if not record.entity_type:
@@ -172,6 +183,24 @@ def parse_org_file(filepath: str) -> OrgRecord:
             if tag_lower in OLD_TYPE_MAP:
                 record.entity_type = OLD_TYPE_MAP[tag_lower]
                 break
+
+    # Detect TODO/DONE on H1 heading and SCHEDULED/DEADLINE directives
+    for line in lines:
+        # H1 with TODO keyword: * TODO Title or * DONE Title
+        if re.match(r"^\*\s+(TODO|DONE|WAITING|CANCELLED)\s+", line):
+            m = re.match(r"^\*\s+(TODO|DONE|WAITING|CANCELLED)\s+", line)
+            if m and not record.status:
+                record.status = m.group(1).lower()
+        # SCHEDULED: <2026-05-01 Thu>
+        if "SCHEDULED:" in line and not record.scheduled:
+            m = re.search(r"SCHEDULED:\s*<(\d{4}-\d{2}-\d{2})", line)
+            if m:
+                record.scheduled = m.group(1)
+        # DEADLINE: <2026-05-01 Thu>
+        if "DEADLINE:" in line and not record.due:
+            m = re.search(r"DEADLINE:\s*<(\d{4}-\d{2}-\d{2})", line)
+            if m:
+                record.due = m.group(1)
 
     # Extract relations — scan entire file for relation lines
     for line in lines:

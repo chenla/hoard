@@ -39,3 +39,8 @@ v:p-note	PERSONA NOTE	Role-specific annotation on a card
 v:p-priority	PRIORITY	Importance of card in this role (high, medium, low)
 wh:persona	Persona	A role definition: scope, context, and what it sees
 wh:office	Office	A transferable title: persists beyond any one holder
+wh:task	Task	An actionable item with status and optional due date
+wh:event	Event Entry	A calendar event with date/time
+v:status	STATUS	Task status (todo, done, waiting, cancelled)
+v:due	DUE	Due date (ISO 8601: YYYY-MM-DD)
+v:scheduled	SCHEDULED	Scheduled date (ISO 8601: YYYY-MM-DD)

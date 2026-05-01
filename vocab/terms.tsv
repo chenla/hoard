@@ -35,6 +35,11 @@ wh:cap	Capture	Word-hord: capture card (quick notes, observations, fleeting thou
 wh:tag	Tag	Word-hord: tag definition with usage and processing instructions
 wh:persona	Persona	A role definition: scope, context, and what it sees
 wh:office	Office	A transferable title: persists beyond any one holder
+wh:task	Task	An actionable item with status and optional due date
+wh:event	Event Entry	A calendar event with date/time
+v:status	STATUS	Task status (todo, done, waiting, cancelled)
+v:due	DUE	Due date (ISO 8601: YYYY-MM-DD)
+v:scheduled	SCHEDULED	Scheduled date (ISO 8601: YYYY-MM-DD)
 v:tag	TAG	Tag applied to an entity (object is tag term ID or label)
 v:p-relevant	RELEVANT	Card is relevant to this persona/role
 v:p-note	PERSONA NOTE	Role-specific annotation on a card
