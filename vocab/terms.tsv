@@ -33,4 +33,9 @@ wh:obj	Object	Word-hord: object record
 wh:org	Organization	Word-hord: organization record
 wh:cap	Capture	Word-hord: capture card (quick notes, observations, fleeting thoughts)
 wh:tag	Tag	Word-hord: tag definition with usage and processing instructions
+wh:persona	Persona	A role definition: scope, context, and what it sees
+wh:office	Office	A transferable title: persists beyond any one holder
 v:tag	TAG	Tag applied to an entity (object is tag term ID or label)
+v:p-relevant	RELEVANT	Card is relevant to this persona/role
+v:p-note	PERSONA NOTE	Role-specific annotation on a card
+v:p-priority	PRIORITY	Importance of card in this role (high, medium, low)

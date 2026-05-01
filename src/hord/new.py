@@ -37,6 +37,8 @@ TYPE_SHORTCUTS = {
     "cap": "wh:cap",
     "capture": "wh:cap",
     "tag": "wh:tag",
+    "persona": "wh:persona",
+    "office": "wh:office",
 }
 
 # Map vocab IDs to filename suffixes
@@ -54,6 +56,8 @@ TYPE_SUFFIX = {
     "wh:org": "13",
     "wh:cap": "14",
     "wh:tag": "15",
+    "wh:persona": "16",
+    "wh:office": "17",
 }
 
 
@@ -105,6 +109,25 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
             "",
             "",
             "** Processing",
+            "",
+            "",
+        ]
+    elif entity_type in ("wh:persona", "wh:office"):
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "** Scope",
+            "",
+            "",
+            "** Context",
+            "",
+            "",
+            "** Notes",
             "",
             "",
         ]

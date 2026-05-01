@@ -85,12 +85,18 @@ STRUCTURAL_PREDICATES = {
 }
 
 
-def overlay_for_predicate(predicate: str) -> str:
-    """Return the overlay name for a given predicate."""
+def overlay_for_predicate(predicate: str, persona: str | None = None) -> str:
+    """Return the overlay name for a given predicate.
+    If persona is given and predicate is a persona predicate (v:p-*),
+    routes to that persona's overlay."""
     if predicate in STRATA_PREDICATES:
         return "strata"
     if predicate in STRUCTURAL_PREDICATES:
         return "structural"
+    if predicate.startswith("v:p-"):
+        if persona:
+            return f"persona-{persona}"
+        return "structural"  # fallback if no persona context
     # Default: structural for unknown predicates
     return "structural"
 
