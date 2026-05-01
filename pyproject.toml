@@ -22,3 +22,6 @@ hord = "hord.cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+hord = ["terms.tsv", "relations.tsv"]

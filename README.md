@@ -22,16 +22,24 @@ Systems like Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf55591
 
 For the full story — the problem, the library science background, and why the design works the way it does — read **[Why Hoard](docs/WHY-HOARD.md)**.
 
+## Install
+
+```bash
+# Option 1: pipx (recommended — installs in isolated venv)
+pipx install hoard-git
+
+# Option 2: pip in a venv
+python3 -m venv .venv && source .venv/bin/activate
+pip install hoard-git
+```
+
+Don't have pipx? `sudo apt install pipx` (Debian/Ubuntu) or `pip install pipx`.
+
 ## Quick start
 
 ```bash
 git clone https://github.com/chenla/hoard
-cd hoard
-python3 -m venv .venv && source .venv/bin/activate
-pip install -e .
-
-# Explore the demo
-cd examples/tps-hord
+cd hoard/examples/tps-hord
 hord query Toyota_Production_System--4
 ```
 
@@ -178,6 +186,8 @@ The context column in every quad is the git blob hash of the source file at the 
 | `hord query <term>` | Look up entity, show quads + incoming links |
 | `hord status` | Show entities with stale metadata |
 | `hord convert <path> --to md\|org` | Convert between org-mode and markdown |
+| `hord new -t <type>` | Create a new card with UUID, timestamp, type scaffold |
+| `hord export <path>` | Generate browsable static HTML site from a hord |
 
 ## The demo dataset
 
@@ -202,12 +212,37 @@ Hoard is built on three principles from library science and knowledge engineerin
 
 ## Status
 
-This is v0.1 — a proof of concept. Currently supports:
+Dogfooding — used daily for real knowledge work. Preparing for alpha release.
 
 - Org-mode and markdown content files (both produce identical quads)
 - Format conversion between org and markdown (`hord convert`)
-- Single-branch metadata (overlay branches coming in v0.2)
-- Local vocabulary (cross-hord vocabulary sharing coming in v0.3)
+- Card creation with type scaffolding (`hord new`)
+- Static HTML export (`hord export`)
+- MCP server for AI agent integration (7 tools)
+- Emacs reader ([hord.el](https://github.com/chenla/hord.el)) with card view, live filter, RT suggestions
+- Single-branch metadata (overlay branches deferred — predicates already self-identify)
+
+## MCP server (AI agent integration)
+
+Hoard includes an MCP server so Claude (or any MCP-compatible agent) can query, create, and compile cards directly.
+
+If you installed with pipx:
+
+```json
+{
+  "mcpServers": {
+    "hoard": {
+      "command": "~/.local/pipx/venvs/hoard-git/bin/python",
+      "args": ["-m", "hord.mcp_server"],
+      "env": {
+        "HORD_ROOT": "/path/to/your/hord"
+      }
+    }
+  }
+}
+```
+
+Add this to `~/.claude/settings.json` (Claude Code) or your MCP client config. The server exposes 8 tools: `query`, `search`, `list_entities`, `status`, `compile`, `vocab_lookup`, `read_content`, and `new_card`.
 
 ## License
 

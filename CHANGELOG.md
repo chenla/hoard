@@ -6,6 +6,11 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+- Vocabulary files (terms.tsv, relations.tsv) now ship as package data inside
+  the `hord` package; `hord init` works correctly from pipx/pip installs, not
+  just development checkouts
+
 ### Added
 - `wh:cap` capture card type (suffix `--14`): quick notes, observations, fleeting
   thoughts; defaults to `capture/` directory (separate from reference cards in
@@ -21,6 +26,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `new_card` MCP tool: AI agents can create cards directly
 - Three example Strata cards in TPS hord: book as Whole, Japanese original
   and English translation as Expressions
+- `v:author` predicate: extract and compile author metadata from card files
+- `bib-import.py` script: generate work cards from cited BibTeX entries
 - `hord export` command: generates a browsable static HTML site from a hord;
   one page per entity with clickable links, Strata section, incoming links,
   notes; index page grouped by entity type; self-contained (inline CSS, no

@@ -64,7 +64,6 @@ def find_vocab(hord_root: str) -> str | None:
 def default_vocab_path() -> str:
     """Return the path to the default vocabulary shipped with the package."""
     return os.path.join(
-        os.path.dirname(os.path.dirname(os.path.dirname(
-            os.path.abspath(__file__)))),
-        "vocab", "terms.tsv"
+        os.path.dirname(os.path.abspath(__file__)),
+        "terms.tsv"
     )

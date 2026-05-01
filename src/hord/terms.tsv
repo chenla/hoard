@@ -1,0 +1,34 @@
+id	label	scope_note
+v:bt	BT	Broader term (ANSI/NISO Z39.19)
+v:btg	BTG	Broader term (generic, is-a-kind-of)
+v:bti	BTI	Broader term (instance, is-an-instance-of)
+v:btp	BTP	Broader term (partitive, is-part-of)
+v:nt	NT	Narrower term
+v:ntg	NTG	Narrower term (generic)
+v:nti	NTI	Narrower term (instance)
+v:ntp	NTP	Narrower term (partitive)
+v:rt	RT	Related term
+v:uf	UF	Used for (non-preferred term)
+v:use	USE	Preferred term (inverse of UF)
+v:tt	TT	Top term in thesaurus hierarchy
+v:pt	PT	Preferred term (self-reference, display label)
+v:type	TYPE	Entity type classification
+v:title	TITLE	Display title of the entity
+v:author	AUTHOR	Author or creator of a work
+v:s-wo	strata:isWholeOf	Strata: entity is a Whole
+v:s-eo	strata:isExpressionOf	Strata: is an Expression of a Whole
+v:s-mo	strata:isManifestationOf	Strata: is a Manifestation of an Expression
+v:s-io	strata:isInstanceOf	Strata: is an Instance of a Manifestation
+v:s-type	strata:entityType	Strata: entity type classification
+wh:con	Concept	Word-hord: concept record
+wh:pat	Pattern	Word-hord: proto-pattern record
+wh:key	Keystone	Word-hord: keystone/expression record
+wh:wrk	Work	Word-hord: bibliographic work record
+wh:per	Person	Word-hord: person/named entity record
+wh:cat	Category	Word-hord: category/top term record
+wh:sys	System	Word-hord: system/meta record
+wh:pla	Place	Word-hord: place record
+wh:evt	Event	Word-hord: event record
+wh:obj	Object	Word-hord: object record
+wh:org	Organization	Word-hord: organization record
+wh:cap	Capture	Word-hord: capture card (quick notes, observations, fleeting thoughts)
