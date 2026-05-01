@@ -1,0 +1,467 @@
+#+TITLE: Hoard Quad Format Specification
+#+STARTUP: showall
+
+* Hoard Quad Format Specification
+
+Version: 0.1 (2026-05-01)
+
+Status: Working Draft
+
+** 1. Overview
+
+A Hoard quad is a single assertion about an entity: who the subject is,
+what property is being asserted, what value that property has, and where
+the assertion came from. Every piece of metadata in a hord -- types,
+titles, thesaurus relationships, bibliographic links, aliases -- is
+stored as one or more quads.
+
+Quads are the compiled output of =hord compile=. Source files (org-mode,
+markdown) are the authoritative content; quads are the derived metadata
+layer that makes the content queryable and machine-readable without
+parsing prose.
+
+The format is deliberately simple: tab-separated values in plain-text
+files, one quad per line. This is not an accident. TSV was chosen because
+it can be searched with grep, diffed with git, concatenated with cat, and
+read by a human without any tooling at all.
+
+
+** 2. Quad Structure
+
+Each quad has exactly four fields:
+
+    subject     predicate     object     context
+
+Separated by horizontal tab characters (U+0009). No quoting, no
+escaping. One quad per line, terminated by a newline (U+000A).
+
+*** 2.1. Fields
+
+*subject* -- The UUID of the entity this quad describes. Always a
+UUID, never a human-readable name or path.
+
+*predicate* -- A vocabulary term ID declaring what relationship or
+property is being asserted. Always in the =v:= namespace (e.g.,
+=v:type=, =v:title=, =v:bt=). Never a raw string like "broader than"
+or an IRI.
+
+*object* -- The value of the assertion. Either:
+- A UUID, when referring to another entity (e.g., a broader term link)
+- A literal string, when the value is data (e.g., a title, an alias, a
+  type code)
+
+*context* -- The git blob hash of the source file at the time the
+quad was generated. This is the provenance anchor; see Section 8.
+
+*** 2.2. Example
+
+This is the complete quad file for the "Toyota Production System"
+concept entity:
+
+#+begin_src
+subject	predicate	object	context
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:type	wh:con	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:title	Toyota Production System--4	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:tt	852a6e49-4b9c-429e-b612-6c505ab78827	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:bt	9916ba93-6978-4406-b96f-1d1a476c1931	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:nt	d4e5f6a7-1001-4000-8000-000000000011	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:nt	d4e5f6a7-1002-4000-8000-000000000012	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:rt	d4e5f6a7-1006-4000-8000-000000000016	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:uf	TPS	63539e96dfb9b23b5551303a6186196fe19485d0
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:pt	Toyota Production System--4	63539e96dfb9b23b5551303a6186196fe19485d0
+#+end_src
+
+Reading this file top to bottom, it tells you: the entity is a concept
+(=wh:con=), its title is "Toyota Production System--4", its top term
+is the Concept category, its broader term is Lean Manufacturing, it
+has narrower terms (Kanban, Jidoka, etc.), related terms (Andon,
+Poka-yoke, etc.), the alias "TPS", and a preferred display label. All
+of these assertions were derived from the source file with git blob
+hash =63539e...=.
+
+
+** 3. Encoding
+
+*** 3.1. File Format
+
+- *Character encoding*: UTF-8. No BOM.
+- *Field separator*: Horizontal tab (U+0009).
+- *Line terminator*: Newline (U+000A). No carriage returns.
+- *Header row*: The first non-comment, non-empty line of every quad
+  file MUST be: =subject\tpredicate\tobject\tcontext=
+- *Comments*: Lines starting with =#= are ignored by the reader.
+- *Empty lines*: Ignored by the reader.
+- *File extension*: =.tsv=
+
+*** 3.2. Field Constraints
+
+Field values MUST NOT contain tab characters or newline characters.
+There is no quoting or escaping mechanism. If a value would require
+tabs or newlines, the source data must be transformed before being
+stored as a quad (in practice this does not arise, because titles and
+aliases are single-line strings and structured data lives in the source
+files).
+
+*** 3.3. Unicode
+
+Object values MAY contain any valid UTF-8 string, including non-ASCII
+characters. For example, the alias for Taiichi Ohno includes his name
+in kanji:
+
+#+begin_src
+e5f6a7b8-2001-4000-8000-000000000021	v:uf	大野耐一	fea5cea5cd974f00e9757bba4842c0e946bc4de2
+#+end_src
+
+
+** 4. Storage Layout
+
+*** 4.1. Directory Structure
+
+Quad files are stored under =.hord/quads/=, sharded into subdirectories
+by the first four characters of the entity's UUID:
+
+#+begin_src
+.hord/
+  quads/
+    c348/
+      c348132e-7cdf-438d-9a1f-69d75f382bee.tsv
+    d4e5/
+      d4e5f6a7-1001-4000-8000-000000000011.tsv
+      d4e5f6a7-1002-4000-8000-000000000012.tsv
+      d4e5f6a7-1003-4000-8000-000000000013.tsv
+      ...
+    e5f6/
+      e5f6a7b8-2001-4000-8000-000000000021.tsv
+      e5f6a7b8-2002-4000-8000-000000000022.tsv
+      ...
+#+end_src
+
+*** 4.2. Naming Convention
+
+- Shard directory: first 4 hex characters of the UUID (e.g., =c348=)
+- Filename: the full UUID with =.tsv= extension (e.g.,
+  =c348132e-7cdf-438d-9a1f-69d75f382bee.tsv=)
+
+*** 4.3. One File Per Entity
+
+Each entity gets exactly one quad file. All quads for that entity are
+written to a single file. The subject field is the same on every line
+of the file (it is the entity's UUID). This is redundant by design:
+it means every line is a complete, self-contained assertion that can be
+extracted with grep and still make sense.
+
+*** 4.4. Why Shard?
+
+Without sharding, a hord with 10,000 entities would put 10,000 files
+in a single directory. Most filesystems handle this poorly (slow
+listing, inode pressure). The 4-character hex prefix creates up to
+65,536 buckets, distributing files evenly across directories. Four
+characters is enough sharding depth for millions of entities while
+keeping paths short.
+
+
+** 5. Subject
+
+The subject is always a UUID (RFC 4122 format:
+=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx=, lowercase hex with hyphens).
+
+The subject identifies the entity the quad describes. Every quad in a
+given quad file shares the same subject -- the entity that file
+represents.
+
+The subject is never a path, a title, or any other human-readable
+identifier. UUIDs are assigned at entity creation time (via org-id or
+=hord new=) and remain stable for the lifetime of the entity,
+regardless of renames, moves, or title changes.
+
+*** 5.1. Why UUIDs
+
+Titles change. Files move. Paths are relative to a working directory.
+UUIDs are the only identifier that survives all of these
+transformations. A quad written today that says "entity X has broader
+term Y" will still be valid after both X and Y have been renamed,
+moved to different directories, or had their titles rewritten.
+
+
+** 6. Predicate
+
+The predicate is always a vocabulary term ID from the =v:= namespace.
+The vocabulary is defined in =.hord/vocab/terms.tsv= and ships with a
+default set of terms.
+
+*** 6.1. Core Predicates
+
+| Term ID  | Label  | Meaning                                                     |
+|----------+--------+-------------------------------------------------------------|
+| =v:type= | TYPE   | Entity type classification (object is a =wh:= type code)   |
+| =v:title= | TITLE | Display title of the entity                                 |
+| =v:author= | AUTHOR | Author name                                               |
+| =v:pt=   | PT     | Preferred term (display label, often same as title)         |
+| =v:tt=   | TT     | Top term in the thesaurus hierarchy                         |
+| =v:bt=   | BT     | Broader term                                                |
+| =v:btg=  | BTG    | Broader term (generic -- "is a kind of")                    |
+| =v:bti=  | BTI    | Broader term (instance -- "is an instance of")              |
+| =v:btp=  | BTP    | Broader term (partitive -- "is part of")                    |
+| =v:nt=   | NT     | Narrower term                                               |
+| =v:ntg=  | NTG    | Narrower term (generic)                                     |
+| =v:nti=  | NTI    | Narrower term (instance)                                    |
+| =v:ntp=  | NTP    | Narrower term (partitive)                                   |
+| =v:rt=   | RT     | Related term                                                |
+| =v:uf=   | UF     | Used for (non-preferred alias)                              |
+| =v:use=  | USE    | Preferred term (inverse of UF)                              |
+
+The thesaurus predicates (BT/NT/RT/UF/USE/TT) follow ANSI/NISO Z39.19,
+the standard for controlled vocabularies and thesauri. This is not
+arbitrary: these relationships have well-defined semantics that
+librarians, information architects, and search systems understand.
+
+*** 6.2. Strata Predicates
+
+These predicates encode WEMI (Whole/Expression/Manifestation/Instance)
+relationships from the Strata entity model:
+
+| Term ID    | Label                      | Meaning                                                  |
+|------------+----------------------------+----------------------------------------------------------|
+| =v:s-wo=   | strata:isWholeOf           | This entity is a Whole (abstract work)                   |
+| =v:s-eo=   | strata:isExpressionOf      | This entity is an Expression of a Whole                  |
+| =v:s-mo=   | strata:isManifestationOf   | This entity is a Manifestation of an Expression          |
+| =v:s-io=   | strata:isInstanceOf        | This entity is an Instance of a Manifestation            |
+| =v:s-type= | strata:entityType          | Strata-level type classification                         |
+
+For example, this quad says that the English translation of the TPS
+book is a Whole-level entity linked to a parent work:
+
+#+begin_src
+f6a7b8c9-3005-4000-8000-000000000035	v:s-wo	f6a7b8c9-3003-4000-8000-000000000033	6e8d295334f9c625edb41cb99eeb256a52d95fc5
+#+end_src
+
+*** 6.3. Entity Type Codes
+
+The object of a =v:type= quad is a type code from the =wh:= namespace:
+
+| Code      | Label        | Description                   |
+|-----------+--------------+-------------------------------|
+| =wh:con=  | Concept      | A concept or topic            |
+| =wh:pat=  | Pattern      | A proto-pattern               |
+| =wh:key=  | Keystone     | A keystone or expression      |
+| =wh:wrk=  | Work         | A bibliographic work          |
+| =wh:per=  | Person       | A person or named entity      |
+| =wh:cat=  | Category     | A category or top term        |
+| =wh:sys=  | System       | A system or meta record       |
+| =wh:pla=  | Place        | A place                       |
+| =wh:evt=  | Event        | An event                      |
+| =wh:obj=  | Object       | An object                     |
+| =wh:org=  | Organization | An organization               |
+
+*** 6.4. Why Vocabulary Terms, Not Raw Strings
+
+If predicates were raw strings ("broader than", "is related to",
+"alias"), every consumer would have to agree on exact spelling and
+casing. Vocabulary term IDs are short, unambiguous, machine-comparable
+identifiers with human-readable labels defined once in =terms.tsv=.
+This is the same principle behind using HTTP status codes instead of
+prose error messages.
+
+
+** 7. Object
+
+The object field holds the value of the assertion. It is always one of
+two types:
+
+*** 7.1. UUID Reference
+
+When the object is a UUID (36 characters, 4 hyphens), it is a reference
+to another entity. The quad is asserting a relationship between two
+entities.
+
+#+begin_src
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:bt	9916ba93-6978-4406-b96f-1d1a476c1931	63539e...
+#+end_src
+
+This says: Toyota Production System (subject) has a broader term
+(predicate) of Lean Manufacturing (object, resolved by looking up that
+UUID's title quad).
+
+*** 7.2. Literal String
+
+When the object is not a UUID, it is a literal string value.
+
+#+begin_src
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:title	Toyota Production System--4	63539e...
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:type	wh:con	63539e...
+c348132e-7cdf-438d-9a1f-69d75f382bee	v:uf	TPS	63539e...
+#+end_src
+
+Titles, type codes, and aliases are all literal string objects.
+
+*** 7.3. Disambiguation
+
+The reader distinguishes UUID references from literals by format: a
+string matching the pattern =xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx=
+(36 characters, hyphens at positions 8, 13, 18, 23) is treated as a
+UUID reference. Everything else is a literal.
+
+There is no explicit type annotation on the object field. This is a
+deliberate simplicity tradeoff: in practice, the predicate determines
+whether a UUID or literal is expected, and the format check is
+sufficient.
+
+
+** 8. Context -- Provenance
+
+The context field is the git blob hash (SHA-1) of the source file at
+the time the quad was generated. It is computed using =git hash-object=,
+which produces the same hash git itself would assign to the file content.
+
+*** 8.1. The Provenance Contract
+
+Every quad carries a record of where it came from. If you have a quad
+and its context hash, you can:
+
+1. Verify whether the source file has changed since the quad was
+   generated (compare the stored hash against =git hash-object <file>=)
+2. Retrieve the exact source content from git history
+   (=git cat-file -p <hash>=)
+3. Determine whether quads are stale and need recompilation
+
+*** 8.2. Why Git Blob Hashes
+
+Git blob hashes are content-addressed: the same file content always
+produces the same hash, regardless of filename, path, or timestamp.
+This means:
+
+- Renaming a file does not invalidate its quads
+- Moving a file does not invalidate its quads
+- Only actual content changes produce a new hash
+- The hash works whether or not the file is in a git repo (git
+  hash-object operates on raw file content)
+
+*** 8.3. Fallback
+
+If the blob hash cannot be computed (e.g., git is not installed), the
+context is set to the string =unknown=. This preserves the quad format
+but signals that provenance is unavailable.
+
+
+** 9. Index Format
+
+The file =.hord/index.tsv= maps source file paths to entity UUIDs. It
+is generated by =hord compile= alongside the quad files.
+
+*** 9.1. Format
+
+Tab-separated, two columns, with a header row:
+
+#+begin_src
+path	uuid
+content/Kaizen--4.org	d4e5f6a7-1004-4000-8000-000000000014
+content/Kanban--4.org	d4e5f6a7-1001-4000-8000-000000000011
+content/Lean_Manufacturing--4.org	9916ba93-6978-4406-b96f-1d1a476c1931
+content/Toyota_Production_System--4.org	c348132e-7cdf-438d-9a1f-69d75f382bee
+#+end_src
+
+*** 9.2. Path Convention
+
+Paths are relative to the hord root (the directory containing =.hord/=).
+They use forward slashes regardless of the host OS.
+
+*** 9.3. Purpose
+
+The index supports lookup by path or filename. Given a file path, you
+can find its UUID; given a UUID, you can find the quad file (via the
+sharding convention in Section 4). The query system also indexes by
+filename stem (e.g., =Kaizen--4= resolves to its UUID), and supports
+partial UUID matching (minimum 4 characters).
+
+*** 9.4. Rebuild
+
+The index is fully derived from source files and can be regenerated at
+any time by running =hord compile=. It should be committed to git
+alongside the quad files for convenience, but it is never the source
+of truth.
+
+
+** 10. Design Rationale
+
+*** 10.1. Why TSV
+
+*Grep-friendly.* You can find every entity of type =wh:per= in the
+entire hord with one command:
+
+#+begin_src sh
+grep 'v:type\twh:per' .hord/quads/*/*.tsv
+#+end_src
+
+You can find every entity that references Taiichi Ohno:
+
+#+begin_src sh
+grep 'e5f6a7b8-2001-4000-8000-000000000021' .hord/quads/*/*.tsv
+#+end_src
+
+No query language, no database client, no deserialization. The data is
+immediately accessible to any Unix tool.
+
+*Git-diffable.* When a quad changes, git shows exactly which line
+changed. Adding a new relationship adds one line. Removing one removes
+one line. The diff is meaningful to a human reader without any tooling.
+
+*Appendable.* Adding quads to an existing file is a file append, not
+a parse-modify-serialize cycle. This matters for incremental compilation.
+
+*No dependencies.* TSV requires no parser library, no schema
+validator, no runtime. Any language that can split a string on tabs can
+read quads.
+
+*** 10.2. Why Not RDF
+
+RDF (N-Triples, Turtle, etc.) is the obvious comparison. Hoard quads
+are intentionally not RDF, for several reasons:
+
+- *IRIs are heavyweight.* RDF requires IRIs for subjects and
+  predicates. Hoard uses UUIDs and short vocabulary term IDs. The
+  difference in line length and readability is substantial.
+- *Serialization complexity.* RDF has multiple serialization formats
+  (N-Triples, Turtle, JSON-LD, RDF/XML), each with their own escaping
+  rules, namespace declarations, and parser requirements. Hoard has one
+  format: tabs.
+- *Tooling tax.* Working with RDF effectively requires a triplestore
+  or SPARQL endpoint. Hoard quads work with grep.
+- *Semantic Web baggage.* RDF carries ontological commitments
+  (owl:Class, rdfs:subClassOf, etc.) that are not needed here. Hoard's
+  vocabulary is a controlled thesaurus, not a formal ontology.
+
+That said, the quad structure is close enough to RDF N-Quads that
+mechanical translation is straightforward if interoperability is needed.
+
+*** 10.3. Why Not JSON-LD
+
+JSON-LD optimizes for web APIs and linked data consumers. Hoard
+optimizes for local-first tooling, shell scripts, and git workflows.
+JSON is not line-oriented (you cannot grep a JSON file for one assertion
+and get a meaningful result), and JSON-LD's =@context= mechanism adds
+complexity without benefit in a system where the vocabulary is a single
+local file.
+
+*** 10.4. Why Not SQLite
+
+SQLite is excellent software, but it is a binary format. You cannot
+diff it meaningfully in git, you cannot grep it, and you cannot read it
+in a text editor. For a system that lives in git repositories and is
+designed to be inspected by humans, a text format is non-negotiable.
+
+SQLite (or any other database) is the right choice for /projections/ of
+quad data -- indices, caches, search databases. But the canonical
+storage must be text that git can track.
+
+*** 10.5. Why a Fourth Field (Context)
+
+Standard RDF triples have three fields. The fourth field (context,
+sometimes called "graph" in RDF) earns its place because provenance is
+not optional in Hoard. Every assertion must be traceable to a source.
+Without the context field, you would need a separate provenance tracking
+system, or you would lose the ability to answer "where did this fact
+come from?" and "is this fact still current?"
+
+The context field makes each quad self-documenting. You never have to
+wonder which compile pass generated a quad or whether the source has
+changed since -- the answer is in the quad itself.
