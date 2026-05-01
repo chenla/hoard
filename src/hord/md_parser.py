@@ -145,12 +145,14 @@ def parse_md_file(filepath: str) -> OrgRecord:
     if not record.entity_type:
         record.entity_type = type_from_filename(filepath)
 
-    # Tags/filetags
+    # Tags
     tags = meta.get("tags")
     if isinstance(tags, list):
-        record.filetags = tags
+        record.tags = tags
+        record.filetags = tags  # backwards compat for type inference
     elif isinstance(tags, str):
-        record.filetags = [t.strip() for t in tags.split(",")]
+        record.tags = [t.strip() for t in tags.split(",")]
+        record.filetags = record.tags
 
     # Relations
     relations = meta.get("relations")

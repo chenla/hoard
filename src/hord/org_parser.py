@@ -44,6 +44,7 @@ SUFFIX_TYPE_MAP = {
     "11": "wh:evt",
     "12": "wh:obj",
     "13": "wh:org",
+    "15": "wh:tag",
 }
 
 # Regex for org property drawer entries (case-insensitive keys)
@@ -82,6 +83,7 @@ class OrgRecord:
     filetags: list[str] = field(default_factory=list)
     relations: list[Relation] = field(default_factory=list)
     aliases: list[str] = field(default_factory=list)
+    tags: list[str] = field(default_factory=list)
     filepath: str | None = None
 
     @property
@@ -153,6 +155,9 @@ def parse_org_file(filepath: str) -> OrgRecord:
                     record.author = val
                 elif key == "ROAM_ALIASES":
                     record.aliases = ROAM_ALIAS_RE.findall(val)
+                elif key == "TAGS":
+                    record.tags = [t.strip() for t in val.split()
+                                   if t.strip()]
 
     # If no TYPE in properties, try to infer from filename
     if not record.entity_type:

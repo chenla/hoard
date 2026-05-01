@@ -36,6 +36,7 @@ TYPE_SHORTCUTS = {
     "organization": "wh:org",
     "cap": "wh:cap",
     "capture": "wh:cap",
+    "tag": "wh:tag",
 }
 
 # Map vocab IDs to filename suffixes
@@ -52,6 +53,7 @@ TYPE_SUFFIX = {
     "wh:obj": "12",
     "wh:org": "13",
     "wh:cap": "14",
+    "wh:tag": "15",
 }
 
 
@@ -90,21 +92,38 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
         props.append(f"  :SOURCE:    {source}")
     props.append("  :END:")
 
-    lines = [
-        "#   -*- mode: org; fill-column: 60 -*-",
-        "#+STARTUP: showall",
-        f"#+TITLE:   {display_title}",
-        "",
-        f"* {display_title}",
-        *props,
-        "",
-        "** Relations",
-        f"   - PT :: {display_title}",
-        "",
-        "** Notes",
-        "",
-        "",
-    ]
+    if entity_type == "wh:tag":
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "** Notes",
+            "",
+            "",
+            "** Processing",
+            "",
+            "",
+        ]
+    else:
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "** Relations",
+            f"   - PT :: {display_title}",
+            "",
+            "** Notes",
+            "",
+            "",
+        ]
     return "\n".join(lines)
 
 

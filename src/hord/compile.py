@@ -141,6 +141,15 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
+        # Tag quads
+        for tag in record.tags:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:tag",
+                object=tag,
+                context=context,
+            ))
+
         # UF quads from ROAM_ALIASES
         for alias in record.aliases:
             quads.append(Quad(

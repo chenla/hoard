@@ -32,3 +32,5 @@ wh:evt	Event	Word-hord: event record
 wh:obj	Object	Word-hord: object record
 wh:org	Organization	Word-hord: organization record
 wh:cap	Capture	Word-hord: capture card (quick notes, observations, fleeting thoughts)
+wh:tag	Tag	Word-hord: tag definition with usage and processing instructions
+v:tag	TAG	Tag applied to an entity (object is tag term ID or label)

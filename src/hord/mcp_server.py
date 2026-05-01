@@ -318,6 +318,9 @@ def compile(path: str = ".") -> str:
             obj = rel.target_uuid if rel.target_uuid else rel.target_label
             quads.append(Quad(record.uuid, predicate, obj, context))
 
+        for tag in record.tags:
+            quads.append(Quad(record.uuid, "v:tag", tag, context))
+
         for alias in record.aliases:
             quads.append(Quad(record.uuid, "v:uf", alias, context))
 

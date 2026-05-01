@@ -81,7 +81,7 @@ STRATA_PREDICATES = {
 STRUCTURAL_PREDICATES = {
     "v:tt", "v:pt", "v:bt", "v:btg", "v:bti", "v:btp",
     "v:nt", "v:ntg", "v:nti", "v:ntp",
-    "v:rt", "v:uf", "v:use",
+    "v:rt", "v:uf", "v:use", "v:tag",
 }
 
 
