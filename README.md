@@ -20,6 +20,27 @@ Systems like Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf55591
 
 **The core idea:** Hoard separates *territory* (your files) from *map* (the metadata about them). The map is version-controlled, vocabulary-controlled, and agent-friendly. A flat wiki gives you one view; Hoard gives you as many views as you need.
 
+## Why not a cloud brain?
+
+Tools like Open Brain and similar AI-capture systems store thoughts in cloud databases with embeddings. Hoard captures the same way but keeps everything local and structured:
+
+| | Cloud Brain (e.g. Open Brain) | Hoard Capture |
+|---|---|---|
+| **Storage** | Cloud database (Supabase, etc.) | Git repo — local, yours |
+| **Format** | JSON rows in Postgres | Org-mode or Markdown files |
+| **Metadata** | Auto-extracted by AI | Tags + source, user-controlled |
+| **Queryable** | Semantic search (embeddings) | Quad store + `hord query` / `hord tags` |
+| **Structured** | Flat key-value | Typed cards with overlay separation (Strata, Structural) |
+| **Portable** | Locked to cloud instance | `git clone` and done |
+| **AI access** | MCP → cloud API | MCP → local files |
+
+```bash
+# Quick capture — same velocity, structured output
+hord capture "Kanban is a pull system" -t "tps lean"
+hord capture "Interesting paper on X" -s reading -t research
+echo "Long note..." | hord capture --stdin -t notes
+```
+
 For the full story — the problem, the library science background, and why the design works the way it does — read **[Why Hoard](docs/WHY-HOARD.md)**.
 
 ## Install
@@ -187,6 +208,8 @@ The context column in every quad is the git blob hash of the source file at the 
 | `hord status` | Show entities with stale metadata |
 | `hord convert <path> --to md\|org` | Convert between org-mode and markdown |
 | `hord new -t <type>` | Create a new card with UUID, timestamp, type scaffold |
+| `hord capture <text>` | Quick-capture a thought with tags and source context |
+| `hord tags` | List tag usage and audit which tags have definitions |
 | `hord export <path>` | Generate browsable static HTML site from a hord |
 
 ## The demo dataset
