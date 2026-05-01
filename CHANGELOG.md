@@ -43,9 +43,44 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   one page per entity with clickable links, Strata section, incoming links,
   notes; index page grouped by entity type; self-contained (inline CSS, no
   external dependencies)
-- MCP server now exposes 10 tools (added `capture`, `new_card`)
+- MCP server now exposes 9 tools (added `capture`, `new_card`)
 - README: pipx install instructions, cloud brain comparison table,
   MCP server setup, capture examples
+- **`hord import`** command: import notes from Obsidian, Logseq, org-roam,
+  Dendron, Notion, or plain markdown; auto-detects source format; two-pass
+  link resolution (wikilinks → UUID); `--dry-run` for preview
+- **`hord add`** command: add files (PDF, EPUB, etc.) to `lib/blob/` with
+  citekey-based naming (`author:yearslug.ext`); creates `wh:wrk` card with
+  `:CITEKEY:` and `:NOTER_DOCUMENT:` properties; `--context` generates LOD
+  summary file; detects existing cards by citekey; `--link` attaches blob
+  to existing card
+- **`hord link`** command group: interactive thesaurus building
+  - `hord link add` — create typed relations (BT/NT/RT/TT/UF/PT etc.)
+    between cards with automatic reciprocal links
+  - `hord link remove` — remove relations (and reciprocals)
+  - `hord link show` — display all outgoing and incoming relations for a card
+  - `hord link suggest` — find unlinked related cards by shared tags, types,
+    and title word overlap
+- **`hord mobile`** command group: mobile capture with hybrid architecture
+  - `hord mobile serve` — HTTP capture server with web form, JSON API, and
+    optional auth token; `--scratch` mode appends to daily scratch file
+  - `hord mobile pull` — process GitHub inbox directory; reads `.md`/`.txt`/`.org`
+    files, creates capture cards, archives processed files; `--git-pull` flag
+    for cron use
+  - `hord mobile setup` — prints setup instructions for HTTP Shortcuts app,
+    GitHub inbox, and hybrid configuration
+- **`hord web`** command: local web interface for browsing and creating cards
+  without Emacs; card list with filter, card detail with relations and notes,
+  new card form with type dropdown, quick capture
+- **`hord new` interactive mode**: when called without arguments, prompts for
+  title, type (numbered menu of all 16 types), source, and task-specific fields
+- Three new docs:
+  - `docs/INTRODUCTION.md` — five-level LOD explanation (elevator pitch through
+    deep architectural vision)
+  - `docs/MIGRATION.md` — AI-assisted migration walkthrough (phased: import,
+    classify, link, blob, verify)
+  - `docs/spec-overlays.md` — overlay architecture specification (strata,
+    structural, persona, flow-deferred, predicate routing, composite views)
 
 ### Fixed
 - Vocabulary files (terms.tsv, relations.tsv) now ship as package data inside
