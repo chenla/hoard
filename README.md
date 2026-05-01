@@ -43,6 +43,10 @@ echo "Long note..." | hord capture --stdin -t notes
 
 For the full story — the problem, the library science background, and why the design works the way it does — read **[Why Hoard](docs/WHY-HOARD.md)**.
 
+New to Hoard? Read **[Understanding Hoard](docs/INTRODUCTION.md)** — five levels of explanation, from a 30-second pitch to the full architectural vision.
+
+Already have notes in another tool? Read **[Migrating to Hoard](docs/MIGRATION.md)** — an AI-assisted walkthrough for importing and structuring your existing knowledge base.
+
 ## Install
 
 ```bash
@@ -151,6 +155,45 @@ hord convert content-md/ --to org --output content-org/
 
 The TPS demo ships with both formats: `content/` (org-mode) and `content-md/` (markdown).
 
+### Importing from other tools
+
+Hoard can import notes from most PKM systems. Source format is auto-detected:
+
+```bash
+hord import ~/Documents/obsidian-vault       # auto-detects Obsidian
+hord import ~/org-roam/ --from org-roam       # explicit source
+hord import ./exported-notion --from notion   # Notion export
+hord import ~/notes --dry-run                 # preview without writing
+```
+
+Supported: Obsidian, Logseq, org-roam, Dendron, Notion, plain markdown. Wikilinks are resolved to UUID-based links where possible.
+
+### Adding blobs (PDFs, EPUBs, etc.)
+
+Files that aren't cards — PDFs, EPUBs, images, datasets — go into `lib/blob/` with citekey-based filenames:
+
+```bash
+hord add paper.pdf -k scott:1998seeing -t "Seeing Like a State" -a "James C. Scott"
+hord add book.epub -k braudel:1992civilization --context   # also generate LOD summary
+hord add photo.jpg --no-card                                # blob only, no card
+```
+
+This creates a `wh:wrk` card with `:CITEKEY:` and `:NOTER_DOCUMENT:` properties, matching the convention used by `cite:key` references in org-mode.
+
+### Building thesaurus relations
+
+The `hord link` command builds the semantic backbone — typed relations between cards:
+
+```bash
+hord link add Kanban BT Lean_Manufacturing     # Kanban is narrower than Lean
+hord link add Kanban UF "看板"                   # 看板 is an alias for Kanban
+hord link show Kanban                           # show all relations
+hord link suggest Kanban                        # find unlinked related cards
+hord link remove Kanban RT Muda                 # remove a relation
+```
+
+Relations are bidirectional by default — adding `BT` from A→B also adds `NT` from B→A.
+
 ## How it works
 
 ### The `.hord/` directory
@@ -211,6 +254,11 @@ The context column in every quad is the git blob hash of the source file at the 
 | `hord capture <text>` | Quick-capture a thought with tags and source context |
 | `hord tags` | List tag usage and audit which tags have definitions |
 | `hord export <path>` | Generate browsable static HTML site from a hord |
+| `hord import <path>` | Import notes from Obsidian, Logseq, org-roam, Dendron, Notion, or plain markdown |
+| `hord add <file>` | Add a blob (PDF, EPUB, etc.) to `lib/blob/` with citekey naming and optional card |
+| `hord link add\|remove\|show\|suggest` | Build and manage thesaurus relations between cards |
+| `hord mobile serve\|pull\|setup` | Mobile capture: HTTP server + GitHub inbox processor |
+| `hord web` | Local web interface for browsing and creating cards (no Emacs needed) |
 
 ## The demo dataset
 
@@ -241,8 +289,11 @@ Dogfooding — used daily for real knowledge work. Preparing for alpha release.
 - Format conversion between org and markdown (`hord convert`)
 - Card creation with type scaffolding (`hord new`)
 - Static HTML export (`hord export`)
-- MCP server for AI agent integration (7 tools)
-- Emacs reader ([hord.el](https://github.com/chenla/hord.el)) with card view, live filter, RT suggestions
+- MCP server for AI agent integration (9 tools)
+- Import from Obsidian, Logseq, org-roam, Dendron, Notion, or plain markdown (`hord import`)
+- Blob management with citekey naming and LOD context files (`hord add`)
+- Interactive thesaurus building with reciprocal links and suggestions (`hord link`)
+- Emacs reader ([hord.el](https://github.com/chenla/hord.el)) with card view, live filter, RT suggestions, blob add, and link management
 - Single-branch metadata (overlay branches deferred — predicates already self-identify)
 
 ## MCP server (AI agent integration)
@@ -265,7 +316,7 @@ If you installed with pipx:
 }
 ```
 
-Add this to `~/.claude/settings.json` (Claude Code) or your MCP client config. The server exposes 8 tools: `query`, `search`, `list_entities`, `status`, `compile`, `vocab_lookup`, `read_content`, and `new_card`.
+Add this to `~/.claude/settings.json` (Claude Code) or your MCP client config. The server exposes 9 tools: `query`, `search`, `list_entities`, `status`, `compile`, `vocab_lookup`, `read_content`, `new_card`, and `capture`.
 
 ## License
 

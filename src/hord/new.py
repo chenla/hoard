@@ -215,9 +215,30 @@ def scaffold_md(card_uuid: str, title: str, entity_type: str,
     return "\n".join(lines)
 
 
+# Common type labels for interactive prompt
+TYPE_LABELS = [
+    ("con", "Concept"),
+    ("pat", "Pattern"),
+    ("key", "Keystone"),
+    ("wrk", "Work (book, paper, etc.)"),
+    ("per", "Person"),
+    ("cat", "Category"),
+    ("sys", "System"),
+    ("pla", "Place"),
+    ("evt", "Event (historical)"),
+    ("obj", "Object"),
+    ("org", "Organization"),
+    ("cap", "Capture (quick note)"),
+    ("task", "Task"),
+    ("event", "Event (calendar)"),
+    ("persona", "Persona"),
+    ("office", "Office"),
+]
+
+
 @click.command("new")
-@click.argument("title")
-@click.option("--type", "-t", "entity_type", default="con",
+@click.argument("title", required=False)
+@click.option("--type", "-t", "entity_type", default=None,
               help="Entity type: con, pat, key, wrk, per, cat, sys, pla, evt, obj, org (or wh:con etc.)")
 @click.option("--format", "-f", "fmt", type=click.Choice(["org", "md"]),
               default=None, help="File format (default: from config.toml)")
@@ -235,8 +256,8 @@ def new_cmd(title, entity_type, fmt, content_dir, source, due, scheduled, edit):
     """Create a new card with a UUID and metadata scaffold.
 
     TITLE is the card's display name (e.g. "Kanban" or
-    "Taiichi Ohno"). The filename and type suffix are
-    generated automatically.
+    "Taiichi Ohno"). If omitted, enters interactive mode
+    and prompts for all fields.
 
     Examples:
 
@@ -245,7 +266,38 @@ def new_cmd(title, entity_type, fmt, content_dir, source, due, scheduled, edit):
         hord new "Taiichi Ohno" -t per
 
         hord new "My Book" -t wrk -f md
+
+        hord new                         # interactive mode
     """
+    # Interactive mode when no title given
+    if title is None:
+        title = click.prompt("Title")
+        if entity_type is None:
+            click.echo("\nEntity types:")
+            for i, (short, label) in enumerate(TYPE_LABELS, 1):
+                click.echo(f"  {i:>2}. {short:<8} {label}")
+            choice = click.prompt("\nType (number or shortcut)", default="con")
+            try:
+                idx = int(choice)
+                if 1 <= idx <= len(TYPE_LABELS):
+                    entity_type = TYPE_LABELS[idx - 1][0]
+                else:
+                    entity_type = choice
+            except ValueError:
+                entity_type = choice
+        if not source:
+            source = click.prompt("Source (empty to skip)", default="", show_default=False)
+        if entity_type in ("task",):
+            if not due:
+                due = click.prompt("Due date YYYY-MM-DD (empty to skip)",
+                                   default="", show_default=False)
+            if not scheduled:
+                scheduled = click.prompt("Scheduled date YYYY-MM-DD (empty to skip)",
+                                         default="", show_default=False)
+        click.echo("")
+
+    if entity_type is None:
+        entity_type = "con"
     hord_root = find_hord_root(".")
     if hord_root is None:
         click.echo("Error: not inside a hord. Run 'hord init' first.", err=True)

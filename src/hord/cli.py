@@ -29,6 +29,11 @@ from hord.tags import tags_cmd
 from hord.capture import capture_cmd
 from hord.search import search_cmd
 from hord.persona import persona_cmd
+from hord.import_cards import import_cmd
+from hord.add import add_cmd
+from hord.link import link_cmd
+from hord.mobile import mobile_cmd
+from hord.web import web_cmd
 
 cli.add_command(init_cmd, "init")
 cli.add_command(compile_cmd, "compile")
@@ -41,3 +46,8 @@ cli.add_command(tags_cmd, "tags")
 cli.add_command(capture_cmd, "capture")
 cli.add_command(search_cmd, "search")
 cli.add_command(persona_cmd, "persona")
+cli.add_command(import_cmd, "import")
+cli.add_command(add_cmd, "add")
+cli.add_command(link_cmd, "link")
+cli.add_command(mobile_cmd, "mobile")
+cli.add_command(web_cmd, "web")
