@@ -496,6 +496,39 @@ def new_card(title: str, entity_type: str = "con", fmt: str = "org",
     return f"Created {relpath}\n  UUID: {card_uuid}\n  Type: {resolved_type}"
 
 
+@mcp.tool()
+def capture(content: str, tags: str = "", source: str = "",
+            title: str = "") -> str:
+    """Capture a thought, note, or observation into the hord.
+
+    Creates a capture card (wh:cap) in capture/ and compiles
+    it into quads immediately. This is the quick-capture path —
+    use it for fleeting thoughts, observations, quotes, ideas.
+
+    tags: space-separated tag labels (e.g. "hoard tps research")
+    source: context where the thought originated (reading, conversation, observation)
+    title: optional title (default: first line of content)
+    """
+    from hord.capture import capture_to_hord
+
+    hord_root = get_hord_root()
+    tag_list = [t.strip() for t in tags.split() if t.strip()] if tags else []
+
+    result = capture_to_hord(
+        hord_root, content,
+        tags=tag_list,
+        source=source,
+        title=title or None,
+    )
+
+    lines = [f"Captured → {result['path']}"]
+    lines.append(f"UUID: {result['uuid']}")
+    if result['tags']:
+        lines.append(f"Tags: {', '.join(result['tags'])}")
+    lines.append(f"Quads: {result['quads']}")
+    return "\n".join(lines)
+
+
 def main():
     mcp.run(transport="stdio")
 
