@@ -5,7 +5,7 @@ import os
 import click
 
 from hord.git_utils import find_hord_root, blob_hash
-from hord.quad import read_quads, quad_path
+from hord.quad import read_quads, quad_path, read_all_quads
 
 
 @click.command("status")
@@ -60,9 +60,8 @@ def status_cmd(verbose):
             missing.append((path, uuid))
             continue
 
-        # Get stored context hash from quads
-        qpath = quad_path(hord_root, uuid)
-        quads = read_quads(qpath)
+        # Get stored context hash from quads (across overlays)
+        quads = read_all_quads(hord_root, uuid)
 
         if not quads:
             stale.append((path, uuid, "no quads"))

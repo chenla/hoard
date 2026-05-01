@@ -60,8 +60,88 @@ def append_quads(filepath: str, quads: list[Quad]) -> None:
             f.write(q.to_tsv() + "\n")
 
 
-def quad_path(hord_root: str, uuid: str) -> str:
+def quad_path(hord_root: str, uuid: str, overlay: str | None = None) -> str:
     """Return the filesystem path for a node's quad file.
-    Sharded by first 4 chars of UUID."""
+    Sharded by first 4 chars of UUID.
+    If overlay is given, returns path under .hord/overlays/<overlay>/quads/.
+    Otherwise returns the legacy path under .hord/quads/."""
     prefix = uuid[:4]
+    if overlay:
+        return os.path.join(hord_root, ".hord", "overlays", overlay,
+                            "quads", prefix, f"{uuid}.tsv")
     return os.path.join(hord_root, ".hord", "quads", prefix, f"{uuid}.tsv")
+
+
+# Predicate → overlay routing
+STRATA_PREDICATES = {
+    "v:type", "v:title", "v:author",
+    "v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type",
+}
+
+STRUCTURAL_PREDICATES = {
+    "v:tt", "v:pt", "v:bt", "v:btg", "v:bti", "v:btp",
+    "v:nt", "v:ntg", "v:nti", "v:ntp",
+    "v:rt", "v:uf", "v:use",
+}
+
+
+def overlay_for_predicate(predicate: str) -> str:
+    """Return the overlay name for a given predicate."""
+    if predicate in STRATA_PREDICATES:
+        return "strata"
+    if predicate in STRUCTURAL_PREDICATES:
+        return "structural"
+    # Default: structural for unknown predicates
+    return "structural"
+
+
+def list_overlays(hord_root: str) -> list[str]:
+    """Return list of overlay names found under .hord/overlays/."""
+    overlays_dir = os.path.join(hord_root, ".hord", "overlays")
+    if not os.path.isdir(overlays_dir):
+        return []
+    return sorted(
+        d for d in os.listdir(overlays_dir)
+        if os.path.isdir(os.path.join(overlays_dir, d, "quads"))
+    )
+
+
+def read_all_quads(hord_root: str, uuid: str,
+                   overlays: list[str] | None = None) -> list[Quad]:
+    """Read and compose quads for a UUID across all (or specified) overlays.
+    Falls back to legacy .hord/quads/ if no overlays exist."""
+    available = list_overlays(hord_root)
+    if not available:
+        # Legacy mode: single quads directory
+        return read_quads(quad_path(hord_root, uuid))
+
+    if overlays is None:
+        overlays = available
+
+    composed = []
+    for ov in overlays:
+        if ov in available:
+            qpath = quad_path(hord_root, uuid, overlay=ov)
+            composed.extend(read_quads(qpath))
+    return composed
+
+
+def find_all_quads_dirs(hord_root: str,
+                        overlays: list[str] | None = None) -> list[str]:
+    """Return list of quads directories to scan (for incoming link search etc).
+    Falls back to legacy .hord/quads/ if no overlays exist."""
+    available = list_overlays(hord_root)
+    if not available:
+        legacy = os.path.join(hord_root, ".hord", "quads")
+        return [legacy] if os.path.isdir(legacy) else []
+
+    if overlays is None:
+        overlays = available
+
+    dirs = []
+    for ov in overlays:
+        if ov in available:
+            d = os.path.join(hord_root, ".hord", "overlays", ov, "quads")
+            if os.path.isdir(d):
+                dirs.append(d)
+    return dirs

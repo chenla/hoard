@@ -5,7 +5,7 @@ import os
 import click
 
 from hord.git_utils import find_hord_root
-from hord.quad import read_quads, quad_path, Quad
+from hord.quad import read_quads, quad_path, Quad, read_all_quads, find_all_quads_dirs
 from hord.vocab import Vocabulary, find_vocab
 
 
@@ -32,29 +32,27 @@ def load_index(hord_root: str) -> dict[str, str]:
 
 
 def find_incoming(hord_root: str, target_uuid: str) -> list[Quad]:
-    """Find all quads where the object is the target UUID."""
+    """Find all quads where the object is the target UUID.
+    Searches across all overlays (or legacy quads dir)."""
     incoming = []
-    quads_dir = os.path.join(hord_root, ".hord", "quads")
-    if not os.path.exists(quads_dir):
-        return incoming
-    for prefix_dir in os.listdir(quads_dir):
-        prefix_path = os.path.join(quads_dir, prefix_dir)
-        if not os.path.isdir(prefix_path):
-            continue
-        for fname in os.listdir(prefix_path):
-            if not fname.endswith(".tsv"):
+    for quads_dir in find_all_quads_dirs(hord_root):
+        for prefix_dir in os.listdir(quads_dir):
+            prefix_path = os.path.join(quads_dir, prefix_dir)
+            if not os.path.isdir(prefix_path):
                 continue
-            fpath = os.path.join(prefix_path, fname)
-            for q in read_quads(fpath):
-                if q.object == target_uuid:
-                    incoming.append(q)
+            for fname in os.listdir(prefix_path):
+                if not fname.endswith(".tsv"):
+                    continue
+                fpath = os.path.join(prefix_path, fname)
+                for q in read_quads(fpath):
+                    if q.object == target_uuid:
+                        incoming.append(q)
     return incoming
 
 
 def resolve_uuid_label(hord_root: str, uuid: str, vocab: Vocabulary | None) -> str:
     """Try to find a human-readable label for a UUID."""
-    qpath = quad_path(hord_root, uuid)
-    for q in read_quads(qpath):
+    for q in read_all_quads(hord_root, uuid):
         if q.predicate == "v:title":
             return q.object
     return uuid
@@ -95,9 +93,8 @@ def query_cmd(term, fmt):
     vocab_path = find_vocab(hord_root)
     vocab = Vocabulary.load(vocab_path) if vocab_path else None
 
-    # Read quads for this entity
-    qpath = quad_path(hord_root, uuid)
-    quads = read_quads(qpath)
+    # Read quads for this entity (composed across all overlays)
+    quads = read_all_quads(hord_root, uuid)
 
     if fmt == "tsv":
         for q in quads:

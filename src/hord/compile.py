@@ -9,7 +9,7 @@ from hord.org_parser import parse_org_file
 from hord.org_parser import scan_directory as scan_org
 from hord.md_parser import parse_md_file
 from hord.md_parser import scan_directory as scan_md
-from hord.quad import Quad, write_quads, quad_path
+from hord.quad import Quad, write_quads, quad_path, overlay_for_predicate, list_overlays
 from hord.vocab import Vocabulary, find_vocab
 
 
@@ -150,9 +150,23 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
-        # Write quad file
-        qpath = quad_path(hord_root, record.uuid)
-        write_quads(qpath, quads)
+        # Route quads to overlays (or legacy single dir)
+        use_overlays = bool(list_overlays(hord_root))
+
+        if use_overlays:
+            # Group quads by overlay
+            overlay_groups: dict[str, list[Quad]] = {}
+            for q in quads:
+                ov = overlay_for_predicate(q.predicate)
+                overlay_groups.setdefault(ov, []).append(q)
+            for ov, ov_quads in overlay_groups.items():
+                qpath = quad_path(hord_root, record.uuid, overlay=ov)
+                write_quads(qpath, ov_quads)
+        else:
+            # Legacy: single quads directory
+            qpath = quad_path(hord_root, record.uuid)
+            write_quads(qpath, quads)
+
         total_quads += len(quads)
         files_compiled += 1
 

@@ -7,7 +7,7 @@ from html import escape
 import click
 
 from hord.git_utils import find_hord_root
-from hord.quad import read_quads, quad_path
+from hord.quad import read_quads, quad_path, read_all_quads
 from hord.vocab import Vocabulary, find_vocab
 from hord.query import load_index, find_incoming
 
@@ -221,8 +221,7 @@ def _html_page(title: str, body: str, breadcrumb: str = "") -> str:
 def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
                        index: dict, path_for_uuid: dict) -> str:
     """Render a single entity as an HTML page."""
-    qpath = quad_path(hord_root, uuid)
-    quads = read_quads(qpath)
+    quads = read_all_quads(hord_root, uuid)
 
     if not quads:
         return ""
@@ -312,8 +311,7 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
 
 def _resolve_title(uuid: str, hord_root: str) -> str:
     """Get the title for a UUID from its quads."""
-    qpath = quad_path(hord_root, uuid)
-    for q in read_quads(qpath):
+    for q in read_all_quads(hord_root, uuid):
         if q.predicate == "v:title":
             return q.object
     return uuid[:8] + "…"
@@ -396,8 +394,7 @@ def export_cmd(output):
             continue
         seen.add(uuid)
 
-        qpath = quad_path(hord_root, uuid)
-        quads = read_quads(qpath)
+        quads = read_all_quads(hord_root, uuid)
         if not quads:
             continue
 

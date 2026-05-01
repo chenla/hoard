@@ -28,7 +28,8 @@ def init_cmd(name):
 
     # Create directory structure
     os.makedirs(os.path.join(hord_dir, "vocab"))
-    os.makedirs(os.path.join(hord_dir, "quads"))
+    os.makedirs(os.path.join(hord_dir, "overlays", "strata", "quads"))
+    os.makedirs(os.path.join(hord_dir, "overlays", "structural", "quads"))
 
     # Write config.toml
     config_path = os.path.join(hord_dir, "config.toml")
@@ -55,4 +56,4 @@ def init_cmd(name):
     click.echo(f"  name: {name}")
     click.echo(f"  config: {config_path}")
     click.echo(f"  vocab: {os.path.join(hord_dir, 'vocab')}/")
-    click.echo(f"  quads: {os.path.join(hord_dir, 'quads')}/")
+    click.echo(f"  overlays: strata, structural")

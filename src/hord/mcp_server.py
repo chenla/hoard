@@ -24,7 +24,8 @@ from mcp.server.fastmcp import FastMCP
 from hord.git_utils import find_hord_root, blob_hash
 from hord.org_parser import parse_org_file, scan_directory as scan_org
 from hord.md_parser import parse_md_file, scan_directory as scan_md
-from hord.quad import Quad, read_quads, write_quads, quad_path
+from hord.quad import (Quad, read_quads, write_quads, quad_path,
+                       read_all_quads, overlay_for_predicate, list_overlays)
 from hord.vocab import Vocabulary, find_vocab
 from hord.query import load_index, find_incoming, resolve_uuid_label
 from hord.compile import REL_TO_PREDICATE
@@ -70,9 +71,8 @@ def query(term: str) -> str:
     vocab_path = find_vocab(hord_root)
     vocab = Vocabulary.load(vocab_path) if vocab_path else None
 
-    # Read quads
-    qpath = quad_path(hord_root, uuid)
-    quads = read_quads(qpath)
+    # Read quads (composed across overlays)
+    quads = read_all_quads(hord_root, uuid)
 
     # Build output
     lines = []
@@ -136,9 +136,8 @@ def search(text: str) -> str:
             seen_uuids.add(uuid)
             title = resolve_uuid_label(hord_root, uuid, vocab)
             # Get type
-            qpath = quad_path(hord_root, uuid)
             entity_type = ""
-            for q in read_quads(qpath):
+            for q in read_all_quads(hord_root, uuid):
                 if q.predicate == "v:type":
                     entity_type = vocab.label(q.object) if vocab else q.object
                     break
@@ -174,8 +173,7 @@ def list_entities(entity_type: str = "") -> str:
             continue
         seen.add(uuid)
 
-        qpath = quad_path(hord_root, uuid)
-        quads = read_quads(qpath)
+        quads = read_all_quads(hord_root, uuid)
 
         title = uuid
         etype = ""
@@ -237,8 +235,7 @@ def status() -> str:
             missing.append(path)
             continue
 
-        qpath = quad_path(hord_root, uuid)
-        quads = read_quads(qpath)
+        quads = read_all_quads(hord_root, uuid)
         if not quads:
             stale.append(f"{path} (no quads)")
             continue
@@ -324,8 +321,19 @@ def compile(path: str = ".") -> str:
         for alias in record.aliases:
             quads.append(Quad(record.uuid, "v:uf", alias, context))
 
-        qpath = quad_path(hord_root, record.uuid)
-        write_quads(qpath, quads)
+        # Route quads to overlays (or legacy single dir)
+        use_overlays = bool(list_overlays(hord_root))
+        if use_overlays:
+            overlay_groups: dict[str, list[Quad]] = {}
+            for q in quads:
+                ov = overlay_for_predicate(q.predicate)
+                overlay_groups.setdefault(ov, []).append(q)
+            for ov, ov_quads in overlay_groups.items():
+                qpath = quad_path(hord_root, record.uuid, overlay=ov)
+                write_quads(qpath, ov_quads)
+        else:
+            qpath = quad_path(hord_root, record.uuid)
+            write_quads(qpath, quads)
         total_quads += len(quads)
         files_compiled += 1
 
