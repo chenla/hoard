@@ -91,6 +91,11 @@ class OrgRecord:
     status: str | None = None       # todo, done, waiting, cancelled
     due: str | None = None           # ISO date YYYY-MM-DD
     scheduled: str | None = None     # ISO date YYYY-MM-DD
+    date_whole: str | None = None    # WEMI: original publication year
+    date_expr: str | None = None     # WEMI: this edition/expression year
+    wemi: str | None = None          # WEMI assessment marker (W, WE, WEM, WEMI)
+    manifestations: int = 0          # count of known blob manifestations
+    citekey: str | None = None       # bibliographic citekey
     filepath: str | None = None
 
     @property
@@ -171,6 +176,24 @@ def parse_org_file(filepath: str) -> OrgRecord:
                     record.due = val
                 elif key == "SCHEDULED":
                     record.scheduled = val
+                elif key == "DATE-WHOLE":
+                    if val:
+                        record.date_whole = val
+                elif key == "DATE-EXPR":
+                    if val:
+                        record.date_expr = val
+                elif key == "WEMI":
+                    record.wemi = val
+                elif key == "MANIFESTATIONS":
+                    try:
+                        record.manifestations = int(val)
+                    except ValueError:
+                        pass
+                elif key == "CITEKEY":
+                    record.citekey = val.rstrip(",")
+                elif key == "CUSTOM_ID":
+                    if not record.citekey:
+                        record.citekey = val
 
     # If no TYPE in properties, try to infer from filename
     if not record.entity_type:

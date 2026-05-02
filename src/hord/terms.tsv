@@ -44,3 +44,4 @@ wh:event	Event Entry	A calendar event with date/time
 v:status	STATUS	Task status (todo, done, waiting, cancelled)
 v:due	DUE	Due date (ISO 8601: YYYY-MM-DD)
 v:scheduled	SCHEDULED	Scheduled date (ISO 8601: YYYY-MM-DD)
+v:citekey	CITEKEY	Bibliographic citation key (author:yearslug)

@@ -173,6 +173,36 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
+        # WEMI quads (strata overlay)
+        if record.date_whole:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:s-wo",
+                object=f"date:{record.date_whole}",
+                context=context,
+            ))
+        if record.date_expr:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:s-eo",
+                object=f"date:{record.date_expr}",
+                context=context,
+            ))
+        if record.wemi:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:s-type",
+                object=record.wemi,
+                context=context,
+            ))
+        if record.citekey:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:citekey",
+                object=record.citekey,
+                context=context,
+            ))
+
         # UF quads from ROAM_ALIASES
         for alias in record.aliases:
             quads.append(Quad(

@@ -41,11 +41,7 @@ hord capture "Interesting paper on X" -s reading -t research
 echo "Long note..." | hord capture --stdin -t notes
 ```
 
-For the full story — the problem, the library science background, and why the design works the way it does — read **[Why Hoard](docs/WHY-HOARD.md)**.
-
-New to Hoard? Read **[Understanding Hoard](docs/INTRODUCTION.md)** — five levels of explanation, from a 30-second pitch to the full architectural vision.
-
-Already have notes in another tool? Read **[Migrating to Hoard](docs/MIGRATION.md)** — an AI-assisted walkthrough for importing and structuring your existing knowledge base.
+**Read more:** [Understanding Hoard](docs/INTRODUCTION.md) (five levels of explanation) | [Why Hoard](docs/WHY-HOARD.md) (the full argument) | [Quick Start](docs/QUICKSTART.md) (install to first query) | [Migration Guide](docs/MIGRATION.md) (import from other tools) | [All documentation](docs/README.md)
 
 ## Install
 
