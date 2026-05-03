@@ -65,6 +65,9 @@ and what tradeoffs were accepted.
 - **[Contextual Scaffolding](design/contextual-scaffolding.md)** — Why
   documentation is card-centric: glossary cards bear the reference weight,
   narrative documents bear the argumentative weight.
+- **[WEMI for Concepts](design/wemi-for-concepts.md)** — Why every entity
+  has WEMI structure: canonical definition is one Expression, project-specific
+  usage is another, persona annotations are Expression-level metadata.
 
 ### Glossary
 
