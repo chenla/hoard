@@ -6,6 +6,8 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-05-07
+
 ### Added
 - **Overlay support**: quads now route to `.hord/overlays/strata/quads/` and
   `.hord/overlays/structural/quads/` based on predicate namespace; views
