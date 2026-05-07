@@ -65,6 +65,10 @@ Systems like Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf55591
 
 **The core idea:** Hoard separates your files (territory) from metadata about them (map). The map is versioned by git and readable by AI agents. Bad metadata can't corrupt your content. Delete `.hord/` and recompile — everything regenerates.
 
+![Territory vs. Map](docs/img/territory-vs-map.svg)
+
+![Flat Wiki vs. Hoard rename scenario](docs/img/hoard-vs-wiki.svg)
+
 ## How it works
 
 Every piece of metadata is a **quad** — four tab-separated fields:
@@ -82,6 +86,8 @@ c348132e…   v:bt        9916ba93…   a1b2c3d4…
 
 Quads are TSV files in git. Grep them, diff them, cat them. No database required. `hord compile` regenerates them from your org-mode or markdown source files at any time.
 
+![Compilation Pipeline](docs/img/compile-pipeline.svg)
+
 Metadata is separated into **overlays** — parallel layers that each answer a different question:
 
 - **Strata** — what is this thing? (type, title, author, WEMI identity)
@@ -89,6 +95,8 @@ Metadata is separated into **overlays** — parallel layers that each answer a d
 - **Persona** — what does it mean to me? (role-specific relevance and notes)
 
 Reorganize your hierarchy without touching identity. Switch personas without polluting the shared vocabulary. Each concern has its own layer.
+
+![Overlay Routing](docs/img/overlay-routing.svg)
 
 ## Build your own hord
 

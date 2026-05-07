@@ -188,6 +188,8 @@ of overlays — a single org card with `:TYPE:`, `BT ::`, and `RT ::`
 relations produces quads that land in both strata and structural
 overlays.
 
+![Predicate Routing](img/overlay-routing.svg)
+
 **Implementor note:** The predicate routing table is defined in
 `hord/quad.py` as `STRATA_PREDICATES` and `STRUCTURAL_PREDICATES`.
 Adding a new predicate requires adding it to the appropriate set.

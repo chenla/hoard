@@ -165,6 +165,8 @@ Overlays live in `.hord/overlays/<name>/quads/`. Predicate routing
 assigns each quad to its overlay at compile time. Views are composed
 at read time by merging from one or more overlays.
 
+![Overlay Routing](img/overlay-routing.svg)
+
 **Why this matters:** Reorganizing your hierarchy (structural) never
 touches identity (strata). A persona's relevance marks never pollute
 the shared vocabulary. Each concern has its own layer.
@@ -222,6 +224,8 @@ preserves the full stack. This matters when the same idea appears
 as a paper, a talk, a blog post, and a chapter — they're all
 expressions of one whole, and the relationships between them are
 structural, not accidental.
+
+![WEMI Hierarchy](img/wemi-hierarchy.svg)
 
 ### Personas and Offices
 

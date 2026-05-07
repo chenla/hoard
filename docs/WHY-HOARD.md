@@ -101,6 +101,8 @@ myrepo/
 └── content/        # your files (the territory)
 ```
 
+![Territory vs. Map](img/territory-vs-map.svg)
+
 This separation has consequences:
 
 1. **Format independence.** Hoard works with org-mode, markdown, or any text format. The `hord compile` command parses your content files and extracts metadata into quads. The `hord convert` command translates between org-mode and markdown, preserving all metadata. Both formats produce identical quads.
