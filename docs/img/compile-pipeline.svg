@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'DejaVu Sans', 'Helvetica Neue', sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-size: 12px; fill: #666; }
+      .label { font-size: 13px; font-weight: bold; }
+      .small { font-size: 11px; fill: #444; }
+      .tiny { font-size: 10px; fill: #888; font-style: italic; }
+      .mono { font-size: 10.5px; fill: #333; font-family: monospace; }
+      .step { font-size: 12px; font-weight: bold; fill: white; }
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+    <marker id="arrW" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2d6a4f"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="520" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" class="title">The Compilation Pipeline</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">hord compile: source files in, structured quads out — idempotent and regenerable</text>
+
+  <!-- Step 1: Source files -->
+  <text x="80" y="85" text-anchor="middle" class="small" font-weight="bold" fill="#2d6a4f">1. SOURCE</text>
+
+  <rect x="20" y="95" width="120" height="80" rx="4" fill="#e8f5e9" stroke="#2d6a4f" stroke-width="1.5"/>
+  <text x="30" y="115" class="mono">content/</text>
+  <rect x="30" y="122" width="100" height="18" rx="2" fill="white"/>
+  <text x="35" y="136" class="mono" font-size="9">Kanban--4.org</text>
+  <rect x="30" y="143" width="100" height="18" rx="2" fill="white"/>
+  <text x="35" y="157" class="mono" font-size="9">TPS--4.org</text>
+
+  <rect x="20" y="185" width="120" height="55" rx="4" fill="#fff8e1" stroke="#f9a825" stroke-width="1.5"/>
+  <text x="30" y="205" class="mono">capture/</text>
+  <rect x="30" y="212" width="100" height="18" rx="2" fill="white"/>
+  <text x="35" y="226" class="mono" font-size="9">Quick_note--14.org</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="145" y1="165" x2="175" y2="165" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 2: Parse -->
+  <rect x="180" y="100" width="130" height="130" rx="6" fill="#2d6a4f"/>
+  <text x="245" y="85" text-anchor="middle" class="small" font-weight="bold" fill="#2d6a4f">2. PARSE</text>
+  <text x="245" y="130" text-anchor="middle" class="step">Parse</text>
+  <text x="195" y="155" class="small" fill="#b7e4c7">Extract from each file:</text>
+  <text x="195" y="172" class="mono" fill="#e8f5e9">  UUID</text>
+  <text x="195" y="187" class="mono" fill="#e8f5e9">  TYPE, TITLE</text>
+  <text x="195" y="202" class="mono" fill="#e8f5e9">  Relations (BT/NT/RT)</text>
+  <text x="195" y="217" class="mono" fill="#e8f5e9">  Tags, Aliases</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="315" y1="165" x2="345" y2="165" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 3: Generate quads -->
+  <rect x="350" y="100" width="150" height="130" rx="6" fill="#1565c0"/>
+  <text x="425" y="85" text-anchor="middle" class="small" font-weight="bold" fill="#1565c0">3. QUADS</text>
+  <text x="425" y="130" text-anchor="middle" class="step">Generate Quads</text>
+  <text x="365" y="155" class="small" fill="#bbdefb">Each fact → one quad:</text>
+  <text x="365" y="172" class="mono" fill="#e3f2fd">  subj | pred | obj | ctx</text>
+  <text x="365" y="192" class="small" fill="#bbdefb">Context = git blob hash</text>
+  <text x="365" y="207" class="small" fill="#bbdefb">(provenance tracking)</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="505" y1="165" x2="535" y2="165" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 4: Route -->
+  <rect x="540" y="100" width="120" height="130" rx="6" fill="#5e548e"/>
+  <text x="600" y="85" text-anchor="middle" class="small" font-weight="bold" fill="#5e548e">4. ROUTE</text>
+  <text x="600" y="130" text-anchor="middle" class="step">Route</text>
+  <text x="555" y="155" class="small" fill="#d1c4e9">By predicate:</text>
+  <text x="555" y="175" class="mono" fill="#ede7f6">v:type → strata/</text>
+  <text x="555" y="192" class="mono" fill="#ede7f6">v:bt   → structural/</text>
+  <text x="555" y="209" class="mono" fill="#ede7f6">v:p-*  → persona/</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="665" y1="165" x2="695" y2="165" stroke="#666" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Step 5: Write -->
+  <rect x="700" y="100" width="80" height="130" rx="6" fill="#333"/>
+  <text x="740" y="85" text-anchor="middle" class="small" font-weight="bold" fill="#333">5. WRITE</text>
+  <text x="740" y="130" text-anchor="middle" class="step">Write</text>
+  <text x="710" y="155" class="small" fill="#ccc">TSV files</text>
+  <text x="710" y="172" class="small" fill="#ccc">sharded</text>
+  <text x="710" y="189" class="small" fill="#ccc">by UUID</text>
+  <text x="710" y="206" class="small" fill="#ccc">prefix</text>
+
+  <!-- Output section -->
+  <text x="400" y="275" text-anchor="middle" class="small" font-weight="bold">Output: .hord/</text>
+
+  <!-- Output boxes -->
+  <rect x="40" y="290" width="220" height="100" rx="5" fill="white" stroke="#5e548e" stroke-width="1.5"/>
+  <text x="50" y="310" class="mono">overlays/strata/quads/</text>
+  <text x="60" y="330" class="mono" fill="#888">c348/  c348...tsv</text>
+  <text x="60" y="348" class="mono" fill="#888">d4e5/  d4e5...tsv</text>
+  <text x="50" y="375" class="tiny">identity: type, title, WEMI</text>
+
+  <rect x="290" y="290" width="220" height="100" rx="5" fill="white" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="300" y="310" class="mono">overlays/structural/quads/</text>
+  <text x="310" y="330" class="mono" fill="#888">c348/  c348...tsv</text>
+  <text x="310" y="348" class="mono" fill="#888">d4e5/  d4e5...tsv</text>
+  <text x="300" y="375" class="tiny">organization: BT, NT, RT, UF, tags</text>
+
+  <rect x="540" y="290" width="220" height="100" rx="5" fill="white" stroke="#333" stroke-width="1.5"/>
+  <text x="550" y="310" class="mono">index.tsv</text>
+  <text x="560" y="332" class="mono" fill="#888">path ↔ UUID ↔ title</text>
+  <text x="560" y="352" class="mono" fill="#888">type ↔ citekey</text>
+  <text x="550" y="375" class="tiny">fast lookup for all entities</text>
+
+  <!-- Bottom: key properties -->
+  <rect x="100" y="420" width="180" height="75" rx="5" fill="#e8f5e9" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="190" y="445" text-anchor="middle" class="small" font-weight="bold" fill="#2d6a4f">Idempotent</text>
+  <text x="190" y="462" text-anchor="middle" class="tiny">Run compile again — same output.</text>
+  <text x="190" y="476" text-anchor="middle" class="tiny">Safe to rerun at any time.</text>
+
+  <rect x="310" y="420" width="180" height="75" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="400" y="445" text-anchor="middle" class="small" font-weight="bold" fill="#1565c0">Regenerable</text>
+  <text x="400" y="462" text-anchor="middle" class="tiny">Delete .hord/ entirely.</text>
+  <text x="400" y="476" text-anchor="middle" class="tiny">Compile rebuilds everything.</text>
+
+  <rect x="520" y="420" width="180" height="75" rx="5" fill="#f3e5f5" stroke="#5e548e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="610" y="445" text-anchor="middle" class="small" font-weight="bold" fill="#5e548e">Provenance</text>
+  <text x="610" y="462" text-anchor="middle" class="tiny">Every quad records git blob hash.</text>
+  <text x="610" y="476" text-anchor="middle" class="tiny">hord status detects stale quads.</text>
+</svg>

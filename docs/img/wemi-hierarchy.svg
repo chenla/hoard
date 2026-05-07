@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="'DejaVu Sans', 'Helvetica Neue', sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-size: 12px; fill: #666; }
+      .label { font-size: 14px; font-weight: bold; }
+      .small { font-size: 11px; fill: #444; }
+      .tiny { font-size: 10px; fill: #888; font-style: italic; }
+      .mono { font-size: 11px; fill: #333; font-family: monospace; }
+      .level { font-size: 10px; font-weight: bold; letter-spacing: 1px; }
+    </style>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#999"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="480" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" class="title">WEMI: Whole / Expression / Manifestation / Instance</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">Every entity can exist at multiple levels of abstraction — from idea to physical copy</text>
+
+  <!-- Left column: abstract labels -->
+  <text x="30" y="115" class="level" fill="#2d6a4f">W  WHOLE</text>
+  <text x="30" y="130" class="tiny">the abstract work</text>
+
+  <text x="30" y="215" class="level" fill="#1565c0">E  EXPRESSION</text>
+  <text x="30" y="230" class="tiny">a specific rendering</text>
+
+  <text x="30" y="315" class="level" fill="#7b1fa2">M  MANIFESTATION</text>
+  <text x="30" y="330" class="tiny">a published format</text>
+
+  <text x="30" y="415" class="level" fill="#c62828">I   INSTANCE</text>
+  <text x="30" y="430" class="tiny">a physical copy</text>
+
+  <!-- Horizontal lines -->
+  <line x1="160" y1="150" x2="780" y2="150" stroke="#eee" stroke-width="1"/>
+  <line x1="160" y1="250" x2="780" y2="250" stroke="#eee" stroke-width="1"/>
+  <line x1="160" y1="350" x2="780" y2="350" stroke="#eee" stroke-width="1"/>
+
+  <!-- Example 1: TPS Book -->
+  <!-- Whole -->
+  <rect x="180" y="80" width="250" height="55" rx="6" fill="#e8f5e9" stroke="#2d6a4f" stroke-width="2"/>
+  <text x="305" y="102" text-anchor="middle" class="label" fill="#2d6a4f">Toyota Production System</text>
+  <text x="305" y="120" text-anchor="middle" class="small">the intellectual work by Taiichi Ohno</text>
+
+  <!-- Expressions -->
+  <rect x="180" y="170" width="170" height="55" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="265" y="192" text-anchor="middle" class="small" font-weight="bold" fill="#1565c0">Japanese original</text>
+  <text x="265" y="208" text-anchor="middle" class="mono">トヨタ生産方式 (1978)</text>
+
+  <rect x="370" y="170" width="170" height="55" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1.5"/>
+  <text x="455" y="192" text-anchor="middle" class="small" font-weight="bold" fill="#1565c0">English translation</text>
+  <text x="455" y="208" text-anchor="middle" class="mono">Productivity Press (1988)</text>
+
+  <!-- Manifestations -->
+  <rect x="180" y="270" width="120" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="240" y="292" text-anchor="middle" class="small" font-weight="bold" fill="#7b1fa2">Hardcover</text>
+  <text x="240" y="308" text-anchor="middle" class="mono">ISBN 978-0...</text>
+
+  <rect x="315" y="270" width="100" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="365" y="292" text-anchor="middle" class="small" font-weight="bold" fill="#7b1fa2">PDF</text>
+  <text x="365" y="308" text-anchor="middle" class="mono">lib/blob/</text>
+
+  <rect x="430" y="270" width="110" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1.5"/>
+  <text x="485" y="292" text-anchor="middle" class="small" font-weight="bold" fill="#7b1fa2">EPUB</text>
+  <text x="485" y="308" text-anchor="middle" class="mono">lib/blob/</text>
+
+  <!-- Instances -->
+  <rect x="180" y="370" width="150" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1.5"/>
+  <text x="255" y="392" text-anchor="middle" class="small" font-weight="bold" fill="#c62828">Brad's copy</text>
+  <text x="255" y="408" text-anchor="middle" class="tiny">on shelf in Hong Kong</text>
+
+  <rect x="345" y="370" width="150" height="50" rx="5" fill="#ffebee" stroke="#c62828" stroke-width="1.5"/>
+  <text x="420" y="392" text-anchor="middle" class="small" font-weight="bold" fill="#c62828">Downloaded PDF</text>
+  <text x="420" y="408" text-anchor="middle" class="mono">ohno:1988tps.pdf</text>
+
+  <!-- Vertical connecting lines -->
+  <!-- W to E -->
+  <line x1="265" y1="135" x2="265" y2="170" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="370" y1="135" x2="455" y2="170" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <!-- E to M -->
+  <line x1="265" y1="225" x2="240" y2="270" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="455" y1="225" x2="365" y2="270" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="455" y1="225" x2="485" y2="270" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <!-- M to I -->
+  <line x1="240" y1="320" x2="255" y2="370" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="365" y1="320" x2="420" y2="370" stroke="#999" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Right side: key insight -->
+  <rect x="580" y="160" width="200" height="130" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="680" y="185" text-anchor="middle" class="small" font-weight="bold">Key insight</text>
+  <text x="590" y="205" class="small">The card describes the</text>
+  <text x="590" y="220" class="small">Whole. Expressions and</text>
+  <text x="590" y="235" class="small">Manifestations are</text>
+  <text x="590" y="250" class="small" font-weight="bold" fill="#2d6a4f">metadata, not containers.</text>
+  <text x="590" y="270" class="tiny">No separate files for each level.</text>
+  <text x="590" y="283" class="tiny">WEMI lives in Strata overlay.</text>
+
+  <!-- Right side: predicates -->
+  <rect x="580" y="310" width="200" height="110" rx="6" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="680" y="333" text-anchor="middle" class="small" font-weight="bold">Strata predicates</text>
+  <text x="590" y="355" class="mono">v:s-wo  isWholeOf</text>
+  <text x="590" y="372" class="mono">v:s-eo  isExpressionOf</text>
+  <text x="590" y="389" class="mono">v:s-mo  isManifestationOf</text>
+  <text x="590" y="406" class="mono">v:s-io  isInstanceOf</text>
+
+  <!-- Bottom note -->
+  <text x="400" y="460" text-anchor="middle" class="tiny">Based on FRBR (Functional Requirements for Bibliographic Records), generalized to all entity types</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="'DejaVu Sans', 'Helvetica Neue', sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-size: 12px; fill: #666; }
+      .label { font-size: 13px; font-weight: bold; fill: #1a1a1a; }
+      .small { font-size: 11px; fill: #444; }
+      .tiny { font-size: 10px; fill: #888; font-style: italic; }
+      .file { font-size: 11px; fill: #333; font-family: monospace; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" class="title">Territory vs. Map</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">Content and metadata are separate concerns, versioned independently</text>
+
+  <!-- Territory box (left) -->
+  <rect x="40" y="75" width="340" height="360" rx="6" fill="#f0f7f4" stroke="#2d6a4f" stroke-width="2"/>
+  <text x="210" y="100" text-anchor="middle" class="label" fill="#2d6a4f">TERRITORY (your files)</text>
+
+  <!-- Content dir -->
+  <rect x="60" y="115" width="300" height="130" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="75" y="135" class="file">content/</text>
+  <rect x="80" y="145" width="240" height="22" rx="3" fill="#e8f5e9"/>
+  <text x="90" y="161" class="file">Kanban--4.org</text>
+  <rect x="80" y="172" width="240" height="22" rx="3" fill="#e8f5e9"/>
+  <text x="90" y="188" class="file">Toyota_Production_System--4.org</text>
+  <rect x="80" y="199" width="240" height="22" rx="3" fill="#e8f5e9"/>
+  <text x="90" y="215" class="file">Taiichi_Ohno--7.org</text>
+
+  <!-- Capture dir -->
+  <rect x="60" y="255" width="300" height="65" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="75" y="275" class="file">capture/</text>
+  <rect x="80" y="285" width="240" height="22" rx="3" fill="#fff8e1"/>
+  <text x="90" y="301" class="file">Quick_thought--14.org</text>
+
+  <!-- Blob dir -->
+  <rect x="60" y="330" width="300" height="65" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="75" y="350" class="file">lib/blob/</text>
+  <rect x="80" y="360" width="240" height="22" rx="3" fill="#fce4ec"/>
+  <text x="90" y="376" class="file">ohno:1988tps.pdf</text>
+
+  <!-- Map box (right) -->
+  <rect x="420" y="75" width="340" height="360" rx="6" fill="#f5f0ff" stroke="#5e548e" stroke-width="2"/>
+  <text x="590" y="100" text-anchor="middle" class="label" fill="#5e548e">MAP (.hord/)</text>
+
+  <!-- Overlays -->
+  <rect x="440" y="115" width="300" height="95" rx="4" fill="white" stroke="#c4b5e0" stroke-width="1.5"/>
+  <text x="455" y="135" class="file">overlays/</text>
+  <rect x="460" y="145" width="120" height="22" rx="3" fill="#ede7f6"/>
+  <text x="470" y="161" class="file">strata/</text>
+  <rect x="460" y="172" width="120" height="22" rx="3" fill="#ede7f6"/>
+  <text x="470" y="188" class="file">structural/</text>
+  <rect x="590" y="145" width="130" height="22" rx="3" fill="#ede7f6"/>
+  <text x="600" y="161" class="file">persona/</text>
+
+  <!-- Index -->
+  <rect x="440" y="220" width="300" height="45" rx="4" fill="white" stroke="#c4b5e0" stroke-width="1.5"/>
+  <text x="455" y="240" class="file">index.tsv</text>
+  <text x="455" y="255" class="tiny">path &lt;-&gt; UUID lookup</text>
+
+  <!-- Vocab -->
+  <rect x="440" y="275" width="300" height="45" rx="4" fill="white" stroke="#c4b5e0" stroke-width="1.5"/>
+  <text x="455" y="295" class="file">vocab/terms.tsv</text>
+  <text x="455" y="310" class="tiny">controlled vocabulary</text>
+
+  <!-- Config -->
+  <rect x="440" y="330" width="300" height="45" rx="4" fill="white" stroke="#c4b5e0" stroke-width="1.5"/>
+  <text x="455" y="350" class="file">config.toml</text>
+  <text x="455" y="365" class="tiny">hord name, format, settings</text>
+
+  <!-- Compile arrow -->
+  <path d="M 380 200 L 420 200" stroke="#2d6a4f" stroke-width="2" fill="none" marker-end="url(#arrowGreen)"/>
+  <text x="400" y="190" text-anchor="middle" class="tiny" fill="#2d6a4f">compile</text>
+
+  <!-- Bottom callouts -->
+  <rect x="40" y="450" width="340" height="55" rx="4" fill="#e8f5e9" stroke="#2d6a4f" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="210" y="470" text-anchor="middle" class="small" fill="#2d6a4f">Delete .hord/ and recompile —</text>
+  <text x="210" y="486" text-anchor="middle" class="small" fill="#2d6a4f">your files are never touched</text>
+
+  <rect x="420" y="450" width="340" height="55" rx="4" fill="#ede7f6" stroke="#5e548e" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="590" y="470" text-anchor="middle" class="small" fill="#5e548e">Regenerable from source —</text>
+  <text x="590" y="486" text-anchor="middle" class="small" fill="#5e548e">bad metadata can't corrupt content</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d6a4f"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="'DejaVu Sans', 'Helvetica Neue', sans-serif">
+  <defs>
+    <style>
+      .title { font-size: 18px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-size: 12px; fill: #666; }
+      .label { font-size: 14px; font-weight: bold; }
+      .small { font-size: 11px; fill: #444; }
+      .tiny { font-size: 10px; fill: #888; font-style: italic; }
+      .mono { font-size: 10.5px; fill: #333; font-family: monospace; }
+      .strike { text-decoration: line-through; fill: #c62828; }
+      .broken { font-size: 10.5px; font-family: monospace; fill: #c62828; text-decoration: line-through; }
+    </style>
+  </defs>
+
+  <rect width="800" height="500" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" class="title">What Happens When You Rename?</text>
+  <text x="400" y="50" text-anchor="middle" class="subtitle">Flat wiki links break — Hoard's UUID-based relations survive</text>
+
+  <!-- FLAT WIKI side -->
+  <rect x="20" y="65" width="370" height="415" rx="6" fill="#fff5f5" stroke="#c62828" stroke-width="2"/>
+  <text x="205" y="90" text-anchor="middle" class="label" fill="#c62828">Flat Wiki</text>
+  <text x="205" y="106" text-anchor="middle" class="tiny">filenames ARE identity</text>
+
+  <!-- Wiki files -->
+  <rect x="40" y="120" width="160" height="75" rx="4" fill="white" stroke="#ef9a9a" stroke-width="1.5"/>
+  <text x="50" y="140" class="mono">TPS.md</text>
+  <text x="50" y="158" class="mono">...</text>
+  <text x="50" y="174" class="mono">See [[Kanban]]</text>
+  <text x="50" y="186" class="mono">See [[Heijunka]]</text>
+
+  <rect x="210" y="120" width="160" height="75" rx="4" fill="white" stroke="#ef9a9a" stroke-width="1.5"/>
+  <text x="220" y="140" class="mono">Ohno.md</text>
+  <text x="220" y="158" class="mono">...</text>
+  <text x="220" y="174" class="mono">Created [[Kanban]]</text>
+
+  <rect x="40" y="210" width="160" height="55" rx="4" fill="white" stroke="#ef9a9a" stroke-width="1.5"/>
+  <text x="50" y="230" class="mono">Heijunka.md</text>
+  <text x="50" y="248" class="mono">Related: [[Kanban]]</text>
+
+  <!-- Kanban file - renamed -->
+  <rect x="210" y="210" width="160" height="55" rx="4" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+  <text x="220" y="230" class="broken">Kanban.md</text>
+  <text x="220" y="248" class="mono" fill="#2d6a4f">Pull_System.md</text>
+  <text x="300" y="260" class="tiny" fill="#c62828">renamed!</text>
+
+  <!-- Broken links indicator -->
+  <text x="205" y="290" text-anchor="middle" class="label" fill="#c62828">After rename:</text>
+
+  <rect x="40" y="300" width="330" height="50" rx="4" fill="#ffebee" stroke="#ef9a9a"/>
+  <text x="50" y="318" class="broken">[[Kanban]]</text>
+  <text x="140" y="318" class="small" fill="#c62828">x 3 broken links</text>
+  <text x="50" y="335" class="tiny" fill="#c62828">Must find-and-replace every reference manually</text>
+
+  <!-- Result -->
+  <rect x="40" y="365" width="330" height="95" rx="4" fill="#ffcdd2"/>
+  <text x="205" y="388" text-anchor="middle" class="small" font-weight="bold" fill="#c62828">Problems:</text>
+  <text x="55" y="408" class="small" fill="#c62828">- Links break silently on rename</text>
+  <text x="55" y="425" class="small" fill="#c62828">- No typed relationships (BT/NT/RT)</text>
+  <text x="55" y="442" class="small" fill="#c62828">- AI must parse prose for structure</text>
+
+  <!-- HOARD side -->
+  <rect x="410" y="65" width="370" height="415" rx="6" fill="#f0f7f4" stroke="#2d6a4f" stroke-width="2"/>
+  <text x="595" y="90" text-anchor="middle" class="label" fill="#2d6a4f">Hoard</text>
+  <text x="595" y="106" text-anchor="middle" class="tiny">UUIDs ARE identity — filenames are just labels</text>
+
+  <!-- Hoard files -->
+  <rect x="430" y="120" width="160" height="75" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="440" y="140" class="mono">TPS--4.org</text>
+  <text x="440" y="158" class="mono">ID: c348...</text>
+  <text x="440" y="174" class="mono">NT: d4e5... (Kanban)</text>
+
+  <rect x="600" y="120" width="160" height="75" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="610" y="140" class="mono">Ohno--7.org</text>
+  <text x="610" y="158" class="mono">ID: e5f6...</text>
+  <text x="610" y="174" class="mono">RT: d4e5... (Kanban)</text>
+
+  <rect x="430" y="210" width="160" height="55" rx="4" fill="white" stroke="#b7e4c7" stroke-width="1.5"/>
+  <text x="440" y="230" class="mono">Heijunka--4.org</text>
+  <text x="440" y="248" class="mono">RT: d4e5... (Kanban)</text>
+
+  <!-- Kanban file - renamed, no problem -->
+  <rect x="600" y="210" width="160" height="55" rx="4" fill="#e8f5e9" stroke="#2d6a4f" stroke-width="2"/>
+  <text x="610" y="228" class="mono" fill="#888"><tspan text-decoration="line-through">Kanban--4.org</tspan></text>
+  <text x="610" y="245" class="mono" fill="#2d6a4f">Pull_System--4.org</text>
+  <text x="690" y="258" class="tiny" fill="#2d6a4f">renamed!</text>
+
+  <!-- Still works -->
+  <text x="595" y="290" text-anchor="middle" class="label" fill="#2d6a4f">After rename:</text>
+
+  <rect x="430" y="300" width="330" height="50" rx="4" fill="#e8f5e9" stroke="#b7e4c7"/>
+  <text x="440" y="318" class="mono" fill="#2d6a4f">d4e5...</text>
+  <text x="510" y="318" class="small" fill="#2d6a4f">UUID unchanged — all 3 links still work</text>
+  <text x="440" y="335" class="tiny" fill="#2d6a4f">hord compile updates index.tsv, quads untouched</text>
+
+  <!-- Result -->
+  <rect x="430" y="365" width="330" height="95" rx="4" fill="#c8e6c9"/>
+  <text x="595" y="388" text-anchor="middle" class="small" font-weight="bold" fill="#2d6a4f">Advantages:</text>
+  <text x="445" y="408" class="small" fill="#2d6a4f">- Rename freely, links never break</text>
+  <text x="445" y="425" class="small" fill="#2d6a4f">- Typed relations (BT/NT/RT/UF)</text>
+  <text x="445" y="442" class="small" fill="#2d6a4f">- AI reads structured quads directly</text>
+</svg>
