@@ -18,6 +18,10 @@ that matches what you're trying to do.
 
 ### I want to do something
 
+- **[Installation Guide](INSTALL.md)** — Full setup: CLI, Emacs
+  reader, MCP server, and optional integrations (Google Calendar,
+  Readwise). Step-by-step, copy-paste friendly.
+
 - **[Quick Start](QUICKSTART.md)** — Install Hoard, run the demo,
   create your first card. Three minutes, no prerequisites beyond
   Python and Git.
