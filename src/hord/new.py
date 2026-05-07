@@ -41,6 +41,8 @@ TYPE_SHORTCUTS = {
     "office": "wh:office",
     "task": "wh:task",
     "event": "wh:event",
+    "med": "wh:media",
+    "media": "wh:media",
 }
 
 # Map vocab IDs to filename suffixes
@@ -62,6 +64,7 @@ TYPE_SUFFIX = {
     "wh:office": "17",
     "wh:task": "18",
     "wh:event": "19",
+    "wh:media": "20",
 }
 
 
@@ -144,6 +147,36 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
             "",
             f"* {display_title}",
             *props,
+            "",
+            "** Notes",
+            "",
+            "",
+        ]
+    elif entity_type == "wh:media":
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "** Media",
+            "   :PROPERTIES:",
+            "   :CREATOR:    ",
+            "   :DATE:       ",
+            "   :LOCATION:   ",
+            "   :LICENSE:    ",
+            "   :FORMAT:     ",
+            "   :MEDIA_FILE: ",
+            "   :SOURCE_URL: ",
+            "   :END:",
+            "",
+            "** Relations",
+            f"   - PT :: {display_title}",
+            "",
+            "** Description",
+            "",
             "",
             "** Notes",
             "",
@@ -239,7 +272,7 @@ TYPE_LABELS = [
 @click.command("new")
 @click.argument("title", required=False)
 @click.option("--type", "-t", "entity_type", default=None,
-              help="Entity type: con, pat, key, wrk, per, cat, sys, pla, evt, obj, org (or wh:con etc.)")
+              help="Entity type: con, pat, key, wrk, per, cat, sys, pla, evt, obj, org, med (or wh:con etc.)")
 @click.option("--format", "-f", "fmt", type=click.Choice(["org", "md"]),
               default=None, help="File format (default: from config.toml)")
 @click.option("--dir", "-d", "content_dir", default="content",

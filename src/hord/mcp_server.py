@@ -441,8 +441,8 @@ def new_card(title: str, entity_type: str = "con", fmt: str = "org",
     with a unique UUID, type classification, and timestamp.
     Returns the path, UUID, and type of the new card.
 
-    entity_type can be a shortcut (con, per, wrk, pat, cap, etc.)
-    or a full vocab ID (wh:con, wh:per, wh:cap, etc.).
+    entity_type can be a shortcut (con, per, wrk, pat, cap, med, etc.)
+    or a full vocab ID (wh:con, wh:per, wh:cap, wh:media, etc.).
 
     For capture cards (type=cap), defaults to capture/ directory
     and supports a source field (reading, conversation, observation, etc.).

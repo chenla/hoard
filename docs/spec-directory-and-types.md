@@ -221,6 +221,36 @@ There is no enforced naming convention for blob files.  Implementors
 SHOULD use descriptive filenames.  Large binary files SHOULD be
 managed with Git LFS.
 
+### 4.4. `lib/media/`
+
+The `lib/media/` directory stores media files: photographs, images,
+audio recordings, video, SVG, and other media artifacts.  These are
+distinct from `lib/blob/` which holds reference works (PDFs, EPUBs).
+
+Media files are named using a `creator:yearslug.ext` pattern that
+parallels the citekey convention for works:
+
+```
+benjamin-franck:1927solvay-conference.jpg
+ansel-adams:1942moonrise-hernandez.tif
+```
+
+For media where the creator is not the point (screenshots, diagrams,
+generated images), use a descriptive slug:
+
+```
+hoard-architecture-diagram.svg
+screenshot-2026-05-07-agenda.png
+```
+
+Each media file SHOULD have a corresponding `wh:media` card (suffix
+`--20`) with provenance metadata.  The card's `:MEDIA_FILE:` property
+links to the file using a path relative to the hord root:
+
+```
+:MEDIA_FILE: lib/media/benjamin-franck:1927solvay-conference.jpg
+```
+
 ---
 
 ## 5. File Naming Convention
@@ -313,6 +343,12 @@ suffix.
 | 12     | `wh:obj`  | Object       | A physical or conceptual object (artifact, tool, specimen). |
 | 13     | `wh:org`  | Organization | An organization, institution, company, or group. |
 | 14     | `wh:cap`  | Capture      | A capture card.  Quick notes, observations, fleeting thoughts.  Raw material that has not been processed into a reference card.  Defaults to `capture/` directory. |
+| 15     | `wh:tag`  | Tag          | A tag definition with usage guidance and processing instructions. |
+| 16     | `wh:persona` | Persona   | A role definition: scope, context, and what it sees. |
+| 17     | `wh:office` | Office     | A transferable title that persists beyond any one holder. |
+| 18     | `wh:task` | Task         | An actionable item with status, due date, and optional scheduling. |
+| 19     | `wh:event` | Event Entry | A calendar event with date/time. |
+| 20     | `wh:media` | Media       | A media record: image, photograph, audio recording, video, SVG, or other media artifact.  Metadata includes creator, date, location, license, and format.  Media files stored in `lib/media/`. |
 
 Suffix numbers 1 and 2 are reserved.  Implementations MUST NOT assign
 types to these suffixes.

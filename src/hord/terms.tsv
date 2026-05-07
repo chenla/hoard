@@ -45,3 +45,7 @@ v:status	STATUS	Task status (todo, done, waiting, cancelled)
 v:due	DUE	Due date (ISO 8601: YYYY-MM-DD)
 v:scheduled	SCHEDULED	Scheduled date (ISO 8601: YYYY-MM-DD)
 v:citekey	CITEKEY	Bibliographic citation key (author:yearslug)
+wh:media	Media	Word-hord: media record (image, audio, video, SVG, etc.)
+v:creator	CREATOR	Creator/photographer/artist of a media item
+v:license	LICENSE	License or rights statement (CC BY-SA 4.0, public domain, etc.)
+v:media-file	MEDIA_FILE	Path to media file in lib/media/ relative to hord root
