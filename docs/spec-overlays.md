@@ -152,7 +152,16 @@ relevant; a "sysadmin" persona might flag a configuration pattern.
 Persona overlays allow multiple simultaneous viewpoints without
 polluting the shared structural or identity metadata.
 
-### 4.4. Flow Overlay (Deferred)
+### 4.4. Holon Predicates in Overlays
+
+Holons use both predefined overlays.  Expression cards are linked to
+their Wholes via `v:s-eo` quads in the **strata** overlay (identity).
+Holon membership, expression preference, and ordering use `v:h-`
+prefixed predicates in the **structural** overlay (organization).
+
+See the Holon Specification for details.
+
+### 4.5. Flow Overlay (Deferred)
 
 **Question answered:** How does change propagate through this system?
 

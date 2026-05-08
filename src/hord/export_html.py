@@ -10,6 +10,10 @@ from hord.git_utils import find_hord_root
 from hord.quad import read_quads, quad_path, read_all_quads
 from hord.vocab import Vocabulary, find_vocab
 from hord.query import load_index, find_incoming
+from hord.holon import (
+    find_expression_for, _get_card_type, _get_card_title,
+    _is_expression_card,
+)
 
 
 # ── Styles ──────────────────────────────────────────────
@@ -349,17 +353,242 @@ def render_index_page(entities: list[dict], hord_name: str) -> str:
     return _html_page(hord_name, "\n".join(body_parts))
 
 
+# ── Holon page ────────────────────────────────────────
+
+HOLON_CSS_EXTRA = """\
+.holon-header { margin-bottom: 2rem; }
+.holon-meta { font-size: .9rem; color: var(--muted); margin: .25rem 0; }
+.holon-member {
+  border: 1px solid var(--border); border-radius: 4px;
+  padding: 1rem 1.25rem; margin-bottom: 1rem;
+  background: var(--card-bg);
+}
+.holon-member h3 { font-size: 1.05rem; margin-bottom: .25rem; }
+.holon-member h3 a { color: var(--fg); }
+.holon-member .member-meta {
+  font-size: .8rem; color: var(--muted); margin-bottom: .5rem;
+}
+.holon-member .member-meta .type-tag { font-size: .75rem; }
+.holon-member .member-notes { font-size: .9rem; }
+.holon-member .member-notes p { margin-bottom: .5rem; }
+.holon-member .member-notes p:last-child { margin-bottom: 0; }
+.expr-badge {
+  display: inline-block; background: var(--accent); color: #fff;
+  padding: .05rem .4rem; border-radius: 3px; font-size: .7rem;
+  margin-left: .5rem; vertical-align: middle;
+}
+.whole-link {
+  font-size: .8rem; color: var(--muted); margin-left: .5rem;
+}
+.debate-section { margin-top: 2rem; }
+.debate-section h2 { border-bottom: 2px solid var(--accent); padding-bottom: .25rem; }
+"""
+
+
+def render_holon_page(holon_uuid: str, hord_root: str, vocab: Vocabulary,
+                      path_for_uuid: dict) -> str:
+    """Render a holon as an HTML landing page with member cards."""
+    holon_quads = read_all_quads(hord_root, holon_uuid)
+
+    # Extract holon metadata
+    holon_title = holon_uuid
+    expr_prefer = None
+    members = {}
+    order_map = {}
+
+    for q in holon_quads:
+        if q.predicate == "v:title":
+            holon_title = q.object
+        elif q.predicate == "v:h-expr":
+            expr_prefer = q.object
+        elif q.predicate == "v:h-member":
+            members[q.object] = 999
+        elif q.predicate == "v:h-order":
+            try:
+                order_map[q.subject] = int(q.object)
+            except ValueError:
+                pass
+
+    for m_uuid, pos in order_map.items():
+        if m_uuid in members:
+            members[m_uuid] = pos
+
+    ordered = sorted(members.items(), key=lambda x: (x[1], x[0]))
+
+    # Extract holon description from source file
+    holon_desc = ""
+    source_path = path_for_uuid.get(holon_uuid)
+    if source_path:
+        full_path = os.path.join(hord_root, source_path)
+        holon_desc = _extract_holon_description(full_path)
+
+    # Build page
+    body_parts = []
+    body_parts.append('<div class="holon-header">')
+    body_parts.append(f"<h1>{escape(holon_title)}</h1>")
+    if holon_desc:
+        body_parts.append(f"<p>{escape(holon_desc)}</p>")
+    body_parts.append(f'<div class="holon-meta">{len(members)} members')
+    if expr_prefer:
+        body_parts.append(f' &middot; Expression: <em>{escape(expr_prefer)}</em>')
+    body_parts.append("</div>")
+    body_parts.append("</div>")
+
+    # Group members by type for rendering
+    type_order = ["wh:evt", "wh:per", "wh:org", "wh:media"]
+    type_groups: dict[str, list] = {}
+
+    for m_uuid, pos in ordered:
+        m_type = _get_card_type(hord_root, m_uuid) or "other"
+        if m_type not in type_groups:
+            type_groups[m_type] = []
+
+        # Resolve expression
+        display_uuid = m_uuid
+        is_expr = False
+        if expr_prefer:
+            expr_uuid = find_expression_for(hord_root, m_uuid, expr_prefer)
+            if expr_uuid:
+                display_uuid = expr_uuid
+                is_expr = True
+
+        display_title = _resolve_title(display_uuid, hord_root)
+        whole_title = _resolve_title(m_uuid, hord_root) if is_expr else None
+
+        # Get notes from source file
+        notes_path = path_for_uuid.get(display_uuid)
+        notes_text = ""
+        if notes_path:
+            full_path = os.path.join(hord_root, notes_path)
+            notes_text = _extract_notes(full_path)
+
+        type_groups[m_type].append({
+            "uuid": display_uuid,
+            "whole_uuid": m_uuid if is_expr else None,
+            "title": display_title,
+            "whole_title": whole_title,
+            "type": m_type,
+            "type_label": vocab.label(m_type) if m_type else "Other",
+            "notes": notes_text,
+            "is_expr": is_expr,
+            "pos": pos,
+        })
+
+    # Render groups in type order
+    for t in type_order:
+        if t not in type_groups:
+            continue
+        group = type_groups[t]
+        type_label = vocab.label(t) if t else "Other"
+
+        body_parts.append(f'<div class="debate-section">')
+        body_parts.append(f"<h2>{escape(type_label)}s</h2>")
+
+        for member in group:
+            body_parts.append(_render_member_card(member))
+
+        body_parts.append("</div>")
+
+    # Any remaining types not in type_order
+    for t, group in type_groups.items():
+        if t in type_order:
+            continue
+        type_label = vocab.label(t) if t else "Other"
+        body_parts.append(f'<div class="debate-section">')
+        body_parts.append(f"<h2>{escape(type_label)}</h2>")
+        for member in group:
+            body_parts.append(_render_member_card(member))
+        body_parts.append("</div>")
+
+    breadcrumb = '<div class="breadcrumb"><a href="index.html">&larr; Index</a></div>'
+
+    # Use extended CSS
+    page_css = CSS + HOLON_CSS_EXTRA
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{escape(holon_title)}</title>
+<style>{page_css}</style>
+</head>
+<body>
+{breadcrumb}
+{chr(10).join(body_parts)}
+<footer>Generated by Hoard</footer>
+</body>
+</html>
+"""
+
+
+def _render_member_card(member: dict) -> str:
+    """Render a single member as an HTML card."""
+    parts = []
+    parts.append('<div class="holon-member">')
+
+    # Title with link
+    title_html = f'<a href="{_entity_filename(member["uuid"])}">{escape(member["title"])}</a>'
+    if member["is_expr"]:
+        title_html += '<span class="expr-badge">expression</span>'
+    if member["whole_uuid"]:
+        title_html += (f'<a class="whole-link" '
+                       f'href="{_entity_filename(member["whole_uuid"])}">'
+                       f'(← {escape(member["whole_title"] or "Whole")})</a>')
+    parts.append(f"<h3>{title_html}</h3>")
+
+    # Type
+    parts.append(f'<div class="member-meta">'
+                 f'<span class="type-tag">{escape(member["type_label"])}</span>'
+                 f'</div>')
+
+    # Notes
+    if member["notes"]:
+        notes_html = _text_to_html(member["notes"])
+        parts.append(f'<div class="member-notes">{notes_html}</div>')
+
+    parts.append("</div>")
+    return "\n".join(parts)
+
+
+def _extract_holon_description(filepath: str) -> str:
+    """Extract the description text between the properties and first heading."""
+    if not filepath or not os.path.exists(filepath):
+        return ""
+    with open(filepath, "r") as f:
+        content = f.read()
+    lines = content.split("\n")
+    desc_lines = []
+    past_props = False
+    for line in lines:
+        if line.strip() == ":END:":
+            past_props = True
+            continue
+        if past_props:
+            if re.match(r"^\*{1,3}\s+", line):
+                break
+            stripped = line.strip()
+            if stripped:
+                desc_lines.append(stripped)
+    return " ".join(desc_lines)
+
+
 # ── CLI command ────────────────────────────────────────
 
 @click.command("export")
 @click.option("--output", "-o", default="_site",
               help="Output directory (default: _site/)")
-def export_cmd(output):
+@click.option("--holon", "holon_name", default=None,
+              help="Export a holon as a landing page with member cards")
+def export_cmd(output, holon_name):
     """Export the hord as a browsable HTML site.
 
     Generates one HTML page per entity plus an index page.
     All pages are self-contained with inline CSS — no
     external dependencies.
+
+    With --holon, also generates a holon landing page that
+    shows all members with expression substitution and
+    inline notes.
     """
     hord_root = find_hord_root(".")
     if hord_root is None:
@@ -445,6 +674,27 @@ def export_cmd(output):
         if page:
             with open(os.path.join(out_dir, _entity_filename(ent["uuid"])), "w") as f:
                 f.write(page)
+
+    # Render holon page if requested
+    if holon_name:
+        holon_uuid = index.get(holon_name)
+        if holon_uuid is None:
+            # Try partial match
+            for key, val in index.items():
+                if key.startswith(holon_name) and len(holon_name) >= 4:
+                    holon_uuid = val
+                    break
+        if holon_uuid is None:
+            click.echo(f"Warning: holon '{holon_name}' not found, skipping holon page.", err=True)
+        else:
+            holon_html = render_holon_page(holon_uuid, hord_root, vocab, path_for_uuid)
+            holon_filename = f"holon-{holon_uuid}.html"
+            with open(os.path.join(out_dir, holon_filename), "w") as f:
+                f.write(holon_html)
+            # Also write as holon.html for easy access
+            with open(os.path.join(out_dir, "holon.html"), "w") as f:
+                f.write(holon_html)
+            click.echo(f"Holon page: {os.path.join(out_dir, 'holon.html')}")
 
     click.echo(f"Exported {len(entities)} entities to {out_dir}/")
     click.echo(f"  Open {os.path.join(out_dir, 'index.html')} to browse.")

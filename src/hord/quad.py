@@ -83,6 +83,7 @@ STRUCTURAL_PREDICATES = {
     "v:tt", "v:pt", "v:bt", "v:btg", "v:bti", "v:btp",
     "v:nt", "v:ntg", "v:nti", "v:ntp",
     "v:rt", "v:uf", "v:use", "v:tag",
+    "v:h-member", "v:h-expr", "v:h-order", "v:h-cascade",
 }
 
 

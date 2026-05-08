@@ -34,6 +34,7 @@ from hord.add import add_cmd
 from hord.link import link_cmd
 from hord.mobile import mobile_cmd
 from hord.web import web_cmd
+from hord.holon_cmd import holon_cmd
 
 cli.add_command(init_cmd, "init")
 cli.add_command(compile_cmd, "compile")
@@ -51,3 +52,4 @@ cli.add_command(add_cmd, "add")
 cli.add_command(link_cmd, "link")
 cli.add_command(mobile_cmd, "mobile")
 cli.add_command(web_cmd, "web")
+cli.add_command(holon_cmd, "holon")

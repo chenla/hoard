@@ -43,6 +43,7 @@ TYPE_SHORTCUTS = {
     "event": "wh:event",
     "med": "wh:media",
     "media": "wh:media",
+    "holon": "wh:holon",
 }
 
 # Map vocab IDs to filename suffixes
@@ -65,6 +66,7 @@ TYPE_SUFFIX = {
     "wh:task": "18",
     "wh:event": "19",
     "wh:media": "20",
+    "wh:holon": "21",
 }
 
 
@@ -182,6 +184,37 @@ def scaffold_org(card_uuid: str, title: str, entity_type: str,
             "",
             "",
         ]
+    elif entity_type == "wh:holon":
+        lines = [
+            "#   -*- mode: org; fill-column: 60 -*-",
+            "#+STARTUP: showall",
+            f"#+TITLE:   {display_title}",
+            "",
+            f"* {display_title}",
+            *props,
+            "",
+            "",
+            "** Membership",
+            "",
+            "Cards tagged ~CHANGE-ME, plus:",
+            "- ",
+            "",
+            "** Expression",
+            "",
+            "Prefer: CHANGE-ME",
+            "Fallback: whole",
+            "",
+            "** Order",
+            "",
+            "1. wh:evt",
+            "2. wh:per (alphabetical by title)",
+            "3. wh:org",
+            "4. wh:media",
+            "",
+            "** Notes",
+            "",
+            "",
+        ]
     elif entity_type in ("wh:persona", "wh:office"):
         lines = [
             "#   -*- mode: org; fill-column: 60 -*-",
@@ -266,6 +299,7 @@ TYPE_LABELS = [
     ("event", "Event (calendar)"),
     ("persona", "Persona"),
     ("office", "Office"),
+    ("holon", "Holon (named card subset)"),
 ]
 
 

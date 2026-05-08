@@ -11,6 +11,7 @@ from hord.md_parser import parse_md_file
 from hord.md_parser import scan_directory as scan_md
 from hord.quad import Quad, write_quads, quad_path, overlay_for_predicate, list_overlays
 from hord.vocab import Vocabulary, find_vocab
+from hord.holon import parse_holon_body, compile_holon
 
 
 # Map relation type labels to vocab term IDs
@@ -246,5 +247,34 @@ def compile_cmd(path, verbose):
         for p, u in sorted(index_entries):
             f.write(f"{p}\t{u}\n")
 
+    # Second pass: compile holon definitions
+    # Holons reference other cards by slug/tag, so they need the index
+    # and tag quads from the first pass to resolve membership.
+    holon_quads = 0
+    holon_count = 0
+    for record in records:
+        if record.entity_type != "wh:holon" or not record.uuid:
+            continue
+
+        try:
+            context = blob_hash(record.filepath)
+        except Exception:
+            context = "unknown"
+
+        holon_def = parse_holon_body(
+            record.filepath, record.uuid, record.title or ""
+        )
+        hquads = compile_holon(
+            holon_def, hord_root, context, verbose=verbose
+        )
+        holon_quads += len(hquads)
+        holon_count += 1
+
+        if verbose:
+            relpath = os.path.relpath(record.filepath, hord_root)
+            click.echo(f"  holon {relpath} → {len(hquads)} membership quads")
+
     click.echo(f"Compiled {files_compiled} files → {total_quads} quads")
+    if holon_count:
+        click.echo(f"Holons: {holon_count} definitions → {holon_quads} membership quads")
     click.echo(f"Index: {len(index_entries)} entries")

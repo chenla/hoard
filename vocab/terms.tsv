@@ -44,3 +44,8 @@ v:tag	TAG	Tag applied to an entity (object is tag term ID or label)
 v:p-relevant	RELEVANT	Card is relevant to this persona/role
 v:p-note	PERSONA NOTE	Role-specific annotation on a card
 v:p-priority	PRIORITY	Importance of card in this role (high, medium, low)
+wh:holon	Holon	A named subset of hord cards assembled for a specific context or purpose
+v:h-member	MEMBER	Card is a member of this holon (subject=holon, object=card UUID)
+v:h-expr	EXPR-PREF	Expression preference tag for this holon (subject=holon, object=tag label)
+v:h-order	ORDER	Ordering position within the holon (subject=card UUID, object=integer, context=holon UUID)
+v:h-cascade	CASCADE	This holon inherits from another (reserved, not yet specified)
