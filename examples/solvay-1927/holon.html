@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fifth Solvay Conference, October 1927</title>
+<style>
+:root {
+  --bg: #fafaf8;
+  --fg: #2c2c2c;
+  --accent: #2d6a4f;
+  --border: #d4d4d0;
+  --muted: #6b6b68;
+  --card-bg: #ffffff;
+  --link: #2d6a4f;
+  --row-bg: #f0f0ec;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #d4d4d0;
+    --accent: #52b788;
+    --border: #3a3a38;
+    --muted: #9a9a96;
+    --card-bg: #222220;
+    --link: #52b788;
+    --row-bg: #252523;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  background: var(--bg); color: var(--fg);
+  max-width: 52rem; margin: 0 auto;
+  padding: 2rem 1.5rem; line-height: 1.7;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Photo section */
+.photo-section {
+  margin-bottom: 2.5rem;
+}
+.photo-frame {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: #111;
+  text-align: center;
+}
+.photo-frame img {
+  width: 100%;
+  display: block;
+}
+.photo-placeholder {
+  padding: 4rem 2rem;
+  color: var(--muted);
+  font-style: italic;
+  font-size: .9rem;
+  background: var(--card-bg);
+}
+.photo-caption {
+  font-size: .85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* Header */
+header {
+  margin-bottom: 2rem;
+}
+header h1 {
+  font-size: 1.6rem;
+  color: var(--accent);
+  margin-bottom: .25rem;
+}
+header .date {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+/* Narrative */
+.narrative {
+  margin-bottom: 2.5rem;
+}
+.narrative p {
+  margin-bottom: 1rem;
+}
+
+/* Row sections */
+.row-section {
+  margin-bottom: 2.5rem;
+}
+.row-section h2 {
+  font-size: 1.1rem;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+}
+.row-note {
+  font-size: .85rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Person cards */
+.person {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin-bottom: .75rem;
+  background: var(--card-bg);
+  overflow: hidden;
+}
+.person-header {
+  padding: .75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: .75rem;
+}
+.person-header:hover {
+  background: var(--row-bg);
+}
+.person-header .toggle {
+  font-family: monospace;
+  font-size: .8rem;
+  color: var(--muted);
+  width: 1rem;
+  flex-shrink: 0;
+}
+.person-header .name {
+  font-weight: 600;
+  flex: 1;
+}
+.person-header .age {
+  font-size: .8rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+.person-header .expr-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: .05rem .4rem;
+  border-radius: 3px;
+  font-size: .65rem;
+  flex-shrink: 0;
+}
+.person-body {
+  padding: 0 1rem 1rem 2.75rem;
+  font-size: .9rem;
+  display: none;
+}
+.person-body p {
+  margin-bottom: .75rem;
+}
+.person-body p:last-child {
+  margin-bottom: 0;
+}
+.person.expanded .person-body { display: block; }
+.person.collapsed .person-header .toggle::after { content: "+"; }
+.person.expanded .person-header .toggle::after { content: "\2212"; }
+
+/* Other cards section */
+.other-cards {
+  margin-bottom: 2.5rem;
+}
+.other-cards h2 {
+  font-size: 1.1rem;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: .25rem;
+  margin-bottom: 1rem;
+}
+.other-card {
+  padding: .5rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.other-card:last-child { border-bottom: none; }
+
+/* Navigation */
+nav {
+  margin-bottom: 2rem;
+  font-size: .9rem;
+}
+nav a { margin-right: 1.5rem; }
+
+footer {
+  margin-top: 3rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: .8rem; color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  body { padding: 1rem .75rem; }
+  header h1 { font-size: 1.3rem; }
+  .person-header { padding: .5rem .75rem; }
+  .person-body { padding: 0 .75rem .75rem 2rem; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="intro.html">&larr; About this demo</a>
+  <a href="_site/index.html">Card index</a>
+</nav>
+
+<div class="photo-section">
+  <div class="photo-frame">
+    <div class="photo-placeholder">
+      Solvay Conference 1927 group photograph.<br>
+      Benjamin Couprie, Institut International de Physique Solvay.<br>
+      Public domain.<br><br>
+      [Place solvay-1927.jpg in lib/blob/ to display here]
+    </div>
+  </div>
+  <div class="photo-caption">
+    Fifth Solvay International Conference on Physics, Brussels, 24&ndash;29 October 1927.
+    "Electrons and Photons." 29 attendees, 17 Nobel laureates.
+  </div>
+</div>
+
+<header>
+  <h1>The Fifth Solvay Conference</h1>
+  <div class="date">Brussels, 24&ndash;29 October 1927</div>
+</header>
+
+<div class="narrative">
+  <p>In October 1927, the most foundational assumption of the modern
+  West &mdash; that the universe is deterministic and fully knowable &mdash;
+  received its final dismantling. The people in this photograph knew
+  it was happening. Some of them had swung the hammer.</p>
+
+  <p>The conference was titled "Electrons and Photons," but what was
+  really at stake was the nature of reality itself. Heisenberg had
+  published the uncertainty principle six months earlier. Bohr had
+  presented complementarity at Como just weeks before. Schr&ouml;dinger's
+  wave equation was barely a year old. De Broglie had come to present
+  a deterministic alternative &mdash; pilot-wave theory &mdash; and
+  watched Pauli demolish it.</p>
+
+  <p>Einstein, the most famous scientist alive, spent the conference
+  constructing thought experiments to break quantum mechanics. Bohr
+  spent the conference dismantling them, sometimes staying up all
+  night. Ehrenfest, watching from the back row, wrote: "like a game
+  of chess."</p>
+
+  <p>What follows is each person as they were <em>that day</em>.
+  Not as Wikipedia remembers them &mdash; flattened into a lifetime
+  of achievements &mdash; but as they saw each other, in a room in
+  Brussels, at a moment when the foundations of physics were shifting
+  under their feet.</p>
+</div>
+
+<!-- FRONT ROW -->
+<div class="row-section">
+  <h2>Front Row</h2>
+  <div class="row-note">Seated, left to right</div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Irving Langmuir</span>
+      <span class="age">Age 46</span>
+    </div>
+    <div class="person-body">
+      <p>American physical chemist. The applied scientist among
+      theoreticians. His work on surface chemistry and gas-filled
+      incandescent lamps earned him the Nobel Prize in Chemistry
+      five years later (1932). At this conference, he represents
+      a practical tradition largely untouched by the quantum
+      interpretation debates swirling around him.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Max Planck</span>
+      <span class="age">Age 69</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>The man who started all of this. In December 1900, to explain
+      black-body radiation, he introduced the quantum of action &mdash;
+      energy comes in discrete packets. He called it "an act of
+      desperation." He spent the next decade trying to reconcile his
+      own discovery with classical physics. He failed.</p>
+      <p>Now, twenty-seven years later, he sits in the front row and
+      watches the young men take his quantum to places he never
+      intended. Born's probabilistic interpretation, Heisenberg's
+      uncertainty, Bohr's complementarity &mdash; these are not
+      refinements of his idea, they are a revolution built on his
+      foundation. Like Einstein, he is uncomfortable. Unlike Einstein,
+      he does not fight. He listens.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Marie Curie</span>
+      <span class="age">Age 59</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>She holds two Nobel Prizes &mdash; Physics (1903) and
+      Chemistry (1911) &mdash; and remains the only person to have
+      won in two different sciences. Pierre has been dead for
+      twenty-one years.</p>
+      <p>She is visibly exhausted. Decades of handling radioactive
+      materials without protection have ravaged her health: her
+      fingers are burned, her eyesight is failing, she carries test
+      tubes of radium in her pockets. She will not live another
+      seven years.</p>
+      <p>She sits between Lorentz and Einstein, looking tired,
+      resolute, and entirely unimpressed by the theoretical fireworks
+      around her.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Hendrik Lorentz</span>
+      <span class="age">Age 74</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>He has chaired every Solvay Conference since the first in
+      1911. His Lorentz transformations became the mathematical
+      foundation of Einstein's special relativity. He is respected
+      by everyone in the room &mdash; perhaps the only person both
+      Einstein and Bohr would defer to.</p>
+      <p>He will be dead in four months. This is his last conference,
+      though no one knows it. When he dies in February 1928, Einstein
+      and Curie attend his funeral.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Albert Einstein</span>
+      <span class="age">Age 48</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>The most famous scientist alive. He has held the Nobel Prize
+      for six years. General relativity is twelve years old. But he
+      has come to Brussels to fight.</p>
+      <p>Quantum mechanics &mdash; the theory his own photoelectric
+      work helped launch &mdash; has grown into something he cannot
+      accept. His objection is not mere conservatism. He believes
+      quantum mechanics violates locality &mdash; "spooky action at
+      a distance." He constructs thought experiment after thought
+      experiment to reveal contradictions. Bohr answers each one.</p>
+      <p>He sits in the front row, arms crossed, looking neither
+      defeated nor persuaded.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Paul Langevin</span>
+      <span class="age">Age 55</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>Student of Pierre Curie, veteran of the Cavendish under
+      J.J. Thomson. When Lorentz dies next February, Langevin will
+      succeed him as president of the Solvay conferences. A bridge
+      between experiment and theory, between the French and Germanic
+      physics communities, between the generation of Curie and the
+      generation of de Broglie.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Charles-Eug&egrave;ne Guye</span>
+      <span class="age">Age 61</span>
+    </div>
+    <div class="person-body">
+      <p>Swiss experimentalist. His measurements of relativistic
+      mass increase helped confirm special relativity. Einstein was
+      one of his students at Zurich Polytechnic.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">C.T.R. Wilson</span>
+      <span class="age">Age 58</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>About to win the Nobel Prize &mdash; the announcement comes
+      weeks after this conference, shared with Compton. His cloud
+      chamber made the invisible visible: for the first time, you
+      could see individual particle tracks. While Bohr and Einstein
+      argue about whether God plays dice, Wilson's cloud chamber
+      shows you the dice landing.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Owen Richardson</span>
+      <span class="age">Age 48</span>
+    </div>
+    <div class="person-body">
+      <p>British physicist. Thermionic emission, Richardson's law.
+      Nobel Prize the following year (1928). Solid experimentalist,
+      tangential to the quantum interpretation debates.</p>
+    </div>
+  </div>
+</div>
+
+<!-- MIDDLE ROW -->
+<div class="row-section">
+  <h2>Middle Row</h2>
+  <div class="row-note">Standing, left to right</div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Peter Debye</span>
+      <span class="age">Age 43</span>
+    </div>
+    <div class="person-body">
+      <p>Dutch physicist. Dipole moments, molecular structure, Debye
+      model of specific heat. Nobel Prize in Chemistry (1936).
+      Schr&ouml;dinger's predecessor at Zurich.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Martin Knudsen</span>
+      <span class="age">Age 56</span>
+    </div>
+    <div class="person-body">
+      <p>Danish physicist. Molecular gas flow, the Knudsen number.
+      Kinetic theory specialist, peripheral to the quantum debates
+      at the heart of this conference.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">William Lawrence Bragg</span>
+      <span class="age">Age 37</span>
+    </div>
+    <div class="person-body">
+      <p>The youngest-ever Nobel laureate in physics (age 25, shared
+      with his father in 1915). X-ray crystallography, Bragg's law.
+      Later directed the Cavendish Laboratory during the discovery
+      of DNA's structure.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Hendrik Kramers</span>
+      <span class="age">Age 32</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>Bohr's chief assistant for nearly a decade. Co-developed
+      the Kramers-Heisenberg dispersion formula with the young
+      Heisenberg in 1925. The "K" in the WKB approximation. He
+      understands Bohr's thinking better than almost anyone in
+      the room &mdash; but Heisenberg, five years younger, has
+      already surpassed him in reputation.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Paul Dirac</span>
+      <span class="age">Age 25</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>Completed his PhD just one year ago. His transformation
+      theory showed Heisenberg's matrix mechanics and Schr&ouml;dinger's
+      wave mechanics were the same theory in different mathematical
+      clothing. Says almost nothing at the conference. Within a year
+      he will publish the Dirac equation, predict antimatter, and
+      change physics again.</p>
+      <p>In the photograph he looks slightly elsewhere, as if the
+      social occasion around him is a minor inconvenience interrupting
+      something more important happening inside his head.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Arthur Compton</span>
+      <span class="age">Age 35</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>About to share the Nobel Prize with C.T.R. Wilson. The
+      Compton effect &mdash; X-rays scattering off electrons like
+      particle collisions &mdash; is one of the experimental facts
+      driving everything being debated in this room. Wave-particle
+      duality exists as a scientific problem partly because of his
+      results.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Louis de Broglie</span>
+      <span class="age">Age 35</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>The 7th Duc de Broglie. Lorentz specifically invited him
+      to present his pilot-wave theory &mdash; a deterministic
+      alternative to Copenhagen. Pauli attacks it. De Broglie
+      cannot answer. He abandons the theory for twenty-five years,
+      until Bohm independently rediscovers it in 1952.</p>
+      <p>This conference is where a viable alternative to
+      Copenhagen was killed. The road not taken.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Max Born</span>
+      <span class="age">Age 44</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>His probabilistic interpretation of the wave function &mdash;
+      the Born rule &mdash; is one of the pillars being debated.
+      "God does not play dice," Einstein tells him directly. They are
+      personal friends. The disagreement will last the rest of their
+      lives.</p>
+      <p>He supervised both Heisenberg and Pauli at G&ouml;ttingen.
+      The Nobel committee will not recognize the Born rule until
+      1954 &mdash; twenty-eight years after he proposed it.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Niels Bohr</span>
+      <span class="age">Age 42</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>His Institute in Copenhagen has become the world center for
+      quantum theory. Complementarity, presented at Como weeks before,
+      is fully formed. The conference becomes his arena. Einstein
+      attacks with thought experiments at breakfast; Bohr spends the
+      day demolishing each one.</p>
+      <p>Bohr wins. Not by proving Einstein wrong &mdash; Einstein's
+      concerns about locality will prove prescient &mdash; but by
+      demonstrating that the Copenhagen interpretation is internally
+      consistent and experimentally productive. The physics community
+      follows Bohr. The old certainty is gone.</p>
+    </div>
+  </div>
+</div>
+
+<!-- BACK ROW -->
+<div class="row-section">
+  <h2>Back Row</h2>
+  <div class="row-note">Standing, left to right</div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Auguste Piccard</span>
+      <span class="age">Age 43</span>
+    </div>
+    <div class="person-body">
+      <p>Swiss-Belgian physicist. His famous stratospheric balloon
+      flights and deep-sea bathyscaphe explorations come later.
+      Herg&eacute;'s inspiration for Professor Calculus in Tintin.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">&Eacute;mile Henriot</span>
+      <span class="age">Age 42</span>
+    </div>
+    <div class="person-body">
+      <p>French physicist. First to definitively demonstrate that
+      potassium and rubidium are naturally radioactive. Pioneer
+      in ultracentrifuge development.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Paul Ehrenfest</span>
+      <span class="age">Age 47</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>The conference's gadfly &mdash; the man who asks the
+      devastating question. Watching the Bohr-Einstein debates, he
+      writes: "like a game of chess. Einstein all the time with new
+      examples... Bohr from out of philosophical smoke clouds
+      constantly searching for the tools to crush one example after
+      the other."</p>
+      <p>He is close friends with both combatants. He stays at
+      Einstein's house; he stays at Bohr's. He cannot choose between
+      them.</p>
+      <p>Six years from now, on 25 September 1933, Ehrenfest will
+      shoot his youngest son Wassik and then himself. His suicide
+      note is addressed to Bohr, Einstein, and the other friends
+      from this circle. He writes that he can no longer keep up with
+      physics. In the photograph he stands in the back row, looking
+      alert and engaged. He has six years left.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">&Eacute;douard Herzen</span>
+      <span class="age">Age 50</span>
+    </div>
+    <div class="person-body">
+      <p>Belgian physical chemist. Ernest Solvay's scientific
+      liaison. Grandson of Alexander Herzen, the Russian political
+      thinker. Institutional bridge between the patron and the
+      physicists.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Th&eacute;ophile de Donder</span>
+      <span class="age">Age 55</span>
+    </div>
+    <div class="person-body">
+      <p>Belgian mathematician and physicist. Considered the father
+      of irreversible thermodynamics. Friend of Einstein.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Erwin Schr&ouml;dinger</span>
+      <span class="age">Age 40</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>His wave equation is barely a year old. He wants it to
+      mean that particles are actually waves. Born says no: the
+      wave function gives you probabilities, not physical waves.
+      Schr&ouml;dinger sides with Einstein and de Broglie against
+      Copenhagen.</p>
+      <p>Years later he will invent the famous cat thought experiment
+      precisely to expose the absurdity of quantum superposition
+      taken literally. He never comes to terms with Born's
+      interpretation. Neither does Einstein. The universe does not
+      appear to care.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Jules-&Eacute;mile Verschaffelt</span>
+      <span class="age">Age 57</span>
+    </div>
+    <div class="person-body">
+      <p>Belgian physicist. Worked under Kamerlingh Onnes at the
+      Leiden cryogenics laboratory. Administrative organizer of
+      the Solvay conferences.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Wolfgang Pauli</span>
+      <span class="age">Age 27</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>His exclusion principle is two years old. He is already
+      feared. Godson of Ernst Mach. At this conference, Pauli is the
+      executioner. When de Broglie presents pilot-wave theory, Pauli
+      dismantles it with a specific technical objection. The theory
+      dies in the room. Whether his objection was actually fatal
+      (Bohm will show it wasn't) or merely persuasive is one of the
+      great what-ifs in physics.</p>
+      <p>"Not even wrong" is his dismissal for theories too vague
+      to be tested. He stands next to Heisenberg &mdash; friends and
+      rivals since student days. The Knabenphysik in full force.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Werner Heisenberg</span>
+      <span class="age">Age 25</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>Matrix mechanics is two years old. The uncertainty principle
+      is six months old. He is at the height of his powers, part of
+      the Knabenphysik &mdash; the physics of boys. He watches his
+      mentor Bohr debate the most famous scientist in the world, and
+      win. His principle is at the center of the argument.</p>
+      <p>He does not yet know what the next eighteen years will bring:
+      the Nobel at 31, the decision to stay in Germany under the Nazis,
+      the uranium project, the ambiguity that will haunt his reputation
+      forever. In October 1927 he is simply brilliant, young, and
+      certain that the universe is uncertain.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">Ralph Fowler</span>
+      <span class="age">Age 38</span>
+      <span class="expr-badge">1927</span>
+    </div>
+    <div class="person-body">
+      <p>Dirac's doctoral supervisor. Rutherford's son-in-law. The
+      bridge between British physics and the continental quantum
+      revolution. He reads the German papers and explains them to
+      his students. Dirac, sitting nearby, is the most brilliant
+      of his 64 doctoral students &mdash; but far from the only one
+      who owes his career to Fowler.</p>
+    </div>
+  </div>
+
+  <div class="person collapsed">
+    <div class="person-header">
+      <span class="toggle"></span>
+      <span class="name">L&eacute;on Brillouin</span>
+      <span class="age">Age 38</span>
+    </div>
+    <div class="person-body">
+      <p>French physicist. The "B" in the WKB approximation. Son
+      of physicist Marcel Brillouin. His most famous contribution
+      &mdash; Brillouin zones &mdash; comes three years later (1930).
+      Important contributions to quantum mechanics, solid-state
+      physics, and later, information theory.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>This page is a <a href="intro.html">Hoard holon demonstration</a>.
+  Each person exists as a card in a hord. The 1927 expression cards show
+  who they were <em>that day</em> &mdash; not as we remember them, but
+  as they saw each other. Built with
+  <a href="https://github.com/chenla/hoard">Hoard</a>.</p>
+</footer>
+
+<script>
+document.addEventListener('click', function(e) {
+  var header = e.target.closest('.person-header');
+  if (!header) return;
+  var person = header.parentElement;
+  person.classList.toggle('collapsed');
+  person.classList.toggle('expanded');
+});
+</script>
+
+</body>
+</html>
