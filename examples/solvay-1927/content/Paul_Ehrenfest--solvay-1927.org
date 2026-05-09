@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Ehrenfest (Solvay 1927)—7
+
+* Paul Ehrenfest (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        dde56402-8ed3-4b2f-b9f9-d5e4b6fea1ca
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Ehrenfest (Solvay 1927)
+   - EO :: [[id:a39781c8-d3fc-430d-a0a7-da672de1c541][Paul Ehrenfest]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr (Solvay 1927)]]
+   - RT :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Ehrenfest is 47.  He succeeded
+Lorentz at Leiden — a position of enormous prestige
+for a man who always doubted himself.  His Ehrenfest
+theorem connects quantum mechanics to classical
+mechanics; it is elegant, important, and not enough
+to make him feel adequate.
+
+His genius is not in equations but in questions.  He
+is the conference's gadfly — the man who asks the
+devastating question that exposes fuzzy thinking.
+Watching the Bohr-Einstein debates, he writes to his
+students: "like a game of chess.  Einstein all the
+time with new examples... Bohr from out of
+philosophical smoke clouds constantly searching for
+the tools to crush one example after the other."
+
+He is close friends with both combatants.  He stays
+at Einstein's house; he stays at Bohr's.  He cannot
+choose between them because he understands both
+positions and finds neither fully satisfying.  The
+new quantum mechanics is moving faster than he can
+follow, and he knows it.
+
+Six years from now, on 25 September 1933, Ehrenfest
+will shoot his youngest son Wassik — who has Down
+syndrome — and then himself, in a park in Amsterdam.
+His suicide note is addressed to Bohr, Einstein,
+and the other friends from this circle.  He writes
+that he can no longer keep up with physics, that
+the gap between what he understands and what the
+field demands has become unbearable.
+
+In the photograph from this conference, he stands
+in the back row, looking alert and engaged.  He
+has six years left.

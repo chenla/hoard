@@ -1,0 +1,33 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Emile Henriot—7
+
+* Emile Henriot—7
+  :PROPERTIES:
+  :ID:        0218f7c9-cc71-482e-932d-86894c18c75f
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Emile Henriot
+   - UF :: Émile Henriot
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:860baf5e-301b-4ac7-823f-829a29349f5c][Auguste Piccard]]
+
+** Notes
+
+Emile Henriot (1885–1961).  French physical chemist.
+Professor at the University of Paris.  Demonstrated
+the natural radioactivity of potassium and rubidium,
+showing that radioactivity was not confined to heavy
+elements.
+
+Pioneer of ultracentrifuge technology, developing
+air-turbine-driven centrifuges capable of extremely
+high rotational speeds.  At the 1927 Solvay
+Conference he served as one of the scientific
+secretaries alongside Piccard.  His experimental
+work, while less famous than that of the quantum
+theorists present, was valued for its precision.

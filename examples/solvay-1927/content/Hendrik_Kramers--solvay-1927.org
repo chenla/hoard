@@ -1,0 +1,46 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Hendrik Kramers (Solvay 1927)—7
+
+* Hendrik Kramers (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        fb22ef14-ef4d-4693-89eb-b598f6742307
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Hendrik Kramers (Solvay 1927)
+   - EO :: [[id:13ed7cbf-1bde-45f2-b50e-cc69e9822337][Hendrik Kramers]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr (Solvay 1927)]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Kramers is 32.  He has spent nearly
+a decade as Bohr's chief assistant in Copenhagen —
+longer than anyone.  He co-developed the
+Kramers-Heisenberg dispersion formula with the young
+Heisenberg in 1925, a key bridge between the old and
+new quantum theory.
+
+He is the man closest to Bohr's thinking, the one
+who has absorbed the Copenhagen spirit most deeply.
+When Bohr presents complementarity, Kramers
+understands it better than almost anyone in the room.
+The "K" in the WKB approximation is his.
+
+But there is a cost to being Bohr's lieutenant for
+so long.  Kramers has his own ideas — his own
+contributions to quantum mechanics are substantial —
+yet he is often overshadowed by the more dramatic
+figures around him.  Heisenberg, five years younger,
+has already surpassed him in reputation.
+
+He will eventually leave Copenhagen, succeed
+Ehrenfest at Leiden in 1934, and build his own
+legacy.  But in October 1927 he stands with Bohr,
+the loyal collaborator, watching the framework they
+helped build transform physics.

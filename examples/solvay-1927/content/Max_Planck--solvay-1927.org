@@ -1,0 +1,47 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Max Planck (Solvay 1927)—7
+
+* Max Planck (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        fde3c5c6-9a5e-491c-a71d-f9215b768e43
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Max Planck (Solvay 1927)
+   - EO :: [[id:07e85f22-d177-4cf9-ad2b-f9b826a2063b][Max Planck]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Planck is 69 years old — the oldest
+active physicist at the conference.  He won the Nobel
+nine years ago.  He retired from the University of
+Berlin last year.
+
+He is the man who started all of this.  In December
+1900, to explain black-body radiation, he introduced
+the quantum of action — energy comes in discrete
+packets.  He called it "an act of desperation."  He
+spent the next decade trying to reconcile his own
+discovery with classical physics.  He failed.
+
+Now, twenty-seven years later, he sits in the front
+row and watches the young men take his quantum to
+places he never intended.  Born's probabilistic
+interpretation, Heisenberg's uncertainty, Bohr's
+complementarity — these are not refinements of his
+idea, they are a revolution built on his foundation.
+Like Einstein, he is uncomfortable.  Unlike Einstein,
+he does not fight.  He listens.
+
+He has nine more years of Nobel Prize in him but the
+worst is still ahead: his son Erwin will be executed
+by the Nazis in 1945 for his role in the plot to
+assassinate Hitler.  In October 1927, none of that
+has happened yet.  He is simply the elder statesman
+of physics, watching his revolution outgrow him.

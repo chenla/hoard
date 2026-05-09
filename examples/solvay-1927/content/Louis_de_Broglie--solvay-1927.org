@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Louis de Broglie (Solvay 1927)—7
+
+* Louis de Broglie (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        d2d68d4c-e2b8-4a5d-b6ea-57bd0045e9ad
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Louis de Broglie (Solvay 1927)
+   - EO :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie]]
+   - RT :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli (Solvay 1927)]]
+   - RT :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrodinger (Solvay 1927)]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  De Broglie is 35, the 7th Duc de
+Broglie — a French aristocrat who chose physics over
+the family tradition of diplomacy and politics.  His
+doctoral thesis (1924) proposed that all matter has
+wave-like properties.  Einstein read it and called it
+"a first feeble ray of light on this worst of our
+physics enigmas."
+
+Lorentz specifically invited him to present his
+pilot-wave theory at this conference.  It is a
+deterministic interpretation of quantum mechanics —
+particles have definite trajectories guided by a
+"pilot wave."  It offers an alternative to the
+Copenhagen interpretation's embrace of fundamental
+randomness.
+
+It does not go well.  Pauli, 27 years old and already
+feared for his devastating critiques, attacks the
+theory.  De Broglie cannot answer Pauli's objection.
+The audience moves on.  Einstein supports de Broglie's
+instinct but not his formalism.  Schrödinger's wave
+equation was developed partly to put de Broglie's
+intuition on rigorous mathematical ground, but the
+probabilistic interpretation (Born) has captured it.
+
+De Broglie abandons pilot-wave theory after this
+conference.  He will not return to it for twenty-five
+years, until David Bohm independently rediscovers and
+extends the idea in 1952.  The Nobel committee awards
+him the prize in 1929 anyway — for the wave nature of
+matter itself, not for the interpretation that was
+rejected here.
+
+This conference is where a viable alternative to
+Copenhagen was killed.  The road not taken.

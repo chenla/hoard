@@ -1,0 +1,37 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Wolfgang Pauli—7
+
+* Wolfgang Pauli—7
+  :PROPERTIES:
+  :ID:        f9802697-69e8-4561-a93f-d032d515f35d
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Wolfgang Pauli
+   - UF :: Wolfgang Ernst Pauli
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+
+** Notes
+
+Wolfgang Pauli (1900–1958).  Austrian-Swiss
+theoretical physicist.  Nobel Prize in Physics 1945
+for the discovery of the exclusion principle (1925),
+which states that no two fermions can occupy the same
+quantum state simultaneously — a cornerstone of
+atomic structure and the periodic table.
+
+Predicted the existence of the neutrino in 1930 to
+explain the continuous energy spectrum of beta decay.
+Godson of Ernst Mach.  Feared throughout physics for
+his withering criticism — his dismissal "not even
+wrong" became legendary.  At 27 he was one of the
+younger participants at the 1927 Solvay Conference,
+already recognized as one of the sharpest minds in
+theoretical physics.

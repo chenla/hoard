@@ -1,0 +1,33 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Irving Langmuir—7
+
+* Irving Langmuir—7
+  :PROPERTIES:
+  :ID:        9aec423b-6ece-4380-8597-dcc9ba55b1da
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Irving Langmuir
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Irving Langmuir (1881–1957).  American chemist and
+physicist.  Nobel Prize in Chemistry 1932 for
+discoveries in surface chemistry — particularly the
+Langmuir adsorption isotherm, which describes the
+relationship between gas pressure and the amount
+adsorbed on a surface.
+
+Spent most of his career at the General Electric
+Research Laboratory in Schenectady, New York, where
+he developed the gas-filled incandescent lamp and
+made fundamental contributions to plasma physics
+(he coined the term "plasma").  Also pioneered cloud
+seeding for weather modification.  One of the few
+industrial scientists to win a Nobel Prize and to
+attend the Solvay Conferences.

@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Arthur Compton (Solvay 1927)—7
+
+* Arthur Compton (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        584d8e07-26bb-4db0-9047-cb4fa86ecc78
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Arthur Compton (Solvay 1927)
+   - EO :: [[id:fbacc278-7de5-46a7-b28a-ed54dddf46ab][Arthur Compton]]
+   - RT :: [[id:d700b961-d092-43a8-a84a-c168a526e97e][C.T.R. Wilson (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Compton is 35.  He is about to share
+the Nobel Prize with C.T.R. Wilson — the announcement
+comes just weeks after this conference.
+
+The Compton effect, discovered in 1922-23, is one of
+the experimental facts driving everything being
+debated in this room.  He showed that X-rays
+scattering off electrons behave exactly as particle
+collisions — transferring momentum in discrete
+quanta.  This was direct, inescapable evidence for
+the particle nature of light, alongside the wave
+interference patterns that were equally well
+established.
+
+Wave-particle duality — the central theme of this
+conference, titled "Electrons and Photons" — exists
+as a scientific problem partly because of Compton's
+results.  Bohr's complementarity, Heisenberg's
+uncertainty, de Broglie's matter waves — all are
+attempts to make sense of a world where Compton's
+particles and Young's interference fringes are both
+undeniably real.
+
+He does not yet know that he will later chair the
+committee that launches the Manhattan Project's
+plutonium program.  In October 1927, he is an
+experimentalist whose data has forced the theorists
+to rethink reality.

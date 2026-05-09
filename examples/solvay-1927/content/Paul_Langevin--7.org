@@ -1,0 +1,31 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Langevin—7
+
+* Paul Langevin—7
+  :PROPERTIES:
+  :ID:        6e8c09d4-c405-426e-b955-5f47e9b9ee63
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Langevin
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:652d3e40-6ea7-453b-95c3-7019d109a6e9][Marie Curie]]
+
+** Notes
+
+Paul Langevin (1872–1946).  French physicist.  Known
+for his theories of paramagnetism and diamagnetism
+(the Langevin equation) and for pioneering ultrasonic
+submarine detection during World War I using
+piezoelectric quartz.
+
+A student of Pierre Curie at the Sorbonne, he
+maintained a lifelong connection to the Curie circle.
+He succeeded Lorentz as president of the Solvay
+Conference after Lorentz's death in 1928.  An outspoken
+anti-fascist, he was placed under house arrest during
+the German occupation of France.

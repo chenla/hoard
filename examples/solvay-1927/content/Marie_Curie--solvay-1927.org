@@ -1,0 +1,44 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Marie Curie (Solvay 1927)—7
+
+* Marie Curie (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        37a27108-97ad-432f-b644-05f3e2374bcf
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:25
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Marie Curie (Solvay 1927)
+   - EO :: [[id:652d3e40-6ea7-453b-95c3-7019d109a6e9][Marie Curie]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Curie is 59.  She holds two Nobel Prizes
+— Physics (1903) and Chemistry (1911) — and remains the
+only person to have won in two different sciences.  Pierre
+has been dead for twenty-one years.
+
+She is visibly exhausted.  Decades of handling radioactive
+materials without protection have ravaged her health: her
+fingers are burned, her eyesight is failing, she carries
+test tubes of radium in her pockets and stores them in her
+desk.  She will not live another seven years.
+
+At the conference she represents the older generation of
+experimentalists.  The theoretical battles between Bohr
+and Einstein are not her war — her domain is the
+laboratory, the measurable, the material.  But she
+understands what is at stake.  She attended the first
+Solvay Conference in 1911, the only woman then as now.
+She has watched the theoretical edifice of classical
+physics crack and fall across sixteen years of these
+gatherings.
+
+In the photograph she sits in the front row between
+Lorentz and Einstein.  She looks tired, resolute, and
+entirely unimpressed by the theoretical fireworks
+around her.

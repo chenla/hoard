@@ -1,0 +1,33 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Auguste Piccard—7
+
+* Auguste Piccard—7
+  :PROPERTIES:
+  :ID:        860baf5e-301b-4ac7-823f-829a29349f5c
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Auguste Piccard
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:0218f7c9-cc71-482e-932d-86894c18c75f][Emile Henriot]]
+
+** Notes
+
+Auguste Piccard (1884–1962).  Swiss-Belgian physicist
+and explorer.  Professor at the Free University of
+Brussels.  Best known for his record-breaking
+stratospheric balloon flights in 1931–1932, reaching
+altitudes above 15,000 meters in a pressurized
+gondola of his own design.
+
+Later invented the bathyscaphe for deep-sea
+exploration; his son Jacques used an improved version
+to reach the bottom of the Mariana Trench in 1960.
+At the Solvay Conference he served as a scientific
+secretary alongside Henriot.  His tall, thin figure
+and wild hair reportedly inspired Herge's Professor
+Calculus in the Tintin comics.

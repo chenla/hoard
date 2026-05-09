@@ -1,0 +1,45 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   C.T.R. Wilson (Solvay 1927)—7
+
+* C.T.R. Wilson (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        e4d57433-31db-494c-b087-32f9ce6a8c12
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: C.T.R. Wilson (Solvay 1927)
+   - EO :: [[id:d700b961-d092-43a8-a84a-c168a526e97e][C.T.R. Wilson]]
+   - RT :: [[id:fbacc278-7de5-46a7-b28a-ed54dddf46ab][Arthur Compton (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Wilson is 58.  He is about to win
+the Nobel Prize — announced just weeks after this
+conference, shared with Arthur Compton, who sits
+nearby in the middle row.
+
+His cloud chamber, invented in 1911, made the
+invisible visible.  For the first time, you could
+see the tracks of individual particles — alpha
+particles, electrons, scattered photons.  The
+theoretical debates swirling around this conference
+are about particles and waves; Wilson built the
+instrument that shows you the particles are real.
+
+The cloud chamber started from an unlikely place:
+Wilson was a meteorologist fascinated by the optical
+phenomena of clouds on Scottish mountains.  He built
+a chamber to study cloud formation and discovered
+it could detect ionizing radiation.  The beautiful
+photographs of particle tracks it produced became
+essential evidence in the quantum debates.
+
+He is the experimentalist among theoreticians —
+quiet, Scottish, methodical.  While Bohr and Einstein
+argue about whether God plays dice, Wilson's cloud
+chamber shows you the dice landing.

@@ -1,0 +1,34 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Jules-Emile Verschaffelt—7
+
+* Jules-Emile Verschaffelt—7
+  :PROPERTIES:
+  :ID:        cff7110e-8bd8-40e4-a62b-68c7306f2f4f
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Jules-Émile Verschaffelt
+   - UF :: Jules-Emile Verschaffelt
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][Solvay Institutes]]
+
+** Notes
+
+Jules-Émile Verschaffelt (1870–1955).  Belgian
+experimental physicist.  Worked under Heike
+Kamerlingh Onnes at the cryogenics laboratory in
+Leiden before returning to Belgium as professor at
+the University of Ghent.
+
+Served as the principal organizer and secretary of
+the Solvay Conferences for many years, handling the
+logistical and administrative work that made the
+meetings run.  While his own research in experimental
+thermodynamics and critical phenomena was competent,
+his lasting contribution was institutional — ensuring
+the Solvay Conferences brought the right people
+together at the right time.

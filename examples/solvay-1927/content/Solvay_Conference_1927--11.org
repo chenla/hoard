@@ -1,0 +1,34 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Solvay Conference 1927—11
+
+* Solvay Conference 1927—11
+  :PROPERTIES:
+  :ID:        e806fcd4-132a-4812-a379-e63a59635eaf
+  :TYPE:      wh:evt
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Fifth Solvay Conference
+   - UF :: Cinquième Conseil de Physique Solvay
+   - BT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][International Solvay Institutes]]
+
+** Notes
+
+The Fifth Solvay International Conference on Physics,
+24–29 October 1927, Brussels.  Theme: "Electrons and
+Photons."
+
+29 attendees, 17 of whom were or became Nobel laureates.
+The conference is remembered as the site of the
+Bohr-Einstein debates over the interpretation of quantum
+mechanics — debates that defined the philosophical
+fault lines of 20th-century physics.
+
+Hendrik Lorentz, president of the conference, died five
+months later.  The group photograph taken on the steps
+of the Institut International de Physique Solvay has
+become one of the most famous images in the history of
+science.

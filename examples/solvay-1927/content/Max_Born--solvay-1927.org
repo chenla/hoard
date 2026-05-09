@@ -1,0 +1,50 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Max Born (Solvay 1927)—7
+
+* Max Born (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        af6fcc2b-0668-45aa-9be2-2012c5f9e065
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Max Born (Solvay 1927)
+   - EO :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg (Solvay 1927)]]
+   - RT :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli (Solvay 1927)]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Born is 44.  He co-presents with
+Heisenberg on matrix mechanics at Lorentz's request.
+His probabilistic interpretation of the wave function
+— the Born rule, published just last year — is one of
+the pillars being debated.
+
+The Born rule says the wave function gives you
+probabilities, not certainties.  The square of the
+amplitude tells you the likelihood of finding a
+particle in a particular state.  This is the idea
+Einstein cannot accept.  "God does not play dice,"
+Einstein tells Born directly.  They are personal
+friends.  The disagreement will last the rest of
+their lives.
+
+Born supervised both Heisenberg and Pauli at
+Göttingen.  The matrix mechanics that Heisenberg
+published in 1925 grew directly from Born's research
+program.  Born is the senior figure, the institutional
+anchor — but it is his students who get the glory.
+Heisenberg will win the Nobel in 1932 alone, without
+Born.  The Nobel committee will not recognize the
+Born rule until 1954 — twenty-eight years after he
+proposed it, three years after Einstein's death.
+
+In October 1927 he is at the peak of his
+contributions.  The recognition will take decades to
+catch up.

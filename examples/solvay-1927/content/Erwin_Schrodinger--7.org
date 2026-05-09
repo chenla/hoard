@@ -1,0 +1,38 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Erwin Schrodinger—7
+
+* Erwin Schrodinger—7
+  :PROPERTIES:
+  :ID:        cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Erwin Schrödinger
+   - UF :: Erwin Schrodinger
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:c5850a3c-baf4-4895-abdc-e18483258d76][Paul Dirac]]
+   - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+
+** Notes
+
+Erwin Schrödinger (1887–1961).  Austrian-Irish
+physicist.  Nobel Prize in Physics 1933 (shared with
+Dirac) for the development of wave mechanics.  In
+1926 he published the Schrödinger equation, which
+describes how the quantum state of a physical system
+changes over time — the foundational equation of
+non-relativistic quantum mechanics.
+
+His wave mechanics provided an alternative to
+Heisenberg's matrix mechanics and was shown to be
+mathematically equivalent.  Later proposed the famous
+Schrödinger's cat thought experiment (1935) to
+illustrate what he saw as absurdities in the
+Copenhagen interpretation.  Fled Austria after the
+Anschluss and eventually settled at the Dublin
+Institute for Advanced Studies.

@@ -1,0 +1,31 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Owen Richardson—7
+
+* Owen Richardson—7
+  :PROPERTIES:
+  :ID:        a2ac2ffc-4838-4dbf-9b7a-32644d9be608
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Owen Richardson
+   - UF :: Owen Willans Richardson
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Owen Richardson (1879–1959).  British physicist.  Nobel
+Prize in Physics 1928 for his work on thermionic
+emission — the discharge of electrons from heated
+surfaces.  His research established the Richardson
+equation (sometimes called the Richardson-Dushman
+equation), which describes the relationship between
+emission current and temperature.
+
+Professor at King's College London and later at
+Princeton.  His work on thermionic emission laid the
+foundation for vacuum tube electronics, which dominated
+electrical engineering until the transistor era.

@@ -1,0 +1,33 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Edouard Herzen—7
+
+* Edouard Herzen—7
+  :PROPERTIES:
+  :ID:        6b3f5069-6be0-466b-b977-daf1fe07c535
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Edouard Herzen
+   - UF :: Édouard Herzen
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][Solvay Institutes]]
+
+** Notes
+
+Edouard Herzen (1877–1936).  Belgian physical chemist.
+Grandson of the Russian political thinker Alexander
+Herzen.  Served as the scientific liaison to the
+Solvay family and the Solvay Institutes, playing an
+essential organizational role in the Solvay
+Conferences.
+
+While not a major researcher himself, Herzen was
+crucial to the conferences as an intermediary between
+the industrialist-philanthropists funding the
+meetings and the physicists who attended them.  His
+position reflected the Belgian institutional
+framework that made the Solvay Conferences possible.

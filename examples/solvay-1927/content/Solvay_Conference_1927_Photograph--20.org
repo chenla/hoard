@@ -1,0 +1,47 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Solvay Conference 1927 Photograph—20
+
+* Solvay Conference 1927 Photograph—20
+  :PROPERTIES:
+  :ID:        efec9602-c196-4366-9c77-c4edc1b15031
+  :TYPE:      wh:media
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Media
+   :PROPERTIES:
+   :CREATOR:    Benjamin Couprie
+   :DATE:       1927-10
+   :LOCATION:   Brussels, Belgium
+   :LICENSE:    Public Domain
+   :FORMAT:     photograph
+   :END:
+
+** Relations
+   - PT :: Solvay Conference 1927 Photograph
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Description
+
+Group photograph of the 29 attendees of the Fifth Solvay
+Conference, taken on the steps of the Institut
+International de Physique Solvay, Brussels, October 1927.
+
+Front row (seated): Irving Langmuir, Max Planck, Marie
+Curie, Hendrik Lorentz, Albert Einstein, Paul Langevin,
+Charles-Eugène Guye, C.T.R. Wilson, Owen Richardson.
+
+Middle row: Peter Debye, Martin Knudsen, William Lawrence
+Bragg, Hendrik Kramers, Paul Dirac, Arthur Compton,
+Louis de Broglie, Max Born, Niels Bohr.
+
+Back row: Auguste Piccard, Émile Henriot, Paul Ehrenfest,
+Édouard Herzen, Théophile de Donder, Erwin Schrödinger,
+Jules-Émile Verschaffelt, Wolfgang Pauli, Werner
+Heisenberg, Ralph Fowler, Léon Brillouin.
+
+One of the most famous photographs in the history of
+science.  17 of the 29 pictured are or would become
+Nobel laureates.

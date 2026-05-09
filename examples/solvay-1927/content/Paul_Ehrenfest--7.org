@@ -1,0 +1,35 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Ehrenfest—7
+
+* Paul Ehrenfest—7
+  :PROPERTIES:
+  :ID:        a39781c8-d3fc-430d-a0a7-da672de1c541
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Ehrenfest
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz]]
+
+** Notes
+
+Paul Ehrenfest (1880–1933).  Austrian-Dutch
+theoretical physicist.  Succeeded Lorentz as
+professor of theoretical physics at Leiden in 1912.
+Known for the Ehrenfest theorem, which bridges
+classical and quantum mechanics, and for the
+Ehrenfest classification of phase transitions.
+
+Legendary for his penetrating questions and his
+ability to expose the core of any argument.  A close
+friend of both Einstein and Bohr, he played the role
+of honest broker in their debates at the 1927 Solvay
+Conference.  Struggled with depression throughout his
+life and died by suicide in September 1933, a loss
+deeply felt across the physics community.

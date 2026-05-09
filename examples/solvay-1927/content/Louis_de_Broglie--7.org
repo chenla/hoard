@@ -1,0 +1,36 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Louis de Broglie—7
+
+* Louis de Broglie—7
+  :PROPERTIES:
+  :ID:        7bf2101d-3405-4d60-91c4-72223cadad4c
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Louis de Broglie
+   - UF :: Louis-Victor-Pierre-Raymond, 7th Duc de Broglie
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrodinger]]
+
+** Notes
+
+Louis de Broglie (1892–1987).  French physicist.
+Nobel Prize in Physics 1929 for his discovery of the
+wave nature of electrons.  In his 1924 doctoral thesis
+he proposed that all matter has wave-like properties,
+with wavelength inversely proportional to momentum —
+the de Broglie relation.
+
+His idea was initially met with skepticism but was
+championed by Einstein and experimentally confirmed
+by Davisson and Germer in 1927.  It inspired
+Schrodinger's development of wave mechanics.  The
+7th Duc de Broglie, he came from one of France's
+oldest noble families.  At the Solvay Conference he
+presented his pilot-wave theory, which was criticized
+and lay dormant for decades.

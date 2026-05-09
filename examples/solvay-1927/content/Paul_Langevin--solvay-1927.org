@@ -1,0 +1,47 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Langevin (Solvay 1927)—7
+
+* Paul Langevin (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        a2cc0c3f-34a3-46bf-b76b-b1cc138cdc38
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Langevin (Solvay 1927)
+   - EO :: [[id:6e8c09d4-c405-426e-b955-5f47e9b9ee63][Paul Langevin]]
+   - RT :: [[id:652d3e40-6ea7-453b-95c3-7019d109a6e9][Marie Curie (Solvay 1927)]]
+   - RT :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Langevin is 55.  He studied under
+Pierre Curie for his doctorate and under J.J. Thomson
+at the Cavendish.  His work on paramagnetism and
+diamagnetism is well established.  During the war he
+developed ultrasonic submarine detection — practical
+physics saving lives.
+
+He sits in the front row next to Marie Curie.  Their
+relationship is complicated — the affair between them
+in 1910-11, after Pierre's death, became a public
+scandal that nearly cost Curie her second Nobel.
+Sixteen years later, they are colleagues and friends,
+the scandal long past.
+
+When Lorentz dies next February, Langevin will succeed
+him as president of the Solvay conferences — a role
+he will hold through increasingly dark times.  In
+1940 the Nazis will arrest him.  He will become one
+of France's most prominent anti-fascist intellectuals.
+After the war, his remains will be transferred to the
+Panthéon alongside those of the Curies.
+
+In October 1927, all of that is ahead.  He is a
+bridge — between experiment and theory, between the
+French and Germanic physics communities, between the
+generation of Curie and the generation of de Broglie.

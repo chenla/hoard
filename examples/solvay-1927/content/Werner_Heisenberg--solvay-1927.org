@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Werner Heisenberg (Solvay 1927)—7
+
+* Werner Heisenberg (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        afc3bdd6-e1c8-4e3e-87fc-ad5c0a1d7d84
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:25
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Werner Heisenberg (Solvay 1927)
+   - EO :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:7fd37906-12d8-4e01-919f-b0ec3d88d675][Niels Bohr (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Heisenberg is 25 years old.  He published
+matrix mechanics two years ago — a complete mathematical
+formulation of quantum mechanics that arrived before
+Schrödinger's wave equation.  The uncertainty principle
+is six months old, published in March 1927.
+
+He is at the height of his powers, part of what the older
+generation calls the Knabenphysik — the physics of boys.
+He, Pauli, Dirac, and Jordan are remaking the foundations
+of physics while still in their twenties.  Bohr is his
+mentor; Copenhagen is his intellectual home.
+
+At Solvay he watches his mentor debate the most famous
+scientist in the world — and win.  The uncertainty
+principle, his principle, is at the center of the
+argument.  Einstein attacks it; Bohr defends it.
+Heisenberg stands with Bohr.
+
+He does not yet know what the next eighteen years will
+bring: the Nobel Prize at 31, the decision to stay in
+Germany under the Nazis, the uranium project, the
+ambiguity that will haunt his reputation forever.  In
+October 1927 he is simply brilliant, young, and certain
+that the universe is uncertain.
+
+He stands in the back row of the photograph, far right,
+looking like what he is: a young man who has just changed
+the world and knows it.

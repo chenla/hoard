@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Erwin Schrödinger (Solvay 1927)—7
+
+* Erwin Schrödinger (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        d4bcbe56-b697-4c3d-bb54-5e3126f3e8a1
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Erwin Schrödinger (Solvay 1927)
+   - EO :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrodinger]]
+   - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie (Solvay 1927)]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Schrödinger is 40.  His wave equation
+is barely a year old — published in 1926 in a burst
+of four papers that arrived like a thunderclap.  He
+formalized de Broglie's wave hypothesis into a
+rigorous mathematical framework.  The equation works
+beautifully.  The question is what it means.
+
+Schrödinger wants it to mean that particles are
+actually waves — that the wave function describes a
+real, physical field.  Born says no: the wave
+function gives you probabilities, not physical waves.
+Heisenberg's matrix mechanics gives the same answers
+through a completely different formalism.  Dirac has
+just shown the two are mathematically equivalent.
+
+Schrödinger sides with Einstein and de Broglie
+against the Copenhagen interpretation.  He finds
+Born's probabilistic reading of his own equation
+deeply unsatisfying.  Years later he will invent the
+famous cat thought experiment (1935) precisely to
+expose the absurdity of quantum superposition taken
+literally.
+
+At the conference he represents one half of the
+mathematical toolkit — wave mechanics versus
+Heisenberg's matrix mechanics.  The mathematics is
+settled; the meaning is not.  He will share the
+Nobel with Dirac in 1933, flee Austria in 1938,
+and spend the rest of his career in Dublin, still
+arguing that the wave function should be taken
+literally.
+
+He never comes to terms with Born's interpretation.
+Neither does Einstein.  The universe does not appear
+to care.

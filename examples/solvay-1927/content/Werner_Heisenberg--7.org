@@ -1,0 +1,28 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Werner Heisenberg—7
+
+* Werner Heisenberg—7
+  :PROPERTIES:
+  :ID:        2653e0c2-e5d4-4054-a4dd-8a50787981c4
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Werner Heisenberg
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Werner Karl Heisenberg (1901–1976).  German theoretical
+physicist.  Nobel Prize in Physics 1932 (creation of
+quantum mechanics).  Formulated matrix mechanics (1925)
+and the uncertainty principle (1927).
+
+Led Germany's nuclear energy project during World War II
+— the extent of his commitment to building a weapon
+remains debated.  After the war, helped rebuild German
+physics and directed the Max Planck Institute for Physics.

@@ -1,0 +1,42 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Solvay 1927—21
+
+* Solvay 1927—21
+  :PROPERTIES:
+  :ID:        898bcd89-016b-469f-9aa8-fe1bbf74fe5a
+  :TYPE:      wh:holon
+  :CREATED:   2026-05-08T14:30
+  :END:
+
+29 physicists as they were in October 1927 — the Fifth
+Solvay Conference on Electrons and Photons.  This holon
+presents each person through the lens of that moment:
+what they had accomplished, what they were working on,
+why they were there.
+
+** Membership
+
+Cards tagged ~solvay-1927, plus:
+- Solvay_Conference_1927--11
+- International_Solvay_Institutes--13
+- Solvay_Conference_1927_Photograph--20
+
+** Expression
+
+Prefer: solvay-1927
+Fallback: whole
+
+** Order
+
+1. wh:evt
+2. wh:per (alphabetical by title)
+3. wh:org
+4. wh:media
+
+** Notes
+
+This is the first holon in the hord — a test of the
+mechanism described in spec-holons.md.  The expression
+cards show each physicist as they were in October 1927,
+not as we remember them from the full span of their lives.

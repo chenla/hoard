@@ -1,0 +1,35 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Max Born—7
+
+* Max Born—7
+  :PROPERTIES:
+  :ID:        a4c8ff17-19e1-49c4-a230-33a46241d27b
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Max Born
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli]]
+
+** Notes
+
+Max Born (1882–1970).  German-born British physicist.
+Nobel Prize in Physics 1954 for the probabilistic
+interpretation of the wave function — the Born rule,
+which states that the square of the wave function's
+amplitude gives the probability of finding a particle
+at a given position.
+
+At Gottingen he developed matrix mechanics together
+with Heisenberg and Pascual Jordan, providing the
+first rigorous mathematical formulation of quantum
+mechanics.  Fled Germany in 1933 and settled in
+Edinburgh.  His probabilistic interpretation was one
+of the central ideas debated at the 1927 Solvay
+Conference, where Einstein famously objected that
+God does not play dice.

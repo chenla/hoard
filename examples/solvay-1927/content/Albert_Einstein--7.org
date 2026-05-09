@@ -1,0 +1,31 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Albert Einstein—7
+
+* Albert Einstein—7
+  :PROPERTIES:
+  :ID:        b5b64601-f044-4019-9b3f-d41aec4b6b70
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Albert Einstein
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Albert Einstein (1879–1955).  German-born theoretical
+physicist.  Nobel Prize in Physics 1921 (photoelectric
+effect).  Special relativity (1905), general relativity
+(1915).  Emigrated to the United States in 1933.  Spent
+the last decades of his life at the Institute for Advanced
+Study in Princeton, seeking a unified field theory.
+
+One of the most recognized scientists in history.  His
+work on the photoelectric effect helped launch quantum
+theory, yet he spent much of his later career arguing
+against its implications — particularly the abandonment
+of locality and determinism.

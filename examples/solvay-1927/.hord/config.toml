@@ -1,0 +1,7 @@
+[hord]
+name = "solvay-1927"
+version = "0.1.0"
+format = "org"
+
+[vocab]
+source = "local"

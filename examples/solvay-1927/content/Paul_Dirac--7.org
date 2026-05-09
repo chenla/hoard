@@ -1,0 +1,30 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Dirac—7
+
+* Paul Dirac—7
+  :PROPERTIES:
+  :ID:        c5850a3c-baf4-4895-abdc-e18483258d76
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Dirac
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Paul Adrien Maurice Dirac (1902–1984).  English
+theoretical physicist.  Nobel Prize in Physics 1933
+(shared with Schrödinger, for new forms of atomic
+theory).  Predicted the existence of antimatter (1928).
+The Dirac equation unified quantum mechanics and special
+relativity.
+
+Famously laconic — colleagues joked that a "dirac" was
+the unit of one word per hour.  Lucasian Professor of
+Mathematics at Cambridge (1932–1969), the chair once
+held by Newton.

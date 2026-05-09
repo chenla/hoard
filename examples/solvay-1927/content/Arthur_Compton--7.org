@@ -1,0 +1,32 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Arthur Compton—7
+
+* Arthur Compton—7
+  :PROPERTIES:
+  :ID:        fbacc278-7de5-46a7-b28a-ed54dddf46ab
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Arthur Compton
+   - UF :: Arthur Holly Compton
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:d700b961-d092-43a8-a84a-c168a526e97e][C.T.R. Wilson]]
+
+** Notes
+
+Arthur Compton (1892–1962).  American physicist.
+Nobel Prize in Physics 1927 (shared with C.T.R.
+Wilson) for discovering the Compton effect — the
+increase in wavelength of X-rays when scattered by
+electrons — which provided definitive evidence for
+the particle nature of electromagnetic radiation.
+
+Professor at the University of Chicago, he later
+played a key role in the Manhattan Project, directing
+the Metallurgical Laboratory where the first
+controlled nuclear chain reaction was achieved under
+Enrico Fermi in December 1942.

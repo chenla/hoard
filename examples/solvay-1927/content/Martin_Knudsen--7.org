@@ -1,0 +1,32 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Martin Knudsen—7
+
+* Martin Knudsen—7
+  :PROPERTIES:
+  :ID:        710be800-e812-4385-9f1f-7aad71eb7070
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Martin Knudsen
+   - UF :: Martin Hans Christian Knudsen
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+
+** Notes
+
+Martin Knudsen (1871–1949).  Danish physicist.
+Professor at the University of Copenhagen, where he
+was a colleague of Niels Bohr.  Known for his
+pioneering experimental work on molecular gas flow
+at low pressures.
+
+The Knudsen number — the ratio of molecular mean free
+path to a characteristic physical length — is named
+after him and is fundamental to rarefied gas dynamics.
+He also developed the Knudsen cell, used for measuring
+vapor pressures.  His work bridged experimental
+physics and physical chemistry.

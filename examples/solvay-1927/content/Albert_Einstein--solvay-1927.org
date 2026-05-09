@@ -1,0 +1,53 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Albert Einstein (Solvay 1927)—7
+
+* Albert Einstein (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        5b5cd639-4d2f-4574-811b-e3d9b89e91d5
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:25
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Albert Einstein (Solvay 1927)
+   - EO :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:7fd37906-12d8-4e01-919f-b0ec3d88d675][Niels Bohr (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Einstein is 48.  He has held the Nobel
+Prize for six years (awarded 1921, for the photoelectric
+effect — not for relativity, which the committee
+considered too controversial).  General relativity is
+twelve years old and confirmed by Eddington's eclipse
+observations.  He is the most famous scientist alive.
+
+But Einstein has come to Brussels to fight.  Quantum
+mechanics — the theory his own photoelectric work helped
+launch — has grown into something he cannot accept.
+Bohr and Heisenberg's Copenhagen interpretation says the
+universe is fundamentally probabilistic: particles do not
+have definite properties until measured.  Einstein finds
+this intolerable.
+
+His objection is not mere conservatism.  He believes
+quantum mechanics violates locality — that it requires
+instantaneous action at a distance, "spooky action at a
+distance" as he will later call it.  At the conference he
+constructs thought experiment after thought experiment
+to reveal contradictions in the quantum framework.  Bohr
+answers each one, sometimes staying up all night to
+find the rebuttal.
+
+Einstein will lose this debate — not because he is wrong
+about locality (the EPR paradox he will publish in 1935
+identifies a real and still-unresolved tension), but
+because the Copenhagen interpretation works.  It
+predicts experimental results with extraordinary
+precision.  Physics will move on without him.
+
+He sits in the front row of the photograph, arms crossed,
+looking neither defeated nor persuaded.

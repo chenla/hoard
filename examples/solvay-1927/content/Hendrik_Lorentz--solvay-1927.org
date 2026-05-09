@@ -1,0 +1,44 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Hendrik Lorentz (Solvay 1927)—7
+
+* Hendrik Lorentz (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        fce0580a-c045-47ba-8929-20bf404800c9
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Hendrik Lorentz (Solvay 1927)
+   - EO :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein (Solvay 1927)]]
+   - RT :: [[id:a39781c8-d3fc-430d-a0a7-da672de1c541][Paul Ehrenfest (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Lorentz is 74.  He has chaired every
+Solvay Conference since the first in 1911.  He won
+the Nobel Prize twenty-five years ago.  His Lorentz
+transformations became the mathematical foundation
+of Einstein's special relativity.
+
+He will be dead in four months.
+
+This is his last conference, though no one knows it.
+He presides over the Bohr-Einstein debates with the
+authority of a man who has watched physics transform
+from classical certainty to quantum uncertainty
+across his lifetime.  He is respected by everyone in
+the room — perhaps the only person both Einstein and
+Bohr would defer to.
+
+When he dies in February 1928, Einstein and Curie
+attend his funeral.  Ehrenfest succeeds him at Leiden.
+Langevin succeeds him as president of the Solvay
+conferences.  The photograph from this conference
+becomes, in retrospect, a portrait of the last time
+the old guard and the new sat together under his
+chairmanship.

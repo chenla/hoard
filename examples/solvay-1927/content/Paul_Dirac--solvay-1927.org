@@ -1,0 +1,46 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Paul Dirac (Solvay 1927)—7
+
+* Paul Dirac (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        395787ed-a0fd-448f-9259-852526fd7e83
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:25
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Paul Dirac (Solvay 1927)
+   - EO :: [[id:c5850a3c-baf4-4895-abdc-e18483258d76][Paul Dirac]]
+   - RT :: [[id:afc3bdd6-e1c8-4e3e-87fc-ad5c0a1d7d84][Werner Heisenberg (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Dirac is 25, the same age as Heisenberg.
+He completed his PhD at Cambridge just one year ago.  His
+transformation theory, published earlier this year,
+provided the first unified mathematical framework
+connecting Heisenberg's matrix mechanics and
+Schrödinger's wave mechanics — showing they were the
+same theory in different mathematical clothing.
+
+He says almost nothing at the conference.  This is
+characteristic.  While Einstein and Bohr debate
+philosophy, Dirac works on equations.  Heisenberg will
+later recall that during a dinner discussion about
+religion and physics, Bohr made subtle arguments, Einstein
+pushed back — and Dirac said flatly that he did not see
+the need for the hypothesis of God.
+
+Within a year he will publish the Dirac equation,
+unifying quantum mechanics with special relativity and
+predicting the existence of antimatter — a prediction
+confirmed four years later.  He will share the Nobel Prize
+with Schrödinger in 1933, at age 31.
+
+In the photograph he stands in the middle row, looking
+slightly elsewhere, as if the social occasion around him
+is a minor inconvenience interrupting something more
+important happening inside his head.

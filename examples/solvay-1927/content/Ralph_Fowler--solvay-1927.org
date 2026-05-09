@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Ralph Fowler (Solvay 1927)—7
+
+* Ralph Fowler (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        695862bf-f9e4-4de7-a7a3-6390e20ae91b
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Ralph Fowler (Solvay 1927)
+   - EO :: [[id:b1ec37dd-fd5e-49a2-98b0-c482c422ea43][Ralph Fowler]]
+   - RT :: [[id:c5850a3c-baf4-4895-abdc-e18483258d76][Paul Dirac (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Fowler is 38.  He is Dirac's doctoral
+supervisor — the man who introduced the quiet young
+engineer from Bristol to quantum mechanics.  He is
+also Rutherford's son-in-law, having married Eileen
+Rutherford in 1921.
+
+Fowler is the bridge between British physics and the
+continental quantum revolution.  Cambridge has the
+Cavendish Laboratory, the greatest experimental
+physics laboratory in the world, but it has been
+slower to embrace quantum theory than Copenhagen or
+Göttingen.  Fowler is the one who brings the new
+ideas across the Channel, who reads the German papers
+and explains them to his students.
+
+He will supervise 64 doctoral students in total —
+an extraordinary number.  Dirac, sitting near him in
+the middle row, is the most brilliant of them, but
+far from the only one who owes his career to Fowler's
+guidance and connections.
+
+His wife Eileen will die in 1930.  Fowler himself
+will die in 1944, at 55 — too young, and before
+many of the physicists he trained have reached the
+peak of their influence.  In October 1927 he is the
+connector, the enabler, the man who makes it possible
+for a Bristol engineer's son to sit among the
+greatest physicists in the world.

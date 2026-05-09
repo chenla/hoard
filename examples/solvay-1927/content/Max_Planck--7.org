@@ -1,0 +1,34 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Max Planck—7
+
+* Max Planck—7
+  :PROPERTIES:
+  :ID:        07e85f22-d177-4cf9-ad2b-f9b826a2063b
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Max Planck
+   - UF :: Max Karl Ernst Ludwig Planck
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+
+** Notes
+
+Max Planck (1858–1947).  German theoretical physicist.
+Nobel Prize in Physics 1918 for his discovery of energy
+quanta.  In 1900 he introduced the quantum of action
+(Planck's constant, h), resolving the black-body
+radiation problem and inadvertently launching the
+quantum revolution.
+
+Professor at the University of Berlin for decades, he
+became the elder statesman of German physics.  At the
+1927 Solvay Conference he watched the young generation
+debate the meaning of the theory his work had made
+possible.  He remained philosophically conservative,
+never fully comfortable with the Copenhagen
+interpretation.

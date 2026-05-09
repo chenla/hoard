@@ -1,0 +1,35 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Theophile de Donder—7
+
+* Theophile de Donder—7
+  :PROPERTIES:
+  :ID:        86427838-f9d2-4594-a0bb-e070d61f4a3c
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Théophile de Donder
+   - UF :: Theophile de Donder
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+
+** Notes
+
+Théophile de Donder (1872–1957).  Belgian
+mathematician and physicist.  Professor at the
+Free University of Brussels.  Considered the father
+of irreversible thermodynamics — he introduced the
+concept of chemical affinity as a thermodynamic
+quantity and developed the theory of chemical
+thermodynamics that later influenced Ilya Prigogine.
+
+A friend of Einstein, he worked on applications of
+general relativity to gravitational theory.  His
+major work, /Théorie Nouvelle de la Mécanique
+Chimique/ (1920), laid the groundwork for
+non-equilibrium thermodynamics.  Largely self-taught,
+he rose from modest origins to become one of
+Belgium's leading theoretical scientists.

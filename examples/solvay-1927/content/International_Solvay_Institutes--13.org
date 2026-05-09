@@ -1,0 +1,29 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   International Solvay Institutes—13
+
+* International Solvay Institutes—13
+  :PROPERTIES:
+  :ID:        96da3a47-001b-426a-bead-ab9ca63c318e
+  :TYPE:      wh:org
+  :CREATED:   2026-05-08T14:20
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: International Solvay Institutes
+   - UF :: Instituts Internationaux Solvay
+   - NT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+Founded in 1912 by Belgian industrialist Ernest Solvay.
+Based in Brussels.  Organizes the Solvay Conferences on
+Physics and Chemistry — invitation-only gatherings of
+leading scientists to discuss open problems.
+
+The first conference (1911), organized by Lorentz at
+Solvay's request, brought together Planck, Einstein,
+Curie, Rutherford, and Poincaré to discuss "The Theory
+of Radiation and Quanta."  The tradition continues to
+the present day.

@@ -49,6 +49,8 @@ SUFFIX_TYPE_MAP = {
     "17": "wh:office",
     "18": "wh:task",
     "19": "wh:event",
+    "20": "wh:media",
+    "21": "wh:holon",
 }
 
 # Regex for org property drawer entries (case-insensitive keys)

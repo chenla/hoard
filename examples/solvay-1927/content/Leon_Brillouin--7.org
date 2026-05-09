@@ -1,0 +1,36 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Leon Brillouin—7
+
+* Leon Brillouin—7
+  :PROPERTIES:
+  :ID:        663b02c0-b30f-442a-ae75-6bcc4f76bace
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T14:54
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Léon Brillouin
+   - UF :: Leon Brillouin
+   - UF :: Léon Nicolas Brillouin
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:13ed7cbf-1bde-45f2-b50e-cc69e9822337][Hendrik Kramers]]
+
+** Notes
+
+Léon Brillouin (1889–1969).  French-American
+physicist.  Son of the physicist Marcel Brillouin.
+Known for Brillouin zones in solid-state physics,
+which describe the fundamental domains of reciprocal
+lattice space in crystals — essential to the theory
+of electronic band structure.
+
+Co-developed the WKB (Wentzel-Kramers-Brillouin)
+semiclassical approximation method for solving
+quantum mechanical problems.  Later made significant
+contributions to information theory, connecting
+thermodynamic entropy to information (Brillouin's
+negentropy principle).  Emigrated to the United
+States during World War II and remained there,
+working at Columbia and IBM.

@@ -1,0 +1,54 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Wolfgang Pauli (Solvay 1927)—7
+
+* Wolfgang Pauli (Solvay 1927)—7
+  :PROPERTIES:
+  :ID:        473bdd21-d9e7-41f4-a2ba-588331c1f3db
+  :TYPE:      wh:per
+  :CREATED:   2026-05-08T15:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Wolfgang Pauli (Solvay 1927)
+   - EO :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg (Solvay 1927)]]
+   - RT :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born (Solvay 1927)]]
+   - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie (Solvay 1927)]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Notes
+
+October 1927.  Pauli is 27.  His exclusion principle
+is two years old.  He is already feared.
+
+His godfather was Ernst Mach — the philosopher-
+physicist whose name is on the speed of sound.  He
+studied under Sommerfeld, who set him the task of
+writing a review of general relativity as a graduate
+student.  The resulting monograph, published when
+Pauli was 21, was so good that Einstein praised it.
+
+At this conference, Pauli is the executioner.  When
+de Broglie presents his pilot-wave theory — a
+deterministic alternative to Copenhagen — Pauli
+dismantles it with a specific technical objection
+that de Broglie cannot answer.  The theory dies in
+the room.  De Broglie abandons it for twenty-five
+years.  Whether Pauli's objection was actually fatal
+(Bohm will show in 1952 that it wasn't) or merely
+persuasive is one of the great what-ifs in the
+history of physics.
+
+Pauli's cruelty is legendary.  "Not even wrong" is
+his dismissal for theories too vague to be tested.
+He reduces grown physicists to silence.  But his
+judgment is almost always right, which makes it
+worse.
+
+He stands in the back row of the photograph, next
+to Heisenberg — friends and rivals since their
+student days in Munich.  The Knabenphysik in full
+force: two men in their mid-twenties who have
+already changed physics and are not finished.
