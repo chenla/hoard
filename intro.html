@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solvay 1927 — A Hoard Demo</title>
+<style>
+:root {
+  --bg: #fafaf8;
+  --fg: #2c2c2c;
+  --accent: #2d6a4f;
+  --accent-hover: #1b4332;
+  --border: #d4d4d0;
+  --muted: #6b6b68;
+  --card-bg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #d4d4d0;
+    --accent: #52b788;
+    --accent-hover: #74c69d;
+    --border: #3a3a38;
+    --muted: #9a9a96;
+    --card-bg: #222220;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: "IBM Plex Serif", Georgia, serif;
+  background: var(--bg); color: var(--fg);
+  max-width: 42rem; margin: 0 auto;
+  padding: 3rem 1.5rem; line-height: 1.7;
+}
+a { color: var(--accent); }
+h1 {
+  font-size: 1.8rem; margin-bottom: .5rem;
+  color: var(--accent);
+}
+h2 {
+  font-size: 1.15rem; margin: 2rem 0 .75rem;
+  color: var(--accent);
+}
+.subtitle {
+  font-size: 1rem; color: var(--muted);
+  margin-bottom: 2rem;
+}
+p { margin-bottom: 1rem; }
+.features {
+  list-style: none; margin: 1rem 0 2rem;
+}
+.features li {
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.features li strong {
+  color: var(--accent);
+}
+.code-block {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .85rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+.cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: .75rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  transition: background .2s;
+}
+.cta:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.stat {
+  text-align: center;
+  padding: 1rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+.stat .number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  display: block;
+}
+.stat .label {
+  font-size: .8rem;
+  color: var(--muted);
+}
+footer {
+  margin-top: 3rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: .8rem; color: var(--muted);
+}
+@media (max-width: 600px) {
+  body { padding: 1.5rem 1rem; }
+  h1 { font-size: 1.4rem; }
+  .stats { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<h1>Solvay 1927</h1>
+<div class="subtitle">A Hoard demonstration: holons, expression cards, and temporal context</div>
+
+<p>In October 1927, twenty-nine physicists gathered in Brussels for the
+Fifth Solvay Conference on "Electrons and Photons." The group photograph
+taken on the steps of the Institut International de Physique Solvay has
+become one of the most famous images in the history of science. Seventeen
+of the twenty-nine pictured are or would become Nobel laureates.</p>
+
+<p>This demo uses that conference to show what Hoard can do. Each
+physicist has a biographical card (the <strong>Whole</strong>) and, for
+the most significant figures, a second card showing who they were
+<em>on that day</em> (the <strong>Expression</strong>). The
+<strong>holon</strong> assembles these cards into a coherent view:
+the conference as experienced by the people in the room.</p>
+
+<div class="stats">
+  <div class="stat">
+    <span class="number">29</span>
+    <span class="label">Physicists</span>
+  </div>
+  <div class="stat">
+    <span class="number">17</span>
+    <span class="label">Expression Cards</span>
+  </div>
+  <div class="stat">
+    <span class="number">50</span>
+    <span class="label">Total Files</span>
+  </div>
+</div>
+
+<h2>What this demonstrates</h2>
+
+<ul class="features">
+  <li><strong>Holons</strong> — A named subset of a hord assembled for a
+  specific purpose. The "Solvay 1927" holon groups 32 cards (29 people
+  plus the conference, the institutes, and the photograph) into one
+  coherent view.</li>
+  <li><strong>Expression cards</strong> — The same person rendered
+  differently for a specific context. Einstein's Whole card covers
+  1879&ndash;1955. His expression card shows a 48-year-old Nobel
+  laureate arguing against quantum mechanics at breakfast.</li>
+  <li><strong>WEMI for cards</strong> — Whole, Expression, Manifestation,
+  Instance applied to knowledge cards, not just bibliographic records.
+  Same identity, different renderings, no duplication.</li>
+  <li><strong>Temporal context</strong> — Understanding these people as
+  they were <em>that day</em>, not as Wikipedia remembers them. The
+  relationships, the tensions, the things that hadn't happened yet.</li>
+</ul>
+
+<a href="solvay.html" class="cta">Open the Demo</a>
+
+<h2>Try it yourself</h2>
+
+<div class="code-block">
+cd examples/solvay-1927<br>
+hord compile<br>
+hord holon list<br>
+hord holon show Solvay_1927--21<br>
+hord export --holon Solvay_1927--21
+</div>
+
+<p>The cards are org-mode files in <code>content/</code>. The metadata
+is TSV quads in <code>.hord/overlays/</code>. Everything is plain text
+in a git repository. No database, no server, no dependencies beyond
+Hoard itself.</p>
+
+<footer>
+Part of <a href="https://github.com/chenla/hoard">Hoard</a> &mdash;
+semantic metadata overlays for git repositories.
+</footer>
+
+</body>
+</html>
