@@ -29,46 +29,46 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: "IBM Plex Serif", Georgia, serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   background: var(--bg); color: var(--fg);
   max-width: 52rem; margin: 0 auto;
-  padding: 2rem 1.5rem; line-height: 1.7;
+  padding: 2.5rem 1.5rem; line-height: 1.75;
 }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1 { font-size: 1.75rem; margin-bottom: .25rem; }
-h2 { font-size: 1.25rem; color: var(--accent); margin: 1.5rem 0 .5rem; }
+h1 { font-size: 2rem; margin-bottom: .35rem; }
+h2 { font-size: 1.4rem; color: var(--accent); margin: 1.75rem 0 .5rem; }
 code {
-  font-size: .85rem; word-break: break-all;
+  font-size: .9rem; word-break: break-all;
 }
 .subtitle {
   font-family: "IBM Plex Mono", monospace;
-  font-size: .9rem; color: var(--muted); margin-bottom: 1.5rem;
+  font-size: 1rem; color: var(--muted); margin-bottom: 1.5rem;
 }
 .type-tag {
   display: inline-block; background: var(--tag-bg);
-  padding: .15rem .5rem; border-radius: 3px;
-  font-size: .85rem; font-family: "IBM Plex Mono", monospace;
+  padding: .2rem .6rem; border-radius: 3px;
+  font-size: .9rem; font-family: "IBM Plex Mono", monospace;
 }
 .quad-table { width: 100%; border-collapse: collapse; margin: .5rem 0; }
 .quad-table td {
-  padding: .4rem .5rem; border-bottom: 1px solid var(--border);
-  font-size: 1rem; vertical-align: top;
+  padding: .45rem .6rem; border-bottom: 1px solid var(--border);
+  font-size: 1.1rem; vertical-align: top;
 }
 .quad-table td:first-child {
   font-family: "IBM Plex Mono", monospace;
-  font-size: .85rem; color: var(--muted);
+  font-size: .9rem; color: var(--muted);
   white-space: nowrap; width: 10rem; text-align: right;
   padding-right: 1rem;
 }
 .strata-section { border-left: 3px solid var(--accent); padding-left: 1rem; }
-.incoming { color: var(--muted); font-size: .95rem; }
+.incoming { color: var(--muted); font-size: 1.05rem; }
 .incoming a { color: var(--link); }
-.incoming > div { padding: .25rem 0; }
+.incoming > div { padding: .3rem 0; }
 .notes {
   background: var(--card-bg); border: 1px solid var(--border);
   border-radius: 4px; padding: 1.25rem 1.5rem; margin: .75rem 0;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 .notes p { margin-bottom: .75rem; }
 .notes p:last-child { margin-bottom: 0; }
@@ -79,24 +79,25 @@ code {
   gap: .5rem;
 }
 .index-item a { flex: 1; min-width: 0; }
-.index-item .type-tag { font-size: .8rem; flex-shrink: 0; }
-nav { margin-bottom: 2rem; font-size: 1rem; }
+.index-item .type-tag { font-size: .85rem; flex-shrink: 0; }
+nav { margin-bottom: 2rem; font-size: 1.1rem; }
 nav a { margin-right: 1rem; }
-.breadcrumb { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
+.breadcrumb { font-size: 1rem; color: var(--muted); margin-bottom: 1rem; }
 .breadcrumb a { color: var(--muted); }
 footer {
   margin-top: 3rem; padding-top: 1rem;
   border-top: 1px solid var(--border);
-  font-size: .85rem; color: var(--muted);
+  font-size: .9rem; color: var(--muted);
 }
 @media (max-width: 600px) {
-  body { font-size: 1rem; padding: 1rem .75rem; }
-  h1 { font-size: 1.4rem; }
+  body { font-size: 1.1rem; padding: 1.25rem 1rem; line-height: 1.7; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
   .quad-table td:first-child {
     width: auto; min-width: 5rem;
-    font-size: .75rem;
+    font-size: .8rem;
   }
-  .quad-table td { font-size: .9rem; padding: .3rem .25rem; }
+  .quad-table td { font-size: 1rem; padding: .35rem .3rem; }
   .index-item { flex-wrap: wrap; }
   .subtitle code { display: block; margin-top: .25rem; }
 }
