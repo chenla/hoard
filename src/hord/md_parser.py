@@ -151,7 +151,7 @@ def parse_md_file(filepath: str) -> OrgRecord:
         record.tags = tags
         record.filetags = tags  # backwards compat for type inference
     elif isinstance(tags, str):
-        record.tags = [t.strip() for t in tags.split(",")]
+        record.tags = [t.strip() for t in tags.split(",") if t.strip()]
         record.filetags = record.tags
 
     # Relations

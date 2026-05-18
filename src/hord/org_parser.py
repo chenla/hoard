@@ -170,8 +170,8 @@ def parse_org_file(filepath: str) -> OrgRecord:
                 elif key == "ROAM_ALIASES":
                     record.aliases = ROAM_ALIAS_RE.findall(val)
                 elif key == "TAGS":
-                    record.tags = [t.strip() for t in val.split()
-                                   if t.strip()]
+                    record.tags = [t.strip().rstrip(",") for t in val.split()
+                                   if t.strip().rstrip(",")]
                 elif key == "STATUS":
                     record.status = val.lower()
                 elif key == "DUE":
