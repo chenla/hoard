@@ -6,6 +6,12 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Fixed
+- **Tag parser**: `org_parser` now strips trailing commas from `:TAGS:` property
+  values — `post-8, dispersal, housing` previously produced tags `['post-8,',
+  'dispersal,', 'housing']`, breaking holon tag-based membership matching.
+  Also fixed `md_parser` to filter empty strings from comma-split tags.
+
 ## [0.2.0-alpha] - 2026-05-07
 
 ### Added
