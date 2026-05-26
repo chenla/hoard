@@ -20,6 +20,8 @@ class HolonDef:
     member_slugs: list[str] = field(default_factory=list)
     member_uuids: list[str] = field(default_factory=list)
     member_tag: str | None = None
+    # Primary card (for context cloud rendering)
+    primary_slug: str | None = None
     # Expression preference
     expr_prefer: str | None = None
     expr_fallback: str = "whole"  # "whole" or "omit"
@@ -52,6 +54,9 @@ def parse_holon_body(filepath: str, uuid: str, title: str) -> HolonDef:
         elif re.match(r"^\*{1,3}\s+Order", stripped, re.IGNORECASE):
             section = "order"
             continue
+        elif re.match(r"^\*{1,3}\s+Primary", stripped, re.IGNORECASE):
+            section = "primary"
+            continue
         # Detect markdown headings
         elif re.match(r"^#{1,3}\s+Membership", stripped, re.IGNORECASE):
             section = "membership"
@@ -61,6 +66,9 @@ def parse_holon_body(filepath: str, uuid: str, title: str) -> HolonDef:
             continue
         elif re.match(r"^#{1,3}\s+Order", stripped, re.IGNORECASE):
             section = "order"
+            continue
+        elif re.match(r"^#{1,3}\s+Primary", stripped, re.IGNORECASE):
+            section = "primary"
             continue
         # Any other heading resets section
         elif re.match(r"^(\*{1,3}|#{1,3})\s+", stripped):
@@ -76,6 +84,8 @@ def parse_holon_body(filepath: str, uuid: str, title: str) -> HolonDef:
             _parse_expression_line(stripped, holon)
         elif section == "order":
             _parse_order_line(stripped, holon)
+        elif section == "primary":
+            _parse_primary_line(stripped, holon)
 
     return holon
 
@@ -128,6 +138,16 @@ def _parse_expression_line(line: str, holon: HolonDef) -> None:
         val = line.split(":", 1)[1].strip().lower()
         if val in ("whole", "omit"):
             holon.expr_fallback = val
+
+
+def _parse_primary_line(line: str, holon: HolonDef) -> None:
+    """Parse the Primary section — expects a single slug or UUID."""
+    if holon.primary_slug:
+        return  # already set, take first
+    # Strip list marker if present
+    slug = re.sub(r"^-\s+", "", line).strip()
+    if slug:
+        holon.primary_slug = slug
 
 
 def _parse_order_line(line: str, holon: HolonDef) -> None:
@@ -296,6 +316,22 @@ def compile_holon(holon: HolonDef, hord_root: str,
             context=context,
         ))
 
+    # Generate v:h-primary quad
+    if holon.primary_slug:
+        primary_uuid = resolve_slug_to_uuid(holon.primary_slug, basename_index)
+        if primary_uuid:
+            quads.append(Quad(
+                subject=holon.uuid,
+                predicate="v:h-primary",
+                object=primary_uuid,
+                context=context,
+            ))
+        elif verbose:
+            import click
+            click.echo(f"  Warning: holon '{holon.title}' — "
+                       f"could not resolve primary slug "
+                       f"'{holon.primary_slug}'")
+
     # Generate v:h-expr quad
     if holon.expr_prefer:
         quads.append(Quad(
@@ -347,7 +383,8 @@ def compile_holon(holon: HolonDef, hord_root: str,
         qpath = quad_path(hord_root, holon.uuid, overlay="structural")
         existing = read_quads(qpath)
         # Keep only non-holon quads from the existing file
-        holon_preds = {"v:h-member", "v:h-expr", "v:h-order", "v:h-cascade"}
+        holon_preds = {"v:h-member", "v:h-expr", "v:h-order", "v:h-cascade",
+                       "v:h-primary", "v:h-anchor"}
         kept = [q for q in existing if q.predicate not in holon_preds]
         write_quads(qpath, kept + quads)
 

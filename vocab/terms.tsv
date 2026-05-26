@@ -49,3 +49,5 @@ v:h-member	MEMBER	Card is a member of this holon (subject=holon, object=card UUI
 v:h-expr	EXPR-PREF	Expression preference tag for this holon (subject=holon, object=tag label)
 v:h-order	ORDER	Ordering position within the holon (subject=card UUID, object=integer, context=holon UUID)
 v:h-cascade	CASCADE	This holon inherits from another (reserved, not yet specified)
+v:h-primary	PRIMARY	Designates the primary content card within a holon (subject=holon, object=card UUID)
+v:h-anchor	ANCHOR	Links a margin reference to the primary text (subject=primary UUID, object=ref card UUID)
