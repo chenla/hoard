@@ -6,6 +6,19 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+- **Context cloud renderer**: Tufte-style article layout with anchored margin
+  cards; articles use `@@margin:SLUG@@` markers in org source to place reference
+  cards in the right margin at the point of reference; card content cascade
+  (inline note → expression → scope note → first paragraph); mobile fallback
+  to footnotes
+- **`hord export --context-cloud HOLON_NAME`**: render a holon as a standalone
+  HTML article with margin-anchored context cloud
+- **Context cloud spec** (`docs/spec-context-cloud.md`): content cascade, layout
+  rules, mobile fallback, publishing stack integration
+- **Holon primary section**: parser recognizes `** Primary` sections in holon
+  cards, emits `v:h-primary` quads; `v:h-anchor` vocabulary term added
+
 ### Fixed
 - **Tag parser**: `org_parser` now strips trailing commas from `:TAGS:` property
   values — `post-8, dispersal, housing` previously produced tags `['post-8,',
