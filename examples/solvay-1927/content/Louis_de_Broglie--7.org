@@ -17,6 +17,10 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrodinger]]
 
+** Scope Note
+
+Proposed wave-particle duality of matter. Presented pilot-wave theory at Solvay -- a deterministic alternative to Copenhagen -- and watched Pauli demolish it. The 7th Duc de Broglie.
+
 ** Notes
 
 Louis de Broglie (1892–1987).  French physicist.

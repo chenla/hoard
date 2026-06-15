@@ -1,0 +1,60 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Determinism—4
+
+* Determinism—4
+  :PROPERTIES:
+  :ID:        5284e00c-e05a-447d-a7b0-ac40f2a2bae4
+  :TYPE:      wh:con
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      screed-t1, determinism
+  :END:
+
+** Relations
+   - PT :: Determinism
+   - RT :: [[id:1c20591e-b63d-4541-a091-050cd890940a][Copenhagen Interpretation]]
+
+** Scope Note
+
+The philosophical and scientific doctrine that every
+event is necessitated by prior causes operating under
+fixed laws.  The assumption that the universe is a
+clockwork mechanism — fully knowable, fully predictable
+— which undergirded Western science, governance, and
+economics from Newton until its dismantling at the Fifth
+Solvay Conference in 1927.
+
+** Notes
+
+Determinism is not one idea but a family of related
+convictions: that the universe operates by discoverable
+laws, that the future is in principle predictable from
+the present, that causes produce effects in a chain that
+extends backward to the beginning and forward without
+limit.
+
+Laplace gave it its most famous expression in 1814: an
+intellect that knew the position and momentum of every
+particle in the universe could, using Newton's laws,
+calculate the entire future and reconstruct the entire
+past.  This "Laplace's demon" was not considered
+metaphorical.  It was the logical consequence of
+Newtonian mechanics taken seriously.
+
+The collapse began with Planck's quantum of action in
+1900, accelerated through Einstein's photoelectric effect
+and Bohr's atomic model, and reached its crisis at
+Solvay in 1927.  Heisenberg's uncertainty principle
+showed that position and momentum could not both be known
+precisely — not as a practical limitation, but as a
+fundamental feature of nature.  The universe was not a
+clockwork.  It never had been.
+
+The shockwave from this collapse propagated far beyond
+physics: through Gödel's incompleteness (mathematics
+cannot be both complete and consistent), through
+computation (the halting problem), through biology
+(evolution as undirected process), through economics
+(markets as complex adaptive systems), and finally
+through artificial intelligence (machines that learn
+rather than execute).

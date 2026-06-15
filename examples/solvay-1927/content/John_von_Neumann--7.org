@@ -1,0 +1,62 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   John von Neumann—7
+
+* John von Neumann—7
+  :PROPERTIES:
+  :ID:        782fd032-a0b2-476b-ab05-ea12447b8648
+  :TYPE:      wh:per
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      solvay-1927, determinism
+  :END:
+
+** Relations
+   - PT :: John von Neumann
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:0ec8d6b5-54c1-454c-8505-44993a92ef9b][Kurt Gödel]]
+
+** Scope Note
+
+Hungarian-American mathematician (1903–1957).  Polymath
+who formalized quantum mechanics, co-designed the hydrogen
+bomb, invented game theory, created the architecture for
+stored-program computers, and laid the foundations for
+cellular automata and artificial life.
+
+** Notes
+
+John von Neumann (1903–1957).  Born János Lajos Neumann
+in Budapest.  PhD in mathematics from the University of
+Budapest at 22, simultaneously earning a diploma in
+chemical engineering from ETH Zurich.
+
+By the time of the Fifth Solvay Conference he had already
+published his mathematical formalization of quantum
+mechanics.  He proved the impossibility of hidden
+variables in quantum theory — a result that stood for
+decades until John Bell showed it rested on an
+assumption von Neumann himself would not have defended.
+
+He recognized Gödel's incompleteness theorems immediately
+and proved the complementary result: a complete
+mathematical system is necessarily inconsistent.
+
+At the Institute for Advanced Study in Princeton he
+designed the IAS machine — he called it the MANIAC
+(Mathematical Analyzer, Numerical Integrator, and
+Automatic Computer).  Its stored-program architecture
+became the template for virtually all subsequent
+computers.
+
+Along the way he helped design the implosion lens for
+the plutonium bomb, invented game theory (with Oskar
+Morgenstern), created the theory of self-reproducing
+automata, and wrote the first serious treatment of
+the economics of computation.
+
+On his deathbed in 1957, ravaged by cancer likely caused
+by radiation exposure at nuclear tests, he whispered that
+a thinking machine "would have to grow, not be built...
+understand language... and play, like a child."  He died
+at 53, leaving behind work that would take decades to
+fully absorb.

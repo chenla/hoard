@@ -122,6 +122,24 @@ def compile_cmd(path, verbose):
                 context=context,
             ))
 
+        # Media file quad
+        if record.media_file:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:media-file",
+                object=record.media_file,
+                context=context,
+            ))
+
+        # Scope note quad
+        if record.scope_note:
+            quads.append(Quad(
+                subject=record.uuid,
+                predicate="v:sn",
+                object=record.scope_note,
+                context=context,
+            ))
+
         # Relation quads
         for rel in record.relations:
             predicate = REL_TO_PREDICATE.get(rel.rel_type)

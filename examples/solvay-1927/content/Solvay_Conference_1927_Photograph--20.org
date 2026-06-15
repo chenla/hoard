@@ -8,6 +8,7 @@
   :TYPE:      wh:media
   :CREATED:   2026-05-08T14:20
   :TAGS:      solvay-1927
+  :MEDIA_FILE: lib/media/benjamin-couprie--1927-solvay-conference.jpg
   :END:
 
 ** Media
@@ -16,32 +17,66 @@
    :DATE:       1927-10
    :LOCATION:   Brussels, Belgium
    :LICENSE:    Public Domain
-   :FORMAT:     photograph
+   :SOURCE:     Institut International de Physique Solvay
+   :FORMAT:     photograph (gelatin silver print)
    :END:
 
 ** Relations
    - PT :: Solvay Conference 1927 Photograph
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:9aec423b-6ece-4380-8597-dcc9ba55b1da][Irving Langmuir]]
+   - RT :: [[id:07e85f22-d177-4cf9-ad2b-f9b826a2063b][Max Planck]]
+   - RT :: [[id:652d3e40-6ea7-453b-95c3-7019d109a6e9][Marie Curie]]
+   - RT :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz]]
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:6e8c09d4-c405-426e-b955-5f47e9b9ee63][Paul Langevin]]
+   - RT :: [[id:687da8ff-3380-4fb7-9a50-cf62a2935c64][Charles-Eugène Guye]]
+   - RT :: [[id:d700b961-d092-43a8-a84a-c168a526e97e][C.T.R. Wilson]]
+   - RT :: [[id:a2ac2ffc-4838-4dbf-9b7a-32644d9be608][Owen Richardson]]
+   - RT :: [[id:dae7f7a5-0afb-45a6-9424-adbd7536268e][Peter Debye]]
+   - RT :: [[id:710be800-e812-4385-9f1f-7aad71eb7070][Martin Knudsen]]
+   - RT :: [[id:f20f793f-6f6d-43f7-9121-a2048e7d6ae1][William Lawrence Bragg]]
+   - RT :: [[id:13ed7cbf-1bde-45f2-b50e-cc69e9822337][Hendrik Kramers]]
+   - RT :: [[id:c5850a3c-baf4-4895-abdc-e18483258d76][Paul Dirac]]
+   - RT :: [[id:fbacc278-7de5-46a7-b28a-ed54dddf46ab][Arthur Compton]]
+   - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie]]
+   - RT :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:860baf5e-301b-4ac7-823f-829a29349f5c][Auguste Piccard]]
+   - RT :: [[id:0218f7c9-cc71-482e-932d-86894c18c75f][Émile Henriot]]
+   - RT :: [[id:a39781c8-d3fc-430d-a0a7-da672de1c541][Paul Ehrenfest]]
+   - RT :: [[id:6b3f5069-6be0-466b-b977-daf1fe07c535][Édouard Herzen]]
+   - RT :: [[id:86427838-f9d2-4594-a0bb-e070d61f4a3c][Théophile de Donder]]
+   - RT :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrödinger]]
+   - RT :: [[id:cff7110e-8bd8-40e4-a62b-68c7306f2f4f][Jules-Émile Verschaffelt]]
+   - RT :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli]]
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:b1ec37dd-fd5e-49a2-98b0-c482c422ea43][Ralph Fowler]]
+   - RT :: [[id:663b02c0-b30f-442a-ae75-6bcc4f76bace][Léon Brillouin]]
 
-** Description
+** Scope Note
 
 Group photograph of the 29 attendees of the Fifth Solvay
-Conference, taken on the steps of the Institut
-International de Physique Solvay, Brussels, October 1927.
+Conference, Brussels, October 1927.  Seventeen are or
+will become Nobel laureates.  One of the most famous
+photographs in the history of science.
 
-Front row (seated): Irving Langmuir, Max Planck, Marie
-Curie, Hendrik Lorentz, Albert Einstein, Paul Langevin,
-Charles-Eugène Guye, C.T.R. Wilson, Owen Richardson.
+** Notes
 
-Middle row: Peter Debye, Martin Knudsen, William Lawrence
-Bragg, Hendrik Kramers, Paul Dirac, Arthur Compton,
-Louis de Broglie, Max Born, Niels Bohr.
+Photograph by Benjamin Couprie, taken on the steps of the
+Institut International de Physique Solvay, Brussels,
+October 1927.  Public domain.
 
-Back row: Auguste Piccard, Émile Henriot, Paul Ehrenfest,
-Édouard Herzen, Théophile de Donder, Erwin Schrödinger,
-Jules-Émile Verschaffelt, Wolfgang Pauli, Werner
-Heisenberg, Ralph Fowler, Léon Brillouin.
+Front row (seated, left to right): Irving Langmuir, Max
+Planck, Marie Curie, Hendrik Lorentz, Albert Einstein,
+Paul Langevin, Charles-Eugène Guye, C.T.R. Wilson, Owen
+Richardson.
 
-One of the most famous photographs in the history of
-science.  17 of the 29 pictured are or would become
-Nobel laureates.
+Middle row (standing): Peter Debye, Martin Knudsen,
+William Lawrence Bragg, Hendrik Kramers, Paul Dirac,
+Arthur Compton, Louis de Broglie, Max Born, Niels Bohr.
+
+Back row (standing): Auguste Piccard, Émile Henriot, Paul
+Ehrenfest, Édouard Herzen, Théophile de Donder, Erwin
+Schrödinger, Jules-Émile Verschaffelt, Wolfgang Pauli,
+Werner Heisenberg, Ralph Fowler, Léon Brillouin.

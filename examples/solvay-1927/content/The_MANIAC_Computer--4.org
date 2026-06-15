@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The MANIAC Computer—4
+
+* The MANIAC Computer—4
+  :PROPERTIES:
+  :ID:        123657f2-0c94-4578-b515-2459ce2d2c66
+  :TYPE:      wh:con
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      determinism
+  :END:
+
+** Relations
+   - PT :: MANIAC (computer)
+   - UF :: Mathematical Analyzer, Numerical Integrator, and Automatic Computer
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+
+** Scope Note
+
+The stored-program computer built by John von Neumann at
+the Institute for Advanced Study in Princeton, completed
+1952.  Its architecture — stored program, single memory
+for data and instructions — became the template for
+virtually all subsequent computers.
+
+** Notes
+
+MANIAC: Mathematical Analyzer, Numerical Integrator, and
+Automatic Computer.  Built at the IAS in Princeton under
+von Neumann's direction, operational by 1952.
+
+The machine implemented the "von Neumann architecture" —
+a stored-program design where instructions and data share
+the same memory.  This was not the first electronic
+computer (ENIAC preceded it), but its architecture became
+the standard.  Nearly every computer built since follows
+the same basic design.
+
+Its first major application was thermonuclear weapon
+calculations — specifically, evaluating whether the
+Teller-Ulam design for the hydrogen bomb would work.
+Von Neumann saw no contradiction in building the
+instrument of abstract thought and using it first to
+design weapons.
+
+The name was technically an acronym but also a joke —
+von Neumann appreciated the irony of naming a machine
+designed for rational calculation after mania.

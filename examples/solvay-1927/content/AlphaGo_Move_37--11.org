@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   AlphaGo Move 37—11
+
+* AlphaGo Move 37—11
+  :PROPERTIES:
+  :ID:        2c075636-a78a-42dc-a6ac-f19978223aaf
+  :TYPE:      wh:evt
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      screed-t1, determinism
+  :END:
+
+** Relations
+   - PT :: AlphaGo Move 37
+   - RT :: [[id:c0aaed4b-4a38-4792-b03f-cab6bb2903c9][Lee Sedol]]
+   - RT :: [[id:5284e00c-e05a-447d-a7b0-ac40f2a2bae4][Determinism]]
+
+** Scope Note
+
+March 2016, Game 2 of the AlphaGo vs Lee Sedol match in
+Seoul.  Move 37 — a shoulder hit on the fifth line —
+violated three thousand years of accumulated Go wisdom.
+The moment the shockwave from Solvay 1927 reached the
+general public as lived experience.
+
+** Notes
+
+In March 2016, DeepMind's AlphaGo played Lee Sedol, the
+world's strongest Go player, in a five-game match in
+Seoul.  AlphaGo won 4-1.
+
+Move 37 of Game 2 became the defining moment.  AlphaGo
+placed a stone on the fifth line in a position that no
+human player would have considered.  Its own evaluation
+rated the move as having a 1-in-10,000 probability of
+being played by a human.  Fan Hui, the European Go
+champion who had lost to AlphaGo months earlier and was
+providing commentary, wrote: "It's not a human move.
+I've never seen a human play this move."
+
+The move won the game.  More importantly, it demonstrated
+something that no previous AI achievement had: a machine
+producing a creative, beautiful, winning decision that
+exceeded human understanding.  Not by brute-force
+calculation (as in chess) but by a learned aesthetic
+that transcended its training data.
+
+For the story of the deterministic shockwave, Move 37 is
+the moment the abstraction became concrete.  Not a
+physics result that most people would never understand,
+but a lived experience broadcast to millions: a machine
+had done something beautiful and beyond human
+comprehension, on its own.
+
+Benjamín Labatut's /The MANIAC/ uses Move 37 as the
+endpoint of the arc that begins with Ehrenfest watching
+the Bohr-Einstein debates at Solvay.

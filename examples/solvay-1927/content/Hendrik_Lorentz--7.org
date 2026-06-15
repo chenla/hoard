@@ -16,6 +16,10 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Scope Note
+
+Lorentz transformations underpinned special relativity. Chaired every Solvay Conference. The one person both Einstein and Bohr deferred to. Died four months after this photograph.
+
 ** Notes
 
 Hendrik Lorentz (1853–1928).  Dutch theoretical

@@ -1,0 +1,59 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Screed Post 1 — The Solvay Photo
+
+* Screed Post 1 — The Solvay Photo
+  :PROPERTIES:
+  :ID:        718d1a40-93db-4a66-b560-181bfc915134
+  :TYPE:      wh:holon
+  :CREATED:   2026-06-15T10:20
+  :END:
+
+Twenty-nine people, one photograph, the moment certainty
+died.  The 1927 Solvay Conference as origin point of a
+shockwave that propagated through physics, mathematics,
+computation, and artificial intelligence — from
+Heisenberg's uncertainty to AlphaGo's Move 37.
+
+** Membership
+
+Cards tagged ~screed-t1, plus:
+- The_Solvay_Photo--6
+- Solvay_Conference_1927--11
+- Solvay_Conference_1927_Photograph--20
+- Werner_Heisenberg--7
+- Niels_Bohr--7
+- Erwin_Schrodinger--7
+- Louis_de_Broglie--7
+- Albert_Einstein--7
+- Paul_Ehrenfest--7
+- Max_Planck--7
+- Marie_Curie--7
+- Hendrik_Lorentz--7
+- Paul_Dirac--7
+- Wolfgang_Pauli--7
+- David_Bohm--7
+- Kurt_Godel--7
+- John_von_Neumann--7
+- Lee_Sedol--7
+- Determinism--4
+- Copenhagen_Interpretation--4
+- AlphaGo_Move_37--11
+- The_MANIAC_Computer--4
+- The_MANIAC_Novel--6
+
+** Primary
+
+The_Solvay_Photo--6
+
+** Expression
+
+Prefer: solvay-1927
+Fallback: whole
+
+** Order
+
+1. wh:evt
+2. wh:per (alphabetical by title)
+3. wh:con
+4. wh:wrk

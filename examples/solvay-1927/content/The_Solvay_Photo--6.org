@@ -1,0 +1,290 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Solvay Photo
+
+* The Solvay Photo
+  :PROPERTIES:
+  :ID:        543a53ed-c44c-4f57-b680-7ba09f464f96
+  :TYPE:      wh:wrk
+  :CREATED:   2026-06-15T10:00
+  :TAGS:      screed-t1, determinism, solvay-1927
+  :END:
+
+** Relations
+   - PT :: The Solvay Photo
+   - BT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Scope Note
+
+Screed Post 1.  Twenty-nine physicists, one photograph,
+the moment certainty died.  The 1927 Solvay Conference
+as origin point of a shockwave that propagated through
+physics, mathematics, computation, and artificial
+intelligence.
+
+** Notes
+
+Look at this photograph.
+
+@@figure:Solvay_Conference_1927_Photograph--20@@
+
+Twenty-nine people on the steps of the Institut
+International de Physique Solvay, Brussels, October
+1927. @@margin:Solvay_Conference_1927--11@@ Seventeen
+of them are or will become Nobel laureates.  They have
+gathered for the Fifth Solvay International Conference,
+titled "Electrons and Photons."
+
+But what was really at stake was the nature of reality
+itself.
+
+The most foundational assumption of the modern West —
+that the universe is deterministic and fully knowable —
+received its final dismantling in this
+room. @@margin:Determinism--4@@ The people in this
+photograph knew it was happening.  Some of them had swung
+the hammer.
+
+---
+
+Werner Heisenberg had published the uncertainty principle
+six months earlier. @@margin:Werner_Heisenberg--7@@ He
+was twenty-five.  Niels Bohr had presented
+complementarity at Como just weeks
+before. @@margin:Niels_Bohr--7@@ Erwin Schrödinger's
+wave equation was barely a year
+old. @@margin:Erwin_Schrodinger--7@@ Louis de Broglie,
+the 7th Duc de Broglie, had come to present a
+deterministic alternative — pilot-wave theory — and
+watched Wolfgang Pauli demolish it in the
+room. @@margin:Louis_de_Broglie--7@@ Whether Pauli's
+objection was actually fatal — David Bohm would show it
+wasn't, twenty-five years later — is one of the great
+what-ifs in physics. @@margin:David_Bohm--7@@ A viable
+alternative to Copenhagen was killed that
+week. @@margin:Copenhagen_Interpretation--4@@ The road
+not taken.
+
+Albert Einstein, the most famous scientist alive, spent
+the conference constructing thought experiments to break
+quantum mechanics. @@margin:Albert_Einstein--7@@  Bohr
+spent the conference dismantling them, sometimes staying
+up all night.  Paul Ehrenfest, watching from the back
+row, wrote that it was "like a game of chess.  Einstein
+all the time with new examples... Bohr from out of
+philosophical smoke clouds constantly searching for the
+tools to crush one example after the
+other." @@margin:Paul_Ehrenfest--7@@
+
+Bohr won.  Not by proving Einstein wrong — Einstein's
+concerns about locality would prove prescient — but by
+demonstrating that the Copenhagen interpretation was
+internally consistent and experimentally productive.  The
+physics community followed Bohr.  The old certainty was
+gone.
+
+---
+
+What makes this photograph extraordinary is not just who
+is in it, but /when/ they are in
+it. @@margin:Solvay_Conference_1927_Photograph--20@@
+
+Max Planck sits in the front row, sixty-nine years
+old. @@margin:Max_Planck--7@@ He started all of this.
+In December 1900, to explain black-body radiation, he
+introduced the quantum of action — energy comes in
+discrete packets.  He called it "an act of desperation."
+He spent the next decade trying to reconcile his own
+discovery with classical physics.  He failed.  Now he
+sits and watches the young men take his quantum to places
+he never intended.  Born's probabilistic interpretation,
+Heisenberg's uncertainty, Bohr's complementarity — these
+are not refinements of his idea.  They are a revolution
+built on his foundation.  Like Einstein, he is
+uncomfortable.  Unlike Einstein, he does not fight.  He
+listens.
+
+Marie Curie sits between Hendrik Lorentz and
+Einstein. @@margin:Marie_Curie--7@@ She holds two Nobel
+Prizes — Physics and Chemistry — and remains the only
+person to have won in two different sciences.  Her
+husband Pierre has been dead for twenty-one years.
+Decades of handling radioactive materials without
+protection have ravaged her health: her fingers are
+burned, her eyesight is failing, she carries test tubes
+of radium in her pockets.  She will not live another
+seven years.  She looks tired, resolute, and entirely
+unimpressed by the theoretical fireworks around her.
+
+Lorentz, seventy-four, has chaired every Solvay
+Conference since the first in
+1911. @@margin:Hendrik_Lorentz--7@@ His transformations
+became the mathematical foundation of Einstein's special
+relativity.  He is perhaps the only person in the room
+both Einstein and Bohr would defer to.  He will be dead
+in four months.  When he dies in February 1928, Einstein
+and Curie attend his funeral.
+
+Paul Dirac, twenty-five, completed his PhD just a year
+ago. @@margin:Paul_Dirac--7@@ His transformation theory
+had already shown that Heisenberg's matrix mechanics and
+Schrödinger's wave mechanics were the same theory in
+different mathematical clothing.  He says almost nothing
+at the conference.  Within a year he will publish the
+Dirac equation, predict antimatter, and change physics
+again.  In the photograph he looks slightly elsewhere, as
+if the social occasion is a minor inconvenience
+interrupting something more important happening inside
+his head.
+
+Wolfgang Pauli, twenty-seven, is already
+feared. @@margin:Wolfgang_Pauli--7@@ His exclusion
+principle is two years old.  He is the conference's
+executioner.  "Not even wrong" is his dismissal for
+theories too vague to be tested.  He stands next to
+Heisenberg — friends and rivals since student days.  The
+/Knabenphysik/ in full force: the physics of boys.
+
+And then there is Paul Ehrenfest.  Forty-seven.  The
+conference's gadfly, the man who asks the devastating
+question.  He is close friends with both Einstein and
+Bohr.  He stays at Einstein's house; he stays at Bohr's.
+He cannot choose between them.
+
+Six years from now, on 25 September 1933, Ehrenfest will
+shoot his youngest son Wassik and then himself.  Wassik
+had Down syndrome.  Ehrenfest was Jewish.  Hitler had
+come to power eight months earlier.  Ehrenfest knew what
+was coming for a disabled Jewish child in the Europe that
+was taking shape — and he knew he would not be there to
+protect him.
+
+His suicide note is addressed to Bohr, Einstein, and the
+other friends from this circle.  He writes that he can no
+longer keep up with physics.  But the note does not fully
+explain the act.  The physics was one thing.  His son was
+another.
+
+In the photograph he stands in the back row, looking
+alert and engaged.  He has six years left.
+
+---
+
+I keep coming back to this photograph because of what it
+contains: not just the people, but the /moment/.  The
+last week when anyone could seriously argue that the
+universe was a clockwork mechanism, fully knowable, fully
+controllable.
+
+We don't usually think of this as a world-historical
+event.  The industrial revolution, the world wars, the
+atomic bomb — these are the markers we use.  But the
+shockwave that began in this room in October 1927 has
+propagated further and deeper than any of them.
+
+Within five years, Kurt Gödel proved that mathematics
+itself could never be both complete and consistent —
+there would always be true statements that could not be
+proven. @@margin:Kurt_Godel--7@@ John von Neumann, who
+had been working on the mathematical foundations of
+quantum mechanics, recognized the implications
+immediately. @@margin:John_von_Neumann--7@@ He proved
+the complementary result: if a system of mathematics is
+complete, it is necessarily inconsistent — and with an
+inconsistent system, you can prove anything you like.
+From here to eternity, mathematicians would have to
+choose.
+
+Von Neumann went on to build the first modern computer —
+he called it the MANIAC — and along the way helped design
+the hydrogen bomb, invented game theory, and laid the
+theoretical foundations for self-reproducing machines and
+artificial life. @@margin:The_MANIAC_Computer--4@@ On
+his deathbed, he whispered that a thinking machine "would
+have to grow, not be built... understand language... and
+play, like a child."
+
+In March 2016, nearly ninety years after the Solvay
+photograph was taken, an artificial intelligence called
+AlphaGo played the world's greatest Go player, Lee
+Sedol, in Seoul. @@margin:AlphaGo_Move_37--11@@ In Game
+2, AlphaGo played move 37 — a shoulder hit on the fifth
+line that violated three thousand years of accumulated
+human wisdom about Go.  AlphaGo's own system rated the
+move as having a 1-in-10,000 probability.  Fan Hui,
+watching from the commentary room, wrote: "It's not a
+human move.  I've never seen a human play this move."
+
+Move 37 was the moment the shockwave from Brussels
+reached the general public.  Not as a physics result that
+most people would never understand, but as a lived
+experience: a machine had done something beautiful and
+beyond human comprehension, and it had done it on its
+own.
+
+Benjamín Labatut's novel /The MANIAC/ traces this entire
+arc — from Ehrenfest watching the Bohr-Einstein debates
+to AlphaGo's move 37. @@margin:The_MANIAC_Novel--6@@
+That book, and this photograph, are where this story
+begins.
+
+---
+
+There is a reason I built a tool to understand this
+photograph.
+
+Most of what we know about these twenty-nine people comes
+from sources that flatten them across time —
+encyclopedias, biographies, Wikipedia articles.  Einstein
+is "the physicist who developed general relativity."
+Curie is "the first woman to win a Nobel Prize."  These
+facts are true but they obscure something essential: who
+these people were /that day/, in that room, at that
+moment.
+
+Heisenberg at twenty-five is not the same person as
+Heisenberg at forty, staying in Germany under the Nazis,
+running the uranium project.  Dirac at twenty-five,
+silently thinking, is not Dirac at seventy, the reclusive
+professor.  And Ehrenfest — alert and engaged in the back
+row — is not yet the man who will murder his son.
+
+Understanding people in temporal context — as they were
+at a specific moment, not as the sum of everything they
+ever did — is what historians do.  It's also what we
+built [[https://github.com/chenla/hoard][Hoard]] to do.
+Hoard is an open-source knowledge system built on Git.
+Each person in this photograph exists as a card in a
+/hord/, and each card can have multiple /expressions/ —
+temporal snapshots that show who they were at a specific
+moment.  The Solvay 1927 expression shows twenty-nine
+physicists as they saw each other, not as we remember
+them.
+
+You can explore the full set — all twenty-nine, with
+their 1927 contexts — in the
+[[https://github.com/chenla/hoard/tree/main/examples/solvay-1927][Solvay demo]].
+
+---
+
+The shockwave from Brussels is still propagating.  It
+moved through physics, through mathematics, through
+computation, through nuclear weapons, through artificial
+intelligence.  At each stage, human understanding was
+displaced a little further.  Ehrenfest could not follow
+quantum mechanics.  Von Neumann's brain was destroyed by
+cancer just as his computers surpassed human calculation.
+Lee Sedol could not compete with AlphaGo.
+
+This story — Screed — follows that shockwave.  It traces
+the collapse of the deterministic paradigm that built the
+modern world, and it asks what comes after.  Not as a
+warning.  As a building plan.
+
+Because the shockwave is arriving now — not as abstract
+physics, but as the lived reality of artificial
+intelligence, collapsing institutions, and a world built
+on assumptions that turned out to be sand.  The
+infrastructure we are building — Hoard is one piece of
+it — is designed for the world that comes after
+certainty.

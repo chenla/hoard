@@ -30,7 +30,11 @@ holon demonstration.
 - **Temporal context**: Relationships and significance scoped to a
   moment in history -- what Wikipedia flattens away.
 
-## Usage
+## Live Demo
+
+**[Browse online →](https://chenla.github.io/hoard/solvay.html)**
+
+## Local Usage
 
 ```
 cd examples/solvay-1927
@@ -38,7 +42,7 @@ hord compile
 hord holon list
 hord holon show Solvay_1927--21
 hord export --holon Solvay_1927--21
-open _site/holon.html
+xdg-open _site/holon.html   # Linux (use 'open' on macOS)
 ```
 
 ## Directory Structure

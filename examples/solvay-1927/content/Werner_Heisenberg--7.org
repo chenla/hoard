@@ -15,6 +15,10 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Scope Note
+
+Published the uncertainty principle at 25. Co-architect of the Copenhagen interpretation with Bohr and the leading figure of the /Knabenphysik/ generation that rewrote the rules of matter.
+
 ** Notes
 
 Werner Karl Heisenberg (1901–1976).  German theoretical

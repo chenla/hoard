@@ -15,6 +15,10 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Scope Note
+
+Atomic model, complementarity, Copenhagen interpretation. Won the debate with Einstein at Solvay. His Copenhagen institute trained an entire generation of quantum physicists.
+
 ** Notes
 
 Niels Henrik David Bohr (1885–1962).  Danish physicist.

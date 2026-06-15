@@ -15,6 +15,10 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Scope Note
+
+Architect of relativity who helped launch quantum theory, then spent Solvay trying to prove it incomplete. The problems he raised (EPR paradox) still haunt physics a century later.
+
 ** Notes
 
 Albert Einstein (1879–1955).  German-born theoretical

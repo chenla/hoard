@@ -1,0 +1,54 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Copenhagen Interpretation—4
+
+* Copenhagen Interpretation—4
+  :PROPERTIES:
+  :ID:        1c20591e-b63d-4541-a091-050cd890940a
+  :TYPE:      wh:con
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      determinism, solvay-1927
+  :END:
+
+** Relations
+   - PT :: Copenhagen Interpretation
+   - RT :: [[id:5284e00c-e05a-447d-a7b0-ac40f2a2bae4][Determinism]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:c34e27f2-9dcc-408f-84ab-f0ba3d3c0cb2][Werner Heisenberg]]
+
+** Scope Note
+
+The interpretation of quantum mechanics developed
+primarily by Niels Bohr and Werner Heisenberg in the
+mid-1920s.  Physical systems do not have definite
+properties prior to measurement; the act of observation
+collapses the wave function into a definite state.  The
+interpretation that won at Solvay and dominated physics
+for most of the twentieth century.
+
+** Notes
+
+The Copenhagen interpretation emerged from the
+collaboration of Bohr and Heisenberg at Bohr's institute
+in Copenhagen.  Its core claims: quantum systems exist in
+superposition until measured; the wave function describes
+probabilities, not physical reality; complementary
+properties (position/momentum, wave/particle) cannot be
+simultaneously determined.
+
+At the Fifth Solvay Conference in 1927, the Copenhagen
+interpretation faced its most serious challenge from
+Einstein, who constructed thought experiments to reveal
+contradictions.  Bohr answered each one.  The physics
+community followed Bohr — not because determinism had
+been disproven, but because Copenhagen worked: it
+predicted experimental results with extraordinary
+precision.
+
+De Broglie's pilot-wave alternative was dismissed
+(prematurely, as Bohm would later show).  For decades,
+questioning Copenhagen was considered a sign of
+confusion rather than insight.  John Bell's work in 1964
+reopened the debate, and today multiple interpretations
+compete — many-worlds, consistent histories, QBism — but
+Copenhagen remains the default pedagogical framework.

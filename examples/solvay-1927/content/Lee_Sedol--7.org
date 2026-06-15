@@ -1,0 +1,49 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Lee Sedol—7
+
+* Lee Sedol—7
+  :PROPERTIES:
+  :ID:        c0aaed4b-4a38-4792-b03f-cab6bb2903c9
+  :TYPE:      wh:per
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      screed-t1
+  :END:
+
+** Relations
+   - PT :: Lee Sedol
+   - RT :: [[id:2c075636-a78a-42dc-a6ac-f19978223aaf][AlphaGo Move 37]]
+
+** Scope Note
+
+South Korean professional Go player (born 1983).
+Considered one of the greatest Go players of the modern
+era.  Lost 4-1 to DeepMind's AlphaGo in March 2016.
+Retired from professional Go in 2019, citing AI as an
+opponent that "cannot be defeated."
+
+** Notes
+
+Lee Sedol (born 1983 in South Korea).  9-dan
+professional, 18 international titles.  Known for
+creative, aggressive play and an ability to find moves
+that other professionals had not considered.
+
+His match against AlphaGo in March 2016 was watched by
+over 200 million people.  He lost four games but won
+Game 4 with his own "divine move" — move 78, a wedge
+that exploited a blind spot in AlphaGo's evaluation.
+DeepMind later confirmed that AlphaGo had assigned move
+78 a near-zero probability.
+
+He retired from professional Go in November 2019,
+telling the press: "With the advent of AI in Go games,
+I've realized that I'm not at the top even if I become
+the number one through frantic efforts.  Even if I
+become the number one, there is an entity that cannot
+be defeated."
+
+His retirement marked a quiet endpoint: the moment a
+world-class human practitioner acknowledged that AI
+had permanently surpassed human capability in his
+domain.

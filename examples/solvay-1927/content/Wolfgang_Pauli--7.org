@@ -18,6 +18,10 @@
    - RT :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born]]
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
 
+** Scope Note
+
+Exclusion principle. The conference's executioner -- demolished de Broglie's pilot-wave theory. His dismissal "not even wrong" became the gold standard for withering scientific critique.
+
 ** Notes
 
 Wolfgang Pauli (1900–1958).  Austrian-Swiss

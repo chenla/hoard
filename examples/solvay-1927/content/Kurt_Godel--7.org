@@ -1,0 +1,54 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Kurt Gödel—7
+
+* Kurt Gödel—7
+  :PROPERTIES:
+  :ID:        0ec8d6b5-54c1-454c-8505-44993a92ef9b
+  :TYPE:      wh:per
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      determinism
+  :END:
+
+** Relations
+   - PT :: Kurt Gödel
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+
+** Scope Note
+
+Austrian-American logician and mathematician (1906–1978).
+His incompleteness theorems (1931) proved that any
+consistent formal system powerful enough to describe
+arithmetic contains true statements that cannot be proven
+within the system.
+
+** Notes
+
+Kurt Gödel (1906–1978).  Born in Brünn, Austria-Hungary
+(now Brno, Czech Republic).  In 1931, at twenty-five, he
+published the incompleteness theorems — arguably the most
+important result in mathematical logic since Aristotle.
+
+The first theorem shows that in any consistent formal
+system capable of expressing basic arithmetic, there
+exist statements that are true but unprovable within
+the system.  The second shows that such a system cannot
+prove its own consistency.
+
+These results destroyed Hilbert's program — the attempt
+to place all of mathematics on a complete, consistent,
+decidable foundation.  Together with the Solvay
+shockwave in physics, Gödel's work marked the end of
+the deterministic dream in mathematics: the belief that
+every question has a knowable answer.
+
+Von Neumann grasped the implications immediately and
+proved the complementary result.  Gödel emigrated to
+the United States in 1940 and spent the rest of his
+career at the Institute for Advanced Study, where he
+and Einstein became close friends — two refugees walking
+together through Princeton, united by their discomfort
+with the probabilistic turn their fields had taken.
+
+He died in 1978 of self-starvation, convinced his food
+was being poisoned.

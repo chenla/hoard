@@ -74,7 +74,7 @@ def quad_path(hord_root: str, uuid: str, overlay: str | None = None) -> str:
 
 # Predicate → overlay routing
 STRATA_PREDICATES = {
-    "v:type", "v:title", "v:author", "v:citekey",
+    "v:type", "v:title", "v:author", "v:citekey", "v:sn", "v:media-file",
     "v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type",
     "v:status", "v:due", "v:scheduled",
 }
@@ -84,6 +84,7 @@ STRUCTURAL_PREDICATES = {
     "v:nt", "v:ntg", "v:nti", "v:ntp",
     "v:rt", "v:uf", "v:use", "v:tag",
     "v:h-member", "v:h-expr", "v:h-order", "v:h-cascade",
+    "v:h-primary", "v:h-anchor",
 }
 
 

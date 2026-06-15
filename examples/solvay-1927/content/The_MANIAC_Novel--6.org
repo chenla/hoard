@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The MANIAC (novel)—15
+
+* The MANIAC (novel)—15
+  :PROPERTIES:
+  :ID:        8916306c-5584-4f3c-bfae-eacd7aafe5f7
+  :TYPE:      wh:wrk
+  :CREATED:   2026-06-15T10:10
+  :TAGS:      screed-t1, determinism
+  :END:
+
+** Relations
+   - PT :: The MANIAC
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+   - RT :: [[id:2c075636-a78a-42dc-a6ac-f19978223aaf][AlphaGo Move 37]]
+
+** Scope Note
+
+Novel by Benjamín Labatut (2023).  Traces the arc from
+Paul Ehrenfest's anguish at the Solvay debates through
+John von Neumann's creation of the modern computer to
+AlphaGo's Move 37.  The book that connects the endpoints
+of the deterministic shockwave.
+
+** Notes
+
+/The MANIAC/ by Benjamín Labatut.  Published 2023.
+Structured in three parts: Paul Ehrenfest's suicide, John
+von Neumann's life and the creation of the computer, and
+the AlphaGo-Lee Sedol match.
+
+Part one opens with Ehrenfest — the gadfly of the Solvay
+conferences, close friend of both Einstein and Bohr — who
+could not choose between their visions and could not keep
+up with the physics.  His murder-suicide in 1933
+(shooting his son Wassik, who had Down syndrome, then
+himself) frames the human cost of the collapse of the
+deterministic worldview.
+
+Part two follows von Neumann from Budapest prodigy to
+Princeton polymath: quantum mechanics, game theory, the
+Manhattan Project, the stored-program computer.  The
+MANIAC — Mathematical Analyzer, Numerical Integrator, and
+Automatic Computer — was the machine he built at the
+Institute for Advanced Study.
+
+Part three is the AlphaGo match, told through Lee Sedol,
+Fan Hui, and the DeepMind team.  Move 37 becomes the
+endpoint: a machine producing something beautiful and
+beyond human comprehension.
+
+Labatut works in the boundary between fiction and history,
+a form he also used in /When We Cease to Understand the
+World/ (2020).  His method — historical research rendered
+as intimate, sometimes hallucinatory narrative — makes
+these ideas accessible without simplifying them.

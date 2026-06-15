@@ -18,6 +18,10 @@
    - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Scope Note
+
+Wave equation (1926). Sided with Einstein against Copenhagen. Later devised the cat thought experiment to expose what he saw as the absurdity of quantum superposition taken literally.
+
 ** Notes
 
 Erwin Schrödinger (1887–1961).  Austrian-Irish

@@ -225,7 +225,8 @@ def _html_page(title: str, body: str, breadcrumb: str = "") -> str:
 # ── Entity page ────────────────────────────────────────
 
 def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
-                       index: dict, path_for_uuid: dict) -> str:
+                       index: dict, path_for_uuid: dict,
+                       index_href: str = "index.html") -> str:
     """Render a single entity as an HTML page."""
     quads = read_all_quads(hord_root, uuid)
 
@@ -245,11 +246,17 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
 
     # Separate structural and strata quads
     strata_preds = {"v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type"}
+    # Predicates to suppress from entity page display
+    hidden_preds = {
+        "v:title", "v:type", "v:sn", "v:tag",
+        "v:h-member", "v:h-expr", "v:h-order", "v:h-cascade",
+        "v:h-primary", "v:h-anchor",
+    }
     structural = []
     strata = []
 
     for q in quads:
-        if q.predicate in ("v:title",):
+        if q.predicate in hidden_preds:
             continue
         if q.predicate in strata_preds:
             strata.append(q)
@@ -311,16 +318,23 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
             body_parts.append("<h2>Notes</h2>")
             body_parts.append(f'<div class="notes">{notes_html}</div>')
 
-    breadcrumb = '<div class="breadcrumb"><a href="index.html">&larr; Index</a></div>'
+    breadcrumb = f'<div class="breadcrumb"><a href="{index_href}">&larr; Index</a></div>'
     return _html_page(title, "\n".join(body_parts), breadcrumb)
 
 
 def _resolve_title(uuid: str, hord_root: str) -> str:
-    """Get the title for a UUID from its quads."""
+    """Get the display title for a UUID from its quads.
+
+    Prefers v:pt (preferred term / clean display name) over
+    v:title (which may include filename suffixes like —7).
+    """
+    title = None
     for q in read_all_quads(hord_root, uuid):
-        if q.predicate == "v:title":
+        if q.predicate == "v:pt":
             return q.object
-    return uuid[:8] + "…"
+        if q.predicate == "v:title" and title is None:
+            title = q.object
+    return title or uuid[:8] + "…"
 
 
 # ── Index page ─────────────────────────────────────────
@@ -584,10 +598,6 @@ CONTEXT_CLOUD_CSS = """\
   --border: #d4d4d0;
   --muted: #6b6b68;
   --link: #2d6a4f;
-  --tag-bg: #e8e8e4;
-  --card-bg: #fafaf6;
-  --body-width: 55%;
-  --margin-width: 35%;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -597,180 +607,175 @@ CONTEXT_CLOUD_CSS = """\
     --border: #3a3a38;
     --muted: #9a9a96;
     --link: #52b788;
-    --tag-bg: #2a2a28;
-    --card-bg: #222220;
   }
 }
+/* ── Reset ── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ── Base — matches tufte-css values ── */
 body {
   font-family: et-book, Palatino, "Palatino Linotype",
                "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  font-size: 1.2rem;
-  background: var(--bg); color: var(--fg);
-  line-height: 1.8;
-  padding: 0;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  background: var(--bg);
+  color: var(--fg);
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
 }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* ── Article layout ── */
-.article-container {
-  display: flex;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem;
-  position: relative;
-}
-.article-body {
-  width: var(--body-width);
-  max-width: 38rem;
-  padding-right: 4rem;
-}
-.article-margin {
-  width: var(--margin-width);
-  position: relative;
-}
+/* ── Article ── */
+article { padding: 5rem 0 5rem 8rem; }
+section { padding-top: 1rem; padding-bottom: 1rem; }
 
-/* ── Typography ── */
-.article-body h1 {
-  font-size: 2.2rem;
+/* ── Typography — body text at 55% ── */
+p, blockquote, hr, h2, h3, .article-footer {
+  width: 55%;
+}
+h1 {
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: 0.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  width: 55%;
 }
-.article-body .subtitle {
+.subtitle {
   font-style: italic;
   font-size: 1.1rem;
   color: var(--muted);
   margin-bottom: 2.5rem;
   display: block;
+  width: 100%;
 }
-.article-body h2 {
+h2 {
   font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
-  color: var(--fg);
-  margin: 2rem 0 0.75rem;
+  margin-top: 2.1rem;
+  margin-bottom: 1.4rem;
 }
-.article-body h3 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  font-style: italic;
-  margin: 1.5rem 0 0.5rem;
+p {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  padding-right: 0;
+  vertical-align: baseline;
 }
-.article-body p {
-  margin-bottom: 1.2rem;
-}
-.article-body blockquote {
+blockquote {
   border-left: 3px solid var(--border);
   padding-left: 1.5rem;
   margin: 1.5rem 0;
   color: var(--muted);
   font-size: 1.1rem;
 }
-
-/* ── Margin cards ── */
-.margin-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  padding: 1rem 1.25rem;
-  margin-bottom: 1.25rem;
-  font-size: 0.85rem;
-  line-height: 1.6;
-  position: relative;
-}
-.margin-card .card-title {
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin-bottom: 0.25rem;
-}
-.margin-card .card-title a { color: var(--fg); }
-.margin-card .card-type {
-  display: inline-block;
-  background: var(--tag-bg);
-  padding: 0.1rem 0.4rem;
-  border-radius: 2px;
-  font-size: 0.75rem;
-  font-family: "IBM Plex Mono", monospace;
-  color: var(--muted);
-  margin-bottom: 0.5rem;
-}
-.margin-card .card-body {
-  color: var(--fg);
-}
-.margin-card .card-body p {
-  margin-bottom: 0.5rem;
-}
-.margin-card .card-body p:last-child { margin-bottom: 0; }
-.margin-card .card-note {
-  margin-top: 0.5rem;
-  padding-top: 0.5rem;
+hr {
+  border: none;
   border-top: 1px solid var(--border);
-  font-style: italic;
-  color: var(--muted);
-}
-.margin-card .card-more {
-  display: block;
-  margin-top: 0.5rem;
-  font-size: 0.8rem;
-  color: var(--link);
+  margin: 2rem 0;
 }
 
-/* ── Margin reference number ── */
-.margin-ref {
-  font-size: 0.75rem;
+/* ── Sidenotes — tufte-css positioning ── */
+.sidenote-ref {
+  font-size: 0.75em;
   color: var(--accent);
   vertical-align: super;
   line-height: 0;
-  cursor: pointer;
   font-weight: 600;
 }
-.margin-card .ref-num {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  font-size: 0.75rem;
+.sidenote {
+  float: right;
+  clear: right;
+  margin-right: -60%;
+  width: 50%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  vertical-align: baseline;
+  position: relative;
+  color: var(--muted);
+}
+.sidenote .sn-num {
+  font-size: 0.75em;
   color: var(--accent);
   font-weight: 600;
+  margin-right: 0.1rem;
+}
+.sidenote .sn-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.sidenote .sn-title a {
+  color: var(--fg);
+}
+.sidenote .sn-title a:hover {
+  color: var(--link);
+}
+.sidenote .sn-type {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-left: 0.2rem;
+}
+.sidenote .sn-body {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+.sidenote .sn-body p {
+  width: 100%;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* ── Full-width figures (Tufte-style) ── */
+figure {
+  margin: 2rem 0;
+}
+figure.fullwidth {
+  max-width: 100%;
+  clear: both;
+}
+figure.fullwidth img {
+  width: 100%;
+}
+figure figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  width: 55%;
+}
+figure.fullwidth figcaption {
+  width: 100%;
 }
 
 /* ── Footer ── */
 .article-footer {
-  max-width: 38rem;
-  margin: 3rem auto;
-  padding: 1.5rem 0;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--border);
   font-size: 0.9rem;
   color: var(--muted);
 }
 .article-footer .clone-info {
   margin-top: 1rem;
-  padding: 1rem;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 4px;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.85rem;
 }
 
 /* ── Narrow screen: collapse to footnotes ── */
 @media (max-width: 960px) {
-  .article-container {
-    display: block;
-    padding: 2rem 1rem;
-  }
-  .article-body {
-    width: 100%;
-    max-width: 100%;
-    padding-right: 0;
-  }
-  .article-margin {
-    display: none;
-  }
-  .margin-ref {
-    cursor: pointer;
-  }
+  body { width: 90%; }
+  p, blockquote, hr, h1, h2, h3,
+  .subtitle, .article-footer { width: 100%; }
+  .sidenote { display: none; }
+  .sidenote-ref { cursor: pointer; }
   .footnote-section {
     margin-top: 2rem;
     padding-top: 1rem;
@@ -783,11 +788,9 @@ a:hover { text-decoration: underline; }
     margin-bottom: 1rem;
   }
   .footnote-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 1rem 1.25rem;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
     font-size: 0.9rem;
   }
   .footnote-card .card-title {
@@ -808,6 +811,13 @@ MARGIN_RE = re.compile(
     r"([A-Za-z0-9_-]+)"          # slug (required)
     r"(?::([^:@]*))?"            # label (optional)
     r"(?::([^@]*))?"             # note (optional)
+    r"@@"
+)
+
+FIGURE_RE = re.compile(
+    r"@@figure:"
+    r"([A-Za-z0-9_-]+)"          # media card slug (required)
+    r"(?::([^@]*))?"             # caption override (optional)
     r"@@"
 )
 
@@ -849,6 +859,8 @@ def _extract_article_body(filepath: str) -> str:
         "Relations", "Membership", "Expression", "Order",
         "Primary", "References", "Scope Note",
     }
+    # Headings to strip (remove heading line but keep content below)
+    strip_headings = {"Notes"}
 
     for line in lines:
         # Skip property drawer
@@ -863,6 +875,10 @@ def _extract_article_body(filepath: str) -> str:
         heading = re.match(r"^\*\*\s+(.+)", line)
         if heading:
             section_name = heading.group(1).strip()
+            # Strip heading line but keep content
+            if section_name in strip_headings:
+                skip_section = False
+                continue
             if section_name in structural_sections:
                 skip_section = True
                 continue
@@ -883,12 +899,53 @@ def _extract_scope_note(hord_root: str, uuid: str) -> str:
     return ""
 
 
-def _org_body_to_html(text: str) -> str:
+def _resolve_figure(slug: str, hord_root: str, index: dict) -> dict:
+    """Resolve a @@figure:SLUG@@ marker to image path and caption.
+
+    Looks up the media card, reads v:media-file for the path and
+    v:sn for the caption.  Returns {src, caption, title, uuid}.
+    """
+    uuid = index.get(slug)
+    if not uuid:
+        for key, val in index.items():
+            if key.startswith(slug) and len(slug) >= 4:
+                uuid = val
+                break
+    if not uuid:
+        return {"src": "", "caption": slug, "title": slug, "uuid": ""}
+
+    media_file = ""
+    scope_note = ""
+    title = slug
+    for q in read_all_quads(hord_root, uuid):
+        if q.predicate == "v:media-file":
+            media_file = q.object
+        elif q.predicate == "v:sn":
+            scope_note = q.object
+        elif q.predicate == "v:pt":
+            title = q.object
+        elif q.predicate == "v:title" and title == slug:
+            title = q.object
+
+    return {
+        "src": media_file,
+        "caption": scope_note or title,
+        "title": title,
+        "uuid": uuid,
+    }
+
+
+def _org_body_to_html(text: str, margin_cards: list[dict] = None,
+                      hord_root: str = None, index: dict = None) -> str:
     """Convert org-mode body text to HTML, handling basic markup.
 
     Handles: paragraphs, headings (*** → h3), bold, italic,
-    code, links, blockquotes, and @@margin:...@@ markers.
-    Margin markers are replaced with numbered superscript refs.
+    code, links, blockquotes, @@margin:...@@ and @@figure:...@@
+    markers.
+
+    If margin_cards is provided, margin markers are replaced with
+    Tufte-style inline sidenotes. If hord_root and index are
+    provided, figure markers are resolved to media card images.
     """
     if not text:
         return ""
@@ -897,6 +954,31 @@ def _org_body_to_html(text: str) -> str:
     blocks = re.split(r"\n\s*\n", text)
     html_parts = []
     ref_counter = [0]  # mutable for closure
+
+    def _build_sidenote(card: dict) -> str:
+        """Build a Tufte-style sidenote span for a margin card."""
+        n = card["ref_num"]
+        parts = []
+        parts.append(f'<span class="sidenote" id="sn-{n}">')
+        parts.append(f'<span class="sn-num">{n}</span>')
+        # Title as link to card page
+        if card["uuid"]:
+            parts.append(
+                f'<span class="sn-title">'
+                f'<a href="cards/{_entity_filename(card["uuid"])}">'
+                f'{escape(card["title"])}</a></span>')
+        else:
+            parts.append(f'<span class="sn-title">{escape(card["title"])}</span>')
+        # Type label
+        if card["type_label"]:
+            parts.append(f'<span class="sn-type">{escape(card["type_label"])}</span>')
+        # Body text (short) — strip <p> wrappers to keep inline
+        if card["body_html"]:
+            body = re.sub(r"</?p>", "", card["body_html"]).strip()
+            if body:
+                parts.append(f'<span class="sn-body"> — {body}</span>')
+        parts.append("</span>")
+        return "".join(parts)
 
     def _process_inline(line: str) -> str:
         """Process inline org markup."""
@@ -913,11 +995,14 @@ def _org_body_to_html(text: str) -> str:
             r"\[\[([^\]]+)\]\[([^\]]+)\]\]",
             r'<a href="\1">\2</a>', line
         )
-        # Margin markers → superscript refs
+        # Margin markers → superscript + inline sidenote
         def _replace_margin(m):
             ref_counter[0] += 1
             n = ref_counter[0]
-            return f'<span class="margin-ref" id="ref-{n}">{n}</span>'
+            ref_html = f'<span class="sidenote-ref" id="ref-{n}">{n}</span>'
+            if margin_cards and n <= len(margin_cards):
+                ref_html += _build_sidenote(margin_cards[n - 1])
+            return ref_html
         line = MARGIN_RE.sub(_replace_margin, line)
         return line
 
@@ -932,6 +1017,51 @@ def _org_body_to_html(text: str) -> str:
             level = len(heading.group(1))
             tag = f"h{level}"
             html_parts.append(f"<{tag}>{_process_inline(heading.group(2))}</{tag}>")
+            continue
+
+        # Horizontal rule (--- or more dashes)
+        if re.match(r"^-{3,}\s*$", block):
+            html_parts.append("<hr>")
+            continue
+
+        # Figure marker: @@figure:SLUG@@ or @@figure:SLUG:caption@@
+        fig_match = FIGURE_RE.search(block)
+        if fig_match and hord_root and index:
+            fig = _resolve_figure(fig_match.group(1), hord_root, index)
+            caption_override = fig_match.group(2)
+            caption = escape(caption_override) if caption_override else escape(fig["caption"])
+            if fig["src"]:
+                fig_parts = ['<figure class="fullwidth">']
+                fig_parts.append(f'<img src="{escape(fig["src"])}" alt="{caption}">')
+                if caption:
+                    if fig["uuid"]:
+                        card_link = f'cards/{_entity_filename(fig["uuid"])}'
+                        fig_parts.append(
+                            f'<figcaption>{caption} '
+                            f'<a href="{card_link}">→ image card</a>'
+                            f'</figcaption>')
+                    else:
+                        fig_parts.append(f"<figcaption>{caption}</figcaption>")
+                fig_parts.append("</figure>")
+                html_parts.append("\n".join(fig_parts))
+                continue
+
+        # Image with optional caption: #+CAPTION: ...\n[[file:...]]
+        img_match = re.search(
+            r"\[\[file:([^\]]+)\]\]", block)
+        if img_match:
+            img_src = escape(img_match.group(1))
+            caption_match = re.search(
+                r"#\+CAPTION:\s*(.+)", block)
+            caption = ""
+            if caption_match:
+                caption = _process_inline(caption_match.group(1).strip())
+            fig_parts = ['<figure class="fullwidth">']
+            fig_parts.append(f'<img src="{img_src}" alt="{escape(caption)}">')
+            if caption:
+                fig_parts.append(f"<figcaption>{caption}</figcaption>")
+            fig_parts.append("</figure>")
+            html_parts.append("\n".join(fig_parts))
             continue
 
         # Blockquote (lines starting with >)
@@ -951,6 +1081,13 @@ def _org_body_to_html(text: str) -> str:
         html_parts.append(f"<p>{processed}</p>")
 
     return "\n".join(html_parts)
+
+
+def _first_n_sentences(text: str, n: int = 2) -> str:
+    """Extract the first N sentences from text."""
+    # Split on sentence-ending punctuation followed by space
+    parts = re.split(r'(?<=[.!?])\s+', text.strip(), maxsplit=n)
+    return " ".join(parts[:n])
 
 
 def _resolve_card_content(slug: str, hord_root: str, index: dict,
@@ -985,40 +1122,38 @@ def _resolve_card_content(slug: str, hord_root: str, index: dict,
     vocab = Vocabulary.load(vocab_path) if vocab_path else None
     type_label = vocab.label(card_type) if vocab and card_type else ""
 
-    # Cascade: note → expression → scope note → first paragraph
+    # Cascade for margin display (short, leads reader to card):
+    #   1. Scope note (canonical, brief)
+    #   2. Expression card first sentence
+    #   3. First sentence of Notes
     body_text = ""
-    has_more = False
+    has_more = True  # always link to card for more
 
-    # 1. Check for expression card
-    if expr_prefer:
+    # 1. Scope note (preferred — short canonical definition)
+    body_text = _extract_scope_note(hord_root, uuid)
+
+    # 2. Expression card (first two sentences)
+    if not body_text and expr_prefer:
         expr_uuid = find_expression_for(hord_root, uuid, expr_prefer)
         if expr_uuid:
             source = path_for_uuid.get(expr_uuid)
             if source:
-                body_text = _extract_notes(os.path.join(hord_root, source))
-                has_more = True
+                notes = _extract_notes(os.path.join(hord_root, source))
+                if notes:
+                    body_text = _first_n_sentences(notes, 2)
 
-    # 2. Scope note
-    if not body_text:
-        body_text = _extract_scope_note(hord_root, uuid)
-
-    # 3. First paragraph of Notes
+    # 3. First two sentences of Notes
     if not body_text:
         source = path_for_uuid.get(uuid)
         if source:
             notes = _extract_notes(os.path.join(hord_root, source))
             if notes:
-                # Take first paragraph only
-                first_para = notes.split("\n\n")[0].strip()
-                body_text = first_para
-                if len(notes) > len(first_para):
-                    has_more = True
+                body_text = _first_n_sentences(notes, 2)
 
-    # Truncate at ~150 words
+    # Truncate at ~40 words for margin display
     words = body_text.split()
-    if len(words) > 150:
-        body_text = " ".join(words[:150]) + "…"
-        has_more = True
+    if len(words) > 40:
+        body_text = " ".join(words[:40]) + "…"
 
     body_html = _text_to_html(body_text) if body_text else ""
 
@@ -1089,8 +1224,9 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
         card["ref_num"] = i + 1
         margin_cards.append(card)
 
-    # Convert article body to HTML (replaces markers with superscripts)
-    article_html = _org_body_to_html(article_text)
+    # Convert article body to HTML with inline sidenotes
+    article_html = _org_body_to_html(article_text, margin_cards,
+                                     hord_root=hord_root, index=index)
 
     # Extract holon description for subtitle
     holon_source = path_for_uuid.get(holon_uuid)
@@ -1102,55 +1238,14 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
     # ── Build page ──
 
     body_parts = []
-    body_parts.append('<div class="article-container">')
-
-    # ── Left column: article body ──
-    body_parts.append('<div class="article-body">')
+    body_parts.append("<article>")
+    body_parts.append("<section>")
     body_parts.append(f"<h1>{escape(primary_title)}</h1>")
     if holon_desc:
         body_parts.append(f'<span class="subtitle">{escape(holon_desc)}</span>')
     body_parts.append(article_html)
-    body_parts.append("</div>")  # .article-body
-
-    # ── Right column: margin cards ──
-    body_parts.append('<div class="article-margin">')
-    for card in margin_cards:
-        parts = []
-        parts.append(f'<div class="margin-card" id="card-{card["ref_num"]}">')
-        parts.append(f'<span class="ref-num">{card["ref_num"]}</span>')
-
-        # Title
-        if card["uuid"]:
-            title_link = f'<a href="cards/{_entity_filename(card["uuid"])}">'
-            title_link += f'{escape(card["title"])}</a>'
-        else:
-            title_link = escape(card["title"])
-        parts.append(f'<div class="card-title">{title_link}</div>')
-
-        # Type badge
-        if card["type_label"]:
-            parts.append(f'<span class="card-type">{escape(card["type_label"])}</span>')
-
-        # Body
-        if card["body_html"]:
-            parts.append(f'<div class="card-body">{card["body_html"]}</div>')
-
-        # Inline note
-        if card["note"]:
-            parts.append(f'<div class="card-note">{escape(card["note"])}</div>')
-
-        # Read more
-        if card["has_more"] and card["uuid"]:
-            parts.append(
-                f'<a class="card-more" '
-                f'href="cards/{_entity_filename(card["uuid"])}">Read more →</a>'
-            )
-
-        parts.append("</div>")  # .margin-card
-        body_parts.append("\n".join(parts))
-
-    body_parts.append("</div>")  # .article-margin
-    body_parts.append("</div>")  # .article-container
+    body_parts.append("</section>")
+    body_parts.append("</article>")
 
     # ── Footnote section (visible on narrow screens only) ──
     body_parts.append('<div class="footnote-section">')
@@ -1160,12 +1255,10 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
         parts.append(f'<div class="footnote-card" id="fn-{card["ref_num"]}">')
         fn_title = f'<strong>{card["ref_num"]}.</strong> {escape(card["title"])}'
         if card["type_label"]:
-            fn_title += f' <span class="card-type">{escape(card["type_label"])}</span>'
+            fn_title += f' <span class="sn-type">{escape(card["type_label"])}</span>'
         parts.append(f'<div class="card-title">{fn_title}</div>')
         if card["body_html"]:
             parts.append(f'<div class="card-body">{card["body_html"]}</div>')
-        if card["note"]:
-            parts.append(f'<div class="card-note">{escape(card["note"])}</div>')
         parts.append("</div>")
         body_parts.append("\n".join(parts))
     body_parts.append("</div>")
@@ -1355,12 +1448,23 @@ def export_cmd(output, holon_name, cloud_name):
             os.makedirs(cards_dir, exist_ok=True)
             for ent in entities:
                 page = render_entity_page(
-                    ent["uuid"], hord_root, vocab, index, path_for_uuid)
+                    ent["uuid"], hord_root, vocab, index, path_for_uuid,
+                    index_href="../index.html")
                 if page:
                     with open(os.path.join(
                             cards_dir, _entity_filename(ent["uuid"])),
                             "w") as f:
                         f.write(page)
+
+            # Copy lib/media/ directory if it exists
+            import shutil
+            media_src = os.path.join(hord_root, "lib", "media")
+            if os.path.isdir(media_src):
+                media_dst = os.path.join(cloud_dir, "lib", "media")
+                if os.path.exists(media_dst):
+                    shutil.rmtree(media_dst)
+                os.makedirs(os.path.dirname(media_dst), exist_ok=True)
+                shutil.copytree(media_src, media_dst)
 
             click.echo(f"Context cloud: {cloud_dir}/index.html")
 

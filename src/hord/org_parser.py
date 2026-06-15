@@ -98,6 +98,8 @@ class OrgRecord:
     wemi: str | None = None          # WEMI assessment marker (W, WE, WEM, WEMI)
     manifestations: int = 0          # count of known blob manifestations
     citekey: str | None = None       # bibliographic citekey
+    scope_note: str | None = None    # canonical definition (** Scope Note section)
+    media_file: str | None = None    # path to media file (relative to hord root)
     filepath: str | None = None
 
     @property
@@ -196,6 +198,8 @@ def parse_org_file(filepath: str) -> OrgRecord:
                 elif key == "CUSTOM_ID":
                     if not record.citekey:
                         record.citekey = val
+                elif key == "MEDIA_FILE":
+                    record.media_file = val
 
     # If no TYPE in properties, try to infer from filename
     if not record.entity_type:
@@ -249,6 +253,24 @@ def parse_org_file(filepath: str) -> OrgRecord:
                     target_uuid=None,
                     target_label=rest,
                 ))
+
+    # Extract scope note from ** Scope Note section
+    in_scope_note = False
+    scope_lines = []
+    for line in lines:
+        stripped = line.strip()
+        # Detect ** Scope Note heading (case-insensitive)
+        if re.match(r"^\*{2}\s+[Ss]cope\s+[Nn]ote", stripped):
+            in_scope_note = True
+            continue
+        # Any other ** heading ends the section
+        if in_scope_note and re.match(r"^\*{2}\s+", stripped):
+            break
+        if in_scope_note and stripped:
+            scope_lines.append(stripped)
+
+    if scope_lines:
+        record.scope_note = " ".join(scope_lines)
 
     return record
 
