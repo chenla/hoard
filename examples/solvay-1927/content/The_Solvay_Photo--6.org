@@ -261,9 +261,9 @@ moment.  The Solvay 1927 expression shows twenty-nine
 physicists as they saw each other, not as we remember
 them.
 
-You can explore the full set — all twenty-nine, with
-their 1927 contexts — in the
-[[https://github.com/chenla/hoard/tree/main/examples/solvay-1927][Solvay demo]].
+You can explore the source cards for all twenty-nine
+physicists, with their 1927 expression contexts, in the
+[[https://github.com/chenla/hoard/tree/main/examples/solvay-1927][Solvay demo repository]].
 
 ---
 
