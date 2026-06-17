@@ -15,9 +15,21 @@
    - UF :: Maria Skłodowska-Curie
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/marie-curie--headshot.jpg
+   :BORN:        1867-11-07, Warsaw, Poland
+   :DIED:        1934-07-04, Passy, France
+   :NATIONALITY: Polish → French
+   :FIELD:       Physics; Chemistry
+   :INSTITUTION: University of Paris; Curie Institute
+   :NOBEL:       Physics 1903; Chemistry 1911
+   :AGE_AT_SOLVAY: 59
+   :END:
+
 ** Scope Note
 
-Two Nobel Prizes in different sciences. Pioneer of radioactivity research. At Solvay, the experimentalist among theoreticians -- the only woman in the photograph.
+Polish-French physicist and chemist (1867–1934). Two Nobel Prizes in different sciences — Physics 1903, Chemistry 1911. Pioneer of radioactivity research who discovered polonium and radium. At Solvay, the experimentalist among theoreticians and the only woman in the photograph.
 
 ** Notes
 

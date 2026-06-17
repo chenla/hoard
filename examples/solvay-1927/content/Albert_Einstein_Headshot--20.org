@@ -1,0 +1,40 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Albert Einstein Headshot—20
+
+* Albert Einstein Headshot—20
+  :PROPERTIES:
+  :ID:        b4fce62e-487a-49bd-b766-62cdeeb44e8a
+  :TYPE:      wh:media
+  :CREATED:   2026-06-16T12:00
+  :TAGS:      solvay-1927
+  :MEDIA_FILE: lib/media/albert-einstein--headshot.jpg
+  :END:
+
+** Media
+   :PROPERTIES:
+   :CREATOR:    Oren Jack Turner
+   :DATE:       1947
+   :LOCATION:   Princeton, USA
+   :LICENSE:    Public Domain
+   :SOURCE:     Library of Congress / Wikimedia Commons
+   :FORMAT:     photograph (gelatin silver print)
+   :END:
+
+** Relations
+   - PT :: Albert Einstein (portrait, 1947)
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+
+** Scope Note
+
+Portrait of Albert Einstein taken in 1947 by Oren Jack
+Turner at Princeton.  The most widely reproduced headshot
+of Einstein, showing him at 68 — two decades after the
+Solvay Conference and twelve years after the EPR paper.
+
+** Notes
+
+Photograph by Oren Jack Turner, Princeton, New Jersey,
+1947.  Originally distributed by the Library of Congress.
+Public domain.  The image has been digitally cleaned and
+is the standard portrait used in encyclopedic references.

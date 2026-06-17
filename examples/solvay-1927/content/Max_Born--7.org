@@ -16,6 +16,22 @@
    - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
    - RT :: [[id:f9802697-69e8-4561-a93f-d032d515f35d][Wolfgang Pauli]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/max-born--headshot.jpg
+   :BORN:        1882-12-11, Breslau, Germany
+   :DIED:        1970-01-05, Göttingen, Germany
+   :NATIONALITY: German → British → German
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Göttingen; University of Edinburgh
+   :NOBEL:       Physics 1954
+   :AGE_AT_SOLVAY: 44
+   :END:
+
+** Scope Note
+
+German-born British physicist who gave quantum mechanics its probabilistic interpretation — the Born rule, which says the square of the wave function gives the probability of finding a particle. Nobel Prize 1954. Co-developed matrix mechanics with Heisenberg and Jordan at Göttingen. His interpretation was the central idea Einstein objected to at Solvay.
+
 ** Notes
 
 Max Born (1882–1970).  German-born British physicist.
@@ -33,3 +49,17 @@ Edinburgh.  His probabilistic interpretation was one
 of the central ideas debated at the 1927 Solvay
 Conference, where Einstein famously objected that
 God does not play dice.
+
+** References
+
+- Born, Max.  /My Life: Recollections of a Nobel
+  Laureate/.  Taylor & Francis, 1978.  Autobiography.
+- Greenspan, Nancy T.  /The End of the Certain World:
+  The Life and Science of Max Born/.  Basic Books, 2005.
+  The standard biography.
+- Born, Max.  "Zur Quantenmechanik der Stoßvorgänge"
+  (On the Quantum Mechanics of Collisions).
+  /Zeitschrift für Physik/ 37 (1926): 863–867.
+  The paper that introduced the probabilistic
+  interpretation of the wave function.
+- [[https://en.wikipedia.org/wiki/Max_Born][Wikipedia: Max Born]]

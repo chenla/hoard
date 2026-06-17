@@ -16,6 +16,22 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:d700b961-d092-43a8-a84a-c168a526e97e][C.T.R. Wilson]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/arthur-compton--headshot.jpg
+   :BORN:        1892-09-10, Wooster, Ohio, USA
+   :DIED:        1962-03-15, Berkeley, California, USA
+   :NATIONALITY: American
+   :FIELD:       Physics
+   :INSTITUTION: Washington University; University of Chicago
+   :NOBEL:       Physics 1927
+   :AGE_AT_SOLVAY: 35
+   :END:
+
+** Scope Note
+
+American physicist who discovered the Compton effect — definitive evidence that electromagnetic radiation behaves as particles. Nobel Prize 1927. Later directed the Manhattan Project's Metallurgical Laboratory at Chicago.
+
 ** Notes
 
 Arthur Compton (1892–1962).  American physicist.

@@ -58,3 +58,18 @@ computation (the halting problem), through biology
 (markets as complex adaptive systems), and finally
 through artificial intelligence (machines that learn
 rather than execute).
+
+** References
+
+- Laplace, Pierre-Simon.  /A Philosophical Essay on
+  Probabilities/.  1814.  The source of "Laplace's
+  demon" — the hypothetical intellect that could
+  compute the entire future from the present.
+- Earman, John.  /A Primer on Determinism/.  D. Reidel,
+  1986.  Rigorous philosophical treatment of what
+  determinism means across physics, computation, and
+  biology.
+- Hoefer, Carl.  "Causal Determinism."  /Stanford
+  Encyclopedia of Philosophy/, 2016.  The best survey
+  of the philosophical landscape.
+- [[https://plato.stanford.edu/entries/determinism-causal/][SEP: Causal Determinism]]

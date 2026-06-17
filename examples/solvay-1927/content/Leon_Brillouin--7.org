@@ -17,6 +17,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:13ed7cbf-1bde-45f2-b50e-cc69e9822337][Hendrik Kramers]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/leon-brillouin--headshot.jpg
+   :BORN:        1889-08-07, Sèvres, France
+   :DIED:        1969-10-04, New York, USA
+   :NATIONALITY: French → American
+   :FIELD:       Physics
+   :INSTITUTION: Collège de France; Columbia University; IBM
+   :AGE_AT_SOLVAY: 38
+   :END:
+
+** Scope Note
+
+French-American physicist known for Brillouin zones in solid-state physics and the WKB approximation in quantum mechanics. Later connected thermodynamic entropy to information theory. His work bridged quantum mechanics, crystallography, and the physics of information.
+
 ** Notes
 
 Léon Brillouin (1889–1969).  French-American

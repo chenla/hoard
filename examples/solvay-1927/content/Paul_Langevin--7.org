@@ -15,6 +15,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:652d3e40-6ea7-453b-95c3-7019d109a6e9][Marie Curie]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/paul-langevin--headshot.jpg
+   :BORN:        1872-01-23, Paris, France
+   :DIED:        1946-12-19, Paris, France
+   :NATIONALITY: French
+   :FIELD:       Physics
+   :INSTITUTION: Collège de France; Sorbonne
+   :AGE_AT_SOLVAY: 55
+   :END:
+
+** Scope Note
+
+French physicist known for theories of paramagnetism and diamagnetism and for pioneering ultrasonic submarine detection in WWI. Student of Pierre Curie; succeeded Lorentz as Solvay Conference president. An outspoken anti-fascist, placed under house arrest during the German occupation.
+
 ** Notes
 
 Paul Langevin (1872–1946).  French physicist.  Known

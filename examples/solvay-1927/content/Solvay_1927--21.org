@@ -9,6 +9,9 @@
   :CREATED:   2026-05-08T14:30
   :END:
 
+** Relations
+   - PT :: Solvay 1927
+
 29 physicists as they were in October 1927 — the Fifth
 Solvay Conference on Electrons and Photons.  This holon
 presents each person through the lens of that moment:

@@ -14,6 +14,15 @@
    - PT :: Lee Sedol
    - RT :: [[id:2c075636-a78a-42dc-a6ac-f19978223aaf][AlphaGo Move 37]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/lee-sedol--headshot.jpg
+   :BORN:        1983-03-02, Bigeumdo, South Korea
+   :NATIONALITY: South Korean
+   :FIELD:       Professional Go
+   :INSTITUTION: Korea Baduk Association
+   :END:
+
 ** Scope Note
 
 South Korean professional Go player (born 1983).

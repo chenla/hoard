@@ -15,20 +15,205 @@
    - UF :: Cinquième Conseil de Physique Solvay
    - BT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][International Solvay Institutes]]
 
+** Scope Note
+
+The Fifth Solvay International Conference on Physics, held 24–29 October 1927 in Brussels. Twenty-nine physicists — seventeen of them Nobel laureates — gathered to debate "Electrons and Photons." The Bohr-Einstein debates that erupted here defined the philosophical fault lines of twentieth-century physics and marked the moment determinism lost its hold on science.
+
 ** Notes
 
-The Fifth Solvay International Conference on Physics,
-24–29 October 1927, Brussels.  Theme: "Electrons and
-Photons."
+*** The Conference
 
-29 attendees, 17 of whom were or became Nobel laureates.
-The conference is remembered as the site of the
-Bohr-Einstein debates over the interpretation of quantum
-mechanics — debates that defined the philosophical
-fault lines of 20th-century physics.
+#+CAPTION: The Institut International de Physique Solvay, Parc Léopold, Brussels — the building on whose steps the famous group photograph was taken.
+[[file:lib/media/institut-solvay--parc-leopold.jpg]]
 
-Hendrik Lorentz, president of the conference, died five
-months later.  The group photograph taken on the steps
-of the Institut International de Physique Solvay has
-become one of the most famous images in the history of
-science.
+The Fifth Solvay International Conference on Physics was
+held 24–29 October 1927 at the Institut International de
+Physique Solvay in Brussels.  The theme was "Electrons
+and Photons" — the two entities whose behavior was
+forcing physics to abandon its classical foundations.
+
+This was not a conference in the modern sense.  The
+Solvay Conferences were closed conclaves — twenty to
+thirty scientists, personally invited, with no audience
+and no outside attendees.  Reports were commissioned
+from selected participants, circulated in advance, and
+then discussed by the full group.  The format was
+designed for direct argument between prepared minds,
+not for presentations to a passive audience.  Everything
+— travel, accommodation, honoraria — was funded by the
+Solvay Institutes.
+
+Twenty-nine physicists attended, seventeen of whom were
+or became Nobel laureates.  Hendrik Lorentz, who had
+presided over every Solvay Conference since the first in
+1911, chaired the meeting.  He would die five months
+later; this was his last conference.
+
+The scientific secretaries were Auguste Piccard and
+Émile Henriot.  Jules-Émile Verschaffelt handled
+organizational duties.  Edouard Herzen served as
+liaison to the Solvay family.
+
+*** Reports
+
+Six physicists were commissioned to prepare formal
+reports, each addressing a facet of the quantum crisis.
+These had been circulated before the conference; the
+presentations were summaries, and the substance was in
+the discussion that followed:
+
+- *William Lawrence Bragg* — X-ray diffraction and the
+  evidence for wave-like behavior of radiation
+- *Arthur Compton* — The Compton effect and the particle
+  nature of X-rays (direct conflict with wave theory)
+- *Louis de Broglie* — Pilot-wave theory: a
+  deterministic interpretation of quantum mechanics in
+  which particles are guided by a wave field
+- *Max Born and Werner Heisenberg* — Matrix mechanics
+  and the probabilistic interpretation of the wave
+  function
+- *Erwin Schrödinger* — Wave mechanics as an
+  alternative mathematical framework
+- *Niels Bohr* — Complementarity: the principle that
+  wave and particle descriptions are mutually exclusive
+  but both necessary
+
+*** The Bohr-Einstein Debates
+
+The formal reports set the stage, but the conference is
+remembered for what happened in the discussions — and
+this is where the Solvay format proved decisive.  At a
+modern conference, Einstein and Bohr might have exchanged
+questions after a 15-minute talk and never spoken again.
+At Solvay, they were in the same room for six days,
+eating together, arguing across sessions, with every
+other participant following every exchange.
+
+Einstein did not present a report.  Instead, he attacked
+from the floor — devising thought experiments intended
+to show that quantum mechanics was incomplete, that it
+must be possible in principle to determine both position
+and momentum precisely.
+
+Each morning Einstein would present a new thought
+experiment at breakfast.  Each evening Bohr would
+produce a refutation.  The pattern repeated for days.
+Ehrenfest, who was close friends with both men, moved
+between them — and reportedly wept at the spectacle of
+two great minds unable to reach agreement.
+
+The debates did not resolve anything.  Bohr's
+Copenhagen interpretation carried the working consensus,
+but Einstein never accepted it.  He spent the rest of
+his life devising increasingly sophisticated objections,
+culminating in the EPR paradox of 1935.  The questions
+he raised — about locality, realism, and the
+completeness of quantum mechanics — were not answered
+in his lifetime.  Some remain open today.
+
+*** De Broglie's Pilot Wave
+
+Louis de Broglie presented his pilot-wave theory as a
+deterministic alternative to the emerging Copenhagen
+consensus.  In this model, particles have definite
+positions at all times, guided by a wave field — no
+probability, no superposition, no collapse.
+
+Wolfgang Pauli demolished it during the discussion
+session, identifying what he argued were fatal
+inconsistencies in the multi-particle case.  De Broglie
+abandoned the theory and did not return to it for
+twenty-five years.
+
+In 1952, David Bohm independently reconstructed and
+extended the pilot-wave approach, resolving Pauli's
+objection.  The de Broglie-Bohm interpretation remains
+the most developed deterministic alternative to
+Copenhagen — proof that the question Einstein and
+de Broglie raised at Solvay was never truly settled.
+
+*** The Photograph
+
+The group photograph taken on the steps of the Institut
+International de Physique Solvay has become one of the
+most famous images in the history of science.  Benjamin
+Couprie, who documented several Solvay Conferences,
+took the photograph.
+
+It is an accidental portrait of a turning point.
+Almost everyone in the frame contributed directly to the
+destruction of the deterministic worldview that had
+governed science since Newton.  Several would go on to
+build the technologies — nuclear weapons, computers,
+semiconductors — that emerged from that destruction.
+
+*** Historical Context
+
+The conference took place in a Europe that was fragile
+and increasingly dangerous.  Belgium itself had been
+devastated by the Great War less than a decade earlier.
+The Weimar Republic was showing cracks.  Antisemitism
+was rising across the continent — within six years,
+Einstein, Born, Schrödinger, and others would be forced
+into exile.
+
+The physicists in Brussels in October 1927 were not
+thinking about politics.  They were thinking about
+electrons and photons.  But the world they were building
+— a world without certainty, without determinism,
+without the comforting fiction that everything could be
+known and predicted — would collide with that political
+reality in ways none of them could foresee.
+
+*** Aftermath
+
+The Fifth Solvay Conference did not settle the
+interpretation of quantum mechanics.  It established the
+battle lines.  Copenhagen became the working orthodoxy
+— "shut up and calculate," as the later caricature had
+it.  But the questions Einstein raised never went away.
+
+The next Solvay Conference, in 1930, saw Einstein
+return with a more elaborate thought experiment.  Bohr
+defeated it using Einstein's own general relativity
+against him.  The 1933 conference was the last before
+the war scattered the participants across the globe.
+
+What happened at Brussels in October 1927 propagated
+outward like a shockwave — through Gödel's
+incompleteness theorems (1931), through Turing's
+halting problem (1936), through the Manhattan Project,
+through the invention of the transistor and the
+computer, through Bell's theorem (1964) and the
+experimental confirmation of quantum nonlocality, and
+finally through the emergence of machine learning and
+artificial intelligence — machines that learn from
+probability rather than execute from certainty.
+
+The photograph captured the moment.  The shockwave is
+still propagating.
+
+** References
+
+- Bacciagaluppi, Guido and Antony Valentini.
+  /Quantum Theory at the Crossroads: Reconsidering the
+  1927 Solvay Conference/.  Cambridge University Press,
+  2009.  The definitive scholarly reconstruction; includes
+  English translations of all reports and discussions.
+
+- Mehra, Jagdish.  /The Solvay Conferences on Physics/.
+  D. Reidel, 1975.  Comprehensive history of all Solvay
+  Conferences through the mid-twentieth century.
+
+- Isaacson, Walter.  /Einstein: His Life and Universe/.
+  Simon & Schuster, 2007.  Chapter 15 covers the
+  Bohr-Einstein debates in accessible detail.
+
+- Kumar, Manjit.  /Quantum: Einstein, Bohr and the
+  Great Debate about the Nature of Reality/.  Icon
+  Books, 2008.  Popular account centered on the
+  philosophical conflict.
+
+- Photograph: Benjamin Couprie, 1927.  Institut
+  International de Physique Solvay, Brussels.
+  Public domain.

@@ -15,6 +15,16 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:39acb620-ffe9-425c-a7fd-57f9380b1e2b][Louis de Broglie]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/david-bohm--headshot.jpg
+   :BORN:        1917-12-20, Wilkes-Barre, Pennsylvania, USA
+   :DIED:        1992-10-27, London, England
+   :NATIONALITY: American → Brazilian → British
+   :FIELD:       Theoretical physics
+   :INSTITUTION: UC Berkeley; University of São Paulo; Birkbeck College, London
+   :END:
+
 ** Scope Note
 
 American-Brazilian-British physicist (1917–1992).  Revived

@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/charles-eugene-guye--headshot.jpg
+   :BORN:        1866-10-15, Fleurier, Switzerland
+   :DIED:        1942-07-15, Geneva, Switzerland
+   :NATIONALITY: Swiss
+   :FIELD:       Experimental physics
+   :INSTITUTION: University of Geneva
+   :AGE_AT_SOLVAY: 61
+   :END:
+
+** Scope Note
+
+Swiss experimental physicist whose precision measurements of mass variation with velocity provided early confirmation of special relativity. Einstein's teacher at the Zurich Polytechnic.
+
 ** Notes
 
 Charles-Eugène Guye (1866–1942).  Swiss experimental

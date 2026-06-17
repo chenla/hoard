@@ -1,0 +1,81 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Solvay Conference 1927 (Solvay 1927)
+
+* Solvay Conference 1927 (Solvay 1927)
+  :PROPERTIES:
+  :ID:        d8db0326-8a5d-49d1-ab6f-2b64a10b68bf
+  :TYPE:      wh:evt
+  :CREATED:   2026-06-16T10:00
+  :TAGS:      solvay-1927
+  :END:
+
+** Relations
+   - PT :: Fifth Solvay Conference (1927)
+   - EO :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+   - RT :: [[id:5284e00c-e05a-447d-a7b0-ac40f2a2bae4][Determinism]]
+   - RT :: [[id:1c20591e-b63d-4541-a091-050cd890940a][Copenhagen Interpretation]]
+
+** Notes
+
+October 1927.  Twenty-nine physicists gather in Brussels
+for the Fifth Solvay Conference.  The official theme is
+"Electrons and Photons."  The real subject is whether the
+universe is a clockwork.
+
+By 1927, the evidence is overwhelming.  Planck's quantum
+of action (1900) shattered the continuity of energy.
+Einstein's photoelectric effect (1905) showed light
+behaving as particles.  Bohr's atomic model (1913) worked
+but made no classical sense.  De Broglie proposed that
+particles have wavelengths (1924).  Heisenberg built
+matrix mechanics (1925).  Schrödinger wrote his wave
+equation (1926).  Born gave it a probabilistic
+interpretation.  And now Heisenberg has published the
+uncertainty principle — not as a practical limitation
+on measurement, but as a fundamental feature of nature.
+
+The stage is set.  On one side: Bohr, Heisenberg, Born,
+Pauli, Dirac — the Copenhagen faction, arguing that
+probability is intrinsic, that asking what a particle
+"really does" between measurements is meaningless.  On
+the other: Einstein, Schrödinger, de Broglie, Lorentz
+— insisting that there must be a deeper reality beneath
+the statistics.
+
+Einstein does not present a paper.  He attacks from the
+floor, devising thought experiments to expose what he
+sees as the incompleteness of the quantum formalism.
+Each morning at breakfast he proposes a new objection.
+Each evening Bohr refutes it.  Ehrenfest, close to both
+men, moves between them like a shuttle in a loom — and
+weeps at the impasse.
+
+De Broglie presents his pilot-wave theory — a
+deterministic alternative in which particles follow
+definite trajectories guided by a wave field.  Pauli
+demolishes it in the discussion.  De Broglie abandons
+the idea for twenty-five years.  (Bohm will reconstruct
+it in 1952, answering Pauli's objection.  The question
+was never settled.)
+
+The Copenhagen interpretation carries the day.  But
+Einstein never accepts it.  He will spend the rest of
+his life constructing increasingly sophisticated
+objections — the EPR paradox, the critique of
+nonlocality — that will not be experimentally tested
+until decades after his death.
+
+What happened in Brussels in October 1927 was not a
+resolution.  It was a rupture.  The deterministic
+worldview that had governed Western science, governance,
+and economics since Newton cracked open and never closed
+again.  The shockwave from that week propagated outward
+through the rest of the century and into ours — through
+Gödel, through Turing, through the bomb, through the
+transistor, through Bell's theorem, through the neural
+network that learned to play Go better than any human
+being.
+
+The photograph captures the moment.  The shockwave is
+still propagating.

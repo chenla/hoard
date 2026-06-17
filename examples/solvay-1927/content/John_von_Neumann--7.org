@@ -15,6 +15,16 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:0ec8d6b5-54c1-454c-8505-44993a92ef9b][Kurt Gödel]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/john-von-neumann--headshot.gif
+   :BORN:        1903-12-28, Budapest, Hungary
+   :DIED:        1957-02-08, Washington, D.C., USA
+   :NATIONALITY: Hungarian → American
+   :FIELD:       Mathematics; Physics; Computer science
+   :INSTITUTION: University of Berlin; IAS Princeton
+   :END:
+
 ** Scope Note
 
 Hungarian-American mathematician (1903–1957).  Polymath
@@ -60,3 +70,22 @@ a thinking machine "would have to grow, not be built...
 understand language... and play, like a child."  He died
 at 53, leaving behind work that would take decades to
 fully absorb.
+
+** References
+
+- Bhattacharya, Ananyo.  /The Man from the Future: The
+  Visionary Life of John von Neumann/.  W.W. Norton,
+  2022.  Recent popular biography covering the full
+  range of his contributions.
+- Labatut, Benjamín.  /The MANIAC/.  Penguin Press,
+  2023.  A novel-biography centered on von Neumann —
+  fiction and fact interleaved, ending with Lee Sedol
+  vs. AlphaGo.
+- von Neumann, John.  /Mathematical Foundations of
+  Quantum Mechanics/.  Princeton University Press, 1955
+  (orig. German 1932).  The formalization that dominated
+  the field for decades.
+- von Neumann, John.  /The Computer and the Brain/.
+  Yale University Press, 1958.  Posthumous lectures —
+  where the biological turn was heading.
+- [[https://en.wikipedia.org/wiki/John_von_Neumann][Wikipedia: John von Neumann]]

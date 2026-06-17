@@ -58,8 +58,9 @@
 
 Group photograph of the 29 attendees of the Fifth Solvay
 Conference, Brussels, October 1927.  Seventeen are or
-will become Nobel laureates.  One of the most famous
-photographs in the history of science.
+will become Nobel laureates.  Called "the most intelligent
+photograph ever taken" — one of the most famous images in
+the history of science.
 
 ** Notes
 
@@ -80,3 +81,9 @@ Back row (standing): Auguste Piccard, Émile Henriot, Paul
 Ehrenfest, Édouard Herzen, Théophile de Donder, Erwin
 Schrödinger, Jules-Émile Verschaffelt, Wolfgang Pauli,
 Werner Heisenberg, Ralph Fowler, Léon Brillouin.
+
+** References
+
+- Original print held by the International Solvay
+  Institutes, Brussels.  Public domain.
+- [[https://en.wikipedia.org/wiki/Solvay_Conference#/media/File:Solvay_conference_1927.jpg][Wikimedia Commons: High-resolution scan]]

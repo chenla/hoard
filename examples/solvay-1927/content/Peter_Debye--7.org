@@ -15,6 +15,22 @@
    - UF :: Petrus Josephus Wilhelmus Debije
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/peter-debye--headshot.jpg
+   :BORN:        1884-03-24, Maastricht, Netherlands
+   :DIED:        1966-11-02, Ithaca, New York, USA
+   :NATIONALITY: Dutch → American
+   :FIELD:       Physics; Chemistry
+   :INSTITUTION: University of Leipzig; Cornell University
+   :NOBEL:       Chemistry 1936
+   :AGE_AT_SOLVAY: 43
+   :END:
+
+** Scope Note
+
+Dutch-American physicist and chemist. Nobel Prize in Chemistry 1936 for work on molecular structure through dipole moments and diffraction. Developed the Debye model of specific heat and the Debye-Hückel theory of electrolytes.
+
 ** Notes
 
 Peter Debye (1884–1966).  Dutch-American physicist and

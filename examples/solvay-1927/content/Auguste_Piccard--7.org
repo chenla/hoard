@@ -15,6 +15,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:0218f7c9-cc71-482e-932d-86894c18c75f][Emile Henriot]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/auguste-piccard--headshot.jpg
+   :BORN:        1884-01-28, Basel, Switzerland
+   :DIED:        1962-03-24, Lausanne, Switzerland
+   :NATIONALITY: Swiss → Belgian
+   :FIELD:       Physics; Exploration
+   :INSTITUTION: Free University of Brussels
+   :AGE_AT_SOLVAY: 43
+   :END:
+
+** Scope Note
+
+Swiss-Belgian physicist and explorer who made record-breaking stratospheric balloon flights and invented the bathyscaphe for deep-sea exploration. Scientific secretary at the 1927 Solvay Conference. Reportedly the inspiration for Hergé's Professor Calculus.
+
 ** Notes
 
 Auguste Piccard (1884–1962).  Swiss-Belgian physicist

@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/theophile-de-donder--headshot.jpg
+   :BORN:        1872-08-19, Brussels, Belgium
+   :DIED:        1957-05-11, Brussels, Belgium
+   :NATIONALITY: Belgian
+   :FIELD:       Mathematics; Physics
+   :INSTITUTION: Free University of Brussels
+   :AGE_AT_SOLVAY: 55
+   :END:
+
+** Scope Note
+
+Belgian mathematician and physicist, considered the father of irreversible thermodynamics. Introduced chemical affinity as a thermodynamic quantity — work that later influenced Prigogine. A friend of Einstein, largely self-taught, rose from modest origins.
+
 ** Notes
 
 Théophile de Donder (1872–1957).  Belgian

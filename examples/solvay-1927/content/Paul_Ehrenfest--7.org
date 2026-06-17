@@ -17,9 +17,20 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:bea61caf-0587-4a24-9606-19f3d11d2993][Hendrik Lorentz]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/paul-ehrenfest--headshot.jpg
+   :BORN:        1880-01-18, Vienna, Austria
+   :DIED:        1933-09-25, Amsterdam, Netherlands
+   :NATIONALITY: Austrian → Dutch
+   :FIELD:       Theoretical physics
+   :INSTITUTION: Leiden University
+   :AGE_AT_SOLVAY: 47
+   :END:
+
 ** Scope Note
 
-The conference gadfly -- asked devastating questions that cut to the bone. Close friends with both Einstein and Bohr. Killed his disabled son and himself six years later.
+Austrian-Dutch physicist (1880–1933). The conference gadfly who asked devastating questions that cut to the bone. Close friends with both Einstein and Bohr — one of the few who could bridge their divide. Known for the Ehrenfest theorem linking classical and quantum mechanics. Killed his disabled son and himself six years later.
 
 ** Notes
 

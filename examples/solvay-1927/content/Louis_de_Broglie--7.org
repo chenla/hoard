@@ -17,9 +17,21 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:cdac2fae-f55d-4c0c-9d2a-c7061f3b86f7][Erwin Schrodinger]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/louis-de-broglie--headshot.jpg
+   :BORN:        1892-08-15, Dieppe, France
+   :DIED:        1987-03-19, Louveciennes, France
+   :NATIONALITY: French
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Paris; Académie des Sciences
+   :NOBEL:       Physics 1929
+   :AGE_AT_SOLVAY: 35
+   :END:
+
 ** Scope Note
 
-Proposed wave-particle duality of matter. Presented pilot-wave theory at Solvay -- a deterministic alternative to Copenhagen -- and watched Pauli demolish it. The 7th Duc de Broglie.
+French physicist (1892–1987). Nobel Prize 1929. Proposed wave-particle duality of matter — the idea that particles have wavelengths. Presented pilot-wave theory at Solvay as a deterministic alternative to Copenhagen and watched Pauli demolish it. The 7th Duc de Broglie.
 
 ** Notes
 

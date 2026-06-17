@@ -20,8 +20,8 @@ from hord.holon import (
 
 CSS = """\
 :root {
-  --bg: #fafaf8;
-  --fg: #2c2c2c;
+  --bg: #fffff8;
+  --fg: #111;
   --accent: #2d6a4f;
   --border: #d4d4d0;
   --muted: #6b6b68;
@@ -31,7 +31,7 @@ CSS = """\
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1a1a;
+    --bg: #1a1a18;
     --fg: #d4d4d0;
     --accent: #52b788;
     --border: #3a3a38;
@@ -41,31 +41,58 @@ CSS = """\
     --card-bg: #222220;
   }
 }
+/* ── Reset ── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* ── Tufte-style base (matches context cloud) ── */
 body {
-  font-family: "IBM Plex Serif", Georgia, serif;
-  font-size: 1.25rem;
+  font-family: et-book, Palatino, "Palatino Linotype",
+               "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
   background: var(--bg); color: var(--fg);
-  max-width: 52rem; margin: 0 auto;
-  padding: 2.5rem 1.5rem; line-height: 1.75;
+  width: 87.5%;
+  margin-left: auto; margin-right: auto;
+  max-width: 1400px;
+  padding: 3rem 0 3rem 8rem;
 }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1 { font-size: 2rem; margin-bottom: .35rem; }
-h2 { font-size: 1.4rem; color: var(--accent); margin: 1.75rem 0 .5rem; }
-code {
-  font-size: .9rem; word-break: break-all;
+
+/* ── Typography — body text at 55% ── */
+h1, h2, h3, p, blockquote, .scope-note, .quad-table,
+.incoming, .incoming-inline, .notes, .references,
+.strata-section, footer {
+  width: 55%;
 }
+h1 {
+  font-size: 2.2rem; font-weight: 400;
+  margin-bottom: .35rem; line-height: 1.2;
+}
+h2 {
+  font-size: 1.4rem; color: var(--accent);
+  font-weight: 400; font-style: italic;
+  margin: 2rem 0 .5rem;
+}
+h3 {
+  font-size: 1.2rem; font-weight: 400;
+  margin: 1.5rem 0 .5rem;
+}
+code { font-size: .9rem; word-break: break-all; }
+
 .subtitle {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 1rem; color: var(--muted); margin-bottom: 1.5rem;
+  font-size: 1rem; color: var(--muted);
+  margin-bottom: 1.5rem; width: 55%;
 }
 .type-tag {
   display: inline-block; background: var(--tag-bg);
   padding: .2rem .6rem; border-radius: 3px;
   font-size: .9rem; font-family: "IBM Plex Mono", monospace;
 }
-.quad-table { width: 100%; border-collapse: collapse; margin: .5rem 0; }
+
+/* ── Quad table ── */
+.quad-table { border-collapse: collapse; margin: .5rem 0; }
 .quad-table td {
   padding: .45rem .6rem; border-bottom: 1px solid var(--border);
   font-size: 1.1rem; vertical-align: top;
@@ -73,20 +100,32 @@ code {
 .quad-table td:first-child {
   font-family: "IBM Plex Mono", monospace;
   font-size: .9rem; color: var(--muted);
-  white-space: nowrap; width: 10rem; text-align: right;
-  padding-right: 1rem;
+  white-space: nowrap; width: 6rem; text-align: right;
+  padding-right: 1rem; cursor: help;
 }
+
+/* ── Strata ── */
 .strata-section { border-left: 3px solid var(--accent); padding-left: 1rem; }
+
+/* ── Incoming links ── */
 .incoming { color: var(--muted); font-size: 1.05rem; }
 .incoming a { color: var(--link); }
 .incoming > div { padding: .3rem 0; }
-.notes {
-  background: var(--card-bg); border: 1px solid var(--border);
-  border-radius: 4px; padding: 1.25rem 1.5rem; margin: .75rem 0;
-  font-size: 1.15rem;
+.incoming-inline {
+  color: var(--muted); font-size: 1.05rem; line-height: 1.8;
 }
-.notes p { margin-bottom: .75rem; }
+.incoming-inline a { color: var(--link); }
+.incoming-inline .sep { color: var(--border); margin: 0 .3rem; }
+
+/* ── Notes ── */
+.notes { margin: .75rem 0; font-size: 1.15rem; }
+.notes p { margin-bottom: .75rem; width: 100%; }
 .notes p:last-child { margin-bottom: 0; }
+.notes h3 { width: 100%; }
+.notes ul { width: 100%; margin: .5rem 0; padding-left: 1.5rem; }
+.notes li { margin-bottom: .4rem; }
+
+/* ── Index page ── */
 .index-group { margin-bottom: 1.5rem; }
 .index-item {
   padding: .5rem 0; border-bottom: 1px solid var(--border);
@@ -97,24 +136,109 @@ code {
 .index-item .type-tag { font-size: .85rem; flex-shrink: 0; }
 nav { margin-bottom: 2rem; font-size: 1.1rem; }
 nav a { margin-right: 1rem; }
-.breadcrumb { font-size: 1rem; color: var(--muted); margin-bottom: 1rem; }
+
+/* ── References ── */
+.references {
+  font-size: 1.05rem; line-height: 1.65; color: var(--muted);
+  margin: .75rem 0;
+}
+.references p { margin-bottom: .6rem; width: 100%; }
+.references p:last-child { margin-bottom: 0; }
+.references ul { list-style: none; padding: 0; width: 100%; }
+.references li { margin-bottom: 1rem; }
+.ref-annotation {
+  display: block; margin-top: .25rem;
+  font-size: .95rem; font-style: italic;
+}
+
+/* ── Scope note ── */
+.scope-note {
+  font-size: 1.15rem; line-height: 1.7; color: var(--fg);
+  border-left: 3px solid var(--accent); padding-left: 1.25rem;
+  margin: 1rem 0 1.75rem;
+}
+.scope-note p { margin: 0; width: 100%; }
+
+/* ── Link group labels ── */
+.link-group-label {
+  font-size: 1.1rem; color: var(--muted); font-weight: 400;
+  margin: 1.25rem 0 .25rem; font-style: italic;
+  width: 55%;
+}
+
+/* ── Metadata sidebar — right margin ── */
+.metadata-sidebar {
+  float: right;
+  clear: right;
+  width: 35%;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.metadata-sidebar .headshot {
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: .75rem;
+  border-radius: 3px;
+}
+.metadata-sidebar dl { margin: 0; }
+.metadata-sidebar dt {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .8rem;
+  color: var(--accent);
+  margin-top: .6rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.metadata-sidebar dt:first-child { margin-top: 0; }
+.metadata-sidebar dd {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--fg);
+}
+
+/* ── Figures ── */
+figure { margin: 2rem 0; }
+figure.fullwidth { max-width: 100%; clear: both; }
+figure.fullwidth img { width: 100%; }
+figure figcaption {
+  font-size: 0.9rem; color: var(--muted);
+  margin-top: 0.5rem; line-height: 1.4;
+  width: 55%;
+}
+figure.fullwidth figcaption { width: 100%; }
+
+/* ── Navigation ── */
+.breadcrumb {
+  font-size: 1rem; color: var(--muted); margin-bottom: 1rem;
+  width: 55%;
+}
 .breadcrumb a { color: var(--muted); }
 footer {
   margin-top: 3rem; padding-top: 1rem;
   border-top: 1px solid var(--border);
   font-size: .9rem; color: var(--muted);
 }
-@media (max-width: 600px) {
-  body { font-size: 1.1rem; padding: 1.25rem 1rem; line-height: 1.7; }
+
+/* ── Narrow screen ── */
+@media (max-width: 960px) {
+  body { width: 90%; padding: 1.5rem 0 1.5rem 1.5rem; font-size: 1.1rem; }
+  h1, h2, h3, p, blockquote, .scope-note, .quad-table,
+  .incoming, .incoming-inline, .notes, .references,
+  .strata-section, .link-group-label, .subtitle,
+  .breadcrumb, footer { width: 100%; }
+  .metadata-sidebar {
+    float: none; width: 100%; margin: 1rem 0;
+    padding: 1rem; border: 1px solid var(--border);
+    border-radius: 4px;
+  }
   h1 { font-size: 1.5rem; }
   h2 { font-size: 1.2rem; }
-  .quad-table td:first-child {
-    width: auto; min-width: 5rem;
-    font-size: .8rem;
-  }
+  .quad-table td:first-child { width: auto; min-width: 4rem; font-size: .8rem; }
   .quad-table td { font-size: 1rem; padding: .35rem .3rem; }
-  .index-item { flex-wrap: wrap; }
-  .subtitle code { display: block; margin-top: .25rem; }
 }
 """
 
@@ -161,6 +285,85 @@ def _extract_notes_org(content: str) -> str:
     return text
 
 
+def _extract_metadata(filepath: str) -> dict[str, str]:
+    """Extract the Metadata property drawer from a card file.
+
+    Returns a dict of property name → value, preserving order.
+    """
+    if not filepath or not os.path.exists(filepath):
+        return {}
+    with open(filepath, "r") as f:
+        content = f.read()
+
+    lines = content.split("\n")
+    in_metadata = False
+    in_props = False
+    props = {}
+
+    for line in lines:
+        if re.match(r"^\*\*\s+Metadata\s*$", line):
+            in_metadata = True
+            continue
+        if in_metadata and line.strip() == ":PROPERTIES:":
+            in_props = True
+            continue
+        if in_props:
+            if line.strip() == ":END:":
+                break
+            m = re.match(r"\s+:(\w+):\s*(.*)", line)
+            if m:
+                props[m.group(1)] = m.group(2).strip()
+        elif in_metadata and re.match(r"^\*\*\s+", line):
+            break
+
+    return props
+
+
+# Human-readable labels for metadata keys
+_META_LABELS = {
+    "BORN": "Born",
+    "DIED": "Died",
+    "NATIONALITY": "Nationality",
+    "FIELD": "Field",
+    "INSTITUTION": "Institution",
+    "NOBEL": "Nobel Prize",
+    "AGE_AT_SOLVAY": "Age at Solvay",
+    "FOUNDED": "Founded",
+    "LOCATION": "Location",
+    "DATE": "Date",
+    "THEME": "Theme",
+    "ATTENDEES": "Attendees",
+    "PRESIDENT": "President",
+}
+
+
+def _extract_org_section(content: str, heading: str) -> str:
+    """Extract text between ** <heading> and the next ** heading or EOF."""
+    lines = content.split("\n")
+    in_section = False
+    section_lines = []
+
+    for line in lines:
+        if re.match(rf"^\*\*\s+{re.escape(heading)}\s*$", line):
+            in_section = True
+            continue
+        if in_section:
+            if re.match(r"^\*\*\s+", line):
+                break
+            section_lines.append(line)
+
+    return "\n".join(section_lines).strip()
+
+
+def _extract_references(filepath: str) -> str:
+    """Extract the References section body from an org file."""
+    if not filepath or not os.path.exists(filepath):
+        return ""
+    with open(filepath, "r") as f:
+        content = f.read()
+    return _extract_org_section(content, "References")
+
+
 def _extract_notes_md(content: str) -> str:
     """Extract body text after frontmatter and heading."""
     # Skip frontmatter
@@ -203,8 +406,18 @@ def _text_to_html(text: str) -> str:
     return "\n".join(html_parts)
 
 
-def _html_page(title: str, body: str, breadcrumb: str = "") -> str:
+def _html_page(title: str, body: str, nav: str = "",
+               copyright_holder: str = "", copyright_year: str = "",
+               license_text: str = "") -> str:
     """Wrap body content in a full HTML page."""
+    footer_parts = ['Generated by <a href="https://github.com/chenla/hoard">Hoard</a>']
+    if copyright_holder:
+        footer_parts.append(
+            f'&copy;{escape(copyright_year)} {escape(copyright_holder)}')
+    if license_text:
+        footer_parts.append(escape(license_text))
+    footer_html = " &middot; ".join(footer_parts)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -214,9 +427,9 @@ def _html_page(title: str, body: str, breadcrumb: str = "") -> str:
 <style>{CSS}</style>
 </head>
 <body>
-{breadcrumb}
+{nav}
 {body}
-<footer>Generated by Hoard</footer>
+<footer>{footer_html}</footer>
 </body>
 </html>
 """
@@ -226,29 +439,38 @@ def _html_page(title: str, body: str, breadcrumb: str = "") -> str:
 
 def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
                        index: dict, path_for_uuid: dict,
-                       index_href: str = "index.html") -> str:
+                       index_href: str = "index.html",
+                       hord_meta: dict = None) -> str:
     """Render a single entity as an HTML page."""
     quads = read_all_quads(hord_root, uuid)
 
     if not quads:
         return ""
 
-    # Extract title and type
-    title = uuid
+    # Extract title, preferred term, type, and scope note
+    raw_title = uuid
+    preferred_term = ""
     entity_type = ""
+    scope_note = ""
     for q in quads:
         if q.predicate == "v:title":
-            title = q.object
+            raw_title = q.object
+        elif q.predicate == "v:pt":
+            preferred_term = q.object
         elif q.predicate == "v:type":
             entity_type = q.object
+        elif q.predicate == "v:sn":
+            scope_note = q.object
 
+    # Display title: prefer PT (clean name) over v:title (has --N suffix)
+    display_title = preferred_term or raw_title
     type_label = vocab.label(entity_type) if entity_type else ""
 
     # Separate structural and strata quads
     strata_preds = {"v:s-wo", "v:s-eo", "v:s-mo", "v:s-io", "v:s-type"}
     # Predicates to suppress from entity page display
     hidden_preds = {
-        "v:title", "v:type", "v:sn", "v:tag",
+        "v:title", "v:type", "v:sn", "v:tag", "v:pt",
         "v:h-member", "v:h-expr", "v:h-order", "v:h-cascade",
         "v:h-primary", "v:h-anchor",
     }
@@ -268,23 +490,52 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
         rows = []
         for q in qlist:
             pred_label = vocab.label(q.predicate)
+            # Add tooltip with scope note from vocabulary
+            term = vocab.lookup(q.predicate)
+            tooltip = f' title="{escape(term.scope_note)}"' if term and term.scope_note else ""
             if _looks_like_uuid(q.object):
                 obj_title = _resolve_title(q.object, hord_root)
                 obj_html = f'<a href="{_entity_filename(q.object)}">{escape(obj_title)}</a>'
             else:
                 obj_html = escape(q.object)
-            rows.append(f"<tr><td>{escape(pred_label)}</td><td>{obj_html}</td></tr>")
+            rows.append(f'<tr><td{tooltip}>{escape(pred_label)}</td><td>{obj_html}</td></tr>')
         return "\n".join(rows)
 
     body_parts = []
 
-    # Header
-    body_parts.append(f"<h1>{escape(title)}</h1>")
-    subtitle = f'<span class="type-tag">{escape(type_label)}</span> '
-    subtitle += f'<code>{uuid}</code>'
-    body_parts.append(f'<div class="subtitle">{subtitle}</div>')
+    # Header — clean display title, type tag only (no UUID)
+    body_parts.append(f"<h1>{escape(display_title)}</h1>")
+    body_parts.append(f'<div class="subtitle">'
+                      f'<span class="type-tag">{escape(type_label)}</span></div>')
 
-    # Structural relationships
+    # Metadata sidebar (float right, before scope note so text wraps)
+    source_path = path_for_uuid.get(uuid)
+    if source_path:
+        metadata = _extract_metadata(os.path.join(hord_root, source_path))
+        if metadata:
+            sidebar_parts = ['<aside class="metadata-sidebar">']
+            # Headshot image (if present, render above the data)
+            headshot = metadata.pop("HEADSHOT", None)
+            if headshot:
+                # Resolve path relative to page location
+                media_prefix = "../" if "../" in index_href else ""
+                sidebar_parts.append(
+                    f'<img class="headshot" '
+                    f'src="{media_prefix}{escape(headshot)}" '
+                    f'alt="{escape(display_title)}">')
+            sidebar_parts.append('<dl>')
+            for key, value in metadata.items():
+                label = _META_LABELS.get(key, key.replace("_", " ").title())
+                sidebar_parts.append(
+                    f'<dt>{escape(label)}</dt><dd>{escape(value)}</dd>')
+            sidebar_parts.append('</dl></aside>')
+            body_parts.append("\n".join(sidebar_parts))
+
+    # Scope note — lead paragraph (canonical definition)
+    if scope_note:
+        body_parts.append(f'<div class="scope-note"><p>{escape(scope_note)}</p></div>')
+
+    # Structural relationships (skip PT since it's now the title)
     if structural:
         body_parts.append("<h2>Relationships</h2>")
         body_parts.append(f'<table class="quad-table">{quad_rows(structural)}</table>')
@@ -294,19 +545,62 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
         body_parts.append('<h2>Strata (WEMI)</h2>')
         body_parts.append(f'<div class="strata-section"><table class="quad-table">{quad_rows(strata)}</table></div>')
 
-    # Incoming links
+    # Incoming links — grouped by relationship type
     incoming = find_incoming(hord_root, uuid)
     if incoming:
-        body_parts.append("<h2>Incoming Links</h2>")
-        body_parts.append('<div class="incoming">')
+        body_parts.append("<h2>Connections</h2>")
+        # Group incoming links by semantic category
+        expr_links = []     # isExpressionOf → this card has expressions
+        member_links = []   # MEMBER → this card belongs to holons
+        rt_links = []       # RT → related cards
+        bt_nt_links = []    # BT/NT → hierarchy
+        other_links = []
+
         for q in incoming:
-            pred_label = vocab.label(q.predicate)
-            subj_title = _resolve_title(q.subject, hord_root)
-            body_parts.append(
-                f'<div><a href="{_entity_filename(q.subject)}">{escape(subj_title)}</a>'
-                f' &larr; {escape(pred_label)}</div>'
-            )
-        body_parts.append("</div>")
+            pred = q.predicate
+            if pred in ("v:s-eo", "strata:isExpressionOf"):
+                expr_links.append(q)
+            elif pred in ("v:h-member",):
+                member_links.append(q)
+            elif pred in ("v:rt",):
+                rt_links.append(q)
+            elif pred in ("v:bt", "v:nt"):
+                bt_nt_links.append(q)
+            else:
+                other_links.append(q)
+
+        def _render_link_group(label, qlist, inline=False):
+            if not qlist:
+                return
+            body_parts.append(f'<h3 class="link-group-label">{escape(label)}</h3>')
+            if inline:
+                # Comma-separated flow for large groups
+                body_parts.append('<div class="incoming-inline">')
+                links = []
+                for q in qlist:
+                    subj_title = _resolve_title(q.subject, hord_root)
+                    links.append(
+                        f'<a href="{_entity_filename(q.subject)}">'
+                        f'{escape(subj_title)}</a>')
+                body_parts.append('<span class="sep"> · </span>'.join(links))
+                body_parts.append("</div>")
+            else:
+                body_parts.append('<div class="incoming">')
+                for q in qlist:
+                    subj_title = _resolve_title(q.subject, hord_root)
+                    body_parts.append(
+                        f'<div><a href="{_entity_filename(q.subject)}">'
+                        f'{escape(subj_title)}</a></div>'
+                    )
+                body_parts.append("</div>")
+
+        _render_link_group("Expressions", expr_links)
+        _render_link_group("Member of", member_links)
+        # Sort related links alphabetically by title
+        rt_links.sort(key=lambda q: _resolve_title(q.subject, hord_root).lower())
+        _render_link_group("Related", rt_links, inline=True)
+        _render_link_group("Hierarchy", bt_nt_links)
+        _render_link_group("Other", other_links)
 
     # Notes (from source file)
     source_path = path_for_uuid.get(uuid)
@@ -314,12 +608,54 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
         full_path = os.path.join(hord_root, source_path)
         notes_text = _extract_notes(full_path)
         if notes_text:
-            notes_html = _text_to_html(notes_text)
+            notes_html = _org_body_to_html(notes_text)
+            # Fix media paths for subdirectory card pages
+            if "../" in index_href:
+                notes_html = notes_html.replace(
+                    'src="lib/media/', 'src="../lib/media/')
             body_parts.append("<h2>Notes</h2>")
             body_parts.append(f'<div class="notes">{notes_html}</div>')
 
-    breadcrumb = f'<div class="breadcrumb"><a href="{index_href}">&larr; Index</a></div>'
-    return _html_page(title, "\n".join(body_parts), breadcrumb)
+        # References section (bibliography / external sources)
+        refs_text = _extract_references(full_path)
+        if refs_text:
+            refs_html = _org_body_to_html(refs_text)
+            # Post-process: split annotations in <li> items.
+            # Pattern: after the last period following a year or page
+            # range, the remaining sentence is the annotation.
+            def _split_ref_annotation(m):
+                content = m.group(1)
+                # Find last occurrence of year-period or pages-period
+                # then wrap everything after it as annotation
+                split = re.split(
+                    r'(\d{4}\.|\d+–\d+\.|domain\.)',
+                    content)
+                if len(split) >= 3:
+                    # Rejoin all but last part, last part is annotation
+                    citation = "".join(split[:-1])
+                    annotation = split[-1].strip()
+                    if annotation:
+                        return (f'<li>{citation}'
+                                f'<span class="ref-annotation">'
+                                f'{annotation}</span></li>')
+                return m.group(0)
+            refs_html = re.sub(
+                r'<li>(.*?)</li>', _split_ref_annotation, refs_html)
+            body_parts.append('<h2>References</h2>')
+            body_parts.append(f'<div class="references">{refs_html}</div>')
+
+    # Navigation bar
+    home_href = "../index.html" if "../" in index_href else "index.html"
+    hord_index_href = "../index.html" if "../" in index_href else "index.html"
+    nav = ('<nav class="breadcrumb">'
+           f'<a href="{home_href}">Home</a>'
+           f' · <a href="{hord_index_href}">Hord Index</a>'
+           '</nav>')
+    meta = hord_meta or {}
+    return _html_page(display_title, "\n".join(body_parts), nav,
+                      copyright_holder=meta.get("copyright_holder", ""),
+                      copyright_year=meta.get("copyright_year", ""),
+                      license_text=meta.get("license", ""))
 
 
 def _resolve_title(uuid: str, hord_root: str) -> str:
@@ -339,7 +675,8 @@ def _resolve_title(uuid: str, hord_root: str) -> str:
 
 # ── Index page ─────────────────────────────────────────
 
-def render_index_page(entities: list[dict], hord_name: str) -> str:
+def render_index_page(entities: list[dict], hord_name: str,
+                      hord_meta: dict = None) -> str:
     """Render the index page listing all entities grouped by type."""
 
     # Group by type label
@@ -366,7 +703,11 @@ def render_index_page(entities: list[dict], hord_name: str) -> str:
             )
         body_parts.append("</div>")
 
-    return _html_page(hord_name, "\n".join(body_parts))
+    meta = hord_meta or {}
+    return _html_page(hord_name, "\n".join(body_parts),
+                      copyright_holder=meta.get("copyright_holder", ""),
+                      copyright_year=meta.get("copyright_year", ""),
+                      license_text=meta.get("license", ""))
 
 
 # ── Holon page ────────────────────────────────────────
@@ -531,7 +872,7 @@ def render_holon_page(holon_uuid: str, hord_root: str, vocab: Vocabulary,
 <body>
 {breadcrumb}
 {chr(10).join(body_parts)}
-<footer>Generated by Hoard</footer>
+<footer>Generated by <a href="https://github.com/chenla/hoard">Hoard</a></footer>
 </body>
 </html>
 """
@@ -1075,6 +1416,24 @@ def _org_body_to_html(text: str, margin_cards: list[dict] = None,
             html_parts.append(f"<blockquote><p>{quote_text}</p></blockquote>")
             continue
 
+        # Bullet list (lines starting with - )
+        if re.match(r"^- ", block):
+            # Reassemble continuation lines (indented under a - item)
+            items = []
+            current = ""
+            for line in block.split("\n"):
+                if re.match(r"^- ", line):
+                    if current:
+                        items.append(current.strip())
+                    current = re.sub(r"^- ", "", line)
+                elif line.strip():
+                    current += " " + line.strip()
+            if current:
+                items.append(current.strip())
+            li_parts = [f"<li>{_process_inline(item)}</li>" for item in items]
+            html_parts.append(f'<ul>{"".join(li_parts)}</ul>')
+            continue
+
         # Regular paragraph
         lines = block.split("\n")
         processed = " ".join(_process_inline(l.strip()) for l in lines if l.strip())
@@ -1375,26 +1734,33 @@ def export_cmd(output, holon_name, cloud_name):
     out_dir = os.path.join(hord_root, output)
     os.makedirs(out_dir, exist_ok=True)
 
-    # Read hord name from config
+    # Read hord config
     hord_name = "Hord"
+    hord_meta = {"copyright_holder": "", "copyright_year": "", "license": ""}
     config_path = os.path.join(hord_root, ".hord", "config.toml")
     if os.path.exists(config_path):
         with open(config_path, "r") as f:
             for line in f:
-                if line.strip().startswith("name"):
+                line = line.strip()
+                if line.startswith("name"):
                     match = re.search(r'"(.+)"', line)
                     if match:
                         hord_name = match.group(1)
-                        break
+                for key in hord_meta:
+                    if line.startswith(key):
+                        match = re.search(r'"(.+)"', line)
+                        if match:
+                            hord_meta[key] = match.group(1)
 
     # Render index
-    index_html = render_index_page(entities, hord_name)
+    index_html = render_index_page(entities, hord_name, hord_meta=hord_meta)
     with open(os.path.join(out_dir, "index.html"), "w") as f:
         f.write(index_html)
 
     # Render entity pages
     for ent in entities:
-        page = render_entity_page(ent["uuid"], hord_root, vocab, index, path_for_uuid)
+        page = render_entity_page(ent["uuid"], hord_root, vocab, index, path_for_uuid,
+                                  hord_meta=hord_meta)
         if page:
             with open(os.path.join(out_dir, _entity_filename(ent["uuid"])), "w") as f:
                 f.write(page)
@@ -1449,7 +1815,8 @@ def export_cmd(output, holon_name, cloud_name):
             for ent in entities:
                 page = render_entity_page(
                     ent["uuid"], hord_root, vocab, index, path_for_uuid,
-                    index_href="../index.html")
+                    index_href="../index.html",
+                    hord_meta=hord_meta)
                 if page:
                     with open(os.path.join(
                             cards_dir, _entity_filename(ent["uuid"])),

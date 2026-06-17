@@ -15,6 +15,22 @@
    - UF :: Owen Willans Richardson
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/owen-richardson--headshot.jpg
+   :BORN:        1879-04-26, Dewsbury, England
+   :DIED:        1959-02-15, Alton, England
+   :NATIONALITY: British
+   :FIELD:       Physics
+   :INSTITUTION: King's College London; Princeton University
+   :NOBEL:       Physics 1928
+   :AGE_AT_SOLVAY: 48
+   :END:
+
+** Scope Note
+
+British physicist. Nobel Prize 1928 for work on thermionic emission — the discharge of electrons from heated surfaces. His Richardson equation laid the foundation for vacuum tube electronics.
+
 ** Notes
 
 Owen Richardson (1879–1959).  British physicist.  Nobel

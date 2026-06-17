@@ -16,9 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/hendrik-lorentz--headshot.jpg
+   :BORN:        1853-07-18, Arnhem, Netherlands
+   :DIED:        1928-02-04, Haarlem, Netherlands
+   :NATIONALITY: Dutch
+   :FIELD:       Theoretical physics
+   :INSTITUTION: Leiden University
+   :NOBEL:       Physics 1902
+   :AGE_AT_SOLVAY: 74
+   :END:
+
 ** Scope Note
 
-Lorentz transformations underpinned special relativity. Chaired every Solvay Conference. The one person both Einstein and Bohr deferred to. Died four months after this photograph.
+Dutch physicist (1853–1928). Nobel Prize 1902. His Lorentz transformations underpinned special relativity. Chaired every Solvay Conference from the first in 1911 — the one person both Einstein and Bohr deferred to. Died five months after this photograph was taken.
 
 ** Notes
 

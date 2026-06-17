@@ -14,6 +14,16 @@
    - PT :: Kurt Gödel
    - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/kurt-godel--headshot.jpg
+   :BORN:        1906-04-28, Brünn, Austria-Hungary
+   :DIED:        1978-01-14, Princeton, USA
+   :NATIONALITY: Austrian → American
+   :FIELD:       Mathematical logic
+   :INSTITUTION: University of Vienna; IAS Princeton
+   :END:
+
 ** Scope Note
 
 Austrian-American logician and mathematician (1906–1978).

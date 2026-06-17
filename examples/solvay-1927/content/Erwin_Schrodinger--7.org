@@ -18,9 +18,21 @@
    - RT :: [[id:7bf2101d-3405-4d60-91c4-72223cadad4c][Louis de Broglie]]
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/erwin-schrodinger--headshot.jpg
+   :BORN:        1887-08-12, Vienna, Austria
+   :DIED:        1961-01-04, Vienna, Austria
+   :NATIONALITY: Austrian → Irish → Austrian
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Zurich; University of Berlin; Dublin Institute for Advanced Studies
+   :NOBEL:       Physics 1933
+   :AGE_AT_SOLVAY: 40
+   :END:
+
 ** Scope Note
 
-Wave equation (1926). Sided with Einstein against Copenhagen. Later devised the cat thought experiment to expose what he saw as the absurdity of quantum superposition taken literally.
+Austrian physicist (1887–1961). Nobel Prize 1933. Formulated the wave equation (1926) that gave quantum mechanics its continuous mathematical framework. Sided with Einstein against Copenhagen. Later devised the cat thought experiment to expose what he saw as the absurdity of quantum superposition taken literally.
 
 ** Notes
 

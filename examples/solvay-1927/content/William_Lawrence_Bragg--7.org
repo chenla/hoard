@@ -15,6 +15,22 @@
    - UF :: W.L. Bragg
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/william-lawrence-bragg--headshot.jpg
+   :BORN:        1890-03-31, Adelaide, Australia
+   :DIED:        1971-07-01, Waldringfield, England
+   :NATIONALITY: Australian → British
+   :FIELD:       Physics; Crystallography
+   :INSTITUTION: University of Manchester; Cavendish Laboratory, Cambridge
+   :NOBEL:       Physics 1915
+   :AGE_AT_SOLVAY: 37
+   :END:
+
+** Scope Note
+
+Australian-born British physicist. Nobel Prize 1915 at age 25 — still the youngest Physics laureate. Formulated Bragg's law for X-ray diffraction and founded X-ray crystallography. Later directed the Cavendish Laboratory, overseeing the work that led to the discovery of DNA's structure.
+
 ** Notes
 
 William Lawrence Bragg (1890–1971).  Australian-born

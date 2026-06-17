@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][Solvay Institutes]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/edouard-herzen--headshot.jpg
+   :BORN:        1877-11-09, Brussels, Belgium
+   :DIED:        1936-08-07, Uccle, Belgium
+   :NATIONALITY: Belgian
+   :FIELD:       Physical chemistry
+   :INSTITUTION: Solvay Institutes
+   :AGE_AT_SOLVAY: 49
+   :END:
+
+** Scope Note
+
+Belgian physical chemist and grandson of Alexander Herzen. Served as scientific liaison between the Solvay family and the physicists, playing an essential organizational role in making the Solvay Conferences possible.
+
 ** Notes
 
 Edouard Herzen (1877–1936).  Belgian physical chemist.

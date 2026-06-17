@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Institut Solvay Building—20
+
+* Institut Solvay Building—20
+  :PROPERTIES:
+  :ID:        6dc00a2d-d434-4090-9dae-219ad4c21543
+  :TYPE:      wh:media
+  :CREATED:   2026-06-16T15:30
+  :TAGS:      solvay-1927
+  :MEDIA_FILE: lib/media/institut-solvay--parc-leopold.jpg
+  :END:
+
+** Media
+   :PROPERTIES:
+   :CREATOR:    Unknown
+   :DATE:       c. 1900–1920
+   :LOCATION:   Parc Léopold, Brussels, Belgium
+   :LICENSE:    Public Domain
+   :SOURCE:     Ghent University Library / Wikimedia Commons
+   :FORMAT:     photograph
+   :END:
+
+** Relations
+   - PT :: Institut International de Physique Solvay (building)
+   - RT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][International Solvay Institutes]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Scope Note
+
+The Institut International de Physique Solvay in the Parc
+Léopold, Brussels.  This is the building on whose steps
+the famous 1927 group photograph was taken.  Built in the
+late nineteenth century, it served as the venue for the
+early Solvay Conferences on Physics.
+
+** Notes
+
+Photograph of the Institut International de Physique
+Solvay, Parc Léopold, Brussels.  Undated, estimated
+late 19th to early 20th century.  Source: Ghent
+University Library collections.  Public domain.
+
+The building is situated in the Parc Léopold, a park
+in the European Quarter of Brussels that housed several
+scientific institutions.  The Solvay Conferences on
+Physics were held here from the first conference in
+1911 through the interwar period.

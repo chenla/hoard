@@ -18,6 +18,21 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/hendrik-kramers--headshot.jpg
+   :BORN:        1894-12-17, Rotterdam, Netherlands
+   :DIED:        1952-04-24, Oegstgeest, Netherlands
+   :NATIONALITY: Dutch
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Copenhagen; Leiden University
+   :AGE_AT_SOLVAY: 32
+   :END:
+
+** Scope Note
+
+Dutch physicist, Bohr's first and most important assistant at Copenhagen. Co-developed the Kramers-Heisenberg dispersion formula — a crucial stepping stone toward matrix mechanics — and the WKB approximation method. One of the most technically skilled physicists of his generation.
+
 ** Notes
 
 Hendrik Kramers (1894–1952).  Dutch physicist.  Bohr's

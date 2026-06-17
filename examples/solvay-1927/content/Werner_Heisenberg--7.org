@@ -15,9 +15,21 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/werner-heisenberg--headshot.jpg
+   :BORN:        1901-12-05, Würzburg, Germany
+   :DIED:        1976-02-01, Munich, Germany
+   :NATIONALITY: German
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Göttingen; University of Leipzig; Max Planck Institute for Physics
+   :NOBEL:       Physics 1932
+   :AGE_AT_SOLVAY: 25
+   :END:
+
 ** Scope Note
 
-Published the uncertainty principle at 25. Co-architect of the Copenhagen interpretation with Bohr and the leading figure of the /Knabenphysik/ generation that rewrote the rules of matter.
+German physicist (1901–1976). Nobel Prize 1932. Published the uncertainty principle at 25 — not a practical limitation but a fundamental feature of nature. Co-architect of the Copenhagen interpretation with Bohr and the leading figure of the Knabenphysik generation that rewrote the rules of matter.
 
 ** Notes
 
@@ -30,3 +42,18 @@ Led Germany's nuclear energy project during World War II
 — the extent of his commitment to building a weapon
 remains debated.  After the war, helped rebuild German
 physics and directed the Max Planck Institute for Physics.
+
+** References
+
+- Cassidy, David C.  /Uncertainty: The Life and Science
+  of Werner Heisenberg/.  W.H. Freeman, 1992.  The
+  standard biography.
+- Heisenberg, Werner.  /Physics and Philosophy: The
+  Revolution in Modern Science/.  Harper, 1958.
+  Heisenberg's own philosophical reflections on quantum
+  mechanics.
+- Bernstein, Jeremy.  /Hitler's Uranium Club: The Secret
+  Recordings at Farm Hall/.  Copernicus, 2001.  The
+  transcripts of German nuclear physicists after their
+  capture in 1945.
+- [[https://en.wikipedia.org/wiki/Werner_Heisenberg][Wikipedia: Werner Heisenberg]]

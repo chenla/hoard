@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:c5850a3c-baf4-4895-abdc-e18483258d76][Paul Dirac]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/ralph-fowler--headshot.jpg
+   :BORN:        1889-01-17, Roydon, Essex, England
+   :DIED:        1944-07-28, Cambridge, England
+   :NATIONALITY: British
+   :FIELD:       Physics; Mathematics
+   :INSTITUTION: University of Cambridge; Cavendish Laboratory
+   :AGE_AT_SOLVAY: 38
+   :END:
+
+** Scope Note
+
+British physicist and mathematician at Cambridge. Dirac's doctoral supervisor — introduced him to quantum theory. Made important contributions to statistical mechanics and astrophysics. Son-in-law of Rutherford. Trained a generation of British theoretical physicists.
+
 ** Notes
 
 Ralph Fowler (1889–1944).  British physicist and

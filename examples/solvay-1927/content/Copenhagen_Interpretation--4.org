@@ -52,3 +52,18 @@ confusion rather than insight.  John Bell's work in 1964
 reopened the debate, and today multiple interpretations
 compete — many-worlds, consistent histories, QBism — but
 Copenhagen remains the default pedagogical framework.
+
+** References
+
+- Faye, Jan.  "Copenhagen Interpretation of Quantum
+  Mechanics."  /Stanford Encyclopedia of Philosophy/,
+  2019.  Careful reconstruction of what Bohr actually
+  claimed, vs. the textbook caricature.
+- Howard, Don.  "Who Invented the 'Copenhagen
+  Interpretation'?  A Study in Mythology."
+  /Philosophy of Science/ 71 (2004): 669–682.  Argues
+  the "interpretation" was never a unified doctrine.
+- Bell, John S.  /Speakable and Unspeakable in Quantum
+  Mechanics/.  Cambridge University Press, 1987.  The
+  papers that reopened the foundations debate.
+- [[https://plato.stanford.edu/entries/qm-copenhagen/][SEP: Copenhagen Interpretation]]

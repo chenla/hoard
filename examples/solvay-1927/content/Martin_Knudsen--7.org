@@ -16,6 +16,20 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
 
+** Metadata
+   :PROPERTIES:
+   :BORN:        1871-02-15, Hasmark, Denmark
+   :DIED:        1949-05-27, Copenhagen, Denmark
+   :NATIONALITY: Danish
+   :FIELD:       Physics
+   :INSTITUTION: University of Copenhagen
+   :AGE_AT_SOLVAY: 56
+   :END:
+
+** Scope Note
+
+Danish physicist known for pioneering work on molecular gas flow at low pressures. The Knudsen number — the ratio of molecular mean free path to physical length — is fundamental to rarefied gas dynamics. Colleague of Bohr at Copenhagen.
+
 ** Notes
 
 Martin Knudsen (1871–1949).  Danish physicist.

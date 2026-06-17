@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:860baf5e-301b-4ac7-823f-829a29349f5c][Auguste Piccard]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/emile-henriot--headshot.jpg
+   :BORN:        1885-02-02, Paris, France
+   :DIED:        1961-02-01, Paris, France
+   :NATIONALITY: French
+   :FIELD:       Physical chemistry
+   :INSTITUTION: University of Paris
+   :AGE_AT_SOLVAY: 42
+   :END:
+
+** Scope Note
+
+French physical chemist who demonstrated the natural radioactivity of potassium and rubidium. Pioneer of ultracentrifuge technology. Scientific secretary at the 1927 Solvay Conference alongside Piccard.
+
 ** Notes
 
 Emile Henriot (1885–1961).  French physical chemist.

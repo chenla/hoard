@@ -14,6 +14,22 @@
    - PT :: Irving Langmuir
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/irving-langmuir--headshot.jpg
+   :BORN:        1881-01-31, Brooklyn, New York, USA
+   :DIED:        1957-08-16, Falmouth, Massachusetts, USA
+   :NATIONALITY: American
+   :FIELD:       Chemistry; Physics
+   :INSTITUTION: General Electric Research Laboratory
+   :NOBEL:       Chemistry 1932
+   :AGE_AT_SOLVAY: 46
+   :END:
+
+** Scope Note
+
+American chemist and physicist. Nobel Prize in Chemistry 1932 for surface chemistry. Coined the term "plasma," developed the gas-filled lamp, and pioneered cloud seeding. One of the few industrial scientists to win a Nobel Prize — spent most of his career at General Electric.
+
 ** Notes
 
 Irving Langmuir (1881–1957).  American chemist and

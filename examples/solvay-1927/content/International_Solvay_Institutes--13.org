@@ -15,15 +15,128 @@
    - UF :: Instituts Internationaux Solvay
    - NT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Scope Note
+
+Founded in 1912 by Belgian industrialist Ernest Solvay. Organizes the Solvay Conferences on Physics and Chemistry — closed conclaves of 20–30 leading scientists, fully funded, with pre-circulated reports and structured discussion. Closer to a summit than a conference. The tradition continues to the present day.
+
 ** Notes
 
-Founded in 1912 by Belgian industrialist Ernest Solvay.
-Based in Brussels.  Organizes the Solvay Conferences on
-Physics and Chemistry — invitation-only gatherings of
-leading scientists to discuss open problems.
+*** Origins
 
-The first conference (1911), organized by Lorentz at
-Solvay's request, brought together Planck, Einstein,
-Curie, Rutherford, and Poincaré to discuss "The Theory
-of Radiation and Quanta."  The tradition continues to
-the present day.
+Founded in 1912 by Ernest Solvay, a Belgian chemical
+industrialist whose soda ash process had made him one
+of the wealthiest men in Europe.  Solvay had no formal
+scientific training but a deep conviction that bringing
+the best minds together in a room would accelerate
+discovery.  He asked Hendrik Lorentz — universally
+respected, multilingual, diplomatically gifted — to
+organize the scientific program.
+
+The first conference (1911) brought together Planck,
+Einstein, Curie, Rutherford, Poincaré, and eighteen
+others to discuss "The Theory of Radiation and Quanta."
+It established the format that would persist for over a
+century.
+
+*** The Format
+
+The Solvay Conferences are not conferences in the
+modern sense.  They are closed conclaves — closer to a
+summit or a concilium than to an academic meeting.
+
+Roughly 20–30 scientists are invited by a scientific
+committee.  There is no open registration, no audience,
+no parallel sessions, no poster hall, no vendor
+exhibition.  The invitees are the entire conference.
+Everyone in the room is a participant.
+
+Selected participants are commissioned to prepare
+/rapports/ — formal reports on assigned topics.  These
+are written up and circulated to all invitees before
+the conference, so everyone arrives having already read
+the material.  At the conference itself, the reports are
+presented briefly.  The real substance is the structured
+discussion that follows each presentation.
+
+The discussions are transcribed and published alongside
+the reports as conference proceedings.  For the 1927
+conference, the proceedings were published in French and
+remained poorly accessible to the English-speaking world
+until Bacciagaluppi and Valentini's 2009 reconstruction.
+
+Everything is funded by the Solvay Institutes — travel,
+accommodation, honoraria.  The participants have no
+financial barriers and no obligations beyond showing up,
+preparing, and engaging.
+
+*** Why This Format Matters
+
+A modern scientific conference is designed for scale:
+hundreds or thousands of attendees, 15-minute paper
+slots, knowledge transfer that is largely
+one-directional.  Most attendees never interact with the
+speakers.  The format optimizes for breadth and
+accessibility.
+
+Solvay optimizes for depth.  Twenty to thirty people
+who have already read each other's work, in one room,
+arguing directly.  No audience to perform for.  No
+time pressure that forces superficiality.  The format
+assumes that the most important advances happen not in
+presentations but in the collisions between prepared
+minds.
+
+The Bohr-Einstein debates at the Fifth Solvay
+Conference could not have happened at a modern
+conference.  They required a format where two people
+could argue across multiple days — at breakfast, in
+the discussion sessions, over dinner — with everyone
+else in the room following every exchange.  Ehrenfest
+could weep at the impasse precisely because he was
+close enough to feel it.
+
+The closest modern equivalents are Gordon Research
+Conferences and Aspen Center for Physics workshops —
+small, invitation-only gatherings with off-the-record
+discussions.  But even these are larger and less
+concentrated than Solvay.
+
+*** Candor Without Anonymity
+
+Chatham House Rules — formalized, coincidentally, in
+1927 — create intellectual safety through anonymity:
+speak freely, but nothing is attributed.  The cost is
+that the discourse evaporates.  "A prominent physicist
+raised objections to quantum indeterminacy" is useless
+to history.
+
+The Solvay format achieved something better.  It created
+safety through peer parity in a closed room.  There was
+no audience to perform for, no journalists, no junior
+colleagues who might misquote you at a departmental
+meeting.  You could say bold things — even wrong things
+— because everyone else was operating at the same level
+and doing the same.
+
+Critically, the proceedings were published with full
+attribution.  Einstein's objections are on the record.
+Pauli's demolition of de Broglie is on the record.
+Ehrenfest's anguish is on the record.  The disputes
+became part of the scientific infrastructure — available
+for future generations to learn from, build on, and in
+Bohm's case, to vindicate a position that was dismissed
+too hastily.
+
+Attributed discourse is infrastructure.  Anonymous
+discourse is safe but sterile.  The Solvay format found
+the sweet spot: intimate enough for candor, documented
+enough for posterity.
+
+*** The Tradition
+
+The Solvay Conferences continue to the present day,
+roughly every three years.  The format has remained
+largely unchanged.  The 2022 Solvay Conference on
+Physics addressed "The Physics of Quantum Information."
+The roster remains small, the discussions remain the
+point, and the proceedings are still published.

@@ -18,9 +18,21 @@
    - RT :: [[id:a4c8ff17-19e1-49c4-a230-33a46241d27b][Max Born]]
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/wolfgang-pauli--headshot.jpg
+   :BORN:        1900-04-25, Vienna, Austria
+   :DIED:        1958-12-15, Zurich, Switzerland
+   :NATIONALITY: Austrian → Swiss
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Hamburg; ETH Zurich
+   :NOBEL:       Physics 1945
+   :AGE_AT_SOLVAY: 27
+   :END:
+
 ** Scope Note
 
-Exclusion principle. The conference's executioner -- demolished de Broglie's pilot-wave theory. His dismissal "not even wrong" became the gold standard for withering scientific critique.
+Austrian-Swiss physicist (1900–1958). Nobel Prize 1945 for the exclusion principle, which explains the structure of the periodic table. The conference's intellectual executioner — demolished de Broglie's pilot-wave theory. His dismissal "not even wrong" became the gold standard for withering scientific critique.
 
 ** Notes
 

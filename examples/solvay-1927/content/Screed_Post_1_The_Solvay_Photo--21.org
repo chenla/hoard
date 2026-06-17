@@ -9,6 +9,9 @@
   :CREATED:   2026-06-15T10:20
   :END:
 
+** Relations
+   - PT :: Screed Post 1 — The Solvay Photo
+
 Twenty-nine people, one photograph, the moment certainty
 died.  The 1927 Solvay Conference as origin point of a
 shockwave that propagated through physics, mathematics,

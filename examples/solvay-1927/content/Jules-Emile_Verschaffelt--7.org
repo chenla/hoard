@@ -16,6 +16,21 @@
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
    - RT :: [[id:96da3a47-001b-426a-bead-ab9ca63c318e][Solvay Institutes]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/jules-emile-verschaffelt--headshot.jpg
+   :BORN:        1870-01-27, Ghent, Belgium
+   :DIED:        1955-07-22, Ghent, Belgium
+   :NATIONALITY: Belgian
+   :FIELD:       Experimental physics
+   :INSTITUTION: Leiden University; University of Ghent
+   :AGE_AT_SOLVAY: 57
+   :END:
+
+** Scope Note
+
+Belgian experimental physicist who served as principal organizer and secretary of the Solvay Conferences for many years. His lasting contribution was institutional — ensuring the right people came together at the right time.
+
 ** Notes
 
 Jules-Émile Verschaffelt (1870–1955).  Belgian

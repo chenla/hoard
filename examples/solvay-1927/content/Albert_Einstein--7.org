@@ -15,9 +15,21 @@
    - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/albert-einstein--headshot.jpg
+   :BORN:        1879-03-14, Ulm, Germany
+   :DIED:        1955-04-18, Princeton, USA
+   :NATIONALITY: German → Swiss → American
+   :FIELD:       Theoretical physics
+   :INSTITUTION: Swiss Patent Office; University of Zurich; University of Berlin; IAS Princeton
+   :NOBEL:       Physics 1921
+   :AGE_AT_SOLVAY: 48
+   :END:
+
 ** Scope Note
 
-Architect of relativity who helped launch quantum theory, then spent Solvay trying to prove it incomplete. The problems he raised (EPR paradox) still haunt physics a century later.
+German-born theoretical physicist (1879–1955). Nobel Prize 1921 for the photoelectric effect. Architect of special and general relativity who helped launch quantum theory, then spent Solvay trying to prove it incomplete. The problems he raised — locality, realism, the EPR paradox — still haunt physics a century later.
 
 ** Notes
 
@@ -33,3 +45,19 @@ work on the photoelectric effect helped launch quantum
 theory, yet he spent much of his later career arguing
 against its implications — particularly the abandonment
 of locality and determinism.
+
+** References
+
+- Isaacson, Walter.  /Einstein: His Life and Universe/.
+  Simon & Schuster, 2007.  The standard modern biography.
+- Pais, Abraham.  /'Subtle is the Lord': The Science and
+  the Life of Albert Einstein/.  Oxford University Press,
+  1982.  The physicist's biography — technically demanding
+  but authoritative.
+- Einstein, Albert, Boris Podolsky, and Nathan Rosen.
+  "Can Quantum-Mechanical Description of Physical Reality
+  Be Considered Complete?"  /Physical Review/ 47 (1935):
+  777–780.  The EPR paper — the objection Einstein spent
+  the rest of his life refining.
+- [[https://en.wikipedia.org/wiki/Albert_Einstein][Wikipedia: Albert Einstein]]
+- [[https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/][MacTutor: Albert Einstein]]

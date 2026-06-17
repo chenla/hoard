@@ -3,5 +3,10 @@ name = "solvay-1927"
 version = "0.1.0"
 format = "org"
 
+[meta]
+copyright_holder = "Chenla Institute"
+copyright_year = "2026"
+license = "MIT / CC BY-SA 4.0"
+
 [vocab]
 source = "local"

@@ -15,9 +15,21 @@
    - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
    - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
 
+** Metadata
+   :PROPERTIES:
+   :HEADSHOT:    lib/media/niels-bohr--headshot.jpg
+   :BORN:        1885-10-07, Copenhagen, Denmark
+   :DIED:        1962-11-18, Copenhagen, Denmark
+   :NATIONALITY: Danish
+   :FIELD:       Theoretical physics
+   :INSTITUTION: University of Copenhagen; Institute of Theoretical Physics
+   :NOBEL:       Physics 1922
+   :AGE_AT_SOLVAY: 42
+   :END:
+
 ** Scope Note
 
-Atomic model, complementarity, Copenhagen interpretation. Won the debate with Einstein at Solvay. His Copenhagen institute trained an entire generation of quantum physicists.
+Danish physicist (1885–1962). Nobel Prize 1922. Atomic model, complementarity, the Copenhagen interpretation. Won the debate with Einstein at Solvay — his arguments for quantum indeterminacy carried the day. His Copenhagen institute trained an entire generation of quantum physicists.
 
 ** Notes
 
@@ -31,3 +43,16 @@ the world center for quantum research.
 Bohr's complementarity principle and his debates with
 Einstein over the foundations of quantum mechanics defined
 the philosophical landscape of 20th-century physics.
+
+** References
+
+- Pais, Abraham.  /Niels Bohr's Times: In Physics,
+  Philosophy, and Polity/.  Oxford University Press,
+  1991.  The authoritative scientific biography, by the
+  same physicist-historian who wrote the Einstein biography.
+- Bohr, Niels.  "Discussion with Einstein on
+  Epistemological Problems in Atomic Physics."  In
+  /Albert Einstein: Philosopher-Scientist/, ed. P.A.
+  Schilpp, 1949.  Bohr's own account of the debates.
+- [[https://en.wikipedia.org/wiki/Niels_Bohr][Wikipedia: Niels Bohr]]
+- [[https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/][Nobel Prize: Niels Bohr]]
