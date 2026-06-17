@@ -1,0 +1,52 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Transistor—4
+
+* Transistor—4
+  :PROPERTIES:
+  :ID:        e6c82fd0-6c46-4b4f-9712-e2df9fd2986c
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Transistor
+   - RT :: [[id:4ed62502-2af7-48a8-b1fa-5cb35ce43c35][Stored-Program Computer]]
+
+** Scope Note
+
+Invented at Bell Labs in 1947 by Bardeen, Brattain, and
+Shockley.  A quantum-mechanical switch — its operation
+depends on the band theory of solids, which is a direct
+consequence of quantum mechanics.  The physical device
+that turned the probabilistic theory debated at Solvay
+into the substrate of computation.
+
+** Notes
+
+The point-contact transistor was demonstrated on
+December 23, 1947, by John Bardeen and Walter Brattain
+at Bell Labs, under the supervision of William Shockley.
+Shockley developed the junction transistor shortly
+after.  All three shared the 1956 Nobel Prize in
+Physics.
+
+The transistor's physics — electron tunneling,
+semiconductor band gaps, doping — is pure quantum
+mechanics applied to solid-state materials.  The band
+theory of solids, developed in the late 1920s and 1930s
+by Felix Bloch, Rudolf Peierls, and Alan Wilson,
+explains why some materials conduct electricity, some
+insulate, and some can be made to switch between the
+two.  Without this theory — which is a direct
+application of quantum mechanics to crystalline
+structures — there would be no understanding of
+semiconductors.
+
+The transistor replaced vacuum tubes, enabling smaller,
+faster, and vastly more reliable electronic devices.
+It led to the integrated circuit (1958), the
+microprocessor (1971), and everything that followed.
+The device that made the digital revolution possible
+is, at its foundation, a quantum machine.

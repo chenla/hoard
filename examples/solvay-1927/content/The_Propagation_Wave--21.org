@@ -1,0 +1,51 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Propagation Wave—21
+
+* The Propagation Wave—21
+  :PROPERTIES:
+  :ID:        28a41aae-53c0-44ff-aa1e-3517efb4d914
+  :TYPE:      wh:holon
+  :CREATED:   2026-06-17T15:00
+  :END:
+
+** Relations
+   - PT :: The Propagation Wave
+
+From the collapse outward: how uncertainty became
+computation, computation became intelligence, and
+intelligence escaped human control.  Manhattan Project
+to AlphaGo to transformers.
+
+** Membership
+
+Cards tagged ~screed-t1-wave, plus:
+- Alan_Turing--7
+- Claude_Shannon--7
+- Demis_Hassabis--7
+- John_von_Neumann--7
+- David_Bohm--7
+- Lee_Sedol--7
+- Manhattan_Project--11
+- Transistor--4
+- Stored_Program_Computer--4
+- The_MANIAC_Computer--4
+- Neural_Networks--4
+- AlphaGo_Move_37--11
+- The_MANIAC_Novel--6
+
+** Primary
+
+The_Propagation_Wave--6
+
+** Expression
+
+Prefer: whole
+Fallback: whole
+
+** Order
+
+1. wh:evt
+2. wh:con (alphabetical by title)
+3. wh:wrk
+4. wh:per (alphabetical by title)

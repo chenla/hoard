@@ -1,0 +1,55 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Stored-Program Computer—4
+
+* Stored-Program Computer—4
+  :PROPERTIES:
+  :ID:        4ed62502-2af7-48a8-b1fa-5cb35ce43c35
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Stored-Program Computer
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+   - RT :: Alan Turing
+   - RT :: [[id:123657f2-0c94-4578-b515-2459ce2d2c66][The MANIAC Computer]]
+
+** Scope Note
+
+The concept that instructions and data should reside in
+the same memory, allowing programs to modify themselves.
+Von Neumann's 1945 "First Draft" report formalized the
+architecture.  The machine that emerged from the ruins
+of Hilbert's program — built by a man who had watched
+the foundations collapse.
+
+** Notes
+
+The stored-program concept was developed independently
+by several groups in the mid-1940s.  Von Neumann's
+"First Draft of a Report on the EDVAC" (1945) codified
+it in a form that became the standard reference.  The
+key insight: storing the program in the same memory as
+the data it operates on allows the machine to modify
+its own instructions — a flexibility that earlier
+machines, with their hardwired or externally-fed
+programs, could not achieve.
+
+Von Neumann's IAS machine at Princeton — the MANIAC
+(Mathematical Analyzer, Numerical Integrator, and
+Automatic Computer) — was one of the first
+implementations.  The architecture became universal:
+fetch instruction, decode, execute, store result.
+Virtually every computer built since follows this
+pattern.
+
+Von Neumann came to computing from mathematical logic
+— the very field Gödel had shown to be incomplete.
+Turing had independently defined the limits of what
+any such machine could compute.  The stored-program
+computer is thus a machine born from the wreckage of
+the deterministic dream: powerful beyond anything its
+creators imagined, but operating within formal limits
+that Gödel and Turing had already proven inescapable.

@@ -1,0 +1,56 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Neural Networks—4
+
+* Neural Networks—4
+  :PROPERTIES:
+  :ID:        6285b124-fd9c-459a-9463-cb5ef2e795ec
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Neural Networks
+   - RT :: Alan Turing
+   - RT :: [[id:d1dfcf8f-f588-4b35-ae0f-fe7ec3c4ee7b][Demis Hassabis]]
+   - RT :: [[id:2c075636-a78a-42dc-a6ac-f19978223aaf][AlphaGo Move 37]]
+
+** Scope Note
+
+Computational models inspired by biological neurons.
+From McCulloch-Pitts (1943) through Rosenblatt's
+perceptron (1958) to deep learning and transformers.
+Machines that learn from probability rather than execute
+from certainty — the computational embodiment of the
+post-deterministic paradigm.
+
+** Notes
+
+Warren McCulloch and Walter Pitts proposed the first
+mathematical model of a neural network in 1943, showing
+that networks of simple threshold units could compute
+any logical function.  Frank Rosenblatt built the
+perceptron in 1958 — the first machine that could learn
+from examples.  Progress stalled after Marvin Minsky
+and Seymour Papert's 1969 critique showed the
+perceptron's limitations, and funding dried up for over
+a decade.
+
+Backpropagation was rediscovered in the 1980s by
+Rumelhart, Hinton, and Williams, enabling multi-layer
+networks to learn.  Deep learning scaled the approach
+with GPUs and massive datasets — Geoffrey Hinton, Yann
+LeCun, and Yoshua Bengio drove this revolution and
+shared the 2018 Turing Award.  Convolutional networks
+conquered vision; recurrent networks tackled sequences.
+
+AlphaGo (2016) and transformer-based language models
+(2017–present) represent the culmination: machines that
+learn statistical patterns from data rather than follow
+explicit instructions.  They are, in a precise sense,
+probabilistic machines — the opposite of the
+deterministic clockwork that Laplace imagined.  The
+shockwave from Solvay, propagating through Gödel and
+Turing and von Neumann, arrives here: machines that
+embrace uncertainty as their operating principle.

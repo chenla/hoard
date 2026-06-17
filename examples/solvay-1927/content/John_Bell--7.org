@@ -1,0 +1,59 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   John Bell—7
+
+* John Bell—7
+  :PROPERTIES:
+  :ID:        096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: John Bell
+   - RT :: [[id:18825dcb-e127-4231-93fc-b6a9e1a1c6c5][Bell's Theorem]]
+   - RT :: [[id:a89c0b70-0ee6-4cf7-8546-29bcb270ac65][EPR Paradox]]
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1928-06-28, Belfast, Northern Ireland
+   :DIED:        1990-10-01, Geneva, Switzerland
+   :NATIONALITY: British (Northern Irish)
+   :FIELD:       Physics
+   :INSTITUTION: CERN
+   :END:
+
+** Scope Note
+
+Northern Irish physicist (1928–1990).  His 1964 theorem
+transformed the Bohr-Einstein debate from philosophy
+into experimental physics.  Worked at CERN.  Died of a
+cerebral hemorrhage at 62, just as his work was being
+recognized as one of the most profound results in
+physics.
+
+** Notes
+
+John Stewart Bell (1928–1990).  Grew up in working-class
+Belfast, the first in his family to attend university.
+Studied at Queen's University Belfast, then moved to
+CERN in Geneva where he spent his career designing
+particle accelerators — his "day job."
+
+His theoretical work on quantum foundations was done
+largely in his spare time, a fact that says as much
+about the culture of physics as about Bell himself.
+Questioning the foundations of quantum mechanics was
+considered eccentric at best; the prevailing attitude
+was "shut up and calculate."  Bell calculated — and
+his calculations showed that the question mattered.
+
+His 1964 paper "On the Einstein Podolsky Rosen Paradox"
+is one of the most cited papers in the history of
+physics.  It proved that the EPR debate was not merely
+philosophical — it made experimentally testable
+predictions.  He died suddenly of a cerebral hemorrhage
+on October 1, 1990, the year before the first
+loophole-free Bell tests were attempted.  He was widely
+tipped for the Nobel Prize.

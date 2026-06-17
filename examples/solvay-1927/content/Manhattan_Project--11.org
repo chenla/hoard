@@ -1,0 +1,51 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Manhattan Project—11
+
+* Manhattan Project—11
+  :PROPERTIES:
+  :ID:        4d8cc130-7069-4526-882b-f314656ad711
+  :TYPE:      wh:evt
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Manhattan Project
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+
+** Scope Note
+
+The secret American program (1942–1946) that built the
+first nuclear weapons.  The first industrial application
+of quantum physics — turning the abstract probabilities
+debated at Solvay into the most destructive force in
+history.  Von Neumann designed the implosion lens that
+made the plutonium bomb possible.
+
+** Notes
+
+The Manhattan Project employed over 125,000 people
+across multiple sites — Los Alamos, Oak Ridge, Hanford,
+and dozens of others — at a cost of nearly $2 billion
+in 1945 dollars.  It was directed by General Leslie
+Groves and scientifically led by J. Robert Oppenheimer.
+
+The physics that made it possible — nuclear fission,
+quantum tunneling, neutron cross-sections — was the
+direct offspring of the quantum revolution debated at
+Solvay.  Many Solvay attendees were involved: Born's
+former students, Bohr as a consultant, and von Neumann
+as a key designer.  Von Neumann's contribution was
+decisive: he designed the shaped-charge implosion lens
+that compressed the plutonium core symmetrically,
+making the Fat Man bomb feasible.
+
+The Trinity test on July 16, 1945, and the bombings of
+Hiroshima (August 6) and Nagasaki (August 9)
+demonstrated that quantum mechanics was not merely a
+philosophical puzzle about the nature of reality — it
+could reshape the physical world.  The abstract
+probabilities that Bohr and Einstein debated over
+breakfast had become the engineering basis for a weapon
+that could destroy a city in seconds.

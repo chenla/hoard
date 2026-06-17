@@ -1,0 +1,63 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Georg Cantor—7
+
+* Georg Cantor—7
+  :PROPERTIES:
+  :ID:        3b2d0751-be40-4d96-8fa6-98c919882d42
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Georg Cantor
+   - RT :: [[id:02b39257-f348-43cd-a45c-97beba763b18][Cantor's Infinities]]
+   - RT :: David Hilbert
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1845-03-03, Saint Petersburg, Russia
+   :DIED:        1918-01-06, Halle, Germany
+   :NATIONALITY: German
+   :FIELD:       Mathematics
+   :INSTITUTION: University of Halle
+   :END:
+
+** Scope Note
+
+German mathematician (1845–1918).  Created set theory
+and proved the existence of multiple infinities — the
+first demonstration that the mathematical universe was
+stranger and wilder than anyone had imagined.  Opposed
+by Kronecker, defended by Hilbert.  Suffered recurring
+mental illness.
+
+** Notes
+
+Georg Ferdinand Ludwig Philipp Cantor (1845–1918).  Born
+in Saint Petersburg to a German-Danish family, spent his
+entire academic career at the University of Halle — a
+provincial institution far from the major mathematical
+centers.
+
+His diagonal argument (1891) proved the real numbers are
+uncountable — there are strictly more real numbers than
+natural numbers, even though both sets are infinite.
+This was the first proof that infinity comes in
+different sizes, and it shattered the assumption that
+infinity was a single, manageable concept.
+
+Leopold Kronecker, one of the most powerful
+mathematicians in Germany, attacked Cantor's work as
+mathematical pathology and actively blocked his
+advancement.  "God made the integers; all else is the
+work of man," Kronecker declared.  Hilbert defended
+Cantor, calling set theory "the finest product of
+mathematical genius" and "a paradise from which no one
+shall drive us."
+
+Cantor suffered recurring bouts of severe depression,
+was hospitalized multiple times, and spent his final
+years in a sanatorium.  He died in 1918, impoverished,
+during the last winter of the Great War.

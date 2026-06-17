@@ -79,6 +79,10 @@ h3 {
   margin: 1.5rem 0 .5rem;
 }
 code { font-size: .9rem; word-break: break-all; }
+.life-dates {
+  font-size: 1.2rem; font-weight: 300;
+  color: var(--muted);
+}
 
 .subtitle {
   font-family: "IBM Plex Mono", monospace;
@@ -501,17 +505,36 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
             rows.append(f'<tr><td{tooltip}>{escape(pred_label)}</td><td>{obj_html}</td></tr>')
         return "\n".join(rows)
 
+    # Check if this is an expression card
+    is_expression = any(q.predicate in ("v:s-eo",) for q in quads)
+
     body_parts = []
 
     # Header — clean display title, type tag only (no UUID)
-    body_parts.append(f"<h1>{escape(display_title)}</h1>")
+    # Append life dates for person Whole cards (not expressions)
+    title_html = escape(display_title)
+    source_path = path_for_uuid.get(uuid)
+    metadata = {}
+    if source_path:
+        metadata = _extract_metadata(os.path.join(hord_root, source_path))
+    if entity_type == "wh:per" and not is_expression and metadata:
+        born = metadata.get("BORN", "")
+        died = metadata.get("DIED", "")
+        if born:
+            birth_year = born.split("-")[0] if "-" in born else born.split(",")[0].strip()
+            death_year = ""
+            if died:
+                death_year = died.split("-")[0] if "-" in died else died.split(",")[0].strip()
+            if death_year:
+                title_html += f' <span class="life-dates">({birth_year}–{death_year})</span>'
+            else:
+                title_html += f' <span class="life-dates">(b. {birth_year})</span>'
+    body_parts.append(f"<h1>{title_html}</h1>")
     body_parts.append(f'<div class="subtitle">'
                       f'<span class="type-tag">{escape(type_label)}</span></div>')
 
     # Metadata sidebar (float right, before scope note so text wraps)
-    source_path = path_for_uuid.get(uuid)
     if source_path:
-        metadata = _extract_metadata(os.path.join(hord_root, source_path))
         if metadata:
             sidebar_parts = ['<aside class="metadata-sidebar">']
             # Headshot image (if present, render above the data)
@@ -1306,7 +1329,7 @@ def _org_body_to_html(text: str, margin_cards: list[dict] = None,
         if card["uuid"]:
             parts.append(
                 f'<span class="sn-title">'
-                f'<a href="cards/{_entity_filename(card["uuid"])}">'
+                f'<a href="../cards/{_entity_filename(card["uuid"])}">'
                 f'{escape(card["title"])}</a></span>')
         else:
             parts.append(f'<span class="sn-title">{escape(card["title"])}</span>')
@@ -1373,10 +1396,11 @@ def _org_body_to_html(text: str, margin_cards: list[dict] = None,
             caption = escape(caption_override) if caption_override else escape(fig["caption"])
             if fig["src"]:
                 fig_parts = ['<figure class="fullwidth">']
-                fig_parts.append(f'<img src="{escape(fig["src"])}" alt="{caption}">')
+                fig_src = f'../{fig["src"]}' if fig["src"].startswith("lib/") else fig["src"]
+                fig_parts.append(f'<img src="{escape(fig_src)}" alt="{caption}">')
                 if caption:
                     if fig["uuid"]:
-                        card_link = f'cards/{_entity_filename(fig["uuid"])}'
+                        card_link = f'../cards/{_entity_filename(fig["uuid"])}'
                         fig_parts.append(
                             f'<figcaption>{caption} '
                             f'<a href="{card_link}">→ image card</a>'
@@ -1528,7 +1552,8 @@ def _resolve_card_content(slug: str, hord_root: str, index: dict,
 
 def render_context_cloud(holon_uuid: str, hord_root: str,
                          vocab: Vocabulary, path_for_uuid: dict,
-                         standalone: bool = False) -> str:
+                         standalone: bool = False,
+                         series_nav: str = "") -> str:
     """Render a context-cloud holon as a Tufte-style article page.
 
     The primary card's body becomes the main article text.
@@ -1586,6 +1611,8 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
     # Convert article body to HTML with inline sidenotes
     article_html = _org_body_to_html(article_text, margin_cards,
                                      hord_root=hord_root, index=index)
+    # Fix media paths — article is in a subdirectory of _site/
+    article_html = article_html.replace('src="lib/media/', 'src="../lib/media/')
 
     # Extract holon description for subtitle
     holon_source = path_for_uuid.get(holon_uuid)
@@ -1635,16 +1662,45 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
 
     page_content = "\n".join(body_parts)
 
+    series_css = ""
+    if series_nav:
+        series_css = """
+.series-nav {
+  padding: 0 0 0 8rem;
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 0;
+  width: 55%;
+}
+.series-nav a { color: var(--link); }
+.series-nav .sep { margin: 0 0.5rem; }
+.series-bottom {
+  padding: 1.5rem 0 0 8rem;
+  font-size: 1rem;
+  color: var(--muted);
+  width: 55%;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+.series-bottom a { color: var(--link); }
+.series-bottom .sep { margin: 0 0.5rem; }
+@media (max-width: 960px) {
+  .series-nav, .series-bottom { padding-left: 0; width: 100%; }
+}
+"""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(primary_title)}</title>
-<style>{CONTEXT_CLOUD_CSS}</style>
+<style>{CONTEXT_CLOUD_CSS}{series_css}</style>
 </head>
 <body>
+{series_nav}
 {page_content}
+{series_nav.replace('series-nav', 'series-bottom') if series_nav else ''}
 </body>
 </html>
 """
@@ -1657,9 +1713,9 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
               help="Output directory (default: _site/)")
 @click.option("--holon", "holon_name", default=None,
               help="Export a holon as a landing page with member cards")
-@click.option("--context-cloud", "cloud_name", default=None,
-              help="Export a holon as a Tufte-style context cloud article")
-def export_cmd(output, holon_name, cloud_name):
+@click.option("--context-cloud", "cloud_names", multiple=True,
+              help="Export holon(s) as context cloud articles (repeatable)")
+def export_cmd(output, holon_name, cloud_names):
     """Export the hord as a browsable HTML site.
 
     Generates one HTML page per entity plus an index page.
@@ -1786,52 +1842,86 @@ def export_cmd(output, holon_name, cloud_name):
                 f.write(holon_html)
             click.echo(f"Holon page: {os.path.join(out_dir, 'holon.html')}")
 
-    # Render context cloud if requested
-    if cloud_name:
-        cloud_uuid = index.get(cloud_name)
-        if cloud_uuid is None:
-            for key, val in index.items():
-                if key.startswith(cloud_name) and len(cloud_name) >= 4:
-                    cloud_uuid = val
-                    break
-        if cloud_uuid is None:
-            click.echo(f"Warning: holon '{cloud_name}' not found, "
-                       "skipping context cloud.", err=True)
-        else:
-            cloud_html = render_context_cloud(
-                cloud_uuid, hord_root, vocab, path_for_uuid)
-            # Write to article subdirectory
+    # Render context clouds if requested
+    if cloud_names:
+        import shutil
+
+        # Shared card pages — render once for all clouds
+        cards_dir = os.path.join(out_dir, "cards")
+        os.makedirs(cards_dir, exist_ok=True)
+        for ent in entities:
+            page = render_entity_page(
+                ent["uuid"], hord_root, vocab, index, path_for_uuid,
+                index_href="../index.html",
+                hord_meta=hord_meta)
+            if page:
+                with open(os.path.join(
+                        cards_dir, _entity_filename(ent["uuid"])),
+                        "w") as f:
+                    f.write(page)
+
+        # Shared media — copy once
+        media_src = os.path.join(hord_root, "lib", "media")
+        if os.path.isdir(media_src):
+            media_dst = os.path.join(out_dir, "lib", "media")
+            if os.path.exists(media_dst):
+                shutil.rmtree(media_dst)
+            os.makedirs(os.path.dirname(media_dst), exist_ok=True)
+            shutil.copytree(media_src, media_dst)
+
+        # Resolve all cloud UUIDs, titles, and slugs first (for series nav)
+        cloud_info = []
+        for cloud_name in cloud_names:
+            cloud_uuid = index.get(cloud_name)
+            if cloud_uuid is None:
+                for key, val in index.items():
+                    if key.startswith(cloud_name) and len(cloud_name) >= 4:
+                        cloud_uuid = val
+                        break
+            if cloud_uuid is None:
+                click.echo(f"Warning: holon '{cloud_name}' not found, "
+                           "skipping context cloud.", err=True)
+                continue
             cloud_title = _resolve_title(cloud_uuid, hord_root)
             cloud_slug = re.sub(r"[^a-z0-9]+", "-",
                                 cloud_title.lower()).strip("-")
-            cloud_dir = os.path.join(out_dir, cloud_slug)
+            cloud_info.append({
+                "uuid": cloud_uuid, "title": cloud_title,
+                "slug": cloud_slug,
+            })
+
+        # Build series nav for each article (if multiple clouds)
+        is_series = len(cloud_info) > 1
+        for i, info in enumerate(cloud_info):
+            nav_html = ""
+            if is_series:
+                parts = [f'<div class="series-nav">']
+                parts.append(f'<a href="../index-arc.html">Series</a>')
+                parts.append(f'<span class="sep">&middot;</span>')
+                if i > 0:
+                    prev = cloud_info[i - 1]
+                    parts.append(
+                        f'<a href="../{prev["slug"]}/index.html">'
+                        f'&larr; {escape(prev["title"])}</a>')
+                    parts.append(f'<span class="sep">&middot;</span>')
+                parts.append(
+                    f'Part {i + 1} of {len(cloud_info)}')
+                if i < len(cloud_info) - 1:
+                    nxt = cloud_info[i + 1]
+                    parts.append(f'<span class="sep">&middot;</span>')
+                    parts.append(
+                        f'<a href="../{nxt["slug"]}/index.html">'
+                        f'{escape(nxt["title"])} &rarr;</a>')
+                parts.append("</div>")
+                nav_html = "\n".join(parts)
+
+            cloud_html = render_context_cloud(
+                info["uuid"], hord_root, vocab, path_for_uuid,
+                series_nav=nav_html)
+            cloud_dir = os.path.join(out_dir, info["slug"])
             os.makedirs(cloud_dir, exist_ok=True)
             with open(os.path.join(cloud_dir, "index.html"), "w") as f:
                 f.write(cloud_html)
-
-            # Also render individual card pages in cards/ subdir
-            cards_dir = os.path.join(cloud_dir, "cards")
-            os.makedirs(cards_dir, exist_ok=True)
-            for ent in entities:
-                page = render_entity_page(
-                    ent["uuid"], hord_root, vocab, index, path_for_uuid,
-                    index_href="../index.html",
-                    hord_meta=hord_meta)
-                if page:
-                    with open(os.path.join(
-                            cards_dir, _entity_filename(ent["uuid"])),
-                            "w") as f:
-                        f.write(page)
-
-            # Copy lib/media/ directory if it exists
-            import shutil
-            media_src = os.path.join(hord_root, "lib", "media")
-            if os.path.isdir(media_src):
-                media_dst = os.path.join(cloud_dir, "lib", "media")
-                if os.path.exists(media_dst):
-                    shutil.rmtree(media_dst)
-                os.makedirs(os.path.dirname(media_dst), exist_ok=True)
-                shutil.copytree(media_src, media_dst)
 
             click.echo(f"Context cloud: {cloud_dir}/index.html")
 

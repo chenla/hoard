@@ -1,0 +1,53 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   EPR Paradox—4
+
+* EPR Paradox—4
+  :PROPERTIES:
+  :ID:        a89c0b70-0ee6-4cf7-8546-29bcb270ac65
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: EPR Paradox
+   - RT :: [[id:b5b64601-f044-4019-9b3f-d41aec4b6b70][Albert Einstein]]
+   - RT :: [[id:108aa028-34fb-4a51-89fd-c594ca4cdfcd][Niels Bohr]]
+   - RT :: [[id:18825dcb-e127-4231-93fc-b6a9e1a1c6c5][Bell's Theorem]]
+
+** Scope Note
+
+The Einstein-Podolsky-Rosen thought experiment (1935).
+Argued that quantum mechanics must be incomplete because
+it implied instantaneous correlations between distant
+particles — "spooky action at a distance."  Einstein's
+most sophisticated objection to Copenhagen.
+
+** Notes
+
+Published as "Can Quantum-Mechanical Description of
+Physical Reality Be Considered Complete?" in /Physical
+Review/ 47 (1935).  The paper defined "elements of
+reality" and argued that if a physical quantity can be
+predicted with certainty without disturbing the system,
+it must correspond to something real — an element of
+physical reality that quantum mechanics fails to
+describe.
+
+Bohr responded within months, rejecting the premise.
+His reply argued that the EPR criterion of reality was
+inapplicable to quantum systems — that the experimental
+arrangement itself defines what can meaningfully be said
+about the system.  The debate appeared purely
+philosophical for nearly thirty years.
+
+Then John Bell showed in 1964 that the question was
+experimentally testable.  His theorem derived an
+inequality that any local hidden-variable theory must
+satisfy; quantum mechanics predicts violations.  Alain
+Aspect's experiments (1982) confirmed quantum mechanics
+and violated Bell's inequality — Einstein was wrong
+about locality, but right that something profound was at
+stake.  The EPR paper remains one of the most cited in
+the history of physics.

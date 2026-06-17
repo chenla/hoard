@@ -1,0 +1,63 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   David Hilbert—7
+
+* David Hilbert—7
+  :PROPERTIES:
+  :ID:        f8e44880-0eda-4d23-99f3-6f379b24048e
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: David Hilbert
+   - RT :: [[id:f1dd3c7d-50f3-48bc-ab56-bb26c85858eb][Incompleteness Theorems]]
+   - RT :: [[id:2cfb68da-c55c-4fe4-aa2a-4ffe08f3b42b][Hilbert's Program]]
+   - RT :: [[id:0ec8d6b5-54c1-454c-8505-44993a92ef9b][Kurt Gödel]]
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1862-01-23, Königsberg, Prussia
+   :DIED:        1943-02-14, Göttingen, Germany
+   :NATIONALITY: German
+   :FIELD:       Mathematics
+   :INSTITUTION: University of Göttingen
+   :END:
+
+** Scope Note
+
+German mathematician (1862–1943).  Posed the 23 problems
+that shaped twentieth-century mathematics.  His
+formalization program — the attempt to ground all
+mathematics on a complete, consistent, decidable
+foundation — was the mathematical equivalent of the
+deterministic worldview.  Gödel destroyed it in 1931.
+
+** Notes
+
+David Hilbert (1862–1943).  Professor at the University
+of Göttingen, which under his leadership became the
+world center for mathematics.  His 1900 address to the
+International Congress of Mathematicians posed 23
+problems that set the research agenda for the century —
+several remain unsolved.
+
+His program to formalize mathematics (1920s) was the
+last great attempt to save the deterministic vision in
+the mathematical domain.  If successful, every
+mathematical question would have a definitive answer
+derivable from axioms.  Von Neumann was among his most
+brilliant champions.  Gödel's incompleteness theorems
+(1931) showed all three goals — completeness,
+consistency, decidability — were unachievable
+simultaneously.
+
+His epitaph reads "Wir müssen wissen.  Wir werden
+wissen." (We must know.  We shall know.) — spoken in a
+radio address just days before Gödel presented his
+incompleteness theorems at the Königsberg conference.
+The timing is almost unbearable: the most confident
+assertion of the deterministic program, delivered at the
+precise moment of its destruction.

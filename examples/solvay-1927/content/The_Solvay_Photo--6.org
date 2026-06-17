@@ -7,7 +7,7 @@
   :ID:        543a53ed-c44c-4f57-b680-7ba09f464f96
   :TYPE:      wh:wrk
   :CREATED:   2026-06-15T10:00
-  :TAGS:      screed-t1, determinism, solvay-1927
+  :TAGS:      screed-t1-photo, determinism, solvay-1927
   :END:
 
 ** Relations
@@ -182,54 +182,6 @@ atomic bomb — these are the markers we use.  But the
 shockwave that began in this room in October 1927 has
 propagated further and deeper than any of them.
 
-Within five years, Kurt Gödel proved that mathematics
-itself could never be both complete and consistent —
-there would always be true statements that could not be
-proven. @@margin:Kurt_Godel--7@@ John von Neumann, who
-had been working on the mathematical foundations of
-quantum mechanics, recognized the implications
-immediately. @@margin:John_von_Neumann--7@@ He proved
-the complementary result: if a system of mathematics is
-complete, it is necessarily inconsistent — and with an
-inconsistent system, you can prove anything you like.
-From here to eternity, mathematicians would have to
-choose.
-
-Von Neumann went on to build the first modern computer —
-he called it the MANIAC — and along the way helped design
-the hydrogen bomb, invented game theory, and laid the
-theoretical foundations for self-reproducing machines and
-artificial life. @@margin:The_MANIAC_Computer--4@@ On
-his deathbed, he whispered that a thinking machine "would
-have to grow, not be built... understand language... and
-play, like a child."
-
-In March 2016, nearly ninety years after the Solvay
-photograph was taken, an artificial intelligence called
-AlphaGo played the world's greatest Go player, Lee
-Sedol, in Seoul. @@margin:AlphaGo_Move_37--11@@ In Game
-2, AlphaGo played move 37 — a shoulder hit on the fifth
-line that violated three thousand years of accumulated
-human wisdom about Go.  AlphaGo's own system rated the
-move as having a 1-in-10,000 probability.  Fan Hui,
-watching from the commentary room, wrote: "It's not a
-human move.  I've never seen a human play this move."
-
-Move 37 was the moment the shockwave from Brussels
-reached the general public.  Not as a physics result that
-most people would never understand, but as a lived
-experience: a machine had done something beautiful and
-beyond human comprehension, and it had done it on its
-own.
-
-Benjamín Labatut's novel /The MANIAC/ traces this entire
-arc — from Ehrenfest watching the Bohr-Einstein debates
-to AlphaGo's move 37. @@margin:The_MANIAC_Novel--6@@
-That book, and this photograph, are where this story
-begins.
-
----
-
 There is a reason I built a tool to understand this
 photograph.
 
@@ -267,24 +219,11 @@ physicists, with their 1927 expression contexts, in the
 
 ---
 
-The shockwave from Brussels is still propagating.  It
-moved through physics, through mathematics, through
-computation, through nuclear weapons, through artificial
-intelligence.  At each stage, human understanding was
-displaced a little further.  Ehrenfest could not follow
-quantum mechanics.  Von Neumann's brain was destroyed by
-cancer just as his computers surpassed human calculation.
-Lee Sedol could not compete with AlphaGo.
+The shockwave that began in this room did not stop at
+physics.  What happened next — the collapse of certainty
+in mathematics, and its propagation through computation
+into artificial intelligence — is the subject of the
+next two pieces.
 
-This story — Screed — follows that shockwave.  It traces
-the collapse of the deterministic paradigm that built the
-modern world, and it asks what comes after.  Not as a
-warning.  As a building plan.
-
-Because the shockwave is arriving now — not as abstract
-physics, but as the lived reality of artificial
-intelligence, collapsing institutions, and a world built
-on assumptions that turned out to be sand.  The
-infrastructure we are building — Hoard is one piece of
-it — is designed for the world that comes after
-certainty.
+But it starts here.  Twenty-nine people on the steps.
+One photograph.  The moment certainty died.

@@ -1,0 +1,49 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Principia Mathematica—6
+
+* Principia Mathematica—6
+  :PROPERTIES:
+  :ID:        a0bbb313-2e78-4ec9-aa3b-e8c151675b66
+  :TYPE:      wh:wrk
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Principia Mathematica
+   - RT :: Bertrand Russell
+   - RT :: [[id:f1dd3c7d-50f3-48bc-ab56-bb26c85858eb][Incompleteness Theorems]]
+
+** Scope Note
+
+Russell and Whitehead's monumental 1910–1913 attempt to
+derive all of mathematics from logic.  Three volumes,
+362 pages to prove 1+1=2.  The greatest formal system
+ever built — and the monument Gödel toppled.
+
+** Notes
+
+Alfred North Whitehead and Bertrand Russell spent over a
+decade constructing /Principia Mathematica/ to rescue
+mathematics from the paradoxes that Cantor's work had
+exposed — including Russell's own paradox, which showed
+that naive set theory was inconsistent.  The three
+volumes (1910, 1912, 1913) attempted to derive all
+mathematical truths from a small set of logical axioms
+using formal rules of inference.
+
+The work assumed that a complete, consistent foundation
+for mathematics was achievable — that logic could serve
+as the bedrock on which the entire structure rested.
+Gödel's incompleteness theorems showed it was not.  Any
+system as powerful as /Principia/ must contain true
+statements it cannot prove.
+
+The irony is deep: Whitehead later developed process
+philosophy, which embraced exactly the kind of
+indeterminacy and flux that /Principia/ had tried to
+eliminate.  Russell moved to philosophy of language and
+political activism.  Neither returned to the foundational
+project.  The work remains a monument — to ambition, to
+rigor, and to the limits of formalization.

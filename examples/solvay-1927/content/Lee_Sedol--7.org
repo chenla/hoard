@@ -7,7 +7,7 @@
   :ID:        c0aaed4b-4a38-4792-b03f-cab6bb2903c9
   :TYPE:      wh:per
   :CREATED:   2026-06-15T10:10
-  :TAGS:      screed-t1
+  :TAGS:      screed-t1-wave
   :END:
 
 ** Relations

@@ -7,7 +7,7 @@
   :ID:        782fd032-a0b2-476b-ab05-ea12447b8648
   :TYPE:      wh:per
   :CREATED:   2026-06-15T10:10
-  :TAGS:      solvay-1927, determinism
+  :TAGS:      solvay-1927, determinism, screed-t1-collapse, screed-t1-wave
   :END:
 
 ** Relations

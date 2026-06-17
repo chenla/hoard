@@ -7,7 +7,7 @@
   :ID:        123657f2-0c94-4578-b515-2459ce2d2c66
   :TYPE:      wh:con
   :CREATED:   2026-06-15T10:10
-  :TAGS:      determinism
+  :TAGS:      determinism, screed-t1-wave
   :END:
 
 ** Relations

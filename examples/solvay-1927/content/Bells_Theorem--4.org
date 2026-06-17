@@ -1,0 +1,51 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Bell's Theorem—4
+
+* Bell's Theorem—4
+  :PROPERTIES:
+  :ID:        18825dcb-e127-4231-93fc-b6a9e1a1c6c5
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Bell's Theorem
+   - RT :: John Bell
+   - RT :: [[id:a89c0b70-0ee6-4cf7-8546-29bcb270ac65][EPR Paradox]]
+   - RT :: [[id:1c20591e-b63d-4541-a091-050cd890940a][Copenhagen Interpretation]]
+
+** Scope Note
+
+John Bell's 1964 theorem proving that no local
+hidden-variable theory can reproduce all predictions of
+quantum mechanics.  Transformed the Bohr-Einstein debate
+from philosophy into experimental physics — and the
+experiments sided with Bohr.
+
+** Notes
+
+Bell derived an inequality that any local realist
+theory must satisfy.  The inequality sets an upper bound
+on the correlations between measurements on entangled
+particles under the assumption that (a) particles have
+definite properties before measurement (realism) and
+(b) measurement of one particle cannot instantaneously
+affect a distant particle (locality).
+
+Quantum mechanics predicts violations of this inequality
+for certain entangled states.  Alain Aspect's 1982
+experiments confirmed the violation with high
+statistical significance.  Subsequent experiments have
+closed progressively more loopholes — the 2015 Delft
+experiment was the first to close all major loopholes
+simultaneously.
+
+The result is stark: either locality is false (particles
+can be correlated instantaneously regardless of
+distance) or realism is false (particles do not have
+definite properties before measurement), or both.  The
+question Einstein raised at breakfast at Solvay in 1927
+was finally answered experimentally — and the answer was
+not what Einstein hoped.

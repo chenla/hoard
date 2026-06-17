@@ -1,0 +1,147 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Collapse of Determinism—6
+
+* The Collapse of Determinism—6
+  :PROPERTIES:
+  :ID:        ba575aef-3447-44ac-919d-618f99b0320b
+  :TYPE:      wh:wrk
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: The Collapse of Determinism
+   - BT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Scope Note
+
+How the uncertainty that shattered physics at Solvay
+propagated through mathematics — Cantor's infinities,
+Hilbert's program, Russell's Principia, Gödel's
+incompleteness — until the deterministic dream was
+dead in every formal domain.
+
+** Notes
+
+The week in Brussels settled the physics.  Copenhagen
+won.  The universe was probabilistic, measurement was
+irreversible, and the clockwork was broken.
+
+But physics was only the first domino.
+
+The same structural problem — that a system cannot be
+both complete and consistent — appeared everywhere
+people looked.  In mathematics.  In logic.  In
+computation.  Each collapse was independent, proved by
+different people using different methods, and yet they
+all said the same thing: the deterministic dream was
+not merely difficult.  It was impossible.
+
+---
+
+*** Cantor's Crack
+
+The trouble began before Solvay.  In 1891, Georg Cantor
+proved with his diagonal argument that the real numbers
+are uncountably infinite — strictly larger than the
+natural numbers. @@margin:Georg_Cantor@@  Infinity was not
+one thing but many.  The mathematical universe was wilder
+and stranger than anyone had imagined.
+
+Leopold Kronecker attacked Cantor's work as mathematical
+pathology.  Hilbert defended it as "the finest product
+of mathematical genius."  Cantor spent his final years in
+a sanatorium. @@margin:Cantors_Infinities@@
+
+The cracks Cantor exposed — paradoxes in the foundations
+of set theory, including Russell's paradox — demanded a
+response.
+
+*** The Monuments
+
+Two responses were attempted simultaneously.
+
+Bertrand Russell and Alfred North Whitehead spent over a
+decade building /Principia Mathematica/ — three volumes,
+362 pages to prove that 1+1=2 — to derive all of
+mathematics from pure logic. @@margin:Bertrand_Russell@@
+@@margin:Principia_Mathematica@@  The greatest formal
+system ever constructed.
+
+David Hilbert proposed something even more ambitious: a
+program to formalize /all/ of mathematics on a complete,
+consistent, decidable foundation. @@margin:David_Hilbert@@
+@@margin:Hilberts_Program@@  If it worked, mathematics
+would be as certain as Newton's clockwork had once
+seemed.  The young John von Neumann was an early
+champion. @@margin:John_von_Neumann@@
+
+*** Gödel's Hammer
+
+In 1931, Kurt Gödel published two theorems that destroyed
+both projects in 26 pages. @@margin:Kurt_Godel@@
+@@margin:Incompleteness_Theorems@@
+
+The first theorem: any consistent formal system powerful
+enough for arithmetic contains true statements it cannot
+prove.  The system is necessarily incomplete.
+
+The second theorem: such a system cannot prove its own
+consistency.
+
+Von Neumann proved the second theorem independently and
+recognized the implications immediately.  Hilbert's
+program was dead.  So was the ambition behind Principia.
+Mathematics could not be both complete and consistent.
+The deterministic dream — that everything could be known,
+formalized, decided — was impossible in principle, not
+merely in practice.
+
+The mathematical parallel to Heisenberg's uncertainty was
+exact.  Different domain, same structural result.
+
+*** Einstein's Last Stand
+
+Einstein never accepted Copenhagen.  In 1935 he published
+the EPR paper with Podolsky and Rosen — a thought
+experiment arguing that quantum mechanics must be
+incomplete because it implied instantaneous correlations
+between distant particles. @@margin:EPR_Paradox@@
+"Spooky action at a distance."
+
+Bohr responded within months, rejecting the premise.  The
+debate appeared to be philosophical — a matter of taste,
+not experiment.  It stayed that way for nearly thirty
+years.
+
+*** Bell's Resolution
+
+In 1964, working largely in his spare time at CERN, John
+Bell proved a theorem that transformed the debate from
+philosophy into experimental physics.
+@@margin:John_Bell@@ @@margin:Bells_Theorem@@
+
+Bell derived an inequality that any local realist theory
+must satisfy.  Quantum mechanics predicts violations of
+this inequality for entangled particles.  The question
+Einstein raised at breakfast at Solvay in 1927 was finally
+experimentally testable.
+
+Alain Aspect's 1982 experiments confirmed the violation.
+The result is stark: either locality is false — particles
+can be correlated instantaneously regardless of distance —
+or realism is false — particles do not have definite
+properties before measurement.  Or both.
+
+The answer was not what Einstein hoped.
+
+---
+
+By the 1960s the deterministic paradigm was dead in
+physics and in mathematics.  Heisenberg had shown the
+physical limits.  Gödel had shown the logical limits.
+Bell had shown the experimental confirmation.
+
+What remained was to build with the ruins.  And that
+is what happened next.

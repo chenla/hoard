@@ -7,7 +7,7 @@
   :ID:        5284e00c-e05a-447d-a7b0-ac40f2a2bae4
   :TYPE:      wh:con
   :CREATED:   2026-06-15T10:10
-  :TAGS:      screed-t1, determinism
+  :TAGS:      screed-t1-photo, screed-t1-collapse, determinism
   :END:
 
 ** Relations

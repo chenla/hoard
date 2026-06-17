@@ -1,0 +1,64 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Alan Turing—7
+
+* Alan Turing—7
+  :PROPERTIES:
+  :ID:        84bcf8b7-6125-4338-b448-81bc3cdb2674
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Alan Turing
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+   - RT :: Claude Shannon
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1912-06-23, London, England
+   :DIED:        1954-06-07, Wilmslow, England
+   :NATIONALITY: British
+   :FIELD:       Mathematics; Computer science; Cryptanalysis
+   :INSTITUTION: University of Cambridge; National Physical Laboratory; University of Manchester
+   :END:
+
+** Scope Note
+
+British mathematician (1912–1954).  Formalized the
+concept of computation with the Turing machine (1936),
+proving the halting problem undecidable — the
+computational echo of Gödel's incompleteness.  Broke
+the Enigma code at Bletchley Park.  Proposed the Turing
+test for machine intelligence.  Prosecuted for
+homosexuality, died of cyanide poisoning at 41.
+
+** Notes
+
+Alan Mathison Turing (1912–1954).  His 1936 paper "On
+Computable Numbers, with an Application to the
+Entscheidungsproblem" defined the theoretical limits of
+computation — answering Hilbert's decision problem in
+the negative, independently of Alonzo Church.  The
+Turing machine became the foundational model of
+computation: a mathematical proof that some questions
+are undecidable, mirroring Gödel's incompleteness in a
+different formal register.
+
+During the Second World War, his work at Bletchley Park
+breaking German cipher systems — particularly the
+Enigma machine — was a decisive factor in the Allied
+victory.  The scale of the operation was enormous: at
+its peak, Bletchley employed over 10,000 people, and
+Turing's theoretical insights made the entire enterprise
+possible.
+
+After the war, he designed the ACE computer at the
+National Physical Laboratory and worked on morphogenesis
+at Manchester — using mathematical models to understand
+how biological patterns emerge from chemical processes.
+In 1952 he was convicted of gross indecency under
+British law; he accepted chemical castration to avoid
+prison.  He died on June 7, 1954, officially ruled a
+suicide.  He received a royal pardon in 2013.

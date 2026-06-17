@@ -1,0 +1,51 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Cantor's Infinities—4
+
+* Cantor's Infinities—4
+  :PROPERTIES:
+  :ID:        02b39257-f348-43cd-a45c-97beba763b18
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Cantor's Infinities
+   - RT :: Georg Cantor
+   - RT :: David Hilbert
+
+** Scope Note
+
+Georg Cantor's proof that infinity is not one thing but
+many — the real numbers are uncountably infinite,
+strictly larger than the natural numbers.  The diagonal
+argument (1891) was the first crack in the deterministic
+dream of a single, complete mathematics.
+
+** Notes
+
+Cantor showed that the power set of any set has strictly
+greater cardinality than the set itself.  This means
+there is no largest infinity — the hierarchy of
+infinities extends without end.  His diagonal argument
+(1891) proved the uncountability of the real numbers by
+showing that any proposed enumeration must miss at least
+one element.
+
+His continuum hypothesis — whether there is an infinity
+between the naturals and the reals — turned out to be
+independent of the standard axioms of set theory.
+Gödel showed in 1940 that the hypothesis cannot be
+disproven from ZFC; Cohen showed in 1963 that it cannot
+be proven either.  A mathematical question with no
+answer — precisely the kind of undecidability that
+Hilbert's program was designed to prevent.
+
+Cantor was driven to despair by opposition from Leopold
+Kronecker, who called his work mathematical pathology
+and blocked his career advancement.  Hilbert defended
+him, calling set theory "the finest product of
+mathematical genius."  Cantor suffered recurring bouts
+of depression and spent his final years in a sanatorium,
+dying in 1918.

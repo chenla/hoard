@@ -1,0 +1,64 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Claude Shannon—7
+
+* Claude Shannon—7
+  :PROPERTIES:
+  :ID:        658492ef-c155-456c-bf40-b6d694bd8649
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: Claude Shannon
+   - RT :: Alan Turing
+   - RT :: [[id:782fd032-a0b2-476b-ab05-ea12447b8648][John von Neumann]]
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1916-04-30, Petoskey, Michigan, USA
+   :DIED:        2001-02-24, Medford, Massachusetts, USA
+   :NATIONALITY: American
+   :FIELD:       Mathematics; Electrical engineering; Information theory
+   :INSTITUTION: Bell Labs; MIT
+   :END:
+
+** Scope Note
+
+American mathematician and electrical engineer
+(1916–2001).  Founded information theory with his 1948
+paper "A Mathematical Theory of Communication."  Showed
+that information could be quantified in bits and
+transmitted reliably through noisy channels.  Made the
+probabilistic nature of communication mathematically
+precise.
+
+** Notes
+
+Claude Elwood Shannon (1916–2001).  His 1937 master's
+thesis at MIT showed that Boolean algebra could be
+applied to electrical circuits — demonstrating that any
+logical statement could be implemented in hardware.
+This was the theoretical foundation for digital circuit
+design, and it has been called the most important
+master's thesis of the twentieth century.
+
+His 1948 paper at Bell Labs, "A Mathematical Theory of
+Communication," created information theory.  It defined
+entropy as a measure of uncertainty in a message,
+established the concept of channel capacity, and
+introduced the bit as the fundamental unit of
+information.  The framework made the probabilistic
+nature of communication mathematically precise —
+information is defined in terms of what you don't know,
+not what you do.
+
+Shannon was also a legendary tinkerer.  He built
+chess-playing machines, juggling robots, a
+flame-throwing trumpet, and a device called the
+"Ultimate Machine" whose sole function was to turn
+itself off.  He spent his later years at MIT, where
+he could often be found unicycling through the halls.
+He was diagnosed with Alzheimer's disease and died in
+2001.

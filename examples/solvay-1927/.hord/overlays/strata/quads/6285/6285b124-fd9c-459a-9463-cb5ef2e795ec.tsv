@@ -1,0 +1,4 @@
+subject	predicate	object	context
+6285b124-fd9c-459a-9463-cb5ef2e795ec	v:type	wh:con	47d1fd316c244767e1438c5079bc80dd199301b0
+6285b124-fd9c-459a-9463-cb5ef2e795ec	v:title	Neural Networks—4	47d1fd316c244767e1438c5079bc80dd199301b0
+6285b124-fd9c-459a-9463-cb5ef2e795ec	v:sn	Computational models inspired by biological neurons. From McCulloch-Pitts (1943) through Rosenblatt's perceptron (1958) to deep learning and transformers. Machines that learn from probability rather than execute from certainty — the computational embodiment of the post-deterministic paradigm.	47d1fd316c244767e1438c5079bc80dd199301b0

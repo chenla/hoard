@@ -1,0 +1,50 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Hilbert's Program—4
+
+* Hilbert's Program—4
+  :PROPERTIES:
+  :ID:        2cfb68da-c55c-4fe4-aa2a-4ffe08f3b42b
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Hilbert's Program
+   - RT :: David Hilbert
+   - RT :: [[id:f1dd3c7d-50f3-48bc-ab56-bb26c85858eb][Incompleteness Theorems]]
+
+** Scope Note
+
+David Hilbert's 1920s program to formalize all of
+mathematics on a complete, consistent, decidable
+foundation.  The most ambitious attempt to save
+determinism in mathematics — destroyed by Gödel in
+1931.
+
+** Notes
+
+Hilbert proposed three goals for the foundations of
+mathematics: that all mathematics could be reduced to a
+finite set of axioms (formalization), that the system
+could be proven consistent within itself (consistency),
+and that every mathematical proposition could be decided
+as true or false (decidability).
+
+John von Neumann was an early and enthusiastic champion
+of the program.  He was working on consistency proofs
+when Gödel presented his incompleteness theorems in
+September 1930.  Von Neumann immediately grasped the
+implications — he independently proved the second
+incompleteness theorem and abandoned his own line of
+research.
+
+The program's failure forced mathematics to accept the
+same kind of fundamental uncertainty that physics had
+encountered at Solvay.  Complete knowledge was
+impossible — not as a practical limitation but as a
+structural feature of formal systems themselves.
+Hilbert's epitaph, "Wir müssen wissen.  Wir werden
+wissen" (We must know.  We shall know), became an ironic
+monument to the deterministic dream.

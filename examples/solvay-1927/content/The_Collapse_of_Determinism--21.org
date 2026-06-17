@@ -1,0 +1,54 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Collapse of Determinism—21
+
+* The Collapse of Determinism—21
+  :PROPERTIES:
+  :ID:        5f3a49e3-0550-4f45-a58f-8efd387e1825
+  :TYPE:      wh:holon
+  :CREATED:   2026-06-17T15:00
+  :END:
+
+** Relations
+   - PT :: The Collapse of Determinism
+
+The intellectual cascade from the Solvay Conference: how
+uncertainty in physics propagated through mathematics,
+destroying Hilbert's program and the dream of a complete,
+consistent, decidable foundation for all knowledge.
+
+** Membership
+
+Cards tagged ~screed-t1-collapse, plus:
+- Uncertainty_Principle--4
+- Incompleteness_Theorems--4
+- Cantors_Infinities--4
+- Hilberts_Program--4
+- Principia_Mathematica--6
+- EPR_Paradox--4
+- Bells_Theorem--4
+- David_Hilbert--7
+- Bertrand_Russell--7
+- Georg_Cantor--7
+- John_Bell--7
+- Werner_Heisenberg--7
+- Kurt_Godel--7
+- John_von_Neumann--7
+- David_Bohm--7
+- Determinism--4
+- Copenhagen_Interpretation--4
+
+** Primary
+
+The_Collapse_of_Determinism--6
+
+** Expression
+
+Prefer: whole
+Fallback: whole
+
+** Order
+
+1. wh:con (alphabetical by title)
+2. wh:wrk
+3. wh:per (alphabetical by title)

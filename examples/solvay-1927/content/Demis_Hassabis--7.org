@@ -1,0 +1,64 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Demis Hassabis—7
+
+* Demis Hassabis—7
+  :PROPERTIES:
+  :ID:        d1dfcf8f-f588-4b35-ae0f-fe7ec3c4ee7b
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave
+  :END:
+
+** Relations
+   - PT :: Demis Hassabis
+   - RT :: [[id:c0aaed4b-4a38-4792-b03f-cab6bb2903c9][Lee Sedol]]
+   - RT :: [[id:2c075636-a78a-42dc-a6ac-f19978223aaf][AlphaGo Move 37]]
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1976-07-27, London, England
+   :NATIONALITY: British
+   :FIELD:       Artificial intelligence; Neuroscience
+   :INSTITUTION: DeepMind; Google
+   :NOBEL:       Chemistry 2024
+   :END:
+
+** Scope Note
+
+British AI researcher and entrepreneur (b. 1976).
+Co-founded DeepMind in 2010.  Built AlphaGo, which
+defeated Lee Sedol in 2016 — the moment the shockwave
+from Solvay reached the general public.  AlphaFold
+solved protein structure prediction.  Nobel Prize in
+Chemistry 2024.
+
+** Notes
+
+Demis Hassabis (b. 1976).  Chess prodigy — second-highest
+rated player in the world for his age at thirteen.
+Designed the video game Theme Park at seventeen for
+Bullfrog Productions.  Earned a PhD in cognitive
+neuroscience at UCL, studying the neural basis of
+imagination and memory.
+
+Co-founded DeepMind in 2010 with Shane Legg and Mustafa
+Suleyman, with the explicit goal of solving artificial
+general intelligence.  Google acquired DeepMind in 2014
+for approximately £400 million.
+
+AlphaGo's victory over Lee Sedol in March 2016 was a
+watershed moment.  Go's complexity — more possible board
+positions than atoms in the observable universe — made
+brute-force search impossible.  AlphaGo had to learn
+through pattern recognition and self-play, making it the
+first time a machine surpassed human performance at a
+task that required what humans call intuition.  Move 37
+in Game 2 was the iconic moment: a move no human would
+play, which turned out to be brilliant.
+
+AlphaFold (2020) predicted protein structures with
+experimental accuracy, solving a fifty-year-old problem
+in biology.  It was arguably the most significant
+scientific application of AI to date.  Hassabis shared
+the 2024 Nobel Prize in Chemistry for this work.

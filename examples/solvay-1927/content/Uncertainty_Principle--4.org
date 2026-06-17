@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Uncertainty Principle—4
+
+* Uncertainty Principle—4
+  :PROPERTIES:
+  :ID:        46bb86d7-8321-4e2e-8e37-175b2260dad6
+  :TYPE:      wh:con
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Uncertainty Principle
+   - RT :: [[id:2653e0c2-e5d4-4054-a4dd-8a50787981c4][Werner Heisenberg]]
+   - RT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Scope Note
+
+Heisenberg's 1927 principle.  Certain pairs of physical
+properties (position/momentum, energy/time) cannot both
+be known to arbitrary precision — not due to measurement
+limits but as a fundamental feature of nature.
+
+** Notes
+
+Published by Heisenberg in March 1927 while Bohr was
+away skiing.  The principle derives from the matrix
+mechanics formalism Heisenberg had developed in 1925:
+the non-commutativity of position and momentum operators
+means their simultaneous precise determination is
+mathematically impossible, not merely practically
+difficult.
+
+At the Fifth Solvay Conference in October 1927, the
+uncertainty principle became the centerpiece of the
+Copenhagen position.  Bohr folded it into his broader
+complementarity framework, though Heisenberg and Bohr
+disagreed about its interpretation — Heisenberg
+emphasized disturbance by measurement, Bohr emphasized
+the wave-particle duality itself.
+
+Einstein spent the rest of his life constructing thought
+experiments to circumvent it.  Each morning at Solvay he
+would present a new scenario at breakfast; each evening
+Bohr would produce a refutation.  The principle held.
+It remains one of the most experimentally confirmed
+results in all of physics.

@@ -1,0 +1,60 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Bertrand Russell—7
+
+* Bertrand Russell—7
+  :PROPERTIES:
+  :ID:        6e028ce1-8180-466e-9a9b-e01e55a70b7b
+  :TYPE:      wh:per
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-collapse, determinism
+  :END:
+
+** Relations
+   - PT :: Bertrand Russell
+   - RT :: [[id:a0bbb313-2e78-4ec9-aa3b-e8c151675b66][Principia Mathematica]]
+   - RT :: [[id:f1dd3c7d-50f3-48bc-ab56-bb26c85858eb][Incompleteness Theorems]]
+
+** Metadata
+   :PROPERTIES:
+   :BORN:        1872-05-18, Trellech, Wales
+   :DIED:        1970-02-02, Penrhyndeudraeth, Wales
+   :NATIONALITY: British
+   :FIELD:       Mathematics; Philosophy; Logic
+   :INSTITUTION: University of Cambridge
+   :NOBEL:       Literature 1950
+   :END:
+
+** Scope Note
+
+British philosopher, logician, and mathematician
+(1872–1970).  Nobel Prize in Literature 1950.
+Co-authored /Principia Mathematica/ with Whitehead — the
+most ambitious attempt to ground mathematics in pure
+logic.  Russell's paradox had exposed the cracks;
+/Principia/ was the repair job; Gödel showed the cracks
+were structural.
+
+** Notes
+
+Bertrand Arthur William Russell (1872–1970).  Third Earl
+Russell.  Discovered Russell's paradox in 1901 — the set
+of all sets that do not contain themselves — which
+showed that naive set theory was inconsistent.  This was
+not an obscure edge case; it struck at the foundations
+of mathematics itself.
+
+He spent the next decade with Alfred North Whitehead
+building /Principia Mathematica/ to repair the damage.
+The three volumes (1910–1913) attempted to derive all
+mathematical truths from pure logic, constructing an
+elaborate type hierarchy to avoid the paradoxes.  It
+was the most ambitious formalization project ever
+attempted — and it assumed that such formalization was
+possible.  Gödel showed it was not.
+
+Russell was also a major figure in analytic philosophy,
+a prolific popular writer, and a political activist.
+He was imprisoned for pacifism during WWI, helped found
+the Campaign for Nuclear Disarmament, and remained
+publicly active into his nineties.

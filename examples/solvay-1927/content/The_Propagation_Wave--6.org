@@ -1,0 +1,169 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Propagation Wave—6
+
+* The Propagation Wave—6
+  :PROPERTIES:
+  :ID:        f9bf29a6-b7b7-4cf0-b059-8c1877e38d78
+  :TYPE:      wh:wrk
+  :CREATED:   2026-06-17T15:00
+  :TAGS:      screed-t1-wave, determinism
+  :END:
+
+** Relations
+   - PT :: The Propagation Wave
+   - BT :: [[id:e806fcd4-132a-4812-a379-e63a59635eaf][Solvay Conference 1927]]
+
+** Scope Note
+
+From the collapse outward: Manhattan Project, the
+transistor, the stored-program computer, neural networks,
+AlphaGo's Move 37, and the arrival of transformer-based
+AI.  The shockwave from Solvay reaches the present.
+
+** Notes
+
+The deterministic worldview was dead.  Physics had
+proved it at Solvay.  Mathematics had proved it with
+Gödel.  Experiments would prove it with Bell.
+
+But the ruins were fertile.
+
+The people who built the next world — the bomb, the
+computer, the network, the learning machine — were the
+same people, or the students of the same people, who
+had watched the old certainties collapse.  They built
+with probability because that was what was left.
+
+---
+
+*** Von Neumann's Bridge
+
+John von Neumann is the hinge.  He was at Solvay.  He
+formalized quantum mechanics.  He proved the second
+incompleteness theorem.  And then he turned from
+foundations to machines. @@margin:John_von_Neumann@@
+
+When Hilbert's program collapsed, von Neumann did not
+mourn.  He pivoted.  If you could not derive all truth
+from axioms, you could at least compute with what you
+had.  The stored-program computer — instructions and data
+in the same memory, programs that modify themselves — was
+his answer. @@margin:Stored_Program_Computer@@
+
+His IAS machine at Princeton, which he called the
+MANIAC, was one of the first implementations.
+@@margin:The_MANIAC_Computer@@
+
+*** The Bomb
+
+Before the computer came the bomb.  The Manhattan
+Project was the first industrial application of quantum
+physics — turning the abstract probabilities debated
+at Solvay into the most destructive force in history.
+@@margin:Manhattan_Project@@
+
+Von Neumann designed the implosion lens that made the
+plutonium bomb possible.  Many Solvay attendees or their
+students were involved.  The physics that made it work —
+fission, quantum tunneling, neutron cross-sections — was
+the direct offspring of the quantum revolution.
+
+The Trinity test demonstrated that quantum mechanics
+was not merely a philosophical puzzle.  It could
+reshape the physical world.
+
+*** Formalizing Information
+
+In parallel, two other threads were being woven.
+
+Alan Turing formalized computation itself.  His 1936
+paper defined the Turing machine and proved the halting
+problem undecidable — the computational echo of Gödel's
+incompleteness.  If mathematics could not decide all
+propositions, neither could any machine.
+@@margin:Alan_Turing@@
+
+Claude Shannon formalized information.  His 1948 paper
+created information theory — defining entropy, channel
+capacity, and the bit.  He showed that information
+could be quantified and transmitted reliably through
+noisy channels. @@margin:Claude_Shannon@@  He made the
+probabilistic nature of communication mathematically
+precise.
+
+Between them, Turing and Shannon built the conceptual
+infrastructure for everything that followed.
+
+*** Silicon
+
+The transistor, invented at Bell Labs in 1947, was the
+physical bridge. @@margin:Transistor@@  A
+quantum-mechanical switch — its operation depends on
+band theory, which is pure quantum mechanics applied to
+solid-state materials.
+
+Without quantum theory there would be no understanding
+of semiconductors.  No transistors.  No integrated
+circuits.  No microprocessors.  The device that made the
+digital revolution possible is, at its foundation, a
+quantum machine.
+
+*** Learning Machines
+
+McCulloch and Pitts proposed the first mathematical model
+of a neural network in 1943.  Rosenblatt built the
+perceptron in 1958.  Minsky and Papert's critique killed
+funding for a generation.  Backpropagation was
+rediscovered in the 1980s.  Deep learning scaled with
+GPUs and data. @@margin:Neural_Networks@@
+
+These are probabilistic machines.  They learn statistical
+patterns from data rather than following explicit
+instructions.  They are, in a precise sense, the opposite
+of the deterministic clockwork Laplace imagined.
+
+*** Move 37
+
+In March 2016, AlphaGo played Lee Sedol in Seoul.
+@@margin:Lee_Sedol@@  Go was supposed to be the game
+machines couldn't play — its branching factor made
+brute-force search impossible.  You needed something
+closer to intuition.
+
+In game two, move 37, AlphaGo placed a stone on the
+fifth line that no human would have played.
+@@margin:AlphaGo_Move_37@@  The commentators were
+confused.  Lee Sedol left the room.  When he returned,
+he had realized the move was brilliant.
+
+Demis Hassabis, watching from the control room, said
+his team's reaction was the same as Lee's — they didn't
+understand the move either.  The machine had found
+something none of its creators could explain.
+@@margin:Demis_Hassabis@@
+
+This was the moment the shockwave from Solvay reached
+the general public.  A machine that learned from
+probability had surpassed human judgment in a domain
+that was supposed to require human intuition.
+
+---
+
+The shockwave is still propagating.
+
+Transformer-based language models — machines that
+predict the next token from statistical patterns in
+text — are the latest wavefront.  They write, they
+reason, they code.  They are wrong in ways no human
+would be, and right in ways no human could be.
+
+Von Neumann, dying of cancer at 53, whispered that a
+thinking machine "would have to grow, not be built...
+understand language... and play, like a child."
+
+It took sixty years.  But the machines are playing now.
+
+And the twenty-nine people on the steps of the Institut
+International de Physique Solvay, Brussels, October
+1927 — they are where this story begins.
