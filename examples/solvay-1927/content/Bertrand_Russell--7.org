@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/bertrand-russell--headshot.jpg
    :BORN:        1872-05-18, Trellech, Wales
    :DIED:        1970-02-02, Penrhyndeudraeth, Wales
    :NATIONALITY: British

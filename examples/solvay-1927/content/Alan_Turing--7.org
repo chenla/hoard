@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/alan-turing--headshot.jpg
    :BORN:        1912-06-23, London, England
    :DIED:        1954-06-07, Wilmslow, England
    :NATIONALITY: British

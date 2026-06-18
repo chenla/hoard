@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/claude-shannon--headshot.jpg
    :BORN:        1916-04-30, Petoskey, Michigan, USA
    :DIED:        2001-02-24, Medford, Massachusetts, USA
    :NATIONALITY: American

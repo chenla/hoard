@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/john-bell--headshot.png
    :BORN:        1928-06-28, Belfast, Northern Ireland
    :DIED:        1990-10-01, Geneva, Switzerland
    :NATIONALITY: British (Northern Irish)

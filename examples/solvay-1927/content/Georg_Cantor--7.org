@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/georg-cantor--headshot.jpg
    :BORN:        1845-03-03, Saint Petersburg, Russia
    :DIED:        1918-01-06, Halle, Germany
    :NATIONALITY: German

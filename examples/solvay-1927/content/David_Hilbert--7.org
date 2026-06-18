@@ -19,6 +19,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/david-hilbert--headshot.jpg
    :BORN:        1862-01-23, Königsberg, Prussia
    :DIED:        1943-02-14, Göttingen, Germany
    :NATIONALITY: German

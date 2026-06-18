@@ -204,6 +204,31 @@ nav a { margin-right: 1rem; }
   color: var(--fg);
 }
 
+/* ── Solvay photo strip (expression cards) ── */
+.solvay-strip {
+  float: right;
+  clear: right;
+  width: 220px;
+  margin: 0 0 1rem 2rem;
+}
+.solvay-strip img {
+  display: none;
+}
+.solvay-strip .photo-crop {
+  width: 100%;
+  height: 280px;
+  background-size: 1400px auto;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.solvay-strip .strip-caption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
 /* ── Figures ── */
 figure { margin: 2rem 0; }
 figure.fullwidth { max-width: 100%; clear: both; }
@@ -239,6 +264,10 @@ footer {
     padding: 1rem; border: 1px solid var(--border);
     border-radius: 4px;
   }
+  .solvay-strip {
+    float: none; width: 100%; padding-left: 0; margin: 1rem 0;
+  }
+  .solvay-strip img { height: 120px; }
   h1 { font-size: 1.5rem; }
   h2 { font-size: 1.2rem; }
   .quad-table td:first-child { width: auto; min-width: 4rem; font-size: .8rem; }
@@ -508,6 +537,86 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
     # Check if this is an expression card
     is_expression = any(q.predicate in ("v:s-eo",) for q in quads)
 
+    # Solvay photo crop positions for expression cards.
+    # Maps slug prefix → (center_x_px, center_y_px) in the
+    # original 3000x2171 image. The renderer scales the image
+    # to 900px wide (ratio 0.3) and offsets so the person is
+    # centered in the 220px container.
+    _SOLVAY_PHOTO_POS = {
+        # Front row (seated), y_center ~1400px
+        # L→R: Langmuir, Planck, Curie, Lorentz, Einstein,
+        #       Langevin, Guye, Wilson, Richardson
+        "Irving_Langmuir":      (200, 1400),
+        "Max_Planck":           (520, 1400),
+        "Marie_Curie":          (920, 1400),
+        "Hendrik_Lorentz":      (1100, 1400),
+        "Albert_Einstein":      (1420, 1400),
+        "Paul_Langevin":        (1700, 1400),
+        "Charles-Eugene_Guye":  (1950, 1400),
+        "CTR_Wilson":           (2250, 1400),
+        "Owen_Richardson":      (2550, 1400),
+        # Middle row, y_center ~1200px
+        # L→R: Debye, Knudsen, Bragg, Kramers, Dirac,
+        #       Compton, de Broglie, Born, Bohr
+        "Peter_Debye":          (280, 1200),
+        "Martin_Knudsen":       (550, 1200),
+        "William_Lawrence_Bragg": (830, 1200),
+        "Hendrik_Kramers":      (1100, 1200),
+        "Paul_Dirac":           (1480, 1200),
+        "Arthur_Compton":       (1620, 1200),
+        "Louis_de_Broglie":     (1880, 1200),
+        "Max_Born":             (2150, 1200),
+        "Niels_Bohr":           (2450, 1200),
+        # Back row, y_center ~650px
+        # L→R: Piccard, Henriot, Ehrenfest, Herzen, de Donder,
+        #       Schrödinger, Verschaffelt, Pauli, Heisenberg,
+        #       Fowler, Brillouin
+        "Auguste_Piccard":      (300, 650),
+        "Emile_Henriot":        (530, 650),
+        "Paul_Ehrenfest":       (780, 650),
+        "Edouard_Herzen":       (1000, 650),
+        "Theophile_de_Donder":  (1200, 650),
+        "Erwin_Schrodinger":    (1430, 650),
+        "Jules-Emile_Verschaffelt": (1650, 650),
+        "Wolfgang_Pauli":       (1870, 650),
+        "Werner_Heisenberg":    (2100, 650),
+        "Ralph_Fowler":         (2350, 650),
+        "Leon_Brillouin":       (2620, 650),
+    }
+
+    # Captions for each crop — simple identification
+    _SOLVAY_PHOTO_CAPTION = {
+        "Irving_Langmuir": "Irving Langmuir",
+        "Max_Planck": "Max Planck",
+        "Marie_Curie": "Marie Curie",
+        "Hendrik_Lorentz": "Hendrik Lorentz",
+        "Albert_Einstein": "Albert Einstein",
+        "Paul_Langevin": "Paul Langevin",
+        "Charles-Eugene_Guye": "Charles-Eugène Guye",
+        "CTR_Wilson": "C.T.R. Wilson",
+        "Owen_Richardson": "Owen Richardson",
+        "Peter_Debye": "Peter Debye",
+        "Martin_Knudsen": "Martin Knudsen",
+        "William_Lawrence_Bragg": "William Lawrence Bragg",
+        "Hendrik_Kramers": "Hendrik Kramers",
+        "Paul_Dirac": "Paul Dirac",
+        "Arthur_Compton": "Arthur Compton",
+        "Louis_de_Broglie": "Louis de Broglie",
+        "Max_Born": "Max Born",
+        "Niels_Bohr": "Niels Bohr",
+        "Auguste_Piccard": "Auguste Piccard",
+        "Emile_Henriot": "Émile Henriot",
+        "Paul_Ehrenfest": "Paul Ehrenfest",
+        "Edouard_Herzen": "Édouard Herzen",
+        "Theophile_de_Donder": "Théophile de Donder",
+        "Erwin_Schrodinger": "Erwin Schrödinger",
+        "Jules-Emile_Verschaffelt": "Jules-Émile Verschaffelt",
+        "Wolfgang_Pauli": "Wolfgang Pauli",
+        "Werner_Heisenberg": "Werner Heisenberg",
+        "Ralph_Fowler": "Ralph Fowler",
+        "Leon_Brillouin": "Léon Brillouin",
+    }
+
     body_parts = []
 
     # Header — clean display title, type tag only (no UUID)
@@ -553,6 +662,42 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
                     f'<dt>{escape(label)}</dt><dd>{escape(value)}</dd>')
             sidebar_parts.append('</dl></aside>')
             body_parts.append("\n".join(sidebar_parts))
+
+    # Expression card: Solvay photo strip in right margin
+    if is_expression and entity_type == "wh:per":
+        # Find the slug from the source path to look up position
+        if source_path:
+            slug_base = os.path.basename(source_path).replace(
+                "--solvay-1927.org", "")
+            pos = _SOLVAY_PHOTO_POS.get(slug_base)
+            if pos:
+                media_prefix = "../" if "../" in index_href else ""
+                photo_url = f'{media_prefix}lib/media/benjamin-couprie--1927-solvay-conference.jpg'
+                # Scale factor: 1400px display / 3000px original
+                scale = 1400.0 / 3000.0
+                container_w, container_h = 220, 280
+                # Person center in scaled coordinates
+                sx = pos[0] * scale
+                sy = pos[1] * scale
+                # Offset so person is centered in container
+                img_w = 1400
+                img_h = int(2171 * scale)
+                ox = max(0, min(sx - container_w / 2, img_w - container_w))
+                oy = max(0, min(sy - container_h / 2, img_h - container_h))
+                caption = _SOLVAY_PHOTO_CAPTION.get(
+                    slug_base,
+                    f'{display_title} at the Fifth Solvay Conference')
+                body_parts.append(
+                    f'<div class="solvay-strip">'
+                    f'<div class="photo-crop" '
+                    f'style="background-image: url(\'{photo_url}\'); '
+                    f'background-position: -{ox:.0f}px -{oy:.0f}px;" '
+                    f'role="img" '
+                    f'aria-label="Solvay Conference 1927 — {escape(display_title)}">'
+                    f'</div>'
+                    f'<div class="strip-caption">'
+                    f'{escape(caption)}, October 1927</div>'
+                    f'</div>')
 
     # Scope note — lead paragraph (canonical definition)
     if scope_note:

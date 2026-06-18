@@ -1,6 +1,6 @@
 subject	predicate	object	context
-096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:pt	John Bell	2ffe56fccb7915b3252e91a3d33e6232c0acd92b
-096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:rt	18825dcb-e127-4231-93fc-b6a9e1a1c6c5	2ffe56fccb7915b3252e91a3d33e6232c0acd92b
-096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:rt	a89c0b70-0ee6-4cf7-8546-29bcb270ac65	2ffe56fccb7915b3252e91a3d33e6232c0acd92b
-096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:tag	screed-t1-collapse	2ffe56fccb7915b3252e91a3d33e6232c0acd92b
-096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:tag	determinism	2ffe56fccb7915b3252e91a3d33e6232c0acd92b
+096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:pt	John Bell	8fbb5b9d7b3b5c54d02593f44f656eca7ad9f842
+096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:rt	18825dcb-e127-4231-93fc-b6a9e1a1c6c5	8fbb5b9d7b3b5c54d02593f44f656eca7ad9f842
+096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:rt	a89c0b70-0ee6-4cf7-8546-29bcb270ac65	8fbb5b9d7b3b5c54d02593f44f656eca7ad9f842
+096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:tag	screed-t1-collapse	8fbb5b9d7b3b5c54d02593f44f656eca7ad9f842
+096cf6e7-e3cb-42a8-9c2d-c58574b7e8e7	v:tag	determinism	8fbb5b9d7b3b5c54d02593f44f656eca7ad9f842

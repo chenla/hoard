@@ -17,6 +17,7 @@
 
 ** Metadata
    :PROPERTIES:
+   :HEADSHOT:    lib/media/demis-hassabis--headshot.jpg
    :BORN:        1976-07-27, London, England
    :NATIONALITY: British
    :FIELD:       Artificial intelligence; Neuroscience
