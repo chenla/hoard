@@ -175,8 +175,8 @@ nav a { margin-right: 1rem; }
   float: right;
   clear: right;
   width: 35%;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem 0;
+  padding-right: 15%;
   padding-left: 2rem;
   font-size: 1.1rem;
   line-height: 1.4;
@@ -209,7 +209,7 @@ nav a { margin-right: 1rem; }
   float: right;
   clear: right;
   width: 220px;
-  margin: 0 0 1rem 2rem;
+  margin: 0 15% 1rem 2rem;
 }
 .solvay-strip img {
   display: none;
