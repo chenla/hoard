@@ -55,3 +55,38 @@ a form he also used in /When We Cease to Understand the
 World/ (2020).  His method — historical research rendered
 as intimate, sometimes hallucinatory narrative — makes
 these ideas accessible without simplifying them.
+
+The three-part structure is the argument.  Ehrenfest
+is the human cost of the collapse — a man who could
+not survive the loss of the world he understood.  Von
+Neumann is the mechanism of the next world — the man
+who built the machine that would eventually exceed its
+builder.  Lee Sedol is the arrival point — the world's
+best human player, defeated by something that learned
+to play without understanding what it was doing.  The
+arc runs from 1927 to 2016, from a hotel ballroom in
+Brussels to a match hall in Seoul, and the shockwave
+is continuous.
+
+What Labatut achieves by blurring fiction and history
+is access to interiority — to what it felt like to be
+inside these moments, not merely what happened.  He
+invents dialogue and inner states while remaining
+faithful to documented fact.  The reader cannot always
+tell which is which, and that is the point: the
+historical record cannot tell us either.  The people
+who lived through these ruptures did not have captions.
+They had only the experience of the world shifting
+under their feet.  Labatut recreates that texture.
+
+In this way /The MANIAC/ does for the deterministic
+shockwave what Screed is trying to do through a
+different form: make the arc felt as a single lived
+thing rather than a sequence of separate intellectual
+events.  The book is a proof of concept for the
+narrative strategy.
+
+*** Key Works
+
+- /The MANIAC/ (2023) — traces the deterministic shockwave from Solvay 1927 to AlphaGo 2016
+- /When We Cease to Understand the World/ (2020) — same method; covers quantum mechanics, Fritz Haber, Grothendieck

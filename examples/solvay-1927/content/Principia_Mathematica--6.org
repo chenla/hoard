@@ -47,3 +47,44 @@ eliminate.  Russell moved to philosophy of language and
 political activism.  Neither returned to the foundational
 project.  The work remains a monument — to ambition, to
 rigor, and to the limits of formalization.
+
+The scale of the effort is hard to convey.  Three
+volumes.  Roughly 2,000 pages of dense symbolic logic.
+The project consumed more than a decade of two
+extraordinarily gifted men at the peak of their
+abilities.  Russell later wrote that the effort
+damaged him in ways he could not fully articulate —
+that the sustained concentration required by the
+symbolic work had cost him something he never fully
+recovered, a kind of fluency with ordinary thinking.
+He described the period after completing /Principia/
+as one of the worst of his life, not because of
+failure but because of what finishing it had hollowed
+out.
+
+The famous 362-page proof that 1+1=2 — which appears
+in Volume II, page 83, with the annotation "the above
+proposition is occasionally useful" — was not a joke.
+It was the system working exactly as designed.  Every
+step had to be earned from first principles.  The
+problem was that Gödel later showed that any system
+capable of making that proof must also contain true
+statements the system itself can never prove.  The
+monument was complete and irreparably cracked on the
+same day, sixteen years apart.
+
+Whitehead's pivot after /Principia/ was philosophically
+coherent, not a retreat.  /Process and Reality/ (1929)
+argued that reality is fundamentally constituted by
+events, not substances — that becoming precedes being.
+This is almost the opposite of the axiomatic program,
+which assumed a fixed logical bedrock.  Having spent
+a decade trying to freeze mathematics into a permanent
+foundation, Whitehead spent the rest of his career
+arguing that permanence was the wrong model entirely.
+
+*** Key Works
+
+- /Principia Mathematica/ Vol. I (1910), Vol. II (1912), Vol. III (1913) — with Alfred North Whitehead
+- /Introduction to Mathematical Philosophy/ (1919, Russell) — accessible account of the program's goals
+- /Process and Reality/ (1929, Whitehead) — post-/Principia/ pivot to process philosophy

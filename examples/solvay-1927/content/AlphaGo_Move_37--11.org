@@ -55,3 +55,33 @@ comprehension, on its own.
 Benjamín Labatut's /The MANIAC/ uses Move 37 as the
 endpoint of the arc that begins with Ehrenfest watching
 the Bohr-Einstein debates at Solvay.
+
+Lee Sedol's response to the move was visceral.  He stood
+up, left the room, and took nearly fifteen minutes before
+returning to the board.  Fan Hui, watching from the
+commentary booth, first thought it was a mistake.  Then
+he worked through the position and went quiet.  The move
+was correct — better than correct.  When Sedol later
+spoke about Move 37, he said it made him feel he was not
+playing against a machine but against something he could
+not name.
+
+The parallel to Solvay 1927 is structural.  Both
+moments mark the same threshold crossed at different
+scales: a system producing valid results through a
+process that its observers could not follow or verify
+in real time.  At Solvay, the physicists could
+reconstruct what the mathematics had done — eventually.
+With Move 37, even professional players could not
+explain why it worked until after the game was over.
+The machine had moved beyond legibility.  That is the
+shockwave, ninety years on.
+
+*** Key Facts
+
+- Date :: March 12, 2016, Game 2, AlphaGo vs. Lee Sedol match, Seoul
+- Move :: 5th-line shoulder hit, move 37 of 186
+- AlphaGo's own probability estimate :: 1-in-10,000 for a human to play this move
+- Fan Hui reaction :: "It's not a human move. I've never seen a human play this move."
+- Outcome :: AlphaGo won Game 2; won the match 4–1
+- Commentator :: Fan Hui (European Go champion; had already lost to AlphaGo in 2015)

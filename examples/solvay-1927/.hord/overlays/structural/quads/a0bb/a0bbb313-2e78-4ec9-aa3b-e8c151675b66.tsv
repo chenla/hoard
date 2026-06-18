@@ -1,6 +1,6 @@
 subject	predicate	object	context
-a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:pt	Principia Mathematica	a0ad2e625d0a1e3e73656d5bb857dbd177779b5b
-a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:rt	Bertrand Russell	a0ad2e625d0a1e3e73656d5bb857dbd177779b5b
-a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:rt	f1dd3c7d-50f3-48bc-ab56-bb26c85858eb	a0ad2e625d0a1e3e73656d5bb857dbd177779b5b
-a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:tag	screed-t1-collapse	a0ad2e625d0a1e3e73656d5bb857dbd177779b5b
-a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:tag	determinism	a0ad2e625d0a1e3e73656d5bb857dbd177779b5b
+a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:pt	Principia Mathematica	1535e6a950ff256ff23780e25d0d3f1752f336dc
+a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:rt	Bertrand Russell	1535e6a950ff256ff23780e25d0d3f1752f336dc
+a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:rt	f1dd3c7d-50f3-48bc-ab56-bb26c85858eb	1535e6a950ff256ff23780e25d0d3f1752f336dc
+a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:tag	screed-t1-collapse	1535e6a950ff256ff23780e25d0d3f1752f336dc
+a0bbb313-2e78-4ec9-aa3b-e8c151675b66	v:tag	determinism	1535e6a950ff256ff23780e25d0d3f1752f336dc

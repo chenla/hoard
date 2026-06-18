@@ -52,3 +52,56 @@ illustrate what he saw as absurdities in the
 Copenhagen interpretation.  Fled Austria after the
 Anschluss and eventually settled at the Dublin
 Institute for Advanced Studies.
+
+At the 1927 Solvay Conference, Schrödinger was aligned
+with Einstein and de Broglie against the Copenhagen
+camp.  He found the probabilistic interpretation of his
+own equation deeply unsatisfying — he had intended the
+wave function to describe something real and continuous,
+not a probability amplitude.  Born's probabilistic
+reinterpretation of his wave function was, in
+Schrödinger's view, a betrayal of the physics.  "I
+don't like it," he told Bohr, "and I'm sorry I ever
+had anything to do with it."
+
+His later career took unexpected turns.  In Dublin,
+sheltered by Éamon de Valera at the Institute for
+Advanced Studies, he wrote /What is Life?/ (1944) — a
+slim book that asked what physics could say about
+biological processes.  His speculation that genetic
+information might be stored in an "aperiodic crystal"
+directly inspired Watson and Crick's search for the
+structure of DNA.  A physicist's side project became
+one of the founding documents of molecular biology.
+
+Schrödinger returned to Vienna in 1956 and died there
+in 1961.  His nationality shifted three times —
+Austrian, then Irish by necessity, then Austrian again.
+His wave equation remains the foundational equation of
+non-relativistic quantum mechanics, used daily by every
+working physicist, even as the interpretation he
+preferred for it remains a minority position.
+
+*** Key Works
+
+**** Before Solvay
+
+- Schrödinger equation (1926).  The foundational
+  equation of wave mechanics, describing how quantum
+  states evolve in time.
+- Proof of equivalence of wave and matrix mechanics
+  (1926).  Showed that his wave mechanics and
+  Heisenberg's matrix mechanics were mathematically
+  equivalent formulations.
+
+**** After Solvay
+
+- Schrödinger's cat thought experiment (1935).
+  Designed to expose the absurdity of superposition
+  applied to macroscopic objects.
+- /What is Life?/ (1944).  Speculated on the physical
+  basis of genetics; inspired Watson and Crick's
+  discovery of the DNA double helix.
+- Nobel Prize in Physics (1933).  Shared with Dirac
+  for the discovery of new productive forms of atomic
+  theory.

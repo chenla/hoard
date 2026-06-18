@@ -63,3 +63,63 @@ experimental accuracy, solving a fifty-year-old problem
 in biology.  It was arguably the most significant
 scientific application of AI to date.  Hassabis shared
 the 2024 Nobel Prize in Chemistry for this work.
+
+What connects Hassabis to the Solvay narrative is the
+arc from games to science.  Chess, Go, and protein
+folding are all problems where the search space exceeds
+brute-force computation — they require something that
+resembles judgment.  Hassabis's insight, rooted in his
+neuroscience training, was that the same learning
+architectures that evolved in biological brains could
+be reimplemented in silicon.  AlphaGo did not play Go
+the way humans play Go, but it played it better.
+AlphaFold did not reason about chemistry the way
+chemists reason, but it predicted structures more
+accurately.  The implications extend far beyond any
+single domain.
+
+His PhD work at UCL on the hippocampus and episodic
+memory was not a detour from AI — it was the
+theoretical foundation.  He studied how the brain
+constructs imagined scenes from fragments of memory,
+and this research on generative models of experience
+fed directly into DeepMind's architecture.  The
+connection between imagination, memory, and prediction
+is not metaphorical; it is the computational principle
+underlying both biological and artificial intelligence.
+
+DeepMind under Hassabis represents a particular vision
+of AI development: that artificial general intelligence
+is best approached through neuroscience-informed
+architectures applied to progressively harder problems.
+Whether this vision holds or is overtaken by scaling
+approaches remains an open question.  But AlphaGo's
+Move 37 — the move no human would play — already
+demonstrated something that the participants at Solvay
+would have recognized: the boundary between human
+understanding and something stranger had been crossed
+again.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Theme Park/ (1994).  Designed the business
+  simulation game at age seventeen for Bullfrog
+  Productions.
+- PhD in cognitive neuroscience (UCL, 2009).  Research
+  on the hippocampus, imagination, and episodic memory.
+- DeepMind founded (2010).  Co-founded with Shane Legg
+  and Mustafa Suleyman to pursue artificial general
+  intelligence.
+
+**** After Solvay
+
+- AlphaGo (2016).  Defeated Lee Sedol 4-1, the first
+  AI to beat a world-class Go professional.
+- AlphaFold (2020).  Predicted protein structures with
+  experimental accuracy, solving a fifty-year-old
+  problem in structural biology.
+- Nobel Prize in Chemistry (2024).  Shared for
+  computational protein structure prediction via
+  AlphaFold.

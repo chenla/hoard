@@ -59,3 +59,62 @@ a prolific popular writer, and a political activist.
 He was imprisoned for pacifism during WWI, helped found
 the Campaign for Nuclear Disarmament, and remained
 publicly active into his nineties.
+
+The trajectory from logic to politics is not a detour —
+it is the arc of a mind that watched the foundations
+break.  Russell had staked his intellectual life on the
+belief that mathematics, and by extension rational
+thought itself, could be made rigorous and complete.
+When Gödel proved in 1931 that any sufficiently powerful
+formal system must contain truths it cannot prove,
+Russell's program was finished.  He had already moved on
+to epistemology and political philosophy, but the shift
+was not just personal restlessness.  If the formal
+foundations could not hold, then the work of making the
+world rational had to be done by other means.
+
+The Russell-Einstein Manifesto of 1955 was his most
+consequential political act.  Co-signed with Einstein
+(who died days after signing), it called for a
+conference on the dangers of nuclear weapons and led
+directly to the Pugwash Conferences on Science and
+World Affairs.  Russell was by then in his eighties,
+still writing, still protesting, still willing to be
+arrested — he spent a week in Brixton prison at the
+age of eighty-nine for a nuclear disarmament sit-in.
+
+His /History of Western Philosophy/ (1945) became an
+unlikely bestseller and funded the rest of his career.
+He received the Nobel Prize in Literature in 1950 "in
+recognition of his varied and significant writings in
+which he champions humanitarian ideals and freedom of
+thought."  He died in 1970 at ninety-seven, having
+lived long enough to see the formal dreams of his youth
+replaced by the probabilistic, uncertain, incomplete
+world he had spent the second half of his life trying
+to navigate.
+
+*** Key Works
+
+**** Before Solvay
+
+- Russell's paradox (1901).  Demonstrated that naive
+  set theory is inconsistent — the set of all sets
+  that do not contain themselves.
+- /Principia Mathematica/ (1910–1913, with Whitehead).
+  The most ambitious attempt to derive all mathematics
+  from pure logic.
+- "On Denoting" (1905).  Foundational paper in analytic
+  philosophy on the theory of descriptions.
+
+**** After Solvay
+
+- /History of Western Philosophy/ (1945).  Popular
+  survey that became a bestseller and funded his later
+  career.
+- Nobel Prize in Literature (1950).  For his body of
+  varied and significant writings championing
+  humanitarian ideals.
+- Russell-Einstein Manifesto (1955).  Called for a
+  conference on nuclear disarmament; led to the
+  Pugwash Conferences.

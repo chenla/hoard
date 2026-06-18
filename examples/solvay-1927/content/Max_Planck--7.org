@@ -48,3 +48,55 @@ debate the meaning of the theory his work had made
 possible.  He remained philosophically conservative,
 never fully comfortable with the Copenhagen
 interpretation.
+
+Planck called his own quantum hypothesis "an act of
+desperation."  He had not set out to revolutionize
+physics — he was trying to solve a specific technical
+problem about the spectrum of radiation emitted by
+heated bodies.  Classical physics predicted infinite
+energy at short wavelengths (the "ultraviolet
+catastrophe").  Planck found that the math only worked
+if he assumed energy came in discrete packets —
+quanta — proportional to frequency.  He spent years
+trying to reconcile this with classical physics, hoping
+the quantum was a mathematical trick rather than a
+physical reality.  It was not.
+
+His personal life was marked by extraordinary loss.
+His first wife died in 1909.  His eldest son Karl was
+killed at Verdun in 1916.  Both of his daughters died
+in childbirth.  He stayed in Germany through the Nazi
+era, attempting to preserve what remained of German
+science from within the institutions.  He met Hitler
+once in 1933 to plead on behalf of Jewish colleagues
+and was rebuffed.  His son Erwin was arrested for his
+involvement in the July 20, 1944 assassination attempt
+against Hitler and executed by the Gestapo in January
+1945.  Planck was eighty-six years old.
+
+He died in 1947 in Göttingen, having outlived his
+children, his country's scientific institutions, and
+the classical worldview he had inadvertently destroyed.
+The Max Planck Society, successor to the Kaiser Wilhelm
+Society, was named in his honor and remains Germany's
+premier research organization.
+
+*** Key Works
+
+**** Before Solvay
+
+- Planck's law of black-body radiation (1900).
+  Introduced the quantum of action (Planck's constant,
+  /h/), resolving the ultraviolet catastrophe.
+- Nobel Prize in Physics (1918).  For the discovery
+  of energy quanta and its contribution to the
+  development of physics.
+
+**** After Solvay
+
+- /The Philosophy of Physics/ (1936).  Philosophical
+  reflections on the meaning of the quantum revolution
+  he had started.
+- Presidency of the Kaiser Wilhelm Society (1930–1937).
+  Attempted to preserve German scientific institutions
+  under increasingly hostile political conditions.

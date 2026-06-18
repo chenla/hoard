@@ -39,10 +39,35 @@ British physicist.  Nobel Prize in Physics 1915
 their work on X-ray crystallography — at age 25 he
 remains the youngest Nobel laureate in Physics.
 
-Formulated Bragg's law, which describes the angles at
-which X-rays are diffracted by crystal lattice planes.
+Formulated Bragg's law (n*lambda = 2d*sin(theta)),
+which describes the angles at which X-rays are
+diffracted by crystal lattice planes — the equation
+that made crystallography a quantitative science.
+Founded the field of X-ray crystallography as a
+practical tool for determining molecular structure,
+transforming chemistry and biology.
+
 Later directed the Cavendish Laboratory at Cambridge,
-where he oversaw the work that led to the discovery
-of the structure of DNA.  Founded the field of X-ray
-crystallography as a practical tool for determining
-molecular structure.
+where he created the environment that allowed Watson
+and Crick to discover the structure of DNA in 1953.
+The arc from X-ray crystallography to the double
+helix was direct — Dorothy Hodgkin, Max Perutz, and
+Rosalind Franklin all used techniques that descended
+from the Braggs' original methods.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Bragg's law/ (1912–1913).  The diffraction
+  equation that made X-ray crystallography possible,
+  published when he was 22.
+
+**** After Solvay
+
+- /Director, Cavendish Laboratory/ (1938–1953).
+  Oversaw the lab during the period when the
+  structure of DNA was discovered.
+
+- /The Crystalline State/ (1933).  Definitive
+  textbook on X-ray crystallography with his father.

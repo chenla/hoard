@@ -62,3 +62,51 @@ and his interest in consciousness made him an unusual
 figure in theoretical physics: a rigorous mathematician
 who insisted that physics had philosophical obligations
 it was failing to meet.
+
+His earlier work on plasma physics was itself significant.
+At Berkeley under Oppenheimer, Bohm developed the theory
+of Bohm diffusion — the anomalously fast scattering of
+plasma across magnetic fields — which remained
+unexplained by classical theory.  This work fed directly
+into the Manhattan Project.  When HUAC demanded he
+testify against Oppenheimer and others, he refused.
+Princeton, where he had moved, refused to renew his
+contract.  He lost his American passport and left for
+Brazil, then Israel, then England — never returning to
+the United States.
+
+The de Broglie-Bohm theory was not just an intellectual
+exercise.  It demonstrated that the "no hidden variables"
+consensus that had hardened after Solvay was based on
+unstated assumptions — specifically, that hidden-variable
+theories must be local.  Bohm's theory was nonlocal, and
+it reproduced every prediction of standard quantum
+mechanics.  When John Bell set out to formalize what
+exactly was wrong with hidden variables, it was Bohm's
+work that showed him where to look.  Bell's theorem,
+the most profound result in the foundations of physics,
+is a direct descendant of Bohm's 1952 papers.
+
+*** Key Works
+
+**** Before Solvay
+
+- Bohm diffusion (1949).  Theory of anomalous plasma
+  diffusion across magnetic fields, developed during
+  wartime research at Berkeley.
+- /Quantum Theory/ (1951).  Textbook that gave the
+  clearest exposition of the Copenhagen interpretation
+  — and convinced Bohm himself that it was incomplete.
+
+**** After Solvay
+
+- "A Suggested Interpretation of the Quantum Theory in
+  Terms of 'Hidden' Variables" (1952).  Two-part paper
+  reviving de Broglie's pilot-wave theory and showing
+  a deterministic QM was viable.
+- /Wholeness and the Implicate Order/ (1980).
+  Philosophical framework proposing that the visible
+  world unfolds from a deeper, enfolded reality.
+- /The Undivided Universe/ (1993, posthumous, with
+  B.J. Hiley).  Mature formulation of Bohmian
+  mechanics and its philosophical implications.

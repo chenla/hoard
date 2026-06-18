@@ -43,8 +43,30 @@ a crucial stepping stone toward matrix mechanics.
 
 Contributed to the WKB (Wentzel-Kramers-Brillouin)
 approximation method in quantum mechanics and to the
-Kramers-Kronig relations in optics.  Later became
-professor at Leiden, succeeding Ehrenfest.  One of
-the most technically skilled physicists of his
-generation, yet often overshadowed by his more
-famous collaborators.
+Kramers-Kronig relations in optics.  One of the most
+technically skilled physicists of his generation, yet
+often overshadowed by his more famous collaborators
+— Bohr, Heisenberg, Pauli all relied on his
+mathematical abilities but received more credit.
+
+He succeeded Paul Ehrenfest as professor at Leiden
+in 1934, under tragic circumstances — Ehrenfest had
+taken his own life the previous year.  Kramers
+carried the Leiden tradition forward with distinction
+until his own early death at 57.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Kramers-Heisenberg dispersion formula/ (1925).
+  Crucial stepping stone toward Heisenberg's matrix
+  mechanics — described how light is scattered by
+  atoms.
+
+**** After Solvay
+
+- /Kramers-Kronig relations/ (1927–1929).  Connected
+  the real and imaginary parts of optical response
+  functions — still fundamental to spectroscopy and
+  signal processing.

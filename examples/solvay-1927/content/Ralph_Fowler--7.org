@@ -43,6 +43,35 @@ white dwarf stars.
 Co-formulated the zeroth law of thermodynamics with
 Edward Guggenheim.  His most lasting influence was as
 a mentor — he was Dirac's doctoral supervisor and
-introduced him to quantum theory.  Son-in-law of
-Ernest Rutherford.  Trained a generation of British
-theoretical physicists at the Cavendish Laboratory.
+introduced him to quantum theory, arguably the single
+most consequential act of mentorship in 20th-century
+physics.  Son-in-law of Ernest Rutherford, he served
+as a bridge between the experimental and theoretical
+traditions at Cambridge.
+
+Trained a generation of British theoretical
+physicists at the Cavendish Laboratory, including
+Chandrasekhar, Lennard-Jones, and Mott.  Died young
+at 55 during World War II, his later years spent on
+ballistics and ordnance research for the British
+military.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Statistical Mechanics/ (1929, published shortly
+  after Solvay).  Textbook that trained a generation
+  of British physicists in the new methods.
+
+**** After Solvay
+
+- /Fowler-Nordheim tunneling/ (1928).  With
+  Nordheim, described quantum tunneling of electrons
+  through potential barriers — essential to modern
+  semiconductor physics.
+
+- /Stellar collapse theory/ (1926).  Applied
+  Fermi-Dirac statistics to white dwarf stars,
+  showing that electron degeneracy pressure prevents
+  further collapse.

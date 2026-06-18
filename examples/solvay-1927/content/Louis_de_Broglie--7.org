@@ -45,8 +45,62 @@ the de Broglie relation.
 His idea was initially met with skepticism but was
 championed by Einstein and experimentally confirmed
 by Davisson and Germer in 1927.  It inspired
-Schrodinger's development of wave mechanics.  The
+Schrödinger's development of wave mechanics.  The
 7th Duc de Broglie, he came from one of France's
 oldest noble families.  At the Solvay Conference he
 presented his pilot-wave theory, which was criticized
 and lay dormant for decades.
+
+The Solvay Conference was the pivotal moment of de
+Broglie's career, and not in the way he hoped.  He
+presented his pilot-wave theory — a deterministic
+interpretation in which particles are guided by real
+waves — as an alternative to the emerging Copenhagen
+consensus.  Wolfgang Pauli attacked it with a specific
+counterexample that de Broglie could not answer on the
+spot.  The theory was declared dead.  De Broglie
+abandoned it and accepted the Copenhagen interpretation
+for the next twenty-five years.
+
+What makes this episode significant is what happened
+later.  In 1952, David Bohm independently rediscovered
+and extended the pilot-wave approach, showing that
+Pauli's objection was not fatal.  De Broglie, then in
+his sixties, returned to his original theory and spent
+his remaining decades advocating for it.  The idea that
+was killed at Solvay turned out to be viable — it had
+simply been killed prematurely, by social pressure as
+much as by physics.
+
+De Broglie's aristocratic background was unusual in
+twentieth-century physics.  He came to physics through
+his older brother Maurice, an experimental physicist
+who introduced him to the proceedings of the first
+Solvay Conference.  His 1924 doctoral thesis — just
+over a hundred pages — was so radical that the
+examining committee sent it to Einstein for evaluation
+before accepting it.  Einstein's endorsement made the
+difference.  Five years later, de Broglie received the
+Nobel Prize.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Recherches sur la théorie des quanta/ (1924).
+  Doctoral thesis proposing wave-particle duality of
+  matter — the de Broglie relation.
+- Pilot-wave theory (1927).  Deterministic
+  interpretation of quantum mechanics presented at the
+  fifth Solvay Conference.
+
+**** After Solvay
+
+- Nobel Prize in Physics (1929).  For the discovery
+  of the wave nature of electrons.
+- Return to pilot-wave theory (1950s).  After Bohm's
+  1952 papers, de Broglie revived and extended his
+  original deterministic interpretation.
+- /The Current Interpretation of Wave Mechanics/ (1964).
+  Critique of the Copenhagen interpretation and defense
+  of a causal, deterministic alternative.

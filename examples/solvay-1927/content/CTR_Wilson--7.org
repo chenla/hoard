@@ -40,8 +40,34 @@ Inventor of the cloud chamber, a device that made the
 tracks of charged particles visible for the first time.
 
 Originally inspired by atmospheric phenomena observed
-on Ben Nevis, he developed the expansion cloud chamber
-at the Cavendish Laboratory in Cambridge.  The device
-became an essential tool of particle physics for
-decades, enabling the discovery of the positron and
-the muon.
+while working at the Ben Nevis meteorological
+observatory in the 1890s, Wilson spent years
+perfecting the expansion cloud chamber at the
+Cavendish Laboratory in Cambridge.  What began as an
+attempt to recreate cloud formation in the laboratory
+became one of the most important instruments in
+physics.
+
+The cloud chamber made the subatomic world visible
+for the first time — charged particles left trails
+of condensation droplets that could be photographed
+and analyzed.  It became the essential tool of
+particle physics for decades, enabling Carl
+Anderson's discovery of the positron (1932) and
+later the identification of the muon.  The device
+dominated experimental particle physics until the
+bubble chamber replaced it in the 1950s.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Expansion cloud chamber/ (1911).  The perfected
+  device that made charged particle tracks visible
+  as condensation trails.
+
+**** After Solvay
+
+- /Cloud chamber photographs of cosmic rays/
+  (1930s).  His technique enabled the discoveries
+  of the positron and muon by other physicists.

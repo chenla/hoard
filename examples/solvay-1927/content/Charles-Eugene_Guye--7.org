@@ -40,7 +40,31 @@ variation of mass with velocity — among the earliest
 experimental confirmations of relativistic mechanics.
 
 Einstein was his student at the Zurich Polytechnic
-(ETH).  Guye's experimental work provided important
-early evidence supporting special relativity.  He was
-one of the lesser-known but respected experimentalists
-at the 1927 Solvay Conference.
+(ETH).  Guye's experiments on the deflection of
+high-speed electrons by electric and magnetic fields
+provided some of the earliest quantitative
+confirmation that mass increases with velocity as
+special relativity predicts.  The measurements were
+modest in scope but important — at the time few
+experiments could test relativity directly.
+
+He was one of the lesser-known but respected
+experimentalists at the 1927 Solvay Conference, a
+representative of the careful Swiss tradition of
+precision measurement.  His role was that of the
+quiet contributor whose work others built upon.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Comptes Rendus papers on relativistic mass/
+  (1907–1921).  Series of precision experiments
+  measuring electron mass variation with velocity,
+  confirming special relativity predictions.
+
+**** After Solvay
+
+- /L'Evolution Physico-Chimique/ (1930s).  Later
+  work applying physical methods to chemical
+  problems at Geneva.

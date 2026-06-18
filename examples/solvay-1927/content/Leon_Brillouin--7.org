@@ -45,7 +45,34 @@ Co-developed the WKB (Wentzel-Kramers-Brillouin)
 semiclassical approximation method for solving
 quantum mechanical problems.  Later made significant
 contributions to information theory, connecting
-thermodynamic entropy to information (Brillouin's
-negentropy principle).  Emigrated to the United
-States during World War II and remained there,
-working at Columbia and IBM.
+thermodynamic entropy to information through his
+negentropy principle — the idea that information is
+equivalent to negative entropy.  This bridged
+physics and information theory in ways that
+anticipated much later developments.
+
+Emigrated to the United States during World War II
+and remained there, working at Columbia and IBM.
+His career arc — from quantum mechanics in Paris to
+solid-state physics to information theory in
+America — reflected the broader migration of
+European physics across the Atlantic.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Brillouin zones/ (1926).  Defined the fundamental
+  domains of reciprocal space in crystals —
+  essential to electronic band structure theory.
+
+**** After Solvay
+
+- /Science and Information Theory/ (1956).  Major
+  work connecting thermodynamic entropy to
+  information, establishing the negentropy
+  principle.
+
+- /Wave Propagation in Periodic Structures/ (1946).
+  Foundational text on wave behavior in crystals
+  and lattice structures.

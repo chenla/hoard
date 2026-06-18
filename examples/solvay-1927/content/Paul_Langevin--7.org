@@ -41,6 +41,33 @@ piezoelectric quartz.
 A student of Pierre Curie at the Sorbonne, he
 maintained a lifelong connection to the Curie circle.
 He succeeded Lorentz as president of the Solvay
-Conference after Lorentz's death in 1928.  An outspoken
-anti-fascist, he was placed under house arrest during
-the German occupation of France.
+Conference after Lorentz's death in 1928, serving as
+the institutional bridge between the pre-war
+generation of physicists and the quantum
+revolutionaries.
+
+An outspoken anti-fascist and member of the French
+Communist Party, he was placed under house arrest
+during the German occupation of France.  His
+political courage matched his scientific standing —
+he used his position to protest the persecution of
+Jewish colleagues and the suppression of academic
+freedom.  He died in 1946, shortly after the
+liberation.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Langevin equation for paramagnetism/ (1905).
+  Statistical treatment of magnetic dipoles that
+  explained paramagnetic behavior.
+
+- /Ultrasonic submarine detection/ (1917).  Pioneered
+  sonar using piezoelectric quartz during WWI.
+
+**** After Solvay
+
+- /President, Solvay Conferences/ (1928–1946).
+  Succeeded Lorentz; guided the conferences through
+  the interwar period.

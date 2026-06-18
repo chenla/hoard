@@ -40,7 +40,36 @@ through dipole moments and X-ray diffraction.
 
 Developed the Debye model of specific heat in solids
 (extending Einstein's earlier model) and the
-Debye-Huckel theory of electrolyte solutions.  Born
-in Maastricht, he held professorships across Europe
-before emigrating to the United States in 1940 to
-chair the chemistry department at Cornell University.
+Debye-Huckel theory of electrolyte solutions, which
+described how ions interact in solution — foundational
+for all of electrochemistry.  Born in Maastricht, he
+held professorships across Europe before emigrating
+to the United States in 1940 to chair the chemistry
+department at Cornell University.
+
+His wartime role remains controversial.  As director
+of the Kaiser Wilhelm Institute for Physics in Berlin,
+he was asked by the Nazi government to take German
+citizenship; he chose to leave for the United States
+instead.  Later allegations that he had cooperated
+with the regime by signing a letter expelling Jewish
+members from the German Physical Society have been
+debated by historians, with no clear consensus.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Debye model of specific heat/ (1912).  Extended
+  Einstein's model to account for the full spectrum
+  of lattice vibrations in solids.
+
+- /Debye-Huckel theory/ (1923).  Described the
+  behavior of electrolyte solutions — still the
+  starting point for electrochemistry.
+
+**** After Solvay
+
+- /X-ray and electron diffraction studies/ (1930s).
+  Work on molecular structure through scattering
+  methods — the basis of his 1936 Nobel Prize.

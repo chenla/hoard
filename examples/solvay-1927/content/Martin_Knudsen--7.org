@@ -40,7 +40,34 @@ at low pressures.
 
 The Knudsen number — the ratio of molecular mean free
 path to a characteristic physical length — is named
-after him and is fundamental to rarefied gas dynamics.
-He also developed the Knudsen cell, used for measuring
-vapor pressures.  His work bridged experimental
-physics and physical chemistry.
+after him and is fundamental to rarefied gas dynamics,
+spacecraft engineering, and vacuum technology.  He
+also developed the Knudsen cell, used for precise
+vapor pressure measurement — a device that remains
+standard equipment in surface science and thin-film
+deposition.
+
+A colleague of Bohr at the University of Copenhagen,
+Knudsen represented the experimental and classical
+physics tradition within a department increasingly
+dominated by quantum theory.  His work bridged
+experimental physics and physical chemistry with a
+focus on precision that made his results enduringly
+useful.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Kinetic Theory of Gases/ (1909–1915).  Series of
+  papers establishing the laws of molecular flow at
+  low pressures.
+
+- /Knudsen cell/ (1909).  Effusion device for
+  measuring vapor pressures with high accuracy.
+
+**** After Solvay
+
+- /Hydrography/ (1930s–1940s).  Later career shift
+  to oceanographic measurement, applying precision
+  instrumentation to seawater properties.

@@ -48,3 +48,60 @@ of honest broker in their debates at the 1927 Solvay
 Conference.  Struggled with depression throughout his
 life and died by suicide in September 1933, a loss
 deeply felt across the physics community.
+
+Ehrenfest's role at Solvay was unique.  He was not one
+of the architects of quantum theory, nor one of its
+critics — he was its most rigorous interrogator.  When
+Bohr's arguments became opaque, Ehrenfest demanded
+clarity.  When Einstein's thought experiments were
+dismissed too quickly, Ehrenfest insisted they be taken
+seriously.  He understood both positions from the inside,
+which made him indispensable and also, increasingly,
+unbearable to himself.  In a letter to his closest
+friends, he described feeling intellectually paralyzed
+— unable to keep up with the pace of discovery, unable
+to choose a side.
+
+His adiabatic principle — the idea that certain
+quantities remain invariant under slow changes to a
+system — was a key bridge concept between classical and
+quantum physics, connecting Boltzmann's statistical
+mechanics to the new quantum theory.  His classification
+of phase transitions remains a standard framework in
+thermodynamics.
+
+On September 25, 1933, Ehrenfest shot his son Wassik,
+who had Down syndrome, in the waiting room of the
+Vossius Institute in Amsterdam, then killed himself.
+He had been consumed by depression, professional
+self-doubt, and despair over the political situation in
+Europe.  Einstein wrote to the widow of their mutual
+friend: "I have not been able to believe it.  I found
+it the most incomprehensible thing I have ever
+encountered."  The human cost of living at the boundary
+between paradigms.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Begriffliche Grundlagen der statistischen Auffassung
+  in der Mechanik/ (1912).  Encyclopedic review of
+  statistical mechanics, co-written with Tatiana
+  Ehrenfest-Afanassjewa, that clarified Boltzmann's
+  legacy.
+- Adiabatic hypothesis (1913–1916).  Principle
+  connecting classical mechanics to quantum conditions
+  via slowly varying systems.
+- Ehrenfest theorem (1927).  Proved that quantum
+  expectation values obey classical equations of motion.
+
+**** After Solvay
+
+- Classification of phase transitions (1933).  Standard
+  taxonomy distinguishing first-order and continuous
+  phase transitions, still used today.
+- Contributions to statistical mechanics (1927–1933).
+  Continued work on foundational problems in
+  thermodynamics and quantum statistics until his
+  death.

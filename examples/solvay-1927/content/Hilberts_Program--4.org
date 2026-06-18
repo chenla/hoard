@@ -40,11 +40,26 @@ implications — he independently proved the second
 incompleteness theorem and abandoned his own line of
 research.
 
+Von Neumann's role is telling.  He was perhaps the
+only person at the time with the technical range to
+see both the power of Hilbert's vision and the
+totality of its collapse.  When he abandoned his
+consistency proofs, he did not retreat into despair —
+he pivoted.  The same formal machinery that Hilbert
+had hoped would secure mathematics became, in von
+Neumann's hands, the architecture of the stored-
+program computer.  The failure of the program opened
+the door to computation: if not all mathematical
+truths can be decided by proof, perhaps they can be
+explored by machine.  Turing made this explicit in
+1936, but von Neumann had already sensed the
+direction.
+
 The program's failure forced mathematics to accept the
 same kind of fundamental uncertainty that physics had
 encountered at Solvay.  Complete knowledge was
 impossible — not as a practical limitation but as a
 structural feature of formal systems themselves.
-Hilbert's epitaph, "Wir müssen wissen.  Wir werden
+Hilbert's epitaph, "Wir mussen wissen.  Wir werden
 wissen" (We must know.  We shall know), became an ironic
 monument to the deterministic dream.

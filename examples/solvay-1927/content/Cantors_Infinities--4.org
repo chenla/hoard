@@ -49,3 +49,16 @@ him, calling set theory "the finest product of
 mathematical genius."  Cantor suffered recurring bouts
 of depression and spent his final years in a sanatorium,
 dying in 1918.
+
+The independence of the continuum hypothesis — proved
+by Cohen in 1963 using the method of forcing — is one
+of the deepest results in the foundations of
+mathematics.  It means that within the standard axioms
+of set theory, the question "how many real numbers are
+there?" has no definite answer.  The axioms are too
+weak to decide.  This is not Godel's incompleteness
+(which says some truths are unprovable) but something
+stranger: the mathematical universe branches, and
+different extensions of ZFC give different answers,
+all equally consistent.  Undecidability is not a bug
+in the system — it is the system.

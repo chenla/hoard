@@ -40,10 +40,39 @@ relationship between gas pressure and the amount
 adsorbed on a surface.
 
 Spent most of his career at the General Electric
-Research Laboratory in Schenectady, New York, where
-he developed the gas-filled incandescent lamp and
-made fundamental contributions to plasma physics
-(he coined the term "plasma").  Also pioneered cloud
-seeding for weather modification.  One of the few
-industrial scientists to win a Nobel Prize and to
-attend the Solvay Conferences.
+Research Laboratory in Schenectady, New York — a
+rare industrial scientist among the academic
+physicists at Solvay.  At GE he developed the
+gas-filled incandescent lamp, invented the Langmuir
+probe for measuring plasma properties, and made
+fundamental contributions to plasma physics (he
+coined the term "plasma" by analogy with blood
+plasma).
+
+Also pioneered cloud seeding for weather
+modification, a controversial line of research that
+led to both military interest and public debate.
+His presence at Solvay represented the industrial
+research laboratory as a legitimate site of
+fundamental science — a model that was still novel
+in the 1920s.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Langmuir adsorption isotherm/ (1916–1918).
+  Described gas adsorption on surfaces — the work
+  that would win his Nobel Prize.
+
+- /Gas-filled incandescent lamp/ (1913).  Practical
+  invention that extended bulb life and efficiency.
+
+**** After Solvay
+
+- /Cloud seeding experiments/ (1946–1953).  Pioneered
+  weather modification using silver iodide at GE.
+
+- /Langmuir probe/ (1920s–1930s).  Diagnostic tool
+  for measuring electron temperature and density in
+  plasmas — still in use today.

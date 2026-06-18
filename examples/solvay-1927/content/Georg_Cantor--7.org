@@ -62,3 +62,64 @@ Cantor suffered recurring bouts of severe depression,
 was hospitalized multiple times, and spent his final
 years in a sanatorium.  He died in 1918, impoverished,
 during the last winter of the Great War.
+
+Cantor's work was the first crack in the deterministic
+dream of a single, complete mathematics.  If there were
+multiple infinities — an infinite hierarchy of them, in
+fact — then the mathematical universe was not the tidy,
+fully surveyable edifice that nineteenth-century
+mathematicians had assumed.  His continuum hypothesis —
+that there is no infinity between the integers and the
+reals — could be neither proved nor disproved within
+standard set theory, as Paul Cohen showed in 1963.  The
+foundations themselves were underdetermined.  This was
+the first tremor; Gödel's incompleteness theorems
+(1931) and the Bohr-Einstein debate at Solvay were
+aftershocks of the same earthquake.
+
+The opposition Cantor faced was not just intellectual
+disagreement — it was visceral hostility.  Kronecker
+used his institutional power to block Cantor's
+appointments and publications.  The stress contributed
+to Cantor's mental breakdowns, though modern historians
+note that his depression likely had organic causes
+independent of professional persecution.  What matters
+for the Solvay narrative is the pattern: a radical idea
+that overturns foundational assumptions, met by
+establishment resistance that is partly intellectual
+and partly social, with enormous personal cost to the
+originator.
+
+Hilbert's defense of Cantor was more than collegial
+loyalty.  Hilbert saw set theory as the foundation on
+which all of mathematics could be rebuilt — his program
+of formalization depended on it.  When Gödel showed
+that Hilbert's program was impossible, Cantor's
+infinities survived while the dream of complete
+formalization did not.  The paradise Hilbert promised
+turned out to be wilder and stranger than even Cantor
+had imagined.
+
+*** Key Works
+
+**** Before Solvay
+
+- Proof of the uncountability of the reals (1874).
+  First demonstration that some infinities are larger
+  than others.
+- Diagonal argument (1891).  Elegant proof technique
+  showing that no enumeration of real numbers can be
+  complete.
+- Continuum hypothesis (1878).  Conjecture that there
+  is no set whose cardinality lies strictly between
+  the integers and the reals.
+
+**** After Solvay
+
+- Vindication by Hilbert (1926).  Hilbert's public
+  defense of set theory as "a paradise from which no
+  one shall drive us."
+- Cohen's independence proof (1963, posthumous
+  vindication).  Paul Cohen proved the continuum
+  hypothesis is independent of standard set theory —
+  it can be neither proved nor disproved.

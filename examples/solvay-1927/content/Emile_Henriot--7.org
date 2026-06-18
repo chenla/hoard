@@ -41,8 +41,32 @@ elements.
 
 Pioneer of ultracentrifuge technology, developing
 air-turbine-driven centrifuges capable of extremely
-high rotational speeds.  At the 1927 Solvay
-Conference he served as one of the scientific
-secretaries alongside Piccard.  His experimental
-work, while less famous than that of the quantum
-theorists present, was valued for its precision.
+high rotational speeds — tools that would later prove
+essential in biochemistry and isotope separation.
+
+At the 1927 Solvay Conference he served as one of
+the two scientific secretaries alongside Auguste
+Piccard, handling the documentation and organizational
+work that made the proceedings possible.  The
+scientific secretaries occupied an unusual position —
+junior enough to serve an administrative function,
+but accomplished enough to follow the discussions.
+His experimental work, while less famous than that
+of the quantum theorists present, was valued for its
+precision and practical ingenuity.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Natural radioactivity of potassium and rubidium/
+  (1912).  Demonstrated that radioactivity occurs
+  in lighter elements, not only in uranium and
+  thorium.
+
+**** After Solvay
+
+- /Ultracentrifuge development/ (1920s–1930s).
+  Built air-turbine centrifuges reaching extreme
+  rotational speeds — precursors to modern
+  biochemistry tools.

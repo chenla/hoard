@@ -47,3 +47,55 @@ was his last — he died four months later in February
 1928.  Universally respected, he was one of the few
 figures trusted by all sides in the emerging quantum
 debates.
+
+Lorentz's authority rested on more than seniority.  His
+electron theory of the 1890s had been the most advanced
+attempt to unify electromagnetism and matter before
+relativity, and his Lorentz transformations — derived
+to explain the null result of the Michelson-Morley
+experiment — became the mathematical backbone of
+Einstein's 1905 paper.  Einstein always acknowledged
+the debt.  At the 1927 conference, when the debate
+between Bohr and Einstein threatened to fracture the
+proceedings, it was Lorentz's chairmanship that held the
+room together.
+
+Beyond physics, Lorentz served the Netherlands as a
+public intellectual and engineer.  He led the technical
+committee that calculated the hydrodynamic effects of
+closing the Zuiderzee — a massive water management
+project that required modeling tidal flows across an
+entire inland sea.  It was applied physics at
+civilizational scale, and Lorentz treated it with the
+same rigor he brought to electromagnetic theory.
+
+His funeral in February 1928 was a state occasion.
+Telegraph services across the Netherlands were suspended
+for three minutes as a mark of respect — an honor
+normally reserved for heads of state.  Einstein delivered
+a eulogy, calling him "the greatest and noblest man of
+our times."
+
+*** Key Works
+
+**** Before Solvay
+
+- Electron theory of metals (1892–1895).  Unified
+  electromagnetic and optical phenomena through a
+  theory of microscopic charged particles.
+- Lorentz transformations (1899–1904).  The coordinate
+  transformations that became the mathematical
+  foundation of special relativity.
+- Nobel Prize in Physics (1902).  Shared with Pieter
+  Zeeman for research on the influence of magnetism
+  on radiation.
+
+**** After Solvay
+
+- Zuiderzee hydrodynamic calculations (1918–1926).
+  Led the committee modeling tidal effects of enclosing
+  the Zuiderzee, a major Dutch engineering project.
+- Chairman, Solvay Conferences (1911–1927).  Presided
+  over every conference from the first through the
+  fifth, providing continuity and diplomatic skill
+  across the most turbulent period in physics.

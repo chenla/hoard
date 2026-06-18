@@ -43,8 +43,32 @@ thermodynamics that later influenced Ilya Prigogine.
 
 A friend of Einstein, he worked on applications of
 general relativity to gravitational theory.  His
-major work, /Théorie Nouvelle de la Mécanique
+major work, /Theorie Nouvelle de la Mecanique
 Chimique/ (1920), laid the groundwork for
 non-equilibrium thermodynamics.  Largely self-taught,
 he rose from modest origins to become one of
 Belgium's leading theoretical scientists.
+
+His student Ilya Prigogine extended his work on
+irreversible processes into a full theory of
+dissipative structures, winning the Nobel Prize in
+Chemistry in 1977.  De Donder's intellectual lineage
+thus runs directly from the 1927 Solvay Conference
+to some of the most important ideas in complexity
+science — a connection he could not have foreseen.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Theorie Nouvelle de la Mecanique Chimique/ (1920).
+  Introduced chemical affinity as a thermodynamic
+  function and laid the groundwork for irreversible
+  thermodynamics.
+
+**** After Solvay
+
+- /Theorie Invariantive du Calcul des Variations/
+  (1935).  Applied variational methods to
+  gravitational theory in the framework of general
+  relativity.

@@ -58,3 +58,61 @@ predictions.  He died suddenly of a cerebral hemorrhage
 on October 1, 1990, the year before the first
 loophole-free Bell tests were attempted.  He was widely
 tipped for the Nobel Prize.
+
+Bell's theorem is deceptively simple in structure.  It
+shows that if particles have definite properties before
+measurement (as Einstein believed) and if no influence
+can travel faster than light (locality), then the
+correlations between measurements on entangled particles
+must obey a mathematical inequality.  Quantum mechanics
+predicts — and experiments confirm — that this
+inequality is violated.  Therefore, either realism or
+locality (or both) must be abandoned.  The Bohr-Einstein
+debate, which had been treated as a philosophical
+disagreement for thirty-seven years, was suddenly an
+experimental question.
+
+Bell was openly sympathetic to Bohm's deterministic
+interpretation and critical of the Copenhagen
+orthodoxy.  His paper "Against 'Measurement'" (1990),
+written in the year of his death, argued that the
+concept of "measurement" in quantum mechanics was
+incoherent — the theory used a word from everyday
+language as if it were a precisely defined technical
+term, when in fact no one could say exactly where
+measurement began and ended.  This was not a marginal
+complaint; it struck at the conceptual foundations of
+how quantum mechanics was taught and practiced.
+
+The 2022 Nobel Prize in Physics went to Alain Aspect,
+John Clauser, and Anton Zeilinger for experiments that
+confirmed Bell's predictions.  Bell had been dead for
+thirty-two years.  The Nobel committee cannot award
+prizes posthumously, but the experimenters' work was
+meaningless without Bell's theorem — every citation of
+the 2022 prize is implicitly a citation of Bell.  He
+remains the most significant physicist of the twentieth
+century never to receive the Nobel.
+
+*** Key Works
+
+**** Before Solvay
+
+- Accelerator design at CERN (1960s).  Day job
+  designing particle accelerators, providing the
+  financial stability for his foundational work.
+- "On the Einstein Podolsky Rosen Paradox" (1964).
+  Proved that the EPR debate had experimentally
+  testable consequences — Bell's theorem.
+
+**** After Solvay
+
+- "Bertlmann's Socks and the Nature of Reality" (1981).
+  Accessible paper explaining Bell's theorem through
+  the analogy of a professor's mismatched socks.
+- "Against 'Measurement'" (1990).  Critique of the
+  incoherent use of "measurement" as a primitive
+  concept in quantum mechanics.
+- Nobel Prize in Physics 2022 (posthumous influence).
+  Awarded to Aspect, Clauser, and Zeilinger for
+  experimental work directly based on Bell's theorem.

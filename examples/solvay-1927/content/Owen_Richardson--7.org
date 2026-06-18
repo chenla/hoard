@@ -43,5 +43,29 @@ emission current and temperature.
 
 Professor at King's College London and later at
 Princeton.  His work on thermionic emission laid the
-foundation for vacuum tube electronics, which dominated
-electrical engineering until the transistor era.
+foundation for vacuum tube electronics, which
+dominated electrical engineering until the transistor
+era.  Every radio, early computer, and amplifier
+before the late 1950s depended on the physics
+Richardson had characterized.
+
+The Richardson equation remains relevant wherever
+electron emission from hot surfaces matters — in
+cathode-ray tubes, electron microscopes, and
+thermionic energy converters.  His Nobel came in
+1928, the year after Solvay, making him one of
+several attendees honored in quick succession.
+
+*** Key Works
+
+**** Before Solvay
+
+- /The Emission of Electricity from Hot Bodies/
+  (1916).  Monograph establishing thermionic
+  emission theory and the Richardson equation.
+
+**** After Solvay
+
+- /Molecular Hydrogen and Its Spectrum/ (1934).
+  Later work on molecular spectroscopy at King's
+  College London.

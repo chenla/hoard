@@ -46,3 +46,38 @@ design weapons.
 The name was technically an acronym but also a joke —
 von Neumann appreciated the irony of naming a machine
 designed for rational calculation after mania.
+
+The IAS context matters.  The Institute for Advanced
+Study was founded in 1930 as a sanctuary for pure
+thought — no teaching, no departmental obligations, no
+applied work.  Einstein was there.  Gödel was there.
+Von Neumann was there.  That von Neumann built a
+practical computing machine inside this temple of pure
+mathematics was already strange.  That its first
+serious task was to determine whether a thermonuclear
+bomb design would detonate was the kind of irony that
+von Neumann found amusing and that others found
+chilling.  The MANIAC ran the calculations that
+confirmed the Teller-Ulam design worked.  The H-bomb
+followed.
+
+Von Neumann's design philosophy was uncompromising on
+one point: the stored-program architecture, where data
+and instructions share the same memory and are
+indistinguishable in form, was not a convenience but
+a principle.  A program could operate on itself.  Code
+and data were the same kind of thing.  This was
+homoiconicity before the term existed — and it is the
+direct ancestor of every general-purpose computer
+built since.  When Turing described a universal machine
+theoretically, von Neumann built one.
+
+*** Key Facts
+
+- Full name :: Mathematical Analyzer, Numerical Integrator, and Automatic Computer
+- Location :: Institute for Advanced Study, Princeton, New Jersey
+- Operational :: 1952
+- Architecture :: Stored-program (von Neumann architecture); shared memory for data and instructions
+- First major application :: Thermonuclear weapon calculations (Teller-Ulam hydrogen bomb design)
+- Predecessor :: ENIAC (1945), which used a different, non-stored-program design
+- Legacy :: Template for virtually all subsequent general-purpose computers

@@ -41,8 +41,34 @@ increase in wavelength of X-rays when scattered by
 electrons — which provided definitive evidence for
 the particle nature of electromagnetic radiation.
 
+The Compton effect was not merely another quantum
+result — it was the experiment that settled the debate
+over whether light truly behaves as a particle.  By
+showing that X-ray photons transfer momentum to
+electrons exactly as billiard balls would, Compton
+provided evidence so clean that even skeptics of the
+photon concept had to concede.
+
 Professor at the University of Chicago, he later
 played a key role in the Manhattan Project, directing
 the Metallurgical Laboratory where the first
 controlled nuclear chain reaction was achieved under
-Enrico Fermi in December 1942.
+Enrico Fermi in December 1942.  At Solvay in 1927
+he was only 35 — one of the younger attendees — but
+his experimental result was already reshaping the
+foundations of physics.
+
+*** Key Works
+
+**** Before Solvay
+
+- /A Quantum Theory of the Scattering of X-Rays by
+  Light Elements/ (1923).  The paper establishing the
+  Compton effect and proving the particle nature of
+  electromagnetic radiation.
+
+**** After Solvay
+
+- /Director, Metallurgical Laboratory/ (1942–1945).
+  Led the Chicago lab where the first controlled
+  nuclear chain reaction was achieved.
