@@ -105,3 +105,19 @@ published.)
   disproved from standard set theory axioms (the
   other direction, independence, was proved by
   Cohen in 1963).
+
+** References
+
+- Dawson, John W., Jr.  /Logical Dilemmas: The Life and
+  Work of Kurt Gödel/.  A K Peters, 1997.  The
+  standard biography, based on extensive archival
+  research.
+- Gödel, Kurt.  "Über formal unentscheidbare Sätze der
+  Principia Mathematica und verwandter Systeme I."
+  /Monatshefte für Mathematik und Physik/ 38 (1931):
+  173--198.  The incompleteness theorems paper.
+- Nagel, Ernest, and James R. Newman.  /Gödel's Proof/.
+  New York University Press, 1958.  The classic
+  popular exposition of the incompleteness theorems.
+- [[https://en.wikipedia.org/wiki/Kurt_G%C3%B6del][Kurt Gödel — Wikipedia]]
+- [[https://plato.stanford.edu/entries/goedel/][Kurt Gödel — Stanford Encyclopedia of Philosophy]]

@@ -110,3 +110,21 @@ is a direct descendant of Bohm's 1952 papers.
 - /The Undivided Universe/ (1993, posthumous, with
   B.J. Hiley).  Mature formulation of Bohmian
   mechanics and its philosophical implications.
+
+** References
+
+- Peat, F. David.  /Infinite Potential: The Life and
+  Times of David Bohm/.  Addison-Wesley, 1997.  The
+  principal biography, covering the physics, the
+  politics, and the philosophy.
+- Bohm, David.  "A Suggested Interpretation of the
+  Quantum Theory in Terms of 'Hidden' Variables, I
+  and II."  /Physical Review/ 85 (1952): 166--193.
+  The papers that revived deterministic quantum
+  mechanics.
+- Bohm, David.  /Wholeness and the Implicate Order/.
+  Routledge, 1980.  His philosophical framework for
+  understanding the deeper structure beneath quantum
+  phenomena.
+- [[https://en.wikipedia.org/wiki/David_Bohm][David Bohm — Wikipedia]]
+- [[https://plato.stanford.edu/entries/qm-bohm/][Bohmian Mechanics — Stanford Encyclopedia of Philosophy]]

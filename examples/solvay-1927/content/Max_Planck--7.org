@@ -100,3 +100,19 @@ premier research organization.
 - Presidency of the Kaiser Wilhelm Society (1930–1937).
   Attempted to preserve German scientific institutions
   under increasingly hostile political conditions.
+
+** References
+
+- Heilbron, J. L.  /The Dilemmas of an Upright Man:
+  Max Planck and the Fortunes of German Science/.
+  Harvard University Press, 2000.  Biography focused
+  on Planck's moral struggles under the Nazi regime.
+- Planck, Max.  "Zur Theorie des Gesetzes der
+  Energieverteilung im Normalspektrum."  /Verhandlungen
+  der Deutschen Physikalischen Gesellschaft/ 2 (1900):
+  237--245.  The paper introducing energy quanta.
+- Planck, Max.  /Scientific Autobiography and Other
+  Papers/.  Philosophical Library, 1949.  Planck's own
+  account of his discoveries and their context.
+- [[https://en.wikipedia.org/wiki/Max_Planck][Max Planck — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1918/planck/biographical/][Max Planck — Nobel Prize Biography]]

@@ -99,3 +99,21 @@ our times."
   over every conference from the first through the
   fifth, providing continuity and diplomatic skill
   across the most turbulent period in physics.
+
+** References
+
+- Kox, A. J., ed.  /The Scientific Correspondence of
+  H. A. Lorentz, Volume 1/.  Springer, 2008.  Annotated
+  letters revealing Lorentz's central role in European
+  physics.
+- Lorentz, H. A.  "Electromagnetic Phenomena in a System
+  Moving with Any Velocity Smaller than That of Light."
+  /Proceedings of the Royal Netherlands Academy of Arts
+  and Sciences/ 6 (1904): 809--831.  The mature
+  formulation of the Lorentz transformations.
+- Lorentz, H. A.  /The Theory of Electrons/.  Teubner,
+  1909.  Collected lectures presenting his electron
+  theory of matter, the bridge between classical and
+  modern physics.
+- [[https://en.wikipedia.org/wiki/Hendrik_Lorentz][Hendrik Lorentz — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1902/lorentz/biographical/][Hendrik Lorentz — Nobel Prize Biography]]

@@ -107,3 +107,20 @@ the twentieth century.
 - Magnetic monopole prediction (1931).  Showed that
   the existence of a single magnetic monopole would
   explain the quantization of electric charge.
+
+** References
+
+- Farmelo, Graham.  /The Strangest Man: The Hidden Life
+  of Paul Dirac, Mystic of the Atom/.  Basic Books,
+  2009.  Prize-winning biography revealing the man
+  behind the silence.
+- Dirac, P. A. M.  /The Principles of Quantum
+  Mechanics/.  Oxford University Press, 1930.  The
+  foundational textbook that defined how quantum
+  mechanics was taught for generations.
+- Dirac, P. A. M.  "The Quantum Theory of the
+  Electron."  /Proceedings of the Royal Society A/
+  117 (1928): 610--624.  The Dirac equation paper,
+  unifying QM with special relativity.
+- [[https://en.wikipedia.org/wiki/Paul_Dirac][Paul Dirac — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1933/dirac/biographical/][Paul Dirac — Nobel Prize Biography]]

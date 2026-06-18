@@ -114,3 +114,19 @@ Both died before they could finish the turn.
   — reaction-diffusion systems that explain how
   organisms develop stripes, spots, and other
   structures.
+
+** References
+
+- Hodges, Andrew.  /Alan Turing: The Enigma/.  Princeton
+  University Press, 2014.  The definitive biography,
+  covering both his mathematics and his persecution.
+- Turing, Alan.  "On Computable Numbers, with an
+  Application to the Entscheidungsproblem."
+  /Proceedings of the London Mathematical Society/
+  s2-42 (1937): 230--265.  The paper that defined
+  computation and its limits.
+- Copeland, B. Jack, ed.  /The Essential Turing/.
+  Oxford University Press, 2004.  Collected key papers
+  with extensive editorial commentary.
+- [[https://en.wikipedia.org/wiki/Alan_Turing][Alan Turing — Wikipedia]]
+- [[https://mathshistory.st-andrews.ac.uk/Biographies/Turing/][Alan Turing — MacTutor History of Mathematics]]

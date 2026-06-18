@@ -105,3 +105,19 @@ preferred for it remains a minority position.
 - Nobel Prize in Physics (1933).  Shared with Dirac
   for the discovery of new productive forms of atomic
   theory.
+
+** References
+
+- Moore, Walter.  /Schrödinger: Life and Thought/.
+  Cambridge University Press, 1989.  The comprehensive
+  biography, covering both the physics and the
+  complicated personal life.
+- Schrödinger, Erwin.  /What is Life?/.  Cambridge
+  University Press, 1944.  The slim book that inspired
+  Watson and Crick to search for the structure of DNA.
+- Schrödinger, Erwin.  "Quantisierung als
+  Eigenwertproblem."  /Annalen der Physik/ 384 (1926):
+  361--376.  First of the four 1926 papers establishing
+  wave mechanics.
+- [[https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger][Erwin Schrödinger — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/][Erwin Schrödinger — Nobel Prize Biography]]

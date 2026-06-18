@@ -119,3 +119,20 @@ fundamental unit, is a unit of uncertainty resolved.
   proved the one-time pad is unbreakable and
   established the theoretical foundations of modern
   cryptanalysis.
+
+** References
+
+- Soni, Jimmy, and Rob Goodman.  /A Mind at Play: How
+  Claude Shannon Invented the Information Age/.  Simon
+  & Schuster, 2017.  Accessible biography of Shannon's
+  life and work.
+- Shannon, Claude E.  "A Mathematical Theory of
+  Communication."  /Bell System Technical Journal/ 27
+  (1948): 379--423, 623--656.  The founding paper of
+  information theory.
+- Shannon, Claude E.  "A Symbolic Analysis of Relay and
+  Switching Circuits."  /Transactions of the AIEE/ 57
+  (1938): 713--723.  The master's thesis that linked
+  Boolean algebra to circuit design.
+- [[https://en.wikipedia.org/wiki/Claude_Shannon][Claude Shannon — Wikipedia]]
+- [[https://www.bell-labs.com/about/history/innovation-stories/shannon/][Claude Shannon — Bell Labs History]]

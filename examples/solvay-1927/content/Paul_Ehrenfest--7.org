@@ -105,3 +105,22 @@ between paradigms.
   Continued work on foundational problems in
   thermodynamics and quantum statistics until his
   death.
+
+** References
+
+- Klein, Martin J.  /Paul Ehrenfest: Volume 1, The
+  Making of a Theoretical Physicist/.  North-Holland,
+  1970.  The authoritative scientific biography of
+  Ehrenfest's intellectual formation.
+- Ehrenfest, Paul.  "Bemerkung über die angenäherte
+  Gültigkeit der klassischen Mechanik innerhalb der
+  Quantenmechanik."  /Zeitschrift für Physik/ 45
+  (1927): 455--457.  The Ehrenfest theorem paper,
+  linking classical and quantum mechanics.
+- Ehrenfest, Paul, and Tatiana Ehrenfest-Afanassjewa.
+  /The Conceptual Foundations of the Statistical
+  Approach in Mechanics/.  Cornell University Press,
+  1959.  English translation of their landmark 1912
+  review of statistical mechanics.
+- [[https://en.wikipedia.org/wiki/Paul_Ehrenfest][Paul Ehrenfest — Wikipedia]]
+- [[https://mathshistory.st-andrews.ac.uk/Biographies/Ehrenfest/][Paul Ehrenfest — MacTutor History of Mathematics]]

@@ -122,3 +122,18 @@ more."
 - /Grundlagen der Mathematik/ (with Bernays, 1934–1939).
   The two-volume attempt to salvage what could be
   saved of the formalization program after Gödel.
+
+** References
+
+- Reid, Constance.  /Hilbert/.  Springer-Verlag, 1970.
+  The standard biography, capturing both the mathematics
+  and the Göttingen intellectual culture.
+- Hilbert, David.  "Mathematische Probleme."
+  /Nachrichten von der Gesellschaft der Wissenschaften
+  zu Göttingen/ (1900): 253--297.  The 23 problems
+  address that set the century's research agenda.
+- Hilbert, David, and Paul Bernays.  /Grundlagen der
+  Mathematik/.  Springer, 1934–1939.  The monumental
+  attempt to salvage formalism after Gödel.
+- [[https://en.wikipedia.org/wiki/David_Hilbert][David Hilbert — Wikipedia]]
+- [[https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/][David Hilbert — MacTutor History of Mathematics]]

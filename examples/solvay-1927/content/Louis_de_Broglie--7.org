@@ -104,3 +104,18 @@ Nobel Prize.
 - /The Current Interpretation of Wave Mechanics/ (1964).
   Critique of the Copenhagen interpretation and defense
   of a causal, deterministic alternative.
+
+** References
+
+- de Broglie, Louis.  /Recherches sur la théorie des
+  quanta/.  Masson, 1924.  The doctoral thesis
+  proposing wave-particle duality of matter.
+- de Broglie, Louis.  "The Wave Nature of the
+  Electron."  Nobel Lecture, December 12, 1929.
+  His account of the discovery and its implications.
+- Abragam, Anatole.  "Louis Victor Pierre Raymond de
+  Broglie."  /Biographical Memoirs of Fellows of the
+  Royal Society/ 34 (1988): 22--41.  Concise scientific
+  biography by a colleague.
+- [[https://en.wikipedia.org/wiki/Louis_de_Broglie][Louis de Broglie — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1929/broglie/biographical/][Louis de Broglie — Nobel Prize Biography]]

@@ -92,3 +92,16 @@ honored there for her own achievements.
   Trained the next generation of radioactivity
   researchers, including her daughter Irène Joliot-Curie
   who won her own Nobel in 1935.
+
+** References
+
+- Quinn, Susan.  /Marie Curie: A Life/.  Simon &
+  Schuster, 1995.  Thorough biography drawing on
+  previously sealed family papers.
+- Curie, Marie.  /Recherches sur les substances
+  radioactives/.  Gauthier-Villars, 1903.  Doctoral
+  thesis documenting the discovery of polonium and
+  radium.
+- [[https://en.wikipedia.org/wiki/Marie_Curie][Marie Curie — Wikipedia]]
+- [[https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/][Marie Curie — Nobel Prize in Physics 1903]]
+- [[https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/biographical/][Marie Curie — Nobel Prize in Chemistry 1911]]
