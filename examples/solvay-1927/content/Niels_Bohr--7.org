@@ -44,6 +44,69 @@ Bohr's complementarity principle and his debates with
 Einstein over the foundations of quantum mechanics defined
 the philosophical landscape of 20th-century physics.
 
+His 1913 atomic model — electrons orbiting the nucleus
+in quantized energy levels — was the first successful
+application of quantum ideas to atomic structure.  It
+was crude and would be superseded within a decade, but
+it established the principle that nature operates in
+discrete jumps rather than smooth transitions.  By the
+mid-1920s, his Copenhagen institute had become the
+training ground for an entire generation of quantum
+physicists: Heisenberg, Pauli, Dirac, Gamow, Landau,
+and dozens of others passed through its doors.
+
+The complementarity principle, which Bohr introduced at
+the 1927 Como lecture just weeks before Solvay, was his
+philosophical answer to the wave-particle duality: an
+electron is neither wave nor particle, but both,
+depending on how you observe it.  These are not
+contradictions but complementary descriptions of a single
+reality.  This idea — that the observer's choice of
+measurement determines what aspect of nature is revealed
+— became the philosophical core of the Copenhagen
+interpretation and the central point of contention with
+Einstein.
+
+Bohr won the debate at Solvay, and he knew it.  The
+physics community largely accepted his framework, and
+for decades "shut up and calculate" became the working
+philosophy of quantum mechanics.  During the Second
+World War, Bohr escaped Nazi-occupied Denmark to Sweden
+and then to the United States, where he contributed to
+the Manhattan Project.  After the war, he became one of
+the earliest advocates for international cooperation on
+nuclear energy and the peaceful use of atomic power —
+lobbying Churchill and Roosevelt directly, usually
+without success.
+
+*** Key Works
+
+**** Before Solvay
+
+- /On the Constitution of Atoms and Molecules/ (1913).
+  The Bohr model — quantized electron orbits, the first
+  quantum theory of atomic structure.
+- /The Correspondence Principle/ (1920).  Quantum
+  predictions must converge with classical physics in
+  the limit of large quantum numbers.
+- /The Quantum Postulate and the Recent Development of
+  Atomic Theory/ (1927).  The Como lecture introducing
+  complementarity — delivered weeks before Solvay.
+
+**** After Solvay
+
+- /The Copenhagen Interpretation/ (1930s).  Not a single
+  paper but an evolving framework — observer-dependent
+  measurement, wavefunction collapse, no reality
+  independent of observation.
+- "Discussion with Einstein on Epistemological Problems
+  in Atomic Physics" (1949).  Bohr's own definitive
+  account of the Bohr-Einstein debates, published in
+  the Schilpp volume.
+- /Atomic Physics and Human Knowledge/ (1958).
+  Philosophical essays extending complementarity beyond
+  physics into biology and epistemology.
+
 ** References
 
 - Pais, Abraham.  /Niels Bohr's Times: In Physics,

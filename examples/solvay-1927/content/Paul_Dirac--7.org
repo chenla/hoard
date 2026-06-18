@@ -44,3 +44,66 @@ Famously laconic — colleagues joked that a "dirac" was
 the unit of one word per hour.  Lucasian Professor of
 Mathematics at Cambridge (1932–1969), the chair once
 held by Newton.
+
+Dirac arrived at the 1927 Solvay Conference as one of
+its youngest participants and said almost nothing during
+the debates.  He did not need to.  His 1925 paper on
+the general theory of quantum mechanics had already
+provided a more elegant formulation than either
+Heisenberg's matrix mechanics or Schrödinger's wave
+equation alone.  His transformation theory (1927)
+showed that the two approaches were mathematically
+equivalent — different representations of the same
+underlying structure.  Where others debated philosophy,
+Dirac simply wrote down the mathematics.
+
+Within a year of Solvay, he published the Dirac
+equation (1928), which unified quantum mechanics with
+special relativity and predicted the existence of
+antimatter — a particle identical to the electron but
+with opposite charge.  When the positron was discovered
+by Carl Anderson in 1932, it confirmed one of the most
+extraordinary theoretical predictions in the history of
+physics: Dirac had deduced the existence of a new form
+of matter from pure mathematics.  His textbook /The
+Principles of Quantum Mechanics/ (1930) became the
+standard reference for generations of physicists, and
+his notation — bra-ket notation — remains the standard
+language of quantum mechanics.
+
+His later work on magnetic monopoles, the Dirac sea
+(an infinite sea of negative-energy electrons whose
+"holes" appear as positrons), and quantum field theory
+continued to shape physics for decades.  He spent his
+final years at Florida State University, largely
+forgotten by the broader public but revered by
+physicists as perhaps the purest mathematical talent of
+the twentieth century.
+
+*** Key Works
+
+**** Before Solvay
+
+- "The Fundamental Equations of Quantum Mechanics"
+  (1925).  An independent formulation of quantum
+  mechanics, more general than either Heisenberg's or
+  Schrödinger's.
+- Transformation theory (1927).  Proved that matrix
+  mechanics and wave mechanics are mathematically
+  equivalent — different representations of one theory.
+
+**** After Solvay
+
+- The Dirac equation (1928).  Unified quantum mechanics
+  with special relativity and predicted the existence
+  of antimatter.
+- /The Principles of Quantum Mechanics/ (1930).  The
+  standard textbook — introduced bra-ket notation and
+  shaped how quantum mechanics was taught and practiced
+  for generations.
+- Dirac sea (1930).  The theoretical framework that
+  predicted positrons as "holes" in an infinite sea
+  of negative-energy electrons.
+- Magnetic monopole prediction (1931).  Showed that
+  the existence of a single magnetic monopole would
+  explain the quantization of electric charge.

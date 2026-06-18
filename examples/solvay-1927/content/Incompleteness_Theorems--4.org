@@ -48,3 +48,53 @@ on what can be known within a given framework.  Together
 they mark the end of the deterministic dream: that
 every question, whether physical or mathematical, has a
 knowable answer.
+
+Von Neumann's recognition was immediate and
+unambiguous.  He had been working on the formalization
+of quantum mechanics and was deeply invested in
+Hilbert's program.  When Gödel presented his results at
+Königsberg, von Neumann grasped the implications before
+anyone else in the room — and within weeks had
+independently derived the second theorem.  He
+reportedly abandoned his own foundational work on the
+spot.  The reversal was staggering: Gödel's
+completeness theorem for first-order logic had been
+published in 1929; the incompleteness theorems followed
+in 1931.  In two years, the territory shifted from
+"the program works" to "the program is impossible."
+
+The implications extend far beyond mathematics.  Any
+system built on formal foundations — legal codes,
+bureaucratic procedures, algorithmic governance, AI
+alignment frameworks — inherits the incompleteness
+constraint.  No set of rules, however carefully
+constructed, can anticipate every case that falls
+within its scope.  There will always be situations that
+are meaningful within the system's domain but
+undecidable by the system's rules.  This is not a
+practical limitation to be engineered around; it is a
+proven structural feature of formal systems as such.
+
+Turing's halting problem (1936) is the computational
+version of the same result: no program can determine
+whether every possible program will halt or run
+forever.  Church's theorem arrived independently the
+same year.  Three domains — mathematics, computation,
+physics — all hitting the same wall in a single
+decade.  The clockwork universe was not merely
+challenged; it was proven impossible.
+
+** References
+
+- Gödel, Kurt.  "Über formal unentscheidbare Sätze der
+  Principia Mathematica und verwandter Systeme I."
+  /Monatshefte für Mathematik und Physik/ 38 (1931):
+  173–198.
+- Dawson, John W.  /Logical Dilemmas: The Life and Work
+  of Kurt Gödel/.  A K Peters, 1997.  The standard
+  biography.
+- Franzén, Torkel.  /Gödel's Theorem: An Incomplete
+  Guide to Its Use and Abuse/.  A K Peters, 2005.
+  Careful treatment of what the theorems do and do not
+  imply.
+- [[https://plato.stanford.edu/entries/goedel-incompleteness/][SEP: Gödel's Incompleteness Theorems]]

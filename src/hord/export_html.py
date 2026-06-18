@@ -813,11 +813,10 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
             body_parts.append(f'<div class="references">{refs_html}</div>')
 
     # Navigation bar
-    home_href = "../index.html" if "../" in index_href else "index.html"
-    hord_index_href = "../index.html" if "../" in index_href else "index.html"
+    prefix = "../" if "../" in index_href else ""
     nav = ('<nav class="breadcrumb">'
-           f'<a href="{home_href}">Home</a>'
-           f' · <a href="{hord_index_href}">Hord Index</a>'
+           f'<a href="{prefix}index-arc.html">Home</a>'
+           f' · <a href="{prefix}index.html">Hord Index</a>'
            '</nav>')
     meta = hord_meta or {}
     return _html_page(display_title, "\n".join(body_parts), nav,

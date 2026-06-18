@@ -63,3 +63,54 @@ In 1952 he was convicted of gross indecency under
 British law; he accepted chemical castration to avoid
 prison.  He died on June 7, 1954, officially ruled a
 suicide.  He received a royal pardon in 2013.
+
+Turing is the computational echo of Gödel.  Where Gödel
+showed that formal systems cannot prove all true
+statements about arithmetic, Turing showed that no
+algorithm can decide whether an arbitrary program will
+halt — the halting problem.  The two results are
+formally equivalent: they define the same boundary from
+different directions.  Together they established that
+no deterministic procedure can answer all well-posed
+questions, even in principle.
+
+His 1950 paper "Computing Machinery and Intelligence"
+posed the question that still defines AI: can machines
+think?  Rather than attempting a philosophical answer,
+he proposed an operational test — the imitation game,
+now called the Turing test.  His final major work,
+the 1952 paper on morphogenesis, was equally
+revolutionary: a mathematical theory of how chemical
+reactions produce biological patterns like spots and
+stripes.  He was using computation to understand
+biology — the same direction von Neumann was heading.
+Both died before they could finish the turn.
+
+*** Key Works
+
+**** Before 1927
+
+(Turing was 14 years old in 1927.)
+
+**** After 1927
+
+- "On Computable Numbers, with an Application to the
+  Entscheidungsproblem" (1936).  The Turing machine —
+  a formal model of computation that proved the halting
+  problem undecidable, answering Hilbert's decision
+  problem in the negative.
+- Enigma / Bletchley Park (1939–1945).  Designed the
+  Bombe and contributed to the breaking of German
+  cipher systems — a decisive factor in the Allied
+  war effort.
+- ACE computer design (1945).  Detailed design for an
+  electronic stored-program computer at the National
+  Physical Laboratory.
+- "Computing Machinery and Intelligence" (1950).  The
+  Turing test — the first rigorous proposal for
+  evaluating machine intelligence.
+- "The Chemical Basis of Morphogenesis" (1952).
+  Mathematical models of biological pattern formation
+  — reaction-diffusion systems that explain how
+  organisms develop stripes, spots, and other
+  structures.

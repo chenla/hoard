@@ -49,3 +49,52 @@ definite properties before measurement), or both.  The
 question Einstein raised at breakfast at Solvay in 1927
 was finally answered experimentally — and the answer was
 not what Einstein hoped.
+
+Bell's day job was designing particle accelerators at
+CERN.  The foundations work was done in his spare time,
+almost as a private obsession — he called quantum
+foundations "my hobby."  This marginality is itself
+telling: in the decades after Copenhagen's victory,
+questioning the interpretation of quantum mechanics was
+considered disreputable, and Bell's theorem was largely
+ignored by mainstream physics for years after
+publication.
+
+It took eighteen years from theorem (1964) to
+definitive experiment (1982).  The delay was partly
+technological — Aspect needed single-atom cascade
+sources and fast polarization switches that did not
+exist in the 1960s — and partly sociological.  The
+physics community did not consider the question
+important.  Aspect's experiments at Orsay changed that,
+but even then the full recognition was slow.  The 2022
+Nobel Prize in Physics, awarded to Alain Aspect, John
+Clauser, and Anton Zeilinger "for experiments with
+entangled photons, establishing the violation of Bell
+inequalities and pioneering quantum information
+science," came fifty-eight years after the theorem and
+forty years after the key experiments.  Bell himself
+died in 1990, never receiving the prize his work made
+possible.
+
+The result means that nature is either nonlocal or
+non-real — either way, the classical worldview is dead.
+There is no interpretation of the experimental data
+that preserves both local causality and pre-existing
+definite properties.  The universe, at its most
+fundamental level, is not the clockwork that Newton and
+Laplace described.
+
+** References
+
+- Bell, John S.  "On the Einstein Podolsky Rosen
+  Paradox."  /Physics/ 1 (1964): 195–200.  The
+  original six-page paper.
+- Aspect, Alain, Jean Dalibard, and Gérard Roger.
+  "Experimental Realization of Einstein-Podolsky-Rosen-
+  Bohm Gedankenexperiment."  /Physical Review Letters/
+  49 (1982): 1804–1807.
+- Gilder, Louisa.  /The Age of Entanglement: When
+  Quantum Physics Was Reborn/.  Knopf, 2008.  Narrative
+  account of Bell and the experimentalists.
+- [[https://plato.stanford.edu/entries/bell-theorem/][SEP: Bell's Theorem]]

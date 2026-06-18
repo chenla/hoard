@@ -50,3 +50,58 @@ It led to the integrated circuit (1958), the
 microprocessor (1971), and everything that followed.
 The device that made the digital revolution possible
 is, at its foundation, a quantum machine.
+
+Bardeen, Brattain, and Shockley shared the 1956 Nobel
+Prize in Physics — but the collaboration was toxic.
+Shockley had wanted credit for the invention and was
+furious that Bardeen and Brattain had succeeded
+without him.  He developed the junction transistor
+partly to establish his own claim, then left Bell Labs
+to found Shockley Semiconductor in Palo Alto.  His
+management was so abusive that eight of his best
+researchers left to found Fairchild Semiconductor in
+1957 — the company that spawned Intel, AMD, and the
+entire Silicon Valley ecosystem.  The transistor's
+social history is as consequential as its physics.
+
+The technical point that matters for the Screed arc is
+this: the transistor is a quantum device.  Its
+operation depends on quantum mechanics in a way that
+is not incidental but fundamental.  Without quantum
+theory there would be no band theory of solids — the
+framework, developed by Bloch, Peierls, and Wilson in
+the late 1920s and 1930s, that explains why some
+materials conduct, some insulate, and some can be made
+to switch.  Without band theory there would be no
+understanding of semiconductors.  Without
+semiconductors there would be no doping — the precise
+introduction of impurities to create regions of excess
+electrons (n-type) or holes (p-type).  Without doping
+there would be no p-n junctions, and without p-n
+junctions there would be no transistors.
+
+The entire digital revolution — every computer, every
+phone, every server, every GPU training every neural
+network — rests on quantum physics applied to silicon.
+The probabilistic theory that Einstein resisted and
+Bohr defended at Solvay is not an abstract
+philosophical position.  It is the physical substrate
+of the modern world.  Every time a transistor switches,
+it enacts quantum mechanics.  There are roughly ten
+billion transistors on a modern chip, switching
+billions of times per second.  The clockwork universe
+is dead, and its replacement runs on quantum switches.
+
+** References
+
+- Riordan, Michael and Lillian Hoddeson.  /Crystal
+  Fire: The Invention of the Transistor and the Birth
+  of the Information Age/.  Norton, 1997.  The
+  definitive history.
+- Bardeen, John and Walter H. Brattain.  "The
+  Transistor, A Semi-Conductor Triode."  /Physical
+  Review/ 74 (1948): 230–231.
+- Shockley, William.  "The Theory of p-n Junctions in
+  Semiconductors and p-n Junction Transistors."  /Bell
+  System Technical Journal/ 28 (1949): 435–489.
+- [[https://www.nobelprize.org/prizes/physics/1956/summary/][Nobel Prize 1956: Transistor]]

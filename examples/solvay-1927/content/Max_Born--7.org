@@ -50,6 +50,63 @@ of the central ideas debated at the 1927 Solvay
 Conference, where Einstein famously objected that
 God does not play dice.
 
+Born gave quantum mechanics its most radical claim: that
+the wave function does not describe the electron itself
+but the probability of finding the electron.  Before
+Born's 1926 paper on collision theory, physicists could
+hope that Schrödinger's wave equation described
+something real and continuous — a vibrating charge
+cloud, perhaps.  Born showed otherwise.  The wave
+function's square gives probabilities and nothing more.
+Nature, at the fundamental level, is irreducibly
+statistical.  This was the specific idea Einstein
+objected to — not the mathematics of quantum mechanics,
+which he accepted, but Born's insistence that
+probability was the final word rather than a placeholder
+for deeper deterministic laws.
+
+The Born-Jordan paper of 1925 was equally important: it
+took Heisenberg's half-formed matrix mechanics and gave
+it rigorous mathematical structure.  Born recognized
+Heisenberg's "tables" as matrices and, with Jordan,
+built the full algebraic framework.  Without Born's
+mathematical formalization, Heisenberg's physical
+insight might have remained a sketch.
+
+Born was expelled from Göttingen in 1933 as a Jew, the
+same purge that destroyed the greatest mathematics
+department in the world.  He spent the rest of his
+career at Edinburgh.  The Nobel Prize did not come until
+1954, twenty-eight years after the Born rule — the
+longest delay in the history of the Physics prize at
+that time.  By then the rule was so foundational that
+its late recognition was itself a statement about how
+long it took the physics community to accept what
+Born's interpretation truly meant.
+
+*** Key Works
+
+**** Before Solvay
+
+- Born-Jordan paper (1925).  Rigorous mathematical
+  formalization of Heisenberg's matrix mechanics —
+  turned a physical insight into a complete theory.
+- "Zur Quantenmechanik der Stoßvorgänge" (1926).  The
+  Born rule — the square of the wave function gives
+  the probability of finding a particle, founding the
+  probabilistic interpretation of quantum mechanics.
+
+**** After Solvay
+
+- Born-Oppenheimer approximation (1927).  A method for
+  separating electronic and nuclear motion in molecules
+  — still fundamental to computational chemistry.
+- Exile to Edinburgh (1933).  Fled Nazi Germany; spent
+  the rest of his productive career in Scotland.
+- Nobel Prize in Physics (1954).  Awarded for the
+  probabilistic interpretation of the wave function —
+  twenty-eight years after the original paper.
+
 ** References
 
 - Born, Max.  /My Life: Recollections of a Nobel

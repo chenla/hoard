@@ -59,6 +59,25 @@ computation (the halting problem), through biology
 through artificial intelligence (machines that learn
 rather than execute).
 
+The consequences extend far beyond physics.  Determinism
+was not merely a scientific hypothesis — it was the
+operating system for three centuries of Western
+civilization.  Governance was built on it: the belief
+that rational laws, rationally applied, would produce
+predictable and optimal outcomes.  Economics was built
+on it: general equilibrium theory assumed markets could
+be modeled as closed systems with deterministic
+solutions.  Industrial production was built on it:
+Taylorism and scientific management treated workers and
+processes as components of a knowable machine.  When
+determinism collapsed in physics, these downstream
+systems did not update.  They continued operating on
+clockwork assumptions in a world that had been shown to
+be probabilistic.  This is the core of the Screed arc:
+the shockwave from 1927 has still not fully propagated
+through the institutions that run the world.  We are
+governed by Laplace's ghost.
+
 ** References
 
 - Laplace, Pierre-Simon.  /A Philosophical Essay on

@@ -53,6 +53,28 @@ reopened the debate, and today multiple interpretations
 compete — many-worlds, consistent histories, QBism — but
 Copenhagen remains the default pedagogical framework.
 
+In practice, Copenhagen became "shut up and calculate"
+— a phrase attributed to David Mermin (often
+misattributed to Feynman).  Physicists learned to use
+the formalism without asking what it meant.  This
+worked spectacularly well for engineering: lasers,
+semiconductors, MRI machines, all built on quantum
+predictions without requiring anyone to resolve the
+measurement problem.  But the philosophical cost was
+real.  An entire generation of physicists was trained to
+treat foundational questions as illegitimate, and the
+few who persisted — Bell, Bohm, Everett — were
+marginalized for decades.  The alternatives are now
+gaining ground: many-worlds (no collapse, just
+branching), QBism (probabilities are subjective
+degrees of belief), and de Broglie-Bohm pilot-wave
+theory (deterministic but nonlocal).  None has achieved
+consensus.  The fact that the question remains open
+nearly a century later is itself significant — it
+suggests that Copenhagen's victory was pragmatic, not
+explanatory.  The interpretation that won at Solvay
+solved the physics but left the philosophy in ruins.
+
 ** References
 
 - Faye, Jan.  "Copenhagen Interpretation of Quantum

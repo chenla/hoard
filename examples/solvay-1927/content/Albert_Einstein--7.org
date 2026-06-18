@@ -46,6 +46,69 @@ theory, yet he spent much of his later career arguing
 against its implications — particularly the abandonment
 of locality and determinism.
 
+Einstein is quantum theory's reluctant father.  His 1905
+paper on the photoelectric effect — showing that light
+comes in discrete packets of energy — was one of the
+founding arguments for the quantum.  His 1924 work with
+Satyendra Nath Bose on the statistical behavior of
+photons (Bose-Einstein statistics) deepened the quantum
+framework further.  Yet by the time of the 1927 Solvay
+Conference he was already in open revolt against the
+theory he had helped create.  The famous debates with
+Bohr at Solvay were not the complaints of a man who
+failed to understand quantum mechanics — they were the
+objections of someone who understood it perfectly and
+found its conclusions about reality unacceptable.
+
+The 1935 EPR paper, written with Boris Podolsky and
+Nathan Rosen, crystallized Einstein's objection: if
+quantum mechanics is complete, then measuring one
+particle can instantaneously affect a distant partner —
+"spooky action at a distance."  Einstein believed this
+proved quantum mechanics was incomplete, that hidden
+variables must exist.  He was wrong about the hidden
+variables, but the problems he identified were real.
+Bell's theorem (1964) and subsequent experiments showed
+that nature really is nonlocal in the way Einstein found
+intolerable.  The EPR argument, intended to kill quantum
+indeterminacy, instead became one of its most powerful
+confirmations.
+
+He spent his last two decades at Princeton pursuing a
+unified field theory that would restore determinism at a
+deeper level.  He never found it.  But the questions he
+raised — about locality, realism, and what it means for
+a physical theory to be complete — still define the
+foundations of physics a century later.
+
+*** Key Works
+
+**** Before Solvay
+
+- /On a Heuristic Viewpoint Concerning the Production
+  and Transformation of Light/ (1905).  The
+  photoelectric effect paper — light as discrete quanta,
+  launching quantum theory.
+- /On the Electrodynamics of Moving Bodies/ (1905).
+  Special relativity — time and space are not absolute.
+- /The Foundation of the General Theory of Relativity/
+  (1915).  General relativity — gravity as spacetime
+  curvature.
+- /Quantum Theory of the Monatomic Ideal Gas/ (1924).
+  Bose-Einstein statistics — quantum statistical
+  mechanics for bosons.
+
+**** After Solvay
+
+- "Can Quantum-Mechanical Description of Physical
+  Reality Be Considered Complete?" (1935).  The EPR
+  paper — the most precise statement of Einstein's
+  objection to quantum indeterminacy.
+- Unified field theory attempts (1930s–1955).  A
+  decades-long search for a theory that would subsume
+  both gravity and electromagnetism, restoring
+  determinism at a deeper level.  Never completed.
+
 ** References
 
 - Isaacson, Walter.  /Einstein: His Life and Universe/.

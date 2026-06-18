@@ -51,3 +51,63 @@ wrong" became legendary.  At 27 he was one of the
 younger participants at the 1927 Solvay Conference,
 already recognized as one of the sharpest minds in
 theoretical physics.
+
+Pauli played a decisive role at the 1927 Solvay
+Conference.  When Louis de Broglie presented his
+pilot-wave theory — a deterministic alternative to
+the Copenhagen interpretation — it was Pauli who
+demolished it.  His critique was so devastating that
+de Broglie abandoned the theory for the next quarter
+century, and pilot-wave approaches were not seriously
+revived until David Bohm's reformulation in 1952.
+History judges this harshly: Bohm's version proved
+viable, and Pauli may have delayed a legitimate
+research program by decades.  But in the moment, his
+intervention helped cement the Copenhagen consensus.
+
+His exclusion principle (1925) is one of those results
+that sounds technical but explains nearly everything:
+why matter takes up space, why the periodic table has
+its structure, why stars can resist gravitational
+collapse.  Without it, all electrons would drop to the
+lowest energy state and chemistry would not exist.  The
+principle earned him the Nobel Prize in 1945, though by
+then he had already made half a dozen other first-rank
+contributions.
+
+His later work with Villars on regularization and the
+spin-statistics theorem (connecting particle spin to
+whether particles obey Fermi-Dirac or Bose-Einstein
+statistics) continued to shape the mathematical
+foundations of quantum field theory.  He also engaged
+in a long and unusual correspondence with Carl Jung
+about the relationship between physics and psychology
+— a side of Pauli that surprised colleagues who knew
+him only as the field's most merciless critic.
+
+*** Key Works
+
+**** Before Solvay
+
+- /Exclusion principle/ (1925).  No two fermions can
+  occupy the same quantum state — the principle that
+  explains atomic structure and the periodic table.
+- Pauli matrices (1927).  The mathematical representation
+  of spin-1/2 particles, foundational to quantum
+  mechanics.
+- Spin theory (1924–1927).  Developed the non-relativistic
+  theory of electron spin.
+
+**** After Solvay
+
+- Neutrino prediction (1930).  Postulated an undetected
+  neutral particle to explain the continuous energy
+  spectrum of beta decay — confirmed experimentally by
+  Cowan and Reines in 1956.
+- Spin-statistics theorem (1940).  Proved that particles
+  with integer spin are bosons and particles with
+  half-integer spin are fermions — a deep connection
+  between quantum mechanics and special relativity.
+- Pauli-Villars regularization (1949).  A technique for
+  handling infinities in quantum field theory
+  calculations.

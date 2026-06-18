@@ -49,3 +49,50 @@ could reshape the physical world.  The abstract
 probabilities that Bohr and Einstein debated over
 breakfast had become the engineering basis for a weapon
 that could destroy a city in seconds.
+
+The scale of the project defies comprehension: $2
+billion in 1945 dollars (roughly $30 billion today),
+over 125,000 workers, most of whom did not know what
+they were building.  Entire cities — Oak Ridge,
+Tennessee; Richland, Washington — were built from
+scratch and kept secret.  It was the largest single
+scientific-industrial enterprise in history to that
+point, and it turned quantum physics into an
+industrial process.  Neutron cross-sections, quantum
+tunneling probabilities, and nuclear binding energies
+— concepts that had been chalk on blackboards at Solvay
+— became engineering parameters in production lines.
+
+The chain from Solvay to Los Alamos is traceable in
+human lives.  Bohr served as a consultant (codenamed
+"Nicholas Baker") after escaping occupied Denmark.
+Born's students scattered across the Allied weapons
+programs.  Dirac contributed to isotope separation
+theory.  Ehrenfest's students were at Los Alamos.  The
+twenty-nine physicists in the 1927 photograph had, in
+eighteen years, moved from debating whether God plays
+dice to building the most destructive device in history.
+
+The moral dimension is inseparable from the scientific
+one.  The irony is precise: the theory of fundamental
+uncertainty — the principle that nature at its deepest
+level operates by probability, not certainty — produced
+the most certain destruction human beings had ever
+achieved.  Many of the scientists involved spent the
+rest of their lives grappling with this.  Oppenheimer's
+famous invocation of the Bhagavad Gita ("Now I am
+become Death, the destroyer of worlds") was not theater
+— it was a man watching the deterministic dream
+culminate in its own negation.
+
+** References
+
+- Rhodes, Richard.  /The Making of the Atomic Bomb/.
+  Simon & Schuster, 1986.  The definitive narrative
+  history.
+- Herken, Gregg.  /Brotherhood of the Bomb/.  Henry
+  Holt, 2002.  The political and moral dimensions.
+- Bird, Kai and Martin J. Sherwin.  /American
+  Prometheus: The Triumph and Tragedy of J. Robert
+  Oppenheimer/.  Knopf, 2005.
+- [[https://www.atomicheritage.org/][Atomic Heritage Foundation]]

@@ -46,3 +46,42 @@ would present a new scenario at breakfast; each evening
 Bohr would produce a refutation.  The principle held.
 It remains one of the most experimentally confirmed
 results in all of physics.
+
+The critical point, often misunderstood, is that the
+uncertainty principle is not a statement about the
+clumsiness of measurement instruments.  It is not that
+we /disturb/ the particle by measuring it (though
+Heisenberg himself sometimes described it that way,
+which Bohr corrected).  It is that position and momentum
+do not simultaneously /exist/ as precise values.  The
+universe at its finest scale is not merely unknown but
+unknowable — not because we lack better tools, but
+because there is nothing definite there to know until a
+measurement creates it.
+
+The structural parallel to Gödel's incompleteness
+theorems (1931) is not coincidence — it is the same
+limit encountered in a different domain.  Heisenberg
+showed that physical systems cannot be fully specified.
+Gödel showed that formal systems cannot be fully
+complete.  Turing showed that computation cannot be
+fully decidable.  Three independent proofs, in three
+different fields, all arriving at the same conclusion
+within a single decade: that no system, physical or
+formal, can contain a complete description of itself.
+The deterministic dream — that everything is in
+principle knowable — died three separate deaths.
+
+** References
+
+- Heisenberg, Werner.  "Über den anschaulichen Inhalt
+  der quantentheoretischen Kinematik und Mechanik."
+  /Zeitschrift für Physik/ 43 (1927): 172–198.  The
+  original paper.
+- Cassidy, David C.  /Uncertainty: The Life and Science
+  of Werner Heisenberg/.  W.H. Freeman, 1992.  Full
+  biography including the skiing-holiday episode.
+- Hilgevoord, Jan and Jos Uffink.  "The Uncertainty
+  Principle."  /Stanford Encyclopedia of Philosophy/,
+  2016.
+- [[https://plato.stanford.edu/entries/qt-uncertainty/][SEP: Uncertainty Principle]]

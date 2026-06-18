@@ -62,3 +62,46 @@ with the probabilistic turn their fields had taken.
 
 He died in 1978 of self-starvation, convinced his food
 was being poisoned.
+
+The arc of Gödel's career contains a remarkable
+one-year reversal.  In 1929 he proved the completeness
+theorem for first-order logic: every logically valid
+statement in first-order predicate calculus is provable.
+Mathematics, at the most basic level, works.  Then in
+1930–1931 he proved the incompleteness theorems for
+higher-order systems: any consistent formal system
+powerful enough to express arithmetic contains true
+statements that cannot be proven within it.  The move
+from completeness to incompleteness — from "yes, it
+works" to "but not all the way up" — happened in a
+single year, and it destroyed the foundations of
+Hilbert's program.
+
+*** Key Works
+
+**** Before 1927
+
+(Gödel was 20 years old in 1927 and had not yet
+published.)
+
+**** After 1927
+
+- /Die Vollständigkeit der Axiome des logischen
+  Funktionenkalküls/ (1929).  The completeness theorem
+  — every valid formula in first-order logic is
+  provable.
+- "Über formal unentscheidbare Sätze der Principia
+  Mathematica und verwandter Systeme" (1931).  The
+  incompleteness theorems — any consistent system
+  powerful enough for arithmetic contains true but
+  unprovable statements, and cannot prove its own
+  consistency.
+- /Rotating Universes in General Relativity Theory/
+  (1949).  A solution to Einstein's field equations
+  in which time travel is theoretically possible —
+  closed timelike curves in a rotating universe.
+- /The Consistency of the Continuum Hypothesis/ (1940).
+  Proved that the continuum hypothesis cannot be
+  disproved from standard set theory axioms (the
+  other direction, independence, was proved by
+  Cohen in 1963).

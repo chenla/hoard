@@ -53,3 +53,52 @@ computer is thus a machine born from the wreckage of
 the deterministic dream: powerful beyond anything its
 creators imagined, but operating within formal limits
 that Gödel and Turing had already proven inescapable.
+
+The EDVAC report remains controversial.  Von Neumann's
+name appeared alone on the "First Draft," though J.
+Presper Eckert and John Mauchly — who had built ENIAC
+and were developing EDVAC — contributed fundamental
+ideas.  Herman Goldstine circulated the draft without
+their consent, and the resulting priority dispute
+poisoned relationships for decades.  Eckert and Mauchly
+went on to build UNIVAC; von Neumann built the IAS
+machine.  The question of who "invented" the
+stored-program computer has no clean answer — it
+emerged from a group, and the credit was misattributed
+by a clerical accident that became permanent.
+
+The architecture's significance is deeper than speed or
+flexibility.  A machine that stores its own program in
+memory can modify its own instructions — it can, in
+principle, rewrite itself.  This is the computational
+analog of self-reference, the very property that Gödel
+exploited to prove incompleteness.  It is no accident
+that von Neumann, who understood Gödel's proof better
+than almost anyone alive, designed a machine with
+self-reference as its central feature.
+
+The connection to Turing's universal machine (1936) is
+direct.  Turing showed that a single machine, given the
+right program, could simulate any other machine — the
+concept of universality.  Von Neumann's architecture
+made this concrete: a physical device that could be any
+computational device, limited only by its memory and
+the halting problem that Turing had already proven
+unsolvable.  The most powerful machine ever built
+carries, in its architecture, the proof of its own
+limitations.
+
+** References
+
+- von Neumann, John.  "First Draft of a Report on the
+  EDVAC."  1945.  The foundational document, with all
+  its controversy.
+- Haigh, Thomas, Mark Priestley, and Crispin Rope.
+  /ENIAC in Action: Making and Remaking the Modern
+  Computer/.  MIT Press, 2016.  Corrects the historical
+  record on the EDVAC credit dispute.
+- Turing, Alan.  "On Computable Numbers, with an
+  Application to the Entscheidungsproblem."
+  /Proceedings of the London Mathematical Society/ 42
+  (1936): 230–265.
+- [[https://plato.stanford.edu/entries/computing-history/][SEP: The Modern History of Computing]]

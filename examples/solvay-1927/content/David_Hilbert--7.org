@@ -62,3 +62,63 @@ incompleteness theorems at the Königsberg conference.
 The timing is almost unbearable: the most confident
 assertion of the deterministic program, delivered at the
 precise moment of its destruction.
+
+Hilbert's Göttingen was not just a mathematics
+department — it was the center of the mathematical
+world.  He attracted and trained many of the figures
+who appear elsewhere in the Solvay story: von Neumann,
+Born, Heisenberg, Courant, Weyl.  The intellectual
+culture he created — rigorous, ambitious, convinced
+that mathematics could provide certain foundations for
+all of science — was the environment that produced both
+quantum mechanics and the tools that dismantled its
+deterministic assumptions.
+
+His 23 problems, posed at the 1900 International
+Congress of Mathematicians in Paris, were a declaration
+that mathematics had a knowable frontier — that every
+important question could be stated precisely and, in
+principle, answered.  The second problem (prove the
+consistency of arithmetic) and the tenth (find an
+algorithm to solve all Diophantine equations) were
+answered in the negative by Gödel and by Matiyasevich
+respectively.  The program of formalization he pursued
+in the 1920s — completeness, consistency, decidability
+— was the mathematical expression of the same
+deterministic confidence that animated classical
+physics.  Its destruction by Gödel, Turing, and Church
+in the 1930s was the mathematical parallel to the
+quantum revolution: the universe refuses to be fully
+captured by formal systems, whether physical or logical.
+
+Hilbert lived until 1943, long enough to see the Nazis
+destroy his department — when asked by a Nazi official
+how mathematics at Göttingen was faring "now that it
+has been freed of the Jewish influence," he replied:
+"Mathematics at Göttingen?  There is really none any
+more."
+
+*** Key Works
+
+**** Before 1927
+
+- /Grundlagen der Geometrie/ (1899).  Foundations of
+  Geometry — rebuilt Euclidean geometry on a rigorous
+  axiomatic basis, the model for all subsequent
+  axiomatization.
+- 23 Problems (1900).  The research agenda for
+  twentieth-century mathematics, posed at the
+  International Congress of Mathematicians in Paris.
+- Hilbert spaces (1900s–1910s).  The infinite-
+  dimensional vector spaces that became the
+  mathematical framework for quantum mechanics.
+
+**** After 1927
+
+- Hilbert's program (1920s–1931).  The attempt to prove
+  the consistency and completeness of mathematics
+  from finitary methods — destroyed by Gödel's
+  incompleteness theorems in 1931.
+- /Grundlagen der Mathematik/ (with Bernays, 1934–1939).
+  The two-volume attempt to salvage what could be
+  saved of the formalization program after Gödel.

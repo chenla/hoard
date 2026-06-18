@@ -43,6 +43,68 @@ Led Germany's nuclear energy project during World War II
 remains debated.  After the war, helped rebuild German
 physics and directed the Max Planck Institute for Physics.
 
+He was twenty-three years old when he invented matrix
+mechanics in the summer of 1925, working alone on the
+island of Helgoland while recovering from hay fever.
+The paper, which dispensed with visualizable electron
+orbits entirely and replaced them with abstract
+mathematical tables of observable quantities, was so
+radical that even his mentor Max Born needed weeks to
+recognize that the "tables" were matrices.  Heisenberg
+had reinvented matrix algebra from scratch without
+knowing the mathematics already existed.
+
+Two years later, at twenty-five, he published the
+uncertainty principle: the position and momentum of a
+particle cannot both be known with arbitrary precision.
+This was not a statement about the limitations of
+measurement instruments — it was a claim about the
+structure of nature itself.  Together with Bohr's
+complementarity, the uncertainty principle formed the
+philosophical foundation of the Copenhagen
+interpretation.  At the 1927 Solvay Conference,
+Heisenberg was the youngest revolutionary in a room
+full of them.
+
+The wartime years cast a long shadow.  Heisenberg led
+the German uranium project but never produced a weapon
+— whether by incompetence, sabotage, or moral choice
+remains one of the most debated questions in the history
+of science.  The Farm Hall transcripts, secretly recorded
+conversations among captured German physicists after
+Hiroshima, reveal a man visibly shaken by the American
+success and scrambling to explain why his own effort
+had failed.  After the war he rebuilt German physics
+institutions and became the first president of the
+German Research Council, but his wartime choices followed
+him for the rest of his life.
+
+*** Key Works
+
+**** Before Solvay
+
+- "Über quantentheoretische Umdeutung kinematischer
+  und mechanischer Beziehungen" (1925).  The matrix
+  mechanics paper — the first complete formulation of
+  quantum mechanics.
+- "Über den anschaulichen Inhalt der
+  quantentheoretischen Kinematik und Mechanik" (1927).
+  The uncertainty principle — position and momentum
+  cannot both be precisely determined.
+
+**** After Solvay
+
+- Nobel Prize in Physics (1932).  Awarded for "the
+  creation of quantum mechanics."
+- German uranium project (1939–1945).  Led the Nazi
+  nuclear research effort; never produced a weapon.
+- /Physics and Philosophy: The Revolution in Modern
+  Science/ (1958).  Heisenberg's own philosophical
+  account of the quantum revolution.
+- Max Planck Institute for Physics (1946–1970).
+  Directed the rebuilt German physics institute in
+  Göttingen, then Munich.
+
 ** References
 
 - Cassidy, David C.  /Uncertainty: The Life and Science

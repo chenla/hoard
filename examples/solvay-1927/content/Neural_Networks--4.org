@@ -54,3 +54,53 @@ deterministic clockwork that Laplace imagined.  The
 shockwave from Solvay, propagating through Gödel and
 Turing and von Neumann, arrives here: machines that
 embrace uncertainty as their operating principle.
+
+The history is punctuated by AI winters — periods when
+funding and interest collapsed.  The first followed the
+Minsky-Papert critique (1969); the second came in the
+late 1980s when expert systems failed to deliver on
+their promises.  Each time, the field was rescued by
+the same insight: more data and more compute could
+overcome theoretical limitations that seemed
+fundamental.  The pattern itself is instructive — the
+deterministic approach (symbolic AI, rule-based
+systems, expert systems) kept failing; the
+probabilistic approach (neural networks, statistical
+learning) kept reviving.
+
+Neural networks are fundamentally probabilistic
+machines.  They do not learn rules; they learn
+statistical patterns.  A trained network does not
+"know" what a cat looks like in any way that can be
+extracted as a set of explicit propositions — it has
+adjusted millions of numerical weights until its
+outputs correlate with its training data.  This is
+not a bug or a limitation.  It is the design.  These
+are machines that work /by/ probability rather than
+/despite/ it — the first engineered systems that
+operate on the same principle the universe was shown
+to operate on at Solvay.
+
+The transformer architecture (Vaswani et al., 2017)
+is the current wavefront.  Attention mechanisms allow
+the network to learn which parts of a sequence are
+relevant to which other parts — a fundamentally
+relational and contextual computation.  The resulting
+models (GPT, Claude, Gemini) demonstrate capabilities
+that no one predicted from their architecture.  They
+are, in a sense, the computational proof that
+probabilistic foundations can produce results that
+deterministic systems never could.
+
+** References
+
+- McCulloch, Warren S. and Walter Pitts.  "A Logical
+  Calculus of the Ideas Immanent in Nervous Activity."
+  /Bulletin of Mathematical Biophysics/ 5 (1943):
+  115–133.
+- Minsky, Marvin and Seymour Papert.  /Perceptrons/.
+  MIT Press, 1969.  The critique that triggered the
+  first AI winter.
+- Vaswani, Ashish et al.  "Attention Is All You Need."
+  /NeurIPS/ 2017.  The transformer paper.
+- [[https://en.wikipedia.org/wiki/Artificial_neural_network][Wikipedia: Artificial Neural Network]]

@@ -51,3 +51,47 @@ and violated Bell's inequality — Einstein was wrong
 about locality, but right that something profound was at
 stake.  The EPR paper remains one of the most cited in
 the history of physics.
+
+The paper's structure deserves attention.  Einstein,
+Podolsky, and Rosen did not simply assert that quantum
+mechanics was wrong.  They defined a precise criterion
+for what counts as an "element of reality": if, without
+disturbing a system, we can predict with certainty the
+value of a physical quantity, then there exists an
+element of physical reality corresponding to that
+quantity.  They then showed that quantum mechanics, for
+entangled pairs, implied the existence of such elements
+while simultaneously denying their reality.  The
+argument was airtight /given its premises/ — and that
+is exactly where Bohr attacked, rejecting the premise
+that one could meaningfully speak of properties
+independent of measurement context.
+
+The debate appeared merely philosophical for thirty
+years.  Physicists on both sides assumed the question
+was untestable — a matter of interpretation, not
+experiment.  This was wrong.  Bell's genius was to show
+that local hidden-variable theories make different
+/statistical predictions/ than quantum mechanics, and
+that the difference is measurable.  Einstein died in
+1955 without knowing that his most famous objection
+would be experimentally resolved — and resolved against
+him.  He never saw the answer.  The question he posed
+in 1935 was not fully settled until Aspect's
+experiments in 1982, and the definitive loophole-free
+tests did not arrive until 2015.
+
+** References
+
+- Einstein, Albert, Boris Podolsky, and Nathan Rosen.
+  "Can Quantum-Mechanical Description of Physical
+  Reality Be Considered Complete?"  /Physical Review/ 47
+  (1935): 777–780.
+- Bohr, Niels.  "Can Quantum-Mechanical Description of
+  Physical Reality Be Considered Complete?"  /Physical
+  Review/ 48 (1935): 696–702.  Bohr's reply, same
+  title.
+- Fine, Arthur.  /The Shaky Game: Einstein, Realism, and
+  the Quantum Theory/.  2nd ed., University of Chicago
+  Press, 1996.
+- [[https://plato.stanford.edu/entries/qt-epr/][SEP: The Einstein-Podolsky-Rosen Argument]]

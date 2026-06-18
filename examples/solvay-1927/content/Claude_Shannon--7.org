@@ -63,3 +63,59 @@ itself off.  He spent his later years at MIT, where
 he could often be found unicycling through the halls.
 He was diagnosed with Alzheimer's disease and died in
 2001.
+
+Shannon completed the triad that redefined the
+deterministic landscape.  Where Gödel showed the limits
+of formal proof and Turing showed the limits of
+computation, Shannon showed that communication itself
+is fundamentally probabilistic.  Information, as he
+defined it, is measured by surprise — the less probable
+a message, the more information it carries.  His
+entropy formula is identical in structure to the
+thermodynamic entropy of Boltzmann and the quantum
+entropy of von Neumann.  The convergence is not
+coincidence: all three describe the same underlying
+relationship between certainty and ignorance.
+
+His channel capacity theorem proved that reliable
+communication is possible even through noisy channels,
+up to a mathematically precise limit.  This was the
+theoretical foundation for everything from modems to
+deep-space probes to the internet.  The theorem's
+proof was non-constructive — it showed the limit
+existed without showing how to achieve it — and it
+took decades of coding theory to approach Shannon's
+bound in practice.  Modern 5G and satellite
+communications operate within a fraction of a decibel
+of the limit he calculated in 1948.
+
+What makes Shannon's work essential to the Solvay
+narrative is the completion of the arc: the 1927
+conference established that nature is probabilistic at
+the quantum level; Shannon showed that information —
+the stuff of thought, measurement, and communication —
+is probabilistic by definition.  The bit, his
+fundamental unit, is a unit of uncertainty resolved.
+
+*** Key Works
+
+**** Before 1927
+
+(Shannon was 10 years old in 1927.)
+
+**** After 1927
+
+- "A Symbolic Analysis of Relay and Switching Circuits"
+  (1937).  Master's thesis — proved that Boolean
+  algebra could be implemented in electrical circuits,
+  the theoretical foundation for digital hardware
+  design.
+- "A Mathematical Theory of Communication" (1948).
+  Founded information theory — defined entropy as a
+  measure of uncertainty, introduced the bit, proved
+  the channel capacity theorem.
+- "Communication Theory of Secrecy Systems" (1949).
+  Applied information theory to cryptography —
+  proved the one-time pad is unbreakable and
+  established the theoretical foundations of modern
+  cryptanalysis.

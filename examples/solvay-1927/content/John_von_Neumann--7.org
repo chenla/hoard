@@ -71,6 +71,40 @@ understand language... and play, like a child."  He died
 at 53, leaving behind work that would take decades to
 fully absorb.
 
+*** Key Works
+
+**** Before Solvay
+
+- /Zur Theorie der Gesellschaftsspiele/ (1928).  The
+  minimax theorem — founding paper of game theory,
+  proving that every finite two-person zero-sum game
+  has an optimal strategy.
+- /Mathematische Grundlagen der Quantenmechanik/ (1932).
+  Mathematical Foundations of Quantum Mechanics — the
+  rigorous Hilbert-space formalization that dominated
+  quantum theory for decades, including the (flawed)
+  proof of the impossibility of hidden variables.
+
+**** After Solvay
+
+- /First Draft of a Report on the EDVAC/ (1945).  The
+  stored-program architecture that became the template
+  for virtually all subsequent computers.
+- MANIAC computer (1951).  The IAS machine — designed
+  at Princeton, used for hydrogen bomb calculations
+  and some of the first numerical weather predictions.
+- Hydrogen bomb implosion lens (1940s).  Co-designed
+  the shaped-charge geometry for the plutonium bomb.
+- /Theory of Self-Reproducing Automata/ (posthumous,
+  1966).  Cellular automata and the theory of
+  machines that can build copies of themselves —
+  anticipating both artificial life and the logic of
+  biological reproduction.
+- /The Computer and the Brain/ (posthumous, 1958).
+  Unfinished lectures comparing neural architecture
+  to digital computation — where the biological turn
+  was heading when he died.
+
 ** References
 
 - Bhattacharya, Ananyo.  /The Man from the Future: The
