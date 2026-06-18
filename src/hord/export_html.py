@@ -657,11 +657,12 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
                 break
         if whole_uuid:
             whole_title = _resolve_title(whole_uuid, hord_root)
+            link_label = "Full record" if entity_type != "wh:per" else "Full biography"
             body_parts.append(
                 f'<div class="expr-callout">'
                 f'Temporal expression · '
                 f'<a href="{_entity_filename(whole_uuid)}">'
-                f'Full biography: {escape(whole_title)} →</a></div>')
+                f'{link_label}: {escape(whole_title)} →</a></div>')
 
     # Metadata sidebar (float right, before scope note so text wraps)
     if source_path:
@@ -1096,12 +1097,20 @@ def _render_member_card(member: dict) -> str:
 
 
 def _extract_holon_description(filepath: str) -> str:
-    """Extract the description text between the properties and first heading."""
+    """Extract the description text from a holon card.
+
+    Looks for free prose between structural sections — either
+    between :END: and the first ** heading, or between
+    ** Relations and ** Membership (where descriptions live
+    in holons that have a Relations section).
+    """
     if not filepath or not os.path.exists(filepath):
         return ""
     with open(filepath, "r") as f:
         content = f.read()
     lines = content.split("\n")
+
+    # First try: text between :END: and first ** heading
     desc_lines = []
     past_props = False
     for line in lines:
@@ -1113,6 +1122,22 @@ def _extract_holon_description(filepath: str) -> str:
                 break
             stripped = line.strip()
             if stripped:
+                desc_lines.append(stripped)
+    if desc_lines:
+        return " ".join(desc_lines)
+
+    # Second try: text between ** Relations and ** Membership
+    # (skipping relation items that start with "- ")
+    in_relations = False
+    for line in lines:
+        if re.match(r"^\*\*\s+Relations", line):
+            in_relations = True
+            continue
+        if in_relations:
+            if re.match(r"^\*\*\s+", line):
+                break
+            stripped = line.strip()
+            if stripped and not stripped.startswith("- "):
                 desc_lines.append(stripped)
     return " ".join(desc_lines)
 
@@ -1871,6 +1896,162 @@ def render_context_cloud(holon_uuid: str, hord_root: str,
 """
 
 
+# ── Series landing page ───────────────────────────────
+
+LANDING_CSS = """\
+:root {
+  --bg: #fffff8; --fg: #111; --accent: #2d6a4f;
+  --border: #d4d4d0; --muted: #6b6b68; --link: #2d6a4f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a18; --fg: #d4d4d0; --accent: #52b788;
+    --border: #3a3a38; --muted: #9a9a96; --link: #52b788;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: et-book, Palatino, "Palatino Linotype",
+               "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem; line-height: 2rem;
+  background: var(--bg); color: var(--fg);
+  width: 87.5%; margin-left: auto; margin-right: auto;
+  max-width: 1400px; padding: 5rem 0 5rem 8rem;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 2.6rem; font-weight: 400; line-height: 1.2;
+     margin-bottom: 0.5rem; width: 55%; }
+.series-label { font-style: italic; font-size: 1.1rem;
+  color: var(--muted); margin-bottom: 2.5rem; width: 55%; }
+.intro { width: 55%; font-size: 1.25rem; line-height: 1.8;
+         margin-bottom: 3rem; }
+.intro p { margin-bottom: 1.4rem; }
+.articles { width: 55%; margin-bottom: 3rem; }
+.article-link { display: block; padding: 1.5rem 0;
+                border-bottom: 1px solid var(--border); }
+.article-link:first-child { border-top: 1px solid var(--border); }
+.article-link:hover { text-decoration: none; }
+.article-link:hover .article-title { text-decoration: underline; }
+.article-num { font-size: 0.9rem; color: var(--accent);
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase; letter-spacing: 0.1em; }
+.article-title { font-size: 1.5rem; font-weight: 400;
+  display: block; margin: 0.25rem 0; color: var(--fg); }
+.article-desc { font-size: 1.05rem; color: var(--muted);
+                line-height: 1.5; }
+.meta-links { width: 55%; margin-top: 2rem;
+              font-size: 1.05rem; color: var(--muted); }
+.meta-links a { color: var(--link); }
+.photo-float { float: right; width: 35%;
+               margin: 0 7% 1.5rem 2rem; }
+.photo-float img { width: 100%; border-radius: 2px; }
+.photo-float .caption { font-size: 0.85rem; color: var(--muted);
+                        margin-top: 0.4rem; line-height: 1.4; }
+footer { margin-top: 4rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem; color: var(--muted); width: 55%; }
+footer a { color: var(--link); }
+@media (max-width: 960px) {
+  body { width: 90%; padding: 2rem 0 2rem 1.5rem; }
+  h1, .series-label, .intro, .articles,
+  .meta-links, footer { width: 100%; }
+  .photo-float { float: none; width: 100%; margin: 1rem 0; }
+}
+"""
+
+
+def render_series_landing(cloud_info: list[dict], hord_root: str,
+                          hord_meta: dict, num_entities: int,
+                          num_holons: int) -> str:
+    """Render a landing page for a multi-article series."""
+    meta = hord_meta or {}
+
+    # Find the Solvay photo for the sidebar (if it exists)
+    photo_html = ""
+    photo_path = os.path.join(hord_root, "lib", "media",
+                              "benjamin-couprie--1927-solvay-conference.jpg")
+    if os.path.exists(photo_path):
+        photo_html = (
+            '<div class="photo-float">\n'
+            '  <img src="lib/media/benjamin-couprie--1927-solvay-conference.jpg"\n'
+            '       alt="The 1927 Solvay Conference photograph">\n'
+            '  <div class="caption">Brussels, October 1927. Twenty-nine physicists.\n'
+            '    Seventeen Nobel laureates. The most intelligent photograph '
+            'ever taken.</div>\n'
+            '</div>\n')
+
+    # Build article links
+    articles_html = []
+    for i, info in enumerate(cloud_info):
+        desc = info.get("desc", "")
+        articles_html.append(
+            f'<a class="article-link" href="{info["slug"]}/index.html">\n'
+            f'  <span class="article-num">Part {i + 1}</span>\n'
+            f'  <span class="article-title">{escape(info["title"])}</span>\n'
+            f'  <span class="article-desc">{escape(desc)}</span>\n'
+            f'</a>\n')
+
+    # Footer
+    footer_parts = ['Generated by <a href="https://github.com/chenla/hoard">Hoard</a>']
+    if meta.get("copyright_holder"):
+        footer_parts.append(
+            f'&copy;{escape(meta.get("copyright_year", ""))} '
+            f'{escape(meta["copyright_holder"])}')
+    if meta.get("license"):
+        footer_parts.append(escape(meta["license"]))
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Solvay Shockwave &mdash; Screed</title>
+<style>{LANDING_CSS}</style>
+</head>
+<body>
+
+{photo_html}
+<h1>The Solvay Shockwave</h1>
+<div class="series-label">Screed &middot; Tranche 1</div>
+
+<div class="intro">
+<p>In October 1927, twenty-nine physicists gathered in Brussels
+for the Fifth Solvay Conference. The debates that erupted that
+week &mdash; between Einstein and Bohr, between determinism and
+probability, between the old physics and the new &mdash; shattered
+the most foundational assumption of the modern West: that the
+universe is a clockwork mechanism, fully knowable, fully
+controllable.</p>
+
+<p>The shockwave from that week propagated outward through
+mathematics, through computation, through nuclear weapons,
+through artificial intelligence. It is still propagating now.</p>
+
+<p>These three articles trace that shockwave from the photograph
+to the present. Each is a self-contained piece; together they
+tell one story.</p>
+</div>
+
+<div class="articles">
+{"".join(articles_html)}
+</div>
+
+<div class="meta-links">
+  <a href="index.html">Hord Index</a> &middot;
+  {num_entities} cards &middot; {num_holons} holons &middot;
+  <a href="https://chenla.substack.com">Screed on Substack</a>
+</div>
+
+<footer>
+  {" &middot; ".join(footer_parts)}
+</footer>
+
+</body>
+</html>
+"""
+
+
 # ── CLI command ────────────────────────────────────────
 
 @click.command("export")
@@ -2050,9 +2231,15 @@ def export_cmd(output, holon_name, cloud_names):
             cloud_title = _resolve_title(cloud_uuid, hord_root)
             cloud_slug = re.sub(r"[^a-z0-9]+", "-",
                                 cloud_title.lower()).strip("-")
+            # Extract holon description for landing page
+            holon_source = path_for_uuid.get(cloud_uuid)
+            cloud_desc = ""
+            if holon_source:
+                cloud_desc = _extract_holon_description(
+                    os.path.join(hord_root, holon_source))
             cloud_info.append({
                 "uuid": cloud_uuid, "title": cloud_title,
-                "slug": cloud_slug,
+                "slug": cloud_slug, "desc": cloud_desc,
             })
 
         # Build series nav for each article (if multiple clouds)
@@ -2089,6 +2276,17 @@ def export_cmd(output, holon_name, cloud_names):
                 f.write(cloud_html)
 
             click.echo(f"Context cloud: {cloud_dir}/index.html")
+
+        # Generate series landing page if multiple clouds
+        if is_series:
+            num_holons = sum(1 for e in entities if e.get("type") == "wh:holon")
+            landing_html = render_series_landing(
+                cloud_info, hord_root, hord_meta,
+                num_entities=len(entities), num_holons=num_holons)
+            landing_path = os.path.join(out_dir, "index-arc.html")
+            with open(landing_path, "w") as f:
+                f.write(landing_html)
+            click.echo(f"Series landing: {landing_path}")
 
     click.echo(f"Exported {len(entities)} entities to {out_dir}/")
     click.echo(f"  Open {os.path.join(out_dir, 'index.html')} to browse.")
