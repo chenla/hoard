@@ -79,6 +79,12 @@ h3 {
   margin: 1.5rem 0 .5rem;
 }
 code { font-size: .9rem; word-break: break-all; }
+.expr-callout {
+  font-size: 1rem; color: var(--muted);
+  font-style: italic; margin-bottom: 1.25rem;
+  width: 55%;
+}
+.expr-callout a { color: var(--link); font-style: normal; }
 .life-dates {
   font-size: 1.2rem; font-weight: 300;
   color: var(--muted);
@@ -641,6 +647,21 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
     body_parts.append(f"<h1>{title_html}</h1>")
     body_parts.append(f'<div class="subtitle">'
                       f'<span class="type-tag">{escape(type_label)}</span></div>')
+
+    # Expression card callout — link to Whole card
+    if is_expression:
+        whole_uuid = None
+        for q in quads:
+            if q.predicate == "v:s-eo":
+                whole_uuid = q.object
+                break
+        if whole_uuid:
+            whole_title = _resolve_title(whole_uuid, hord_root)
+            body_parts.append(
+                f'<div class="expr-callout">'
+                f'Temporal expression · '
+                f'<a href="{_entity_filename(whole_uuid)}">'
+                f'Full biography: {escape(whole_title)} →</a></div>')
 
     # Metadata sidebar (float right, before scope note so text wraps)
     if source_path:
