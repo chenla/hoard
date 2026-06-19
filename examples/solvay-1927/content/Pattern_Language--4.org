@@ -59,14 +59,14 @@ of living structure, the idea that matter itself
 has degrees of life, and the claim that the process
 of creation matters as much as the product.  This is
 where Alexander most directly anticipates Hoard's
-homoiconicity — the structure of the thing and the
+homoiconicity@@margin:Homoiconicity@@ — the structure of the thing and the
 process that made it are not separable.
 
 The unfinished problem in Alexander's work: pattern
 languages require a community of practice to function,
 but he never solved how to bootstrap that community
 or how to scale pattern-based production beyond
-individual buildings.  This is exactly the gap
+individual buildings.@@margin:Shokunin@@  This is exactly the gap
 Dispersal addresses.
 
 ** References

@@ -70,12 +70,12 @@ A World-System passes through three phases:
 
 Each World-System has two core branches:
 
-- *CULTURE*: the slow branch — preservation of memory,
+- *CULTURE*: the slow branch@@margin:Pace_Layers@@ — preservation of memory,
   experience, knowledge across W-S transitions.  The
   CULTURE branches of successive World-Systems
   coordinate over very long timeframes, forming the
   CULTURE World System (no hyphen): humanity's
-  continuity mechanism.  This is not a shadow
+  continuity mechanism.@@margin:Subsidiarity@@  This is not a shadow
   government or a conspiracy.  It is how humanity
   avoids starting from zero at each transition — the
   monastery preserving manuscripts through the dark

@@ -43,9 +43,9 @@ lower holons do not take orders from higher ones.
 Instead, each level constrains and enables the levels
 below and above it.  The organism constrains the organ
 (you cannot have a liver without a body) but does not
-micromanage it (the liver handles its own chemistry).
+micromanage it (the liver handles its own chemistry).@@margin:Subsidiarity@@
 
-This maps directly onto Hoard's architecture.  A card
+This maps directly onto Hoard's architecture.@@margin:Hoard@@  A card
 is a holon: a self-contained entity with its own
 identity, scope note, and relations.  A holon
 (wh:holon) is a higher-level holon: a bounded scope
@@ -60,7 +60,7 @@ rhizome-vs-hierarchy tension.  Pure hierarchies are
 brittle (all control is centralized).  Pure rhizomes
 are illegible (no structure is visible).  Holarchies
 provide bounded complexity: rooms for the rats, with
-doors that connect to the corridor.
+doors that connect to the corridor.@@margin:Metis@@
 
 Wilber extended Koestler's holarchy into an integral
 framework spanning matter, life, mind, and spirit.

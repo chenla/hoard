@@ -39,20 +39,20 @@ absorbs the failures.  Each layer learns at its own
 rate, and the whole system's resilience comes from this
 differential — not from any single layer's stability.
 
-This maps directly onto Hoard's three overlays: Flow
+This maps directly onto Hoard's three overlays@@margin:Overlays@@: Flow
 (fast — dynamics, feedback, streams), Structural
 (middle — organization, navigation, holons), and Strata
 (slow — identity, vocabulary, provenance).  The heap —
 unstructured, unsorted material — operates at the
 fastest pace of all, the arrival rate of raw experience.
 
-The model also explains why deterministic systems fail:
+The model also explains why deterministic systems fail@@margin:Determinism@@:
 they assume all layers can be synchronized, that change
 at the top can be commanded to propagate uniformly
 downward.  But change has momentum, it has locality,
 and it propagates at different rates through different
 mediums.  Those mediums are, at the end of the day, all
-made up of data structures.
+made up of data structures.@@margin:Antifragility@@
 
 ** References
 

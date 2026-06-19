@@ -258,6 +258,37 @@ footer {
   font-size: .9rem; color: var(--muted);
 }
 
+/* ── Sidenotes (Tufte-style margin notes) ── */
+.sidenote-ref {
+  font-size: 0.75em; color: var(--accent);
+  vertical-align: super; line-height: 0; font-weight: 600;
+}
+.sidenote {
+  float: right; clear: right;
+  margin-right: -60%; width: 50%;
+  margin-top: 0.3rem; margin-bottom: 0;
+  font-size: 1.1rem; line-height: 1.3;
+  vertical-align: baseline; position: relative;
+  color: var(--muted);
+}
+.sidenote .sn-num {
+  font-size: 0.75em; color: var(--accent);
+  font-weight: 600; margin-right: 0.1rem;
+}
+.sidenote .sn-title { font-weight: 600; font-size: 1rem; }
+.sidenote .sn-title a { color: var(--fg); }
+.sidenote .sn-title a:hover { color: var(--link); }
+.sidenote .sn-type {
+  font-size: 0.8rem; color: var(--muted);
+  font-style: italic; margin-left: 0.2rem;
+}
+.sidenote .sn-body {
+  display: block; margin-top: 0.2rem; font-size: 0.9rem;
+}
+.sidenote .sn-body p {
+  width: 100%; margin: 0; font-size: 0.9rem; line-height: 1.4;
+}
+
 /* ── Narrow screen ── */
 @media (max-width: 960px) {
   body { width: 90%; padding: 1.5rem 0 1.5rem 1.5rem; font-size: 1.1rem; }
@@ -274,6 +305,8 @@ footer {
     float: none; width: 100%; padding-left: 0; margin: 1rem 0;
   }
   .solvay-strip img { height: 120px; }
+  .sidenote { display: none; }
+  .sidenote-ref { cursor: pointer; }
   h1 { font-size: 1.5rem; }
   h2 { font-size: 1.2rem; }
   .quad-table td:first-child { width: auto; min-width: 4rem; font-size: .8rem; }
@@ -798,11 +831,37 @@ def render_entity_page(uuid: str, hord_root: str, vocab: Vocabulary,
         full_path = os.path.join(hord_root, source_path)
         notes_text = _extract_notes(full_path)
         if notes_text:
-            notes_html = _org_body_to_html(notes_text)
-            # Fix media paths for subdirectory card pages
+            # Parse margin markers and resolve card content
+            markers = _parse_margin_markers(notes_text)
+            margin_cards = []
+            for i, marker in enumerate(markers):
+                card = _resolve_card_content(
+                    marker["slug"], hord_root, index, path_for_uuid,
+                    label=marker["label"],
+                    note=marker["note"],
+                )
+                card["ref_num"] = i + 1
+                margin_cards.append(card)
+
+            notes_html = _org_body_to_html(
+                notes_text, margin_cards if margin_cards else None,
+                hord_root=hord_root, index=index)
+
+            # Fix sidenote card links for page location
+            # _build_sidenote uses ../cards/UUID.html (for context clouds)
+            # Entity pages in root need just UUID.html
+            # Entity pages in cards/ subdir need same-dir links
             if "../" in index_href:
+                # Card is in cards/ subdir — sidenote links should be same dir
+                notes_html = notes_html.replace(
+                    'href="../cards/', 'href="')
                 notes_html = notes_html.replace(
                     'src="lib/media/', 'src="../lib/media/')
+            else:
+                # Card is in root — sidenote links should be root-relative
+                notes_html = notes_html.replace(
+                    'href="../cards/', 'href="')
+
             body_parts.append("<h2>Notes</h2>")
             body_parts.append(f'<div class="notes">{notes_html}</div>')
 

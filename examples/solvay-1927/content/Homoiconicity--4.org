@@ -34,12 +34,12 @@ boundary between what the machine executes and what it
 reasons about.  Macros exploit this: they are programs
 that write programs, transforming code before it runs.
 
-Hoard extends this principle beyond programming.  The
+Hoard extends this principle beyond programming.@@margin:Hoard@@  The
 data structures in a hord — cards, quads, vocabulary
 terms, holons — are simultaneously the content being
 managed and the instructions for how to manage it.
 When an AI processes a hord, the structure of the data
-generates the harness: the context, constraints, and
+generates the harness: the context@@margin:Context@@, constraints, and
 relationships that shape how the model works with the
 material.  There is no separate "rules" layer that must
 be maintained independently of the data.  Maintaining
@@ -56,7 +56,7 @@ processed, shaped by whatever the model is now capable
 of understanding.
 
 The principle connects to legal code, natural language,
-and programming as a continuum.  If all three are
+and programming as a continuum.@@margin:Pattern_Language@@  If all three are
 "code" — formal structures that constrain and enable
 action — then homoiconicity means the evidence is the
 design.  The thing and its description are the same

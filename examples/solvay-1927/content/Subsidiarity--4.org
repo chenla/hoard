@@ -39,9 +39,9 @@ the organism responds to the environment.  No cell
 consults the brain about ion exchange.  The brain does
 not manage digestion.  Each level handles what it can,
 and the system's resilience comes from this
-distribution of competence.
+distribution of competence.@@margin:Holarchy@@
 
-In Hoard, subsidiarity operates through holons: each
+In Hoard, subsidiarity operates through holons@@margin:Holons@@: each
 holon is a bounded scope with its own membership,
 ordering, and expression preferences.  A holon does not
 need permission from a parent to organize its own
@@ -50,7 +50,7 @@ vocabulary and quads — that a larger context can
 understand what it contains without needing to
 micromanage it.
 
-This is the Goldilocks zone for context: metis is
+This is the Goldilocks zone for context@@margin:Context@@: metis@@margin:Metis@@ is
 preserved locally, intent is exposed upward.  Too much
 centralization destroys local knowledge.  Too much
 autonomy destroys legibility.  Subsidiarity is the
@@ -67,3 +67,9 @@ constraint that keeps both alive.
   University Press, 1998.  The catastrophic failure
   mode when subsidiarity is violated: high-modernist
   schemes that destroy metis.
+- Stager, Jonathan.  /Children of a Modest Star:
+  Planetary Thinking for an Age of Crises/.  Harvard
+  University Press, 2023.  The biological and
+  planetary case for subsidiarity — nested systems
+  operating at their own scales, from cells to
+  biospheres.

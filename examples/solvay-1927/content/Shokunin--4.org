@@ -45,13 +45,13 @@ everyday thing made perfectly — the Muji move.
 This connects to the medieval cathedral masons who
 carved the backs of capitals that would face the wall,
 never to be seen.  "God sees" was the mason's answer.
-The shokunin's version: "I would know."
+The shokunin's version: "I would know."@@margin:Metis@@
 
 Monozukuri extends the concept from the individual to
 the production system.  Toyota's production system is
 monozukuri scaled: respect for the process, continuous
 improvement (kaizen), the belief that how you make
-something matters as much as what you make.  This is
+something matters as much as what you make.@@margin:Pattern_Language@@  This is
 the bridge between craft and Dispersal — production
 systems designed around mastery rather than extraction.
 

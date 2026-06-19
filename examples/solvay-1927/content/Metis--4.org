@@ -51,8 +51,8 @@ The abstractions worked on paper.  They failed in the
 field because they could not encode what the people on
 the ground knew.
 
-This is the deepest design constraint for Hoard.
-Metis must be preserved locally — subsidiarity
+This is the deepest design constraint for Hoard.@@margin:Hoard@@
+Metis must be preserved locally — subsidiarity@@margin:Subsidiarity@@
 protects it.  But metis that remains purely local is
 invisible to any larger coordination.  The challenge
 is legibility without destruction: exposing enough
@@ -61,7 +61,7 @@ local practice contains, without flattening it into
 the kind of abstraction that kills the knowledge it
 claims to represent.
 
-Hoard's answer is the holon: a bounded scope that
+Hoard's answer is the holon@@margin:Holons@@: a bounded scope that
 preserves local organization while exposing its
 contents through structured vocabulary.  The holon is
 legible from outside without being controlled from

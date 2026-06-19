@@ -45,9 +45,9 @@ leaves, the context goes with them.  The artifacts
 remain but become progressively less interpretable.
 
 Hoard addresses this through structured context at
-multiple scales.  At the card level: scope notes,
+multiple scales.@@margin:Hoard@@  At the card level@@margin:Cards@@: scope notes,
 relations, and vocabulary terms capture what a thing
-is and how it connects.  At the holon level:
+is and how it connects.  At the holon level@@margin:Holons@@:
 membership, ordering, and expression preferences
 capture which things belong together and how they
 should be presented in a given situation.  At the hord
@@ -66,7 +66,7 @@ A model without context hallucinates or produces
 generic output.  A model with structured context —
 cards, quads, vocabulary, holons — can reason about
 the material because it has the relationships, not
-just the text.  This is the homoiconic move: the
+just the text.  This is the homoiconic move@@margin:Homoiconicity@@: the
 context IS the harness.
 
 ** References
