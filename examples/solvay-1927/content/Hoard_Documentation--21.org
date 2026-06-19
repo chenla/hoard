@@ -1,0 +1,57 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Hoard Documentation—21
+
+* Hoard Documentation—21
+  :PROPERTIES:
+  :ID:        23f716b1-904f-4dca-adb3-10aff7476d72
+  :TYPE:      wh:holon
+  :CREATED:   2026-06-19T11:57
+  :END:
+
+** Relations
+   - PT :: Hoard Documentation
+
+Hoard documenting itself — the tool eating its own
+dogfood.  Each component of the system described as a
+card, the relationships between them captured as quads,
+the whole thing composed into a holon.  This is the
+gentle introduction: if you understand this holon, you
+understand how Hoard works.
+
+** Membership
+
+Cards tagged ~hoard-doc, plus:
+- Hoard--9
+- Word-hord--9
+
+** Expression
+
+Prefer: whole
+Fallback: whole
+
+** Order
+
+1. wh:sys
+2. wh:con (alphabetical by title)
+
+** Notes
+
+This is a concept keystone, not a narrative holon — it
+has no primary article.  It is the reference that
+answers "what is Hoard and how does it work?" through
+the system's own mechanisms.
+
+The ordering places the two systems (Hoard, Word-hord)
+first, then the concepts in alphabetical order: Cards,
+Holons, Overlays, Quads, The Hord, Vocabulary.  A
+reader encountering Hoard for the first time can start
+with the Hoard card for the overview, then follow the
+relationships to understand each component.
+
+This holon deliberately overlaps with Scaffolds.
+Scaffolds contains the conceptual substrate (Holarchy,
+Homoiconicity, Context) that motivates Hoard's design.
+This holon contains the components themselves.  A
+reader interested in "why" goes to Scaffolds; a reader
+interested in "how" starts here.

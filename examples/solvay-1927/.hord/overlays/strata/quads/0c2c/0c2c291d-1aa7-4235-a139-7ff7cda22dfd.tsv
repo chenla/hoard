@@ -1,0 +1,4 @@
+subject	predicate	object	context
+0c2c291d-1aa7-4235-a139-7ff7cda22dfd	v:type	wh:con	07f9d31db375545b308060c1baadba060482ab85
+0c2c291d-1aa7-4235-a139-7ff7cda22dfd	v:title	The Hord—4	07f9d31db375545b308060c1baadba060482ab85
+0c2c291d-1aa7-4235-a139-7ff7cda22dfd	v:sn	A hord is a git repository with Hoard's metadata overlay.  It contains a content/ directory (cards), a .hord/ directory (compiled quads, vocabulary, configuration), and optionally a lib/ directory (blobs — PDFs, images, assets).  The hord is the unit of cloning, sharing, and collaboration.	07f9d31db375545b308060c1baadba060482ab85

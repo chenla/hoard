@@ -1,0 +1,113 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   World-System—4
+
+* World-System—4
+  :PROPERTIES:
+  :ID:        fb0619c2-753d-49bc-9b4f-5638e6686a61
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T12:36
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: World-System
+   - RT :: [[id:c067fc03-5526-468b-8923-e116c2807fb4][Pace Layers]]
+   - RT :: [[id:a567f78e-75ff-4f6b-acd8-1711b8c45114][Subsidiarity]]
+   - RT :: [[id:5284e00c-e05a-447d-a7b0-ac40f2a2bae4][Determinism]]
+
+** Scope Note
+
+Following Wallerstein's nomenclature: a World-System
+(hyphenated) is one instance of a large-scale social
+system with a lifecycle — implying that there have been
+and will be others.  A World System (no hyphen) refers
+to the singular global system at any given time.  We
+use "World-System" rather than "civilization" because
+the latter has become semantically unusable, and because
+the hyphenated form carries the essential implication of
+plurality and succession that "civilization" has lost.
+
+** Notes
+
+Wallerstein introduced the distinction in /The Modern
+World-System/ (1974).  His core argument: capitalism is
+not a natural economic order but one World-System among
+many, with a beginning, a development, and an eventual
+end.  The hyphen signals that this is a category with
+instances, not a unique achievement.
+
+Braudel's treatment of "civilization" in the opening
+chapter of /On History/ remains the best analysis of
+why the word became unusable.  It accumulated too many
+meanings — moral progress, cultural achievement,
+geographic identity, technological stage — until it
+could no longer do precise analytical work.
+"World-System" restores that precision.
+
+*** Lifecycle Phases
+
+A World-System passes through three phases:
+
+- *Dawn W-S*: the emergent phase — new institutions,
+  new production, new epistemology.  High potential
+  energy.  The thing being built is not yet legible
+  to the system it is replacing.
+
+- *Day W-S*: the mature phase — institutions are
+  established, production is scaled, the paradigm is
+  dominant.  The Modern World-System's Day phase ran
+  roughly from the Industrial Revolution through the
+  mid-20th century.
+
+- *Dusk W-S*: the declining phase — institutions
+  ossify, externalities accumulate, the paradigm's
+  assumptions no longer match reality.  We are in the
+  Dusk of the Modern World-System now.  This is the
+  Jackpot.
+
+*** Two Branches
+
+Each World-System has two core branches:
+
+- *CULTURE*: the slow branch — preservation of memory,
+  experience, knowledge across W-S transitions.  The
+  CULTURE branches of successive World-Systems
+  coordinate over very long timeframes, forming the
+  CULTURE World System (no hyphen): humanity's
+  continuity mechanism.  This is not a shadow
+  government or a conspiracy.  It is how humanity
+  avoids starting from zero at each transition — the
+  monastery preserving manuscripts through the dark
+  age, the guild preserving technique, the oral
+  tradition preserving cosmology.
+
+- *MIDDLE*: the fast branch — governance, economics,
+  production, the everyday business of running a
+  World-System.  MIDDLE operates within a single W-S
+  lifecycle and does not persist across transitions.
+
+The CULTURE World System is the three CULTURE branches
+working together across dawn, day, and dusk.  It
+operates at the deepest pace layer — slower than any
+single institution, slower than any single World-System.
+
+** References
+
+- Wallerstein, Immanuel.  /The Modern World-System I:
+  Capitalist Agriculture and the Origins of the
+  European World-Economy in the Sixteenth Century/.
+  Academic Press, 1974.  The foundational text.
+- Braudel, Fernand.  /On History/.  University of
+  Chicago Press, 1980.  Chapter 1: "History and the
+  Social Sciences: The Longue Durée."  The introductory
+  chapter on civilization as a term.
+- Braudel, Fernand.  /Civilization and Capitalism,
+  15th–18th Century/.  3 vols.  Harper & Row, 1981–84.
+  The parallel treatment — world-systems as economic
+  structures operating at different temporal scales.
+- Stephenson, Neal.  /Anathem/.  William Morrow, 2008.
+  The fictional treatment: the mathic world as a
+  CULTURE branch that persists across Sacks (W-S
+  transitions) through institutional isolation and
+  deep-time memory.

@@ -1,0 +1,4 @@
+subject	predicate	object	context
+f3e81d04-76b0-4e00-833c-8f64baaa9de6	v:type	wh:con	1aa76d143ee561a9b4b60b5a9eda917de63cdcb4
+f3e81d04-76b0-4e00-833c-8f64baaa9de6	v:title	Cards—4	1aa76d143ee561a9b4b60b5a9eda917de63cdcb4
+f3e81d04-76b0-4e00-833c-8f64baaa9de6	v:sn	The atomic unit of Hoard.  A card is a single org-mode file with a UUID, a type, and structured sections (Relations, Scope Note, Notes, References).  Each card represents one entity — a person, concept, event, work, organization, or system — and compiles to a set of quads that capture its relationships.	1aa76d143ee561a9b4b60b5a9eda917de63cdcb4

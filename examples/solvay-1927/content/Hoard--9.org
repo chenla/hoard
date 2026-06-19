@@ -1,0 +1,62 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Hoard—9
+
+* Hoard—9
+  :PROPERTIES:
+  :ID:        8e104597-5e7a-424b-a19c-cad8fede5e54
+  :TYPE:      wh:sys
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Hoard
+   - RT :: [[id:fd52cafd-8cc2-4ad5-8106-67b7e9bfb854][Homoiconicity]]
+   - RT :: [[id:fe7952c7-6a2d-4d2e-945a-9c802d1c60ca][Context]]
+
+** Scope Note
+
+A semantic metadata overlay system built on git.
+Hoard adds structured identity, relationships, and
+context to any git repository without altering the
+files it describes.  Cards capture entities, quads
+capture relationships, vocabulary provides shared
+meaning, and holons compose cards into bounded,
+publishable scopes.
+
+** Notes
+
+Hoard is not a database, a wiki, a note-taking app,
+or a knowledge graph — though it can function as any
+of these.  It is a metadata layer: a structured
+overlay that sits on top of git and adds the context
+that makes files meaningful.
+
+The core analogy is the library card catalog.  A
+catalog does not contain books.  It contains cards
+that describe books — their identity, their
+relationships, their location.  Hoard does the same
+for any repository: files stay where they are, and
+the overlay captures what they are, how they relate,
+and what they mean.
+
+The system is designed to be homoiconic.  The data
+structures in a hord — cards, quads, vocabulary
+terms, holons — are simultaneously the content being
+managed and the instructions for how an AI should
+work with that content.  There is no separate rules
+layer.  Maintaining the hord maintains the harness.
+
+Hoard is built in Python (CLI), Emacs Lisp (editor
+integration), and HTML/CSS (rendering).  It uses
+org-mode files for cards and TSV files for compiled
+quads.  Everything is plain text, everything is
+version-controlled, everything is human-readable.
+
+** References
+
+- The Hoard specification lives at
+  ~/proj/hoard/docs/spec-*.md
+- The elevator pitch: "Git gives you version control.
+  Hoard gives you a library card system on top of it."

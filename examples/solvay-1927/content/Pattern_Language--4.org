@@ -1,0 +1,85 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Pattern Language—4
+
+* Pattern Language—4
+  :PROPERTIES:
+  :ID:        fc5d4463-f480-4502-b8a8-203ddbd4d447
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:51
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Pattern Language
+   - RT :: [[id:065ddf9c-bb58-4700-ba9a-4930170baa5e][Holarchy]]
+   - RT :: [[id:fd52cafd-8cc2-4ad5-8106-67b7e9bfb854][Homoiconicity]]
+   - RT :: [[id:9e068c70-b83b-4214-ae6b-b8bf83c4fd35][Shokunin]]
+
+** Scope Note
+
+Christopher Alexander's method for capturing design
+knowledge as a network of named solutions to recurring
+problems, each pattern connected to larger and smaller
+patterns in a generative sequence.  A pattern language
+is not a catalog but a grammar — the patterns combine
+to produce coherent wholes that no single pattern could
+achieve alone.
+
+** Notes
+
+Alexander published /A Pattern Language/ (1977) as
+253 patterns ranging from the scale of regions (pattern
+1: Independent Regions) down to construction details
+(pattern 253: Things from Your Life).  Each pattern
+has the same structure: a name, a problem statement,
+the forces in tension, and a solution that resolves
+them.  Patterns reference other patterns, forming a
+network.
+
+The deeper work is /The Timeless Way of Building/
+(1979), which describes the "quality without a name"
+— the property of places and things that feel alive,
+whole, comfortable, free, exact, egoless, eternal.
+Alexander argued this quality arises from pattern
+languages used by the people who inhabit a place, not
+by professionals designing for them.
+
+Software adopted the term through the Gang of Four's
+/Design Patterns/ (1994), but largely stripped out
+Alexander's most radical claims: that patterns are
+generative (they produce the design, not merely
+describe it), that they must be used by inhabitants
+rather than experts, and that the quality they produce
+is objective, not subjective.
+
+Alexander's later work, /The Nature of Order/ (2002–
+2005), pushed further: fifteen fundamental properties
+of living structure, the idea that matter itself
+has degrees of life, and the claim that the process
+of creation matters as much as the product.  This is
+where Alexander most directly anticipates Hoard's
+homoiconicity — the structure of the thing and the
+process that made it are not separable.
+
+The unfinished problem in Alexander's work: pattern
+languages require a community of practice to function,
+but he never solved how to bootstrap that community
+or how to scale pattern-based production beyond
+individual buildings.  This is exactly the gap
+Dispersal addresses.
+
+** References
+
+- Alexander, Christopher, Sara Ishikawa, and Murray
+  Silverstein.  /A Pattern Language: Towns, Buildings,
+  Construction/.  Oxford University Press, 1977.
+- Alexander, Christopher.  /The Timeless Way of
+  Building/.  Oxford University Press, 1979.
+- Alexander, Christopher.  /The Nature of Order/.
+  4 vols.  Center for Environmental Structure,
+  2002–2005.
+- Gamma, Erich et al.  /Design Patterns: Elements of
+  Reusable Object-Oriented Software/.  Addison-Wesley,
+  1994.  The software adoption — and reduction — of
+  Alexander's ideas.

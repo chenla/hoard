@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Scaffolds—21
+
+* Scaffolds—21
+  :PROPERTIES:
+  :ID:        3364c0b0-9dd4-450d-911b-c4418f4e2353
+  :TYPE:      wh:holon
+  :CREATED:   2026-06-19T11:55
+  :END:
+
+** Relations
+   - PT :: Scaffolds
+
+The conceptual substrate shared across all holons in
+this hord and beyond.  These are the ideas that recur
+at every level of detail — the vocabulary of the
+Yellow Brick Road.  Any holon that touches production,
+governance, knowledge, or design will reference cards
+from this set.
+
+** Membership
+
+Cards tagged ~scaffolds, plus:
+- Determinism--4
+
+** Expression
+
+Prefer: whole
+Fallback: whole
+
+** Order
+
+1. wh:con (alphabetical by title)
+
+** Notes
+
+Scaffolds is not a narrative holon — it has no primary
+article, no story arc.  It is a concept keystone: a
+reference collection that other holons link into.  The
+Determinism card is included because it is the concept
+the Solvay holons exist to dismantle, and every
+scaffold concept here is part of what comes after.
+
+These cards will accumulate over time.  As new Screed
+posts and holons are created, the concepts they depend
+on will be added here — or will already be here,
+waiting.

@@ -1,0 +1,84 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Metis—4
+
+* Metis—4
+  :PROPERTIES:
+  :ID:        f6501149-38e3-4e60-80b7-914a5f830a02
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Metis
+   - RT :: [[id:a567f78e-75ff-4f6b-acd8-1711b8c45114][Subsidiarity]]
+   - RT :: [[id:9e068c70-b83b-4214-ae6b-b8bf83c4fd35][Shokunin]]
+   - RT :: [[id:fe7952c7-6a2d-4d2e-945a-9c802d1c60ca][Context]]
+
+** Scope Note
+
+Practical knowledge that can only be acquired through
+experience in a particular place, time, and practice —
+James C. Scott's term (borrowed from Greek) for the
+local, embodied, tacit knowledge that high-modernist
+schemes systematically destroy.  The knowledge a farmer
+has of their particular field, a navigator of their
+particular coast, a craftsman of their particular
+material.
+
+** Notes
+
+Scott introduced metis as a central concept in /Seeing
+Like a State/ (1998), drawing on the Greek word for the
+cunning intelligence of Odysseus — practical wisdom
+that cannot be reduced to rules or transmitted through
+formal instruction.
+
+The key argument: large-scale administrative schemes
+fail catastrophically when they override metis.
+Soviet collectivization destroyed the peasant farmers'
+knowledge of local conditions.  Brasília's planned
+geometry destroyed the informal knowledge embedded in
+organic city growth.  Scientific forestry in Prussia
+destroyed the forest's ecological complexity by
+reducing it to timber yields.
+
+In every case, the failure was not incompetence but
+legibility — the state's need to simplify complex
+local realities into readable, controllable abstractions.
+The abstractions worked on paper.  They failed in the
+field because they could not encode what the people on
+the ground knew.
+
+This is the deepest design constraint for Hoard.
+Metis must be preserved locally — subsidiarity
+protects it.  But metis that remains purely local is
+invisible to any larger coordination.  The challenge
+is legibility without destruction: exposing enough
+structure that a larger context can understand what a
+local practice contains, without flattening it into
+the kind of abstraction that kills the knowledge it
+claims to represent.
+
+Hoard's answer is the holon: a bounded scope that
+preserves local organization while exposing its
+contents through structured vocabulary.  The holon is
+legible from outside without being controlled from
+outside.
+
+** References
+
+- Scott, James C.  /Seeing Like a State: How Certain
+  Schemes to Improve the Human Condition Have Failed/.
+  Yale University Press, 1998.  The essential text.
+  Chapters 1–4 and 9–10 are the core argument.
+- Detienne, Marcel and Jean-Pierre Vernant.  /Cunning
+  Intelligence in Greek Culture and Society/.
+  Harvester Press, 1978.  The original scholarly
+  treatment of metis in Greek thought.
+- Hayek, Friedrich.  "The Use of Knowledge in Society."
+  /American Economic Review/ 35, no. 4 (1945): 519–530.
+  The economic argument for distributed knowledge —
+  parallel to Scott but from the opposite political
+  direction.

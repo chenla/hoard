@@ -1,0 +1,4 @@
+subject	predicate	object	context
+a98b25e2-32b4-4aac-b567-15e0dfe5c4be	v:type	wh:con	ed24fee691660d90f056f2597d972e57d0e8cddc
+a98b25e2-32b4-4aac-b567-15e0dfe5c4be	v:title	Vocabulary—4	ed24fee691660d90f056f2597d972e57d0e8cddc
+a98b25e2-32b4-4aac-b567-15e0dfe5c4be	v:sn	The controlled set of predicates and entity types that give quads their meaning.  Vocabulary terms are defined in a central file (vocabulary.org) and used as predicates in quads.  Two namespaces: wh: for entity types (wh:per, wh:con, wh:evt...) and v: for relationship predicates (v:pt, v:bt, v:rt, v:sn...).	ed24fee691660d90f056f2597d972e57d0e8cddc

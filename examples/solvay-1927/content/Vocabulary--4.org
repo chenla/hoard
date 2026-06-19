@@ -1,0 +1,67 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Vocabulary—4
+
+* Vocabulary—4
+  :PROPERTIES:
+  :ID:        a98b25e2-32b4-4aac-b567-15e0dfe5c4be
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Vocabulary
+   - RT :: [[id:2f134d16-9e88-4201-9c87-09e66581be24][Quads]]
+   - RT :: [[id:af0a4bf8-b058-42ed-82fa-f72627e75403][Overlays]]
+
+** Scope Note
+
+The controlled set of predicates and entity types that
+give quads their meaning.  Vocabulary terms are defined
+in a central file (vocabulary.org) and used as
+predicates in quads.  Two namespaces: wh: for entity
+types (wh:per, wh:con, wh:evt...) and v: for
+relationship predicates (v:pt, v:bt, v:rt, v:sn...).
+
+** Notes
+
+Vocabulary serves the same function in Hoard that a
+schema serves in a database or an ontology serves in
+the semantic web — but lighter.  It defines what kinds
+of things exist and what kinds of relationships can
+hold between them.
+
+Entity types (wh: namespace) classify cards:
+- wh:per — person
+- wh:con — concept
+- wh:evt — event
+- wh:wrk — work (book, paper, film)
+- wh:org — organization
+- wh:sys — system (software, infrastructure)
+- wh:holon — holon definition
+- and others (media, place, object, pattern, key...)
+
+Relationship predicates (v: namespace) define quads:
+- v:pt — preferred term (the card's canonical name)
+- v:bt — broader term (hierarchical parent)
+- v:nt — narrower term (hierarchical child)
+- v:rt — related term (associative link)
+- v:sn — scope note (canonical definition)
+- v:h-member — holon membership
+- v:h-expr — expression preference
+- v:h-order — ordering position
+
+The vocabulary is extensible.  New predicates can be
+added to vocabulary.org as the system grows.  But
+extension is deliberate, not casual — each new
+predicate must justify its existence.  This is the
+TEI lesson: don't enumerate every possible tag;
+extend through vocabulary terms instead.
+
+The vocabulary also determines which overlay a quad
+belongs to.  Strata predicates (v:pt, v:bt, v:rt,
+v:sn) capture identity and meaning.  Structural
+predicates (v:h-member, v:h-order, v:h-expr) capture
+organization and composition.  The overlay is implicit
+in the predicate, not declared separately.

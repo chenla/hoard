@@ -1,0 +1,64 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Quads—4
+
+* Quads—4
+  :PROPERTIES:
+  :ID:        2f134d16-9e88-4201-9c87-09e66581be24
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Quads
+   - RT :: [[id:f3e81d04-76b0-4e00-833c-8f64baaa9de6][Cards]]
+   - RT :: [[id:a98b25e2-32b4-4aac-b567-15e0dfe5c4be][Vocabulary]]
+   - RT :: [[id:af0a4bf8-b058-42ed-82fa-f72627e75403][Overlays]]
+
+** Scope Note
+
+The compiled relationship unit in Hoard: a four-part
+tuple of subject, predicate, object, and context.
+Cards are source code; quads are the compiled output.
+Every relationship in the system — identity, hierarchy,
+association, membership, ordering — is expressed as a
+quad stored in a TSV file.
+
+** Notes
+
+The quad format extends the semantic web's triple
+(subject-predicate-object) with a fourth element:
+context.  Context answers "according to whom?" or
+"in what situation?" — the dimension that triples
+lack and that makes them insufficient for real-world
+knowledge.
+
+A quad like:
+
+  Einstein  v:rt  Determinism  solvay-1927
+
+says: Einstein is related to Determinism, in the
+context of the Solvay 1927 holon.  The same Einstein
+in a different holon might have different relationships
+foregrounded.  Context makes this possible without
+contradiction.
+
+Quads are compiled from cards by the hord compiler
+(hord compile).  The compiler reads all card files,
+extracts relations, scope notes, tags, and holon
+membership, and writes the results to .hord/quads.tsv.
+This is a two-pass process: pass 1 compiles all cards;
+pass 2 resolves holon membership.
+
+Quads are stored as plain TSV — no database, no binary
+format.  They can be grepped, sorted, diffed, and
+version-controlled like any other text file.  This is
+a deliberate design choice: the compiled output must
+be as transparent as the source.
+
+Predicates come from the vocabulary.  Each predicate
+has a defined meaning and belongs to a specific overlay
+(Strata or Structural).  The vocabulary constrains
+what quads can say, ensuring that relationships are
+meaningful rather than arbitrary.

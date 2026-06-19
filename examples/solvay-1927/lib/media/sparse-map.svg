@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550"
+     font-family="et-book, Palatino, 'Palatino Linotype', Georgia, serif">
+
+  <!-- Edges -->
+  <line x1="400" y1="260" x2="400" y2="100" stroke="#666" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="640" y2="148" stroke="#666" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="640" y2="392" stroke="#666" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="400" y2="440" stroke="#666" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="160" y2="392" stroke="#666" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="160" y2="148" stroke="#666" stroke-width="1.5"/>
+
+  <!-- Cross-edges (dashed) -->
+  <line x1="160" y1="148" x2="400" y2="100" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+  <line x1="400" y1="100" x2="640" y2="148" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+  <line x1="160" y1="148" x2="160" y2="392" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+  <line x1="640" y1="148" x2="640" y2="392" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+  <line x1="160" y1="392" x2="400" y2="440" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+  <line x1="400" y1="440" x2="640" y2="392" stroke="#666" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.3"/>
+
+  <!-- Foundations (top) -->
+  <a href="#foundations">
+    <rect x="300" y="50" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="400" y="88" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">Foundations</text>
+    <text x="400" y="113" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">You Are Here</text>
+  </a>
+
+  <!-- Scaffolds (top right) -->
+  <a href="#scaffolds">
+    <rect x="540" y="108" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="640" y="146" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">Scaffolds</text>
+    <text x="640" y="171" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">Our Definitions</text>
+  </a>
+
+  <!-- Vision (bottom right) -->
+  <a href="#vision">
+    <rect x="540" y="355" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="640" y="393" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">Vision</text>
+    <text x="640" y="418" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">The Dawn W-S</text>
+  </a>
+
+  <!-- System (bottom) -->
+  <a href="#system">
+    <rect x="300" y="405" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="400" y="443" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">System</text>
+    <text x="400" y="468" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">World-System Model</text>
+  </a>
+
+  <!-- Infrastructure (bottom left) -->
+  <a href="#infrastructure">
+    <rect x="60" y="355" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="160" y="393" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">Infrastructure</text>
+    <text x="160" y="418" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">Hoard · Dispersal</text>
+  </a>
+
+  <!-- Jackpot (top left) -->
+  <a href="#jackpot">
+    <rect x="60" y="108" width="200" height="75" rx="8"
+          style="fill:#111318; stroke:#5ab87a; stroke-width:2;"/>
+    <text x="160" y="146" text-anchor="middle"
+          style="font-size:24px; fill:#ffffff; font-weight:400;">Jackpot</text>
+    <text x="160" y="171" text-anchor="middle"
+          style="font-size:17px; fill:#5ab87a;">The Dusk W-S</text>
+  </a>
+
+  <!-- Center: Cart & Horse -->
+  <a href="#cart-and-horse">
+    <rect x="275" y="218" width="250" height="84" rx="8"
+          style="fill:#111318; stroke:#e8b84a; stroke-width:2.5;"/>
+    <text x="400" y="257" text-anchor="middle"
+          style="font-size:28px; fill:#ffffff; font-weight:400;">Cart &amp; Horse</text>
+    <text x="400" y="286" text-anchor="middle"
+          style="font-size:18px; fill:#e8b84a;">Propædia · Micropædia</text>
+  </a>
+
+  <!-- Footer -->
+  <text x="400" y="530" text-anchor="middle"
+        style="font-size:14px; fill:#888; font-style:italic;">
+    A Whole World-System — Sparse Map
+  </text>
+</svg>

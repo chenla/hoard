@@ -1,0 +1,64 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Holons—4
+
+* Holons—4
+  :PROPERTIES:
+  :ID:        4ddaa6c6-5081-4c6d-be24-da8e51ca2faa
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Holons
+   - RT :: [[id:8e104597-5e7a-424b-a19c-cad8fede5e54][Hoard]]
+   - RT :: [[id:f3e81d04-76b0-4e00-833c-8f64baaa9de6][Cards]]
+   - RT :: [[id:065ddf9c-bb58-4700-ba9a-4930170baa5e][Holarchy]]
+
+** Scope Note
+
+The composition unit in Hoard: a bounded scope that
+groups cards into a publishable, navigable whole.
+A holon defines its membership (which cards belong),
+its expression preference (which version of shared
+cards to show), and its ordering (how to arrange
+them).  Holons are Koestler's holons made concrete —
+simultaneously autonomous wholes and parts of a
+larger hord.
+
+** Notes
+
+A holon is itself a card (type wh:holon) with special
+sections: Membership, Expression, Order, and
+optionally Primary (the anchor article).
+
+Membership can be declared by tag (all cards tagged
+~solvay-1927), by explicit filename, or both.  This
+allows holons to grow organically as cards are tagged
+during research, while also including cards that don't
+carry the tag.
+
+Expression preference is what makes holons powerful.
+The same Einstein card can appear in multiple holons,
+but each holon can request a different expression:
+the Solvay holon wants Einstein-as-debater-in-1927;
+a future holon about the Manhattan Project would want
+Einstein-as-refugee-writing-to-Roosevelt.  The Whole
+card is always the fallback — the full biography,
+the complete concept.
+
+Ordering determines how cards are arranged within the
+holon: by type first (events, then people, then
+concepts), then alphabetically within type.
+
+Post holons have a Primary — an article card that
+serves as the narrative anchor.  The context cloud
+(margin cards, sidenotes) surrounds the primary.
+Concept keystones like Scaffolds have no primary —
+they are reference collections, not narratives.
+
+Holons export to standalone sites: an index page,
+individual card pages, and optionally a context-cloud
+article view with Tufte-style sidenotes.  Each holon
+is deployable independently.

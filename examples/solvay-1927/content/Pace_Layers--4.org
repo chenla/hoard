@@ -1,0 +1,67 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Pace Layers—4
+
+* Pace Layers—4
+  :PROPERTIES:
+  :ID:        c067fc03-5526-468b-8923-e116c2807fb4
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Pace Layers
+   - RT :: [[id:e4c4b3a1-beb9-42e3-9853-185e4a4b017f][Antifragility]]
+   - RT :: [[id:a567f78e-75ff-4f6b-acd8-1711b8c45114][Subsidiarity]]
+
+** Scope Note
+
+Stewart Brand's model of civilization as six layers
+moving at different speeds: fashion, commerce,
+infrastructure, governance, culture, nature.  Fast layers
+innovate; slow layers stabilize.  The whole system works
+because the layers are coupled but not synchronized —
+change propagates, it does not arrive everywhere at once.
+
+** Notes
+
+Brand introduced pace layers in /The Clock of the Long
+Now/ (1999), drawing on Frank Duffy's "shearing layers"
+concept for buildings (structure, skin, services, space
+plan, stuff) from /How Buildings Learn/ (1994).
+
+The key insight is not the layers themselves but their
+interaction.  Fast layers propose; slow layers dispose.
+Fashion can try anything because commerce will filter
+it.  Commerce can experiment because infrastructure
+absorbs the failures.  Each layer learns at its own
+rate, and the whole system's resilience comes from this
+differential — not from any single layer's stability.
+
+This maps directly onto Hoard's three overlays: Flow
+(fast — dynamics, feedback, streams), Structural
+(middle — organization, navigation, holons), and Strata
+(slow — identity, vocabulary, provenance).  The heap —
+unstructured, unsorted material — operates at the
+fastest pace of all, the arrival rate of raw experience.
+
+The model also explains why deterministic systems fail:
+they assume all layers can be synchronized, that change
+at the top can be commanded to propagate uniformly
+downward.  But change has momentum, it has locality,
+and it propagates at different rates through different
+mediums.  Those mediums are, at the end of the day, all
+made up of data structures.
+
+** References
+
+- Brand, Stewart.  /The Clock of the Long Now: Time and
+  Responsibility/.  Basic Books, 1999.  The original
+  pace-layer model, Chapter 2.
+- Brand, Stewart.  /How Buildings Learn: What Happens
+  After They're Built/.  Viking, 1994.  Duffy's
+  shearing layers applied to architecture.
+- Brand, Stewart.  /Maintenance: Of Everything/.
+  Viking, 2025.  Extends pace thinking to maintenance
+  as the connective tissue between layers.

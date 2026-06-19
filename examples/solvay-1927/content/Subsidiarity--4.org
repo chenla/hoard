@@ -1,0 +1,69 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Subsidiarity—4
+
+* Subsidiarity—4
+  :PROPERTIES:
+  :ID:        a567f78e-75ff-4f6b-acd8-1711b8c45114
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Subsidiarity
+   - RT :: [[id:c067fc03-5526-468b-8923-e116c2807fb4][Pace Layers]]
+   - RT :: [[id:065ddf9c-bb58-4700-ba9a-4930170baa5e][Holarchy]]
+   - RT :: [[id:f6501149-38e3-4e60-80b7-914a5f830a02][Metis]]
+
+** Scope Note
+
+The principle that decisions should be made at the
+lowest level competent to handle them.  Not
+decentralization for its own sake, but a constraint on
+where authority lives: as close to the context as
+possible, escalating upward only when local capacity is
+genuinely insufficient.
+
+** Notes
+
+Subsidiarity originates in Catholic social teaching
+(Pius XI, /Quadragesimo Anno/, 1931) but the underlying
+pattern is far older.  It appears in federal governance,
+in guild structures, in the relationship between a
+monastery and its surrounding community.
+
+The principle is biological before it is political.
+Cells handle local chemistry; organs coordinate systems;
+the organism responds to the environment.  No cell
+consults the brain about ion exchange.  The brain does
+not manage digestion.  Each level handles what it can,
+and the system's resilience comes from this
+distribution of competence.
+
+In Hoard, subsidiarity operates through holons: each
+holon is a bounded scope with its own membership,
+ordering, and expression preferences.  A holon does not
+need permission from a parent to organize its own
+cards.  But it exposes enough structure — through
+vocabulary and quads — that a larger context can
+understand what it contains without needing to
+micromanage it.
+
+This is the Goldilocks zone for context: metis is
+preserved locally, intent is exposed upward.  Too much
+centralization destroys local knowledge.  Too much
+autonomy destroys legibility.  Subsidiarity is the
+constraint that keeps both alive.
+
+** References
+
+- Pius XI.  /Quadragesimo Anno/.  1931.  §79–80: the
+  original formulation in Catholic social doctrine.
+- Koestler, Arthur.  /The Ghost in the Machine/.
+  Hutchinson, 1967.  Holons as self-governing parts
+  within larger wholes — subsidiarity as architecture.
+- Scott, James C.  /Seeing Like a State/.  Yale
+  University Press, 1998.  The catastrophic failure
+  mode when subsidiarity is violated: high-modernist
+  schemes that destroy metis.

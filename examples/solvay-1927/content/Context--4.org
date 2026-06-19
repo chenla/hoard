@@ -1,0 +1,86 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Context—4
+
+* Context—4
+  :PROPERTIES:
+  :ID:        fe7952c7-6a2d-4d2e-945a-9c802d1c60ca
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:51
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Context
+   - RT :: [[id:f6501149-38e3-4e60-80b7-914a5f830a02][Metis]]
+   - RT :: [[id:fd52cafd-8cc2-4ad5-8106-67b7e9bfb854][Homoiconicity]]
+   - RT :: [[id:065ddf9c-bb58-4700-ba9a-4930170baa5e][Holarchy]]
+
+** Scope Note
+
+The surrounding structure that gives meaning to a
+thing — the relationships, constraints, history, and
+situation without which a datum is noise rather than
+information.  In Hoard, context is not metadata about
+content but the primary product: the system exists to
+capture, structure, and deliver the context that makes
+knowledge actionable.
+
+** Notes
+
+Context is the concept most central to Hoard and least
+well served by existing tools.  A note-taking app
+captures text.  A database captures records.  A wiki
+captures pages.  None of them capture the web of
+relationships, temporal conditions, and domain
+constraints that make any of those artifacts meaningful.
+
+The problem is not storage but legibility.  A human
+expert carries context implicitly — they know that
+this paper was written in response to that controversy,
+that this data point is reliable only under these
+conditions, that this term means something different
+in this field than in that one.  When the expert
+leaves, the context goes with them.  The artifacts
+remain but become progressively less interpretable.
+
+Hoard addresses this through structured context at
+multiple scales.  At the card level: scope notes,
+relations, and vocabulary terms capture what a thing
+is and how it connects.  At the holon level:
+membership, ordering, and expression preferences
+capture which things belong together and how they
+should be presented in a given situation.  At the hord
+level: the full quad graph captures the complete web
+of relationships.
+
+The context cloud — the margin cards surrounding an
+article in a holon — is the most visible expression.
+Each sidenote is a window into a card's context,
+inviting the reader to follow a thread deeper.  The
+article provides narrative; the context cloud provides
+the structured knowledge that supports it.
+
+Context is also what makes AI collaboration productive.
+A model without context hallucinates or produces
+generic output.  A model with structured context —
+cards, quads, vocabulary, holons — can reason about
+the material because it has the relationships, not
+just the text.  This is the homoiconic move: the
+context IS the harness.
+
+** References
+
+- Dourish, Paul.  /Where the Action Is: The
+  Foundations of Embodied Interaction/.  MIT Press,
+  2001.  Context as a relational property, not a
+  container.
+- Suchman, Lucy.  /Plans and Situated Actions: The
+  Problem of Human-Machine Communication/.  Cambridge
+  University Press, 1987.  Why context cannot be
+  fully formalized — and why that matters for system
+  design.
+- Engelbart, Douglas.  "Augmenting Human Intellect:
+  A Conceptual Framework."  SRI, 1962.  The original
+  vision of tools that amplify human capability
+  through structured context.

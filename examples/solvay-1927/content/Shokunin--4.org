@@ -1,0 +1,67 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Shokunin—4
+
+* Shokunin—4
+  :PROPERTIES:
+  :ID:        9e068c70-b83b-4214-ae6b-b8bf83c4fd35
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Shokunin
+   - RT :: [[id:f6501149-38e3-4e60-80b7-914a5f830a02][Metis]]
+   - RT :: [[id:fc5d4463-f480-4502-b8a8-203ddbd4d447][Pattern Language]]
+
+** Scope Note
+
+The Japanese concept of the artisan-craftsman (職人)
+whose mastery is inseparable from moral discipline —
+the commitment to making each piece as well as it can
+be made, regardless of whether anyone will notice.
+Closely related to monozukuri (ものづくり), the art
+of making things, where the process of production is
+itself a form of knowledge.
+
+** Notes
+
+Shokunin is not merely "craftsman" in the Western
+sense.  It carries an ethical weight closer to vocation:
+the shokunin's obligation is to the work itself, not to
+the customer's opinion of it.  Toshio Odate described
+it as "the social obligation to work your best for the
+general welfare of the people."
+
+The ethic is visible in mundane production.  A sushi
+chef spends years learning to prepare rice before
+touching fish.  A blacksmith like Yukinori Shirataka
+applied peerless forge technique to humble kitchen
+knives rather than decorative swords.  The highest
+expression of mastery is not the showpiece but the
+everyday thing made perfectly — the Muji move.
+
+This connects to the medieval cathedral masons who
+carved the backs of capitals that would face the wall,
+never to be seen.  "God sees" was the mason's answer.
+The shokunin's version: "I would know."
+
+Monozukuri extends the concept from the individual to
+the production system.  Toyota's production system is
+monozukuri scaled: respect for the process, continuous
+improvement (kaizen), the belief that how you make
+something matters as much as what you make.  This is
+the bridge between craft and Dispersal — production
+systems designed around mastery rather than extraction.
+
+** References
+
+- Odate, Toshio.  /Japanese Woodworking Tools: Their
+  Tradition, Spirit and Use/.  Linden, 1984.  The
+  classic English-language treatment of shokunin ethic.
+- Koren, Leonard.  /Wabi-Sabi for Artists, Designers,
+  Poets & Philosophers/.  Imperfect, 2008.  The
+  aesthetic context in which shokunin operates.
+- Liker, Jeffrey.  /The Toyota Way/.  McGraw-Hill,
+  2004.  Monozukuri as production philosophy.

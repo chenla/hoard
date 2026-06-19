@@ -1,0 +1,61 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   The Hord—4
+
+* The Hord—4
+  :PROPERTIES:
+  :ID:        0c2c291d-1aa7-4235-a139-7ff7cda22dfd
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: The Hord
+   - RT :: [[id:8e104597-5e7a-424b-a19c-cad8fede5e54][Hoard]]
+   - RT :: [[id:f3e81d04-76b0-4e00-833c-8f64baaa9de6][Cards]]
+   - RT :: [[id:4ddaa6c6-5081-4c6d-be24-da8e51ca2faa][Holons]]
+
+** Scope Note
+
+A hord is a git repository with Hoard's metadata
+overlay.  It contains a content/ directory (cards),
+a .hord/ directory (compiled quads, vocabulary,
+configuration), and optionally a lib/ directory
+(blobs — PDFs, images, assets).  The hord is the
+unit of cloning, sharing, and collaboration.
+
+** Notes
+
+The word "hord" comes from Old English — the same
+root as "hoard."  A word-hord was a treasury of
+words; a hord in Hoard is a treasury of structured
+knowledge.
+
+A hord is self-contained.  Everything needed to
+understand and render its contents lives within the
+repository: cards, vocabulary, compiled quads, and
+assets.  This is a deliberate contrast with systems
+that depend on external databases, cloud services,
+or proprietary formats.
+
+The .hord/ directory contains:
+- quads.tsv — compiled relationship data
+- vocabulary.org — predicate and type definitions
+- config — hord-level settings
+
+The content/ directory contains all cards as org-mode
+files.  The lib/ directory contains binary assets
+(images, PDFs) organized by blob hash or filename.
+
+Because a hord is a git repository, it inherits all
+of git's capabilities: branching, merging, history,
+collaboration, distribution.  Multiple people can
+work on the same hord, each on their own branch,
+merging changes through git's standard mechanisms.
+
+The Mother Hord is the top-level hord that contains
+— or links to — all other hords in a collection.
+It provides the landing page, the navigational
+structure, and the cross-hord vocabulary that ties
+everything together.

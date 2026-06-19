@@ -899,6 +899,281 @@ def render_index_page(entities: list[dict], hord_name: str,
                       license_text=meta.get("license", ""))
 
 
+# ── Mother Hord landing page ──────────────────────────
+
+MOTHER_CSS = """\
+:root {
+  --bg: #fffff8; --fg: #111; --accent: #2d6a4f;
+  --border: #d4d4d0; --muted: #6b6b68; --link: #2d6a4f;
+  --card-bg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a18; --fg: #d4d4d0; --accent: #52b788;
+    --border: #3a3a38; --muted: #9a9a96; --link: #52b788;
+    --card-bg: #222220;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: et-book, Palatino, "Palatino Linotype",
+               "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.4rem; line-height: 2rem;
+  background: var(--bg); color: var(--fg);
+  width: 87.5%; margin-left: auto; margin-right: auto;
+  max-width: 1400px; padding: 5rem 0 5rem 8rem;
+}
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1 { font-size: 2.6rem; font-weight: 400; line-height: 1.2;
+     margin-bottom: 0.5rem; width: 55%; }
+h2 { font-size: 1.6rem; font-weight: 400; color: var(--accent);
+     margin: 3rem 0 1rem; width: 55%;
+     border-bottom: 2px solid var(--accent);
+     padding-bottom: 0.25rem; }
+.subtitle { font-style: italic; font-size: 1.1rem;
+  color: var(--muted); margin-bottom: 2.5rem; width: 55%; }
+.intro { width: 55%; font-size: 1.25rem; line-height: 1.8;
+         margin-bottom: 1rem; }
+.intro p { margin-bottom: 1.4rem; }
+.holon-group { margin-bottom: 2rem; width: 55%; }
+.holon-entry { display: block; padding: 1.25rem 1.5rem;
+               border: 1px solid var(--border); border-radius: 4px;
+               margin-bottom: 0.75rem; background: var(--card-bg); }
+.holon-entry:hover { text-decoration: none; border-color: var(--accent); }
+.holon-entry .holon-title { font-size: 1.35rem; font-weight: 400;
+  display: block; color: var(--fg); margin-bottom: 0.25rem; }
+.holon-entry:hover .holon-title { text-decoration: underline; }
+.holon-entry .holon-desc { font-size: 1.05rem; color: var(--muted);
+  line-height: 1.5; }
+.holon-entry .holon-meta { font-size: 0.9rem; color: var(--muted);
+  font-family: "IBM Plex Mono", monospace; margin-top: 0.35rem; }
+.card-index { width: 55%; margin-top: 1rem; }
+.card-index summary { cursor: pointer; font-size: 1.1rem;
+  color: var(--muted); font-style: italic; margin-bottom: 1rem; }
+.card-index .index-group { margin-bottom: 1rem; }
+.card-index .index-group h3 { font-size: 1.1rem; font-weight: 400;
+  color: var(--accent); margin-bottom: 0.35rem; }
+.card-index .index-item { padding: 0.3rem 0;
+  border-bottom: 1px solid var(--border);
+  display: flex; justify-content: space-between;
+  align-items: baseline; gap: 0.5rem; font-size: 1.05rem; }
+.card-index .index-item a { flex: 1; min-width: 0; }
+.card-index .type-tag { display: inline-block; background: var(--tag-bg, #e8e8e4);
+  padding: .15rem .5rem; border-radius: 3px;
+  font-size: .8rem; font-family: "IBM Plex Mono", monospace; flex-shrink: 0; }
+.photo-float { float: right; width: 35%;
+               margin: 0 7% 1.5rem 2rem; }
+.photo-float img { width: 100%; border-radius: 2px; }
+.photo-float .caption { font-size: 0.85rem; color: var(--muted);
+                        margin-top: 0.4rem; line-height: 1.4; }
+.sparse-map { width: 87.5%; margin: 1rem 0 2rem; }
+.sparse-map svg { width: 100%; height: auto; }
+.meta-links { width: 55%; margin-top: 2rem;
+              font-size: 1.05rem; color: var(--muted); }
+.meta-links a { color: var(--link); }
+footer { margin-top: 4rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem; color: var(--muted); width: 55%; }
+footer a { color: var(--link); }
+@media (max-width: 960px) {
+  body { width: 90%; padding: 2rem 0 2rem 1.5rem; }
+  h1, h2, .subtitle, .intro, .holon-group, .card-index,
+  .sparse-map, .meta-links, footer { width: 100%; }
+  .photo-float { float: none; width: 100%; margin: 1rem 0; }
+}
+"""
+
+
+def render_mother_hord_page(entities: list[dict], hord_root: str,
+                             hord_name: str, hord_meta: dict = None) -> str:
+    """Render a Mother Hord landing page organized by holons."""
+    meta = hord_meta or {}
+
+    # Read mother_title from config [mother] section, fall back to hord_name
+    mother_title = hord_name
+    mother_desc = ""
+    config_path = os.path.join(hord_root, ".hord", "config.toml")
+    if os.path.exists(config_path):
+        in_mother = False
+        with open(config_path, "r") as f:
+            for line in f:
+                stripped = line.strip()
+                if stripped.startswith("["):
+                    in_mother = stripped == "[mother]"
+                    continue
+                if in_mother:
+                    m = re.match(r'mother_title\s*=\s*"(.+)"', stripped)
+                    if m:
+                        mother_title = m.group(1)
+                    m = re.match(r'mother_desc\s*=\s*"(.+)"', stripped)
+                    if m:
+                        mother_desc = m.group(1)
+
+    # Separate holons from other entities
+    holons = [e for e in entities if e.get("type") == "wh:holon"]
+    non_holons = [e for e in entities if e.get("type") != "wh:holon"]
+
+    # Read holon descriptions from source files
+    for h in holons:
+        desc = ""
+        # Find the source file for this holon
+        content_dir = os.path.join(hord_root, "content")
+        if os.path.isdir(content_dir):
+            for fname in os.listdir(content_dir):
+                if not fname.endswith(".org"):
+                    continue
+                fpath = os.path.join(content_dir, fname)
+                with open(fpath, "r") as f:
+                    text = f.read()
+                if h["uuid"] in text:
+                    # Extract description: text between Relations/PT and first **
+                    lines = text.split("\n")
+                    in_desc = False
+                    desc_lines = []
+                    for line in lines:
+                        if line.strip().startswith("- PT ::"):
+                            in_desc = True
+                            continue
+                        if in_desc:
+                            if line.strip().startswith("**"):
+                                break
+                            if line.strip():
+                                desc_lines.append(line.strip())
+                    desc = " ".join(desc_lines)
+                    break
+        h["desc"] = desc
+        # Count members
+        quads = read_all_quads(hord_root, h["uuid"])
+        member_count = sum(1 for q in quads if q.predicate == "v:h-member")
+        h["member_count"] = member_count
+
+    # Categorize holons
+    # Narrative holons have a primary article; concept keystones don't
+    narrative_holons = []
+    keystone_holons = []
+    for h in holons:
+        quads = read_all_quads(hord_root, h["uuid"])
+        has_primary = any(q.predicate == "v:h-primary" for q in quads)
+        has_anchor = any(q.predicate == "v:h-anchor" for q in quads)
+        if has_primary or has_anchor:
+            narrative_holons.append(h)
+        else:
+            keystone_holons.append(h)
+
+    # Sort each group alphabetically
+    narrative_holons.sort(key=lambda h: h["title"].lower())
+    keystone_holons.sort(key=lambda h: h["title"].lower())
+
+    # Build holon sections
+    def _holon_cards(holon_list, prefix=""):
+        parts = []
+        for h in holon_list:
+            # Link to context-cloud if it exists, else holon page
+            slug = h["title"].lower().replace(" ", "-")
+            slug = re.sub(r"[^a-z0-9-]", "", slug)
+            # Check for context-cloud directory
+            cloud_dir = os.path.join(hord_root, "_site", slug)
+            if os.path.isdir(cloud_dir):
+                href = f"{slug}/index.html"
+            else:
+                href = _entity_filename(h["uuid"])
+            meta_str = f'{h["member_count"]} cards'
+            parts.append(
+                f'<a class="holon-entry" href="{href}">\n'
+                f'  <span class="holon-title">{prefix}{escape(h["title"])}</span>\n'
+                f'  <span class="holon-desc">{escape(h.get("desc", ""))}</span>\n'
+                f'  <span class="holon-meta">{meta_str}</span>\n'
+                f'</a>\n')
+        return "".join(parts)
+
+    # Include Sparse Map SVG if it exists
+    sparse_map_html = ""
+    svg_path = os.path.join(hord_root, "lib", "media", "sparse-map.svg")
+    if os.path.exists(svg_path):
+        import shutil
+        # Copy SVG to output so it can be loaded as <img>
+        out_dir_check = os.path.join(hord_root, output if 'output' in dir() else '_site')
+        media_dst = os.path.join(hord_root, "_site", "lib", "media")
+        os.makedirs(media_dst, exist_ok=True)
+        shutil.copy2(svg_path, os.path.join(media_dst, "sparse-map.svg"))
+        sparse_map_html = (
+            '<div class="sparse-map">\n'
+            '  <img src="lib/media/sparse-map.svg" alt="A Whole World-System — Sparse Map">\n'
+            '</div>\n')
+
+    body_parts = []
+    body_parts.append(f"<h1>{escape(mother_title)}</h1>")
+    if mother_desc:
+        body_parts.append(f'<div class="intro"><p>{escape(mother_desc)}</p></div>')
+    if sparse_map_html:
+        body_parts.append(sparse_map_html)
+    body_parts.append(f'<div class="subtitle">'
+                      f'{len(entities)} cards &middot; '
+                      f'{len(holons)} holons</div>')
+
+    if narrative_holons:
+        body_parts.append("<h2>Articles</h2>")
+        body_parts.append(f'<div class="holon-group">')
+        body_parts.append(_holon_cards(narrative_holons))
+        body_parts.append("</div>")
+
+    if keystone_holons:
+        body_parts.append("<h2>Keystones</h2>")
+        body_parts.append(f'<div class="holon-group">')
+        body_parts.append(_holon_cards(keystone_holons))
+        body_parts.append("</div>")
+
+    # Card index (collapsed by default)
+    groups: dict[str, list[dict]] = {}
+    for ent in non_holons:
+        type_label = ent.get("type_label", "Other")
+        groups.setdefault(type_label, []).append(ent)
+
+    body_parts.append('<div class="card-index">')
+    body_parts.append(f"<details>")
+    body_parts.append(f"<summary>All {len(non_holons)} cards by type</summary>")
+    for group_name in sorted(groups.keys()):
+        items = sorted(groups[group_name], key=lambda e: e["title"].lower())
+        body_parts.append(f'<div class="index-group">')
+        body_parts.append(f"<h3>{escape(group_name)} ({len(items)})</h3>")
+        for item in items:
+            body_parts.append(
+                f'<div class="index-item">'
+                f'<a href="{_entity_filename(item["uuid"])}">'
+                f'{escape(item["title"])}</a>'
+                f'<span class="type-tag">{escape(item["type_label"])}</span>'
+                f'</div>')
+        body_parts.append("</div>")
+    body_parts.append("</details>")
+    body_parts.append("</div>")
+
+    # Footer
+    footer_parts = ['Generated by <a href="https://github.com/chenla/hoard">Hoard</a>']
+    if meta.get("copyright_holder"):
+        footer_parts.append(
+            f'&copy;{escape(meta.get("copyright_year", ""))} '
+            f'{escape(meta["copyright_holder"])}')
+    if meta.get("license"):
+        footer_parts.append(escape(meta["license"]))
+
+    body_parts.append(f'<footer>{"  &middot; ".join(footer_parts)}</footer>')
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{escape(hord_name)}</title>
+<style>{MOTHER_CSS}</style>
+</head>
+<body>
+{"".join(body_parts)}
+</body>
+</html>
+"""
+
+
 # ── Holon page ────────────────────────────────────────
 
 HOLON_CSS_EXTRA = """\
@@ -2061,7 +2336,9 @@ tell one story.</p>
               help="Export a holon as a landing page with member cards")
 @click.option("--context-cloud", "cloud_names", multiple=True,
               help="Export holon(s) as context cloud articles (repeatable)")
-def export_cmd(output, holon_name, cloud_names):
+@click.option("--mother", is_flag=True, default=False,
+              help="Generate Mother Hord landing page (holon-organized index)")
+def export_cmd(output, holon_name, cloud_names, mother):
     """Export the hord as a browsable HTML site.
 
     Generates one HTML page per entity plus an index page.
@@ -2113,17 +2390,22 @@ def export_cmd(output, holon_name, cloud_names):
             continue
 
         title = uuid
+        pt = None
         etype = ""
         for q in quads:
             if q.predicate == "v:title":
                 title = q.object
+            elif q.predicate == "v:pt":
+                pt = q.object
             elif q.predicate == "v:type":
                 etype = q.object
 
+        # Prefer v:pt (clean name) over v:title (may have suffix)
+        display_title = pt if pt else title
         type_label = vocab.label(etype) if etype else "Other"
         entities.append({
             "uuid": uuid,
-            "title": title,
+            "title": display_title,
             "type": etype,
             "type_label": type_label,
         })
@@ -2155,7 +2437,11 @@ def export_cmd(output, holon_name, cloud_names):
                             hord_meta[key] = match.group(1)
 
     # Render index
-    index_html = render_index_page(entities, hord_name, hord_meta=hord_meta)
+    if mother:
+        index_html = render_mother_hord_page(
+            entities, hord_root, hord_name, hord_meta=hord_meta)
+    else:
+        index_html = render_index_page(entities, hord_name, hord_meta=hord_meta)
     with open(os.path.join(out_dir, "index.html"), "w") as f:
         f.write(index_html)
 

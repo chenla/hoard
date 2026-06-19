@@ -1,0 +1,60 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Cards—4
+
+* Cards—4
+  :PROPERTIES:
+  :ID:        f3e81d04-76b0-4e00-833c-8f64baaa9de6
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Cards
+   - RT :: [[id:8e104597-5e7a-424b-a19c-cad8fede5e54][Hoard]]
+   - RT :: [[id:2f134d16-9e88-4201-9c87-09e66581be24][Quads]]
+   - RT :: [[id:a98b25e2-32b4-4aac-b567-15e0dfe5c4be][Vocabulary]]
+
+** Scope Note
+
+The atomic unit of Hoard.  A card is a single org-mode
+file with a UUID, a type, and structured sections
+(Relations, Scope Note, Notes, References).  Each card
+represents one entity — a person, concept, event, work,
+organization, or system — and compiles to a set of
+quads that capture its relationships.
+
+** Notes
+
+Cards follow the one-entity-per-file rule.  A card for
+Einstein is not a card about physics — it is a card
+about Einstein.  Physics gets its own card.  The
+relationship between them is captured in quads, not in
+the card body.
+
+The card filename encodes identity: Title--suffix.org,
+where the suffix indicates the card type (4 = concept,
+7 = person, 6 = work, 11 = event, etc.).  The UUID in
+the PROPERTIES drawer is the canonical identifier; the
+filename is for human convenience.
+
+Expression cards extend the WEMI (Whole/Expression/
+Manifestation/Instance) model.  A Whole card captures
+the full identity of an entity across its entire
+existence.  An expression card captures the entity as
+it appears in a specific context — Einstein at Solvay
+in 1927, not Einstein the icon.  Expression cards
+share the entity's UUID lineage but add context-
+specific scope notes, notes, and relationships.
+
+The card structure is deliberately minimal:
+
+- Relations :: typed links (PT, BT, NT, RT, USE, UF)
+- Scope Note :: one-paragraph canonical definition
+- Notes :: extended discussion
+- References :: sources with annotations
+
+This structure compiles cleanly to quads and renders
+cleanly to HTML.  Nothing is hidden in formatting;
+everything is machine-legible.

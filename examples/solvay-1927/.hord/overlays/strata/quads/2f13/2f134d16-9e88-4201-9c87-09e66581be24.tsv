@@ -1,0 +1,4 @@
+subject	predicate	object	context
+2f134d16-9e88-4201-9c87-09e66581be24	v:type	wh:con	f6de44af8a11a3fa509c06cc7ccd42dbccc1160f
+2f134d16-9e88-4201-9c87-09e66581be24	v:title	Quads—4	f6de44af8a11a3fa509c06cc7ccd42dbccc1160f
+2f134d16-9e88-4201-9c87-09e66581be24	v:sn	The compiled relationship unit in Hoard: a four-part tuple of subject, predicate, object, and context. Cards are source code; quads are the compiled output. Every relationship in the system — identity, hierarchy, association, membership, ordering — is expressed as a quad stored in a TSV file.	f6de44af8a11a3fa509c06cc7ccd42dbccc1160f

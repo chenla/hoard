@@ -1,0 +1,48 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Word-hord—9
+
+* Word-hord—9
+  :PROPERTIES:
+  :ID:        4d474c7e-106c-4655-bc84-55173461922f
+  :TYPE:      wh:sys
+  :CREATED:   2026-06-19T11:55
+  :TAGS:      hoard-doc
+  :END:
+
+** Relations
+   - PT :: Word-hord
+   - RT :: [[id:8e104597-5e7a-424b-a19c-cad8fede5e54][Hoard]]
+   - RT :: [[id:0c2c291d-1aa7-4235-a139-7ff7cda22dfd][The Hord]]
+
+** Scope Note
+
+A structured personal knowledge store and
+bibliographic manager built on Hoard.  Word-hord
+manages reference cards with DOI lookup, BibTeX
+import, and manual entry.  It is the bibliography
+layer — the curated collection of sources that feed
+into any hord's cards and references.
+
+** Notes
+
+Word-hord is a specialized hord dedicated to
+bibliographic material.  Each entry is a card (usually
+wh:wrk) with structured metadata: author, title,
+year, publisher, DOI, annotations.
+
+Emacs integration provides:
+- C-c w d — create card from DOI (automatic metadata)
+- C-c w b — create card from BibTeX entry
+- C-c w n — manual card creation
+
+The word-hord currently holds 788+ files and serves
+as the canonical source registry.  When a card in any
+hord references a work, that work should have a
+corresponding entry in the word-hord.
+
+The name comes from Old English: a word-hord is
+literally a "word treasury" — the store of language
+and knowledge that a poet or scholar draws upon.
+Beowulf uses the term.  It is the oldest metaphor for
+what we now call a personal knowledge base.

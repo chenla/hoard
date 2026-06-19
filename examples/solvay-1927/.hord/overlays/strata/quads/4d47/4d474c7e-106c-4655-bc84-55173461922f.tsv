@@ -1,0 +1,4 @@
+subject	predicate	object	context
+4d474c7e-106c-4655-bc84-55173461922f	v:type	wh:sys	f4e919c2f4889b461fc9ec9f3c58526392055fe2
+4d474c7e-106c-4655-bc84-55173461922f	v:title	Word-hord—9	f4e919c2f4889b461fc9ec9f3c58526392055fe2
+4d474c7e-106c-4655-bc84-55173461922f	v:sn	A structured personal knowledge store and bibliographic manager built on Hoard.  Word-hord manages reference cards with DOI lookup, BibTeX import, and manual entry.  It is the bibliography layer — the curated collection of sources that feed into any hord's cards and references.	f4e919c2f4889b461fc9ec9f3c58526392055fe2

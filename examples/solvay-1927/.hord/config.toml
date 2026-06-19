@@ -3,6 +3,10 @@ name = "solvay-1927"
 version = "0.1.0"
 format = "org"
 
+[mother]
+mother_title = "A Whole World-System"
+mother_desc = "The vision, the argument, and the infrastructure for the World-System that comes next."
+
 [meta]
 copyright_holder = "Chenla Institute"
 copyright_year = "2026"

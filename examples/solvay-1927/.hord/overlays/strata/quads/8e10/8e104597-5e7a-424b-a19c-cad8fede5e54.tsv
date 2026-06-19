@@ -1,0 +1,4 @@
+subject	predicate	object	context
+8e104597-5e7a-424b-a19c-cad8fede5e54	v:type	wh:sys	0fbe0f4fc1672d345540b8dc494c6d48c5a19599
+8e104597-5e7a-424b-a19c-cad8fede5e54	v:title	Hoard—9	0fbe0f4fc1672d345540b8dc494c6d48c5a19599
+8e104597-5e7a-424b-a19c-cad8fede5e54	v:sn	A semantic metadata overlay system built on git. Hoard adds structured identity, relationships, and context to any git repository without altering the files it describes.  Cards capture entities, quads capture relationships, vocabulary provides shared meaning, and holons compose cards into bounded, publishable scopes.	0fbe0f4fc1672d345540b8dc494c6d48c5a19599

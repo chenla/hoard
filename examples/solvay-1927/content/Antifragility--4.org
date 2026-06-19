@@ -1,0 +1,75 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Antifragility—4
+
+* Antifragility—4
+  :PROPERTIES:
+  :ID:        e4c4b3a1-beb9-42e3-9853-185e4a4b017f
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Antifragility
+   - RT :: [[id:c067fc03-5526-468b-8923-e116c2807fb4][Pace Layers]]
+   - RT :: [[id:a567f78e-75ff-4f6b-acd8-1711b8c45114][Subsidiarity]]
+
+** Scope Note
+
+Nassim Taleb's term for systems that gain from disorder
+— not merely robust (surviving shocks) or resilient
+(recovering from them), but actively strengthened by
+volatility, stress, and uncertainty.  The opposite of
+fragile is not robust; it is antifragile.
+
+** Notes
+
+Taleb introduced the concept in /Antifragile: Things
+That Gain from Disorder/ (2012), arguing that the
+category had been unnamed despite being ubiquitous.
+Evolution is antifragile: random mutation plus
+selection pressure produces adaptation.  Muscles are
+antifragile: stress makes them stronger.  Restaurant
+ecosystems are antifragile: individual failures improve
+the collective by removing the weakest.
+
+The key distinction from resilience: a resilient system
+returns to its prior state after a shock.  An
+antifragile system moves to a better state.  This
+requires optionality — the ability to benefit from
+upside while limiting downside — and it requires
+exposure to stressors at the right scale.
+
+Scale matters critically.  A system can be antifragile
+at one level precisely because its components are
+fragile at a lower level.  The restaurant ecosystem
+improves because individual restaurants can fail.
+Evolution works because individual organisms die.
+This is why Taleb argues against bailouts and
+centralized risk management: they remove the small
+failures that keep the system healthy, guaranteeing
+larger, systemic failures later.
+
+For Hoard, antifragility is an architectural goal.
+Rules-based harnesses are fragile — they break when
+conditions change.  Homoiconic structures are
+antifragile — they regenerate from the data, and
+changes in the data produce a better-adapted harness.
+The hord improves through use because each card added,
+each relationship captured, each expression refined
+makes the system's world-model more accurate.
+
+** References
+
+- Taleb, Nassim Nicholas.  /Antifragile: Things That
+  Gain from Disorder/.  Random House, 2012.  The
+  definitive treatment.
+- Taleb, Nassim Nicholas.  /The Black Swan: The Impact
+  of the Highly Improbable/.  Random House, 2007.
+  The predecessor — why we cannot predict, and why
+  that matters for system design.
+- Meadows, Donella.  /Thinking in Systems: A Primer/.
+  Chelsea Green, 2008.  Systems that self-organize
+  under stress — the systems-dynamics perspective on
+  the same phenomenon.

@@ -1,0 +1,78 @@
+#   -*- mode: org; fill-column: 60 -*-
+#+STARTUP: showall
+#+TITLE:   Homoiconicity—4
+
+* Homoiconicity—4
+  :PROPERTIES:
+  :ID:        fd52cafd-8cc2-4ad5-8106-67b7e9bfb854
+  :TYPE:      wh:con
+  :CREATED:   2026-06-19T11:50
+  :TAGS:      scaffolds
+  :END:
+
+** Relations
+   - PT :: Homoiconicity
+   - RT :: [[id:fc5d4463-f480-4502-b8a8-203ddbd4d447][Pattern Language]]
+   - RT :: [[id:5284e00c-e05a-447d-a7b0-ac40f2a2bae4][Determinism]]
+
+** Scope Note
+
+The property of a system whose data structures and its
+code share the same representation — "the program is
+the data is the program."  Originating in Lisp, where
+programs are lists that can manipulate themselves, the
+principle extends to any system where the structures
+that describe the world and the structures that operate
+on it are the same thing.
+
+** Notes
+
+In Lisp, code and data are both S-expressions — lists
+of atoms.  A program can inspect, modify, and generate
+other programs because there is no representational
+boundary between what the machine executes and what it
+reasons about.  Macros exploit this: they are programs
+that write programs, transforming code before it runs.
+
+Hoard extends this principle beyond programming.  The
+data structures in a hord — cards, quads, vocabulary
+terms, holons — are simultaneously the content being
+managed and the instructions for how to manage it.
+When an AI processes a hord, the structure of the data
+generates the harness: the context, constraints, and
+relationships that shape how the model works with the
+material.  There is no separate "rules" layer that must
+be maintained independently of the data.  Maintaining
+the hord maintains the harness.
+
+This is why rules-based harnesses become brittle as
+models improve.  A harness built as a separate layer of
+instructions is frozen at the moment it was written —
+tuned to the weaknesses of the model it was designed
+for.  When the model changes, the harness must be
+manually updated.  A homoiconic system has no such gap:
+the harness is regenerated each time the data is
+processed, shaped by whatever the model is now capable
+of understanding.
+
+The principle connects to legal code, natural language,
+and programming as a continuum.  If all three are
+"code" — formal structures that constrain and enable
+action — then homoiconicity means the evidence is the
+design.  The thing and its description are the same
+artifact.
+
+** References
+
+- McCarthy, John.  "Recursive Functions of Symbolic
+  Expressions and Their Computation by Machine, Part I."
+  /Communications of the ACM/ 3, no. 4 (1960): 184–195.
+  The paper that introduced Lisp and, implicitly,
+  homoiconicity.
+- Kay, Alan.  "The Early History of Smalltalk."  /ACM
+  SIGPLAN Notices/ 28, no. 3 (1993).  Reflects on the
+  relationship between representation and computation.
+- Graham, Paul.  /On Lisp: Advanced Techniques for
+  Common Lisp/.  Prentice Hall, 1993.  The best
+  practical treatment of macros as programs that write
+  programs.
