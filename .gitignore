@@ -6,3 +6,7 @@ dist/
 build/
 .eggs/
 _site/
+
+# Emacs autosave / lock files
+\#*#
+.#*

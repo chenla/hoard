@@ -1,4 +1,4 @@
 subject	predicate	object	context
-fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:type	wh:con	aecac47d9802404f1e127c0a3016caf4d04e6071
-fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:title	Homoiconicity—4	aecac47d9802404f1e127c0a3016caf4d04e6071
-fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:sn	The property of a system whose data structures and its code share the same representation — "the program is the data is the program."  Originating in Lisp, where programs are lists that can manipulate themselves, the principle extends to any system where the structures that describe the world and the structures that operate on it are the same thing.	aecac47d9802404f1e127c0a3016caf4d04e6071
+fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:type	wh:con	e895d9a5fef1bbb7e2d627e2a09dd195202147c1
+fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:title	Homoiconicity—4	e895d9a5fef1bbb7e2d627e2a09dd195202147c1
+fd52cafd-8cc2-4ad5-8106-67b7e9bfb854	v:sn	The property of a system whose data structures and its code share the same representation — "the program is the data is the program."  Originating in Lisp, where programs are lists that can manipulate themselves, the principle extends to any system where the structures that describe the world and the structures that operate on it are the same thing.	e895d9a5fef1bbb7e2d627e2a09dd195202147c1

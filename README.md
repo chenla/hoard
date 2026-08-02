@@ -47,6 +47,21 @@ One query shows: typed hierarchy (BT/NT), related concepts (RT), multilingual al
 
 The `—4` suffix means "concept" (type code 4). Person cards end in `—7`, works in `—6`. You can tell what something is at a glance.
 
+### Solvay 1927 demo — holons in action
+
+```bash
+cd examples/solvay-1927
+hord compile                          # 50 cards → 350 quads
+hord holon show Solvay_1927--21       # view the holon
+hord export --holon Solvay_1927--21   # generate browsable HTML
+```
+
+29 physicists at the Fifth Solvay Conference, each with two cards: a biographical whole card and a conference-specific expression card showing who they were in October 1927.
+
+**[Browse the live demo →](https://chenla.github.io/hoard/solvay.html)**
+
+See `examples/solvay-1927/README.md` for local setup.
+
 ## What problem does this solve?
 
 You have notes — maybe hundreds, maybe thousands. Half your links are broken because you renamed a file. You can't tell which notes are stale. An AI reading your notes has to guess at structure because there isn't any.
