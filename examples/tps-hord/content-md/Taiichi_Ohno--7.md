@@ -3,7 +3,7 @@ id: e5f6a7b8-2001-4000-8000-000000000021
 type: wh:per
 title: Taiichi Ohno—7
 created: 2026-04-22T10:00@Hong Kong
-license: MIT/CC BY-SA 4.0
+license: MIT/CC BY 4.0
 relations:
   - "TT: a1b2c3d4-0001-4000-8000-000000000001  # Person—8"
   - "RT: c348132e-7cdf-438d-9a1f-69d75f382bee  # Toyota Production System—4"

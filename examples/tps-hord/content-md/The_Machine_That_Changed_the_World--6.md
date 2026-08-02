@@ -3,7 +3,7 @@ id: f6a7b8c9-3002-4000-8000-000000000032
 type: wh:wrk
 title: The Machine That Changed the World—6
 created: 2026-04-22T10:00@Hong Kong
-license: MIT/CC BY-SA 4.0
+license: MIT/CC BY 4.0
 relations:
   - "TT: a1b2c3d4-0002-4000-8000-000000000002  # Work—8"
   - "RT: 9916ba93-6978-4406-b96f-1d1a476c1931  # Lean Manufacturing—4"

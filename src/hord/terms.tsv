@@ -47,5 +47,5 @@ v:scheduled	SCHEDULED	Scheduled date (ISO 8601: YYYY-MM-DD)
 v:citekey	CITEKEY	Bibliographic citation key (author:yearslug)
 wh:media	Media	Word-hord: media record (image, audio, video, SVG, etc.)
 v:creator	CREATOR	Creator/photographer/artist of a media item
-v:license	LICENSE	License or rights statement (CC BY-SA 4.0, public domain, etc.)
+v:license	LICENSE	License or rights statement (CC BY 4.0, public domain, etc.)
 v:media-file	MEDIA_FILE	Path to media file in lib/media/ relative to hord root

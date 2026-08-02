@@ -168,7 +168,7 @@ def _scaffold_work_org(card_uuid: str, display_title: str,
     if author:
         lines.append(f"  :AUTHOR:    {author}")
     lines += [
-        "  :LICENCE:   MIT/CC BY-SA 4.0",
+        "  :LICENCE:   MIT/CC BY 4.0",
         "  :END:",
         "",
         "** Relations",
@@ -212,7 +212,7 @@ def _scaffold_work_md(card_uuid: str, display_title: str,
     if year:
         lines.append(f"year: {year}")
     lines += [
-        "license: MIT/CC BY-SA 4.0",
+        "license: MIT/CC BY 4.0",
         "relations:",
         f"  - \"PT: {display_title}\"",
         "---",

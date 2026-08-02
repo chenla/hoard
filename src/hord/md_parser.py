@@ -7,7 +7,7 @@ id: <uuid>
 type: wh:con
 title: Record Name
 created: 2026-04-22T10:00@Location
-license: MIT/CC BY-SA 4.0
+license: MIT/CC BY 4.0
 relations:
   - TT: <uuid>
   - BT: <uuid>

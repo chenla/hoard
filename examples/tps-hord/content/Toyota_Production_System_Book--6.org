@@ -8,7 +8,7 @@
   :ID:       f6a7b8c9-3003-4000-8000-000000000033
   :TYPE:      wh:wrk
   :CREATED:   2026-04-24T14:00@Phnom Penh
-  :LICENCE:   MIT/CC BY-SA 4.0
+  :LICENCE:   MIT/CC BY 4.0
   :END:
 
 ** Relations

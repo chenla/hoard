@@ -4,7 +4,7 @@ type: wh:con
 title: Lean Manufacturing—4
 created: 2022-08-31T07:18
 geo: 48P-491193-1287029-15
-license: MIT/CC BY-SA 4.0
+license: MIT/CC BY 4.0
 relations:
   - "TT: 852a6e49-4b9c-429e-b612-6c505ab78827  # Concept—8"
   - "PT: Lean Manufacturing—4"

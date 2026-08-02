@@ -209,7 +209,7 @@ def make_work_card(citekey, fields):
         f"  :ID:        {card_uuid}",
         "  :TYPE:      wh:wrk",
         f"  :CREATED:   {timestamp}",
-        "  :LICENCE:   MIT/CC BY-SA 4.0",
+        "  :LICENCE:   MIT/CC BY 4.0",
         "  :END:",
         "",
         "** Relations",

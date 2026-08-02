@@ -13,7 +13,7 @@
   :CREATED:   2022-08-31T07:18
   :VER:       715177203.912829681
   :GEO:       48P-491193-1287029-15
-  :LICENCE:   MIT/CC BY-SA 4.0
+  :LICENCE:   MIT/CC BY 4.0
   :ROAM_ALIASES: "Toyota Production System—4" "The Toyota Way" "JIT" "Just-In-Time Manufacturing"
   :END:
 

@@ -8,7 +8,7 @@
   :ID:       b65136a2-13b9-4296-920f-4058f1dd90ae
   :TYPE:      wh:con
   :CREATED:   2026-04-22T10:00@Hong Kong
-  :LICENCE:   MIT/CC BY-SA 4.0
+  :LICENCE:   MIT/CC BY 4.0
   :END:
 
 ** Relations

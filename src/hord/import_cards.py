@@ -497,7 +497,7 @@ def _build_org_card(card_uuid: str, entity_type: str,
         props.append(f"  :ROAM_ALIASES: {alias_str}")
     if tags:
         props.append(f"  :TAGS:      {' '.join(tags)}")
-    props.append("  :LICENCE:   MIT/CC BY-SA 4.0")
+    props.append("  :LICENCE:   MIT/CC BY 4.0")
     props.append("  :END:")
 
     lines = [
@@ -540,7 +540,7 @@ def _build_md_card(card_uuid: str, entity_type: str,
         f"type: {entity_type}",
         f"title: {display_title}",
         f"created: {timestamp}",
-        "license: MIT/CC BY-SA 4.0",
+        "license: MIT/CC BY 4.0",
     ]
     if tags:
         lines.append("tags:")

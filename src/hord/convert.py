@@ -25,7 +25,7 @@ def org_to_md(record) -> str:
     if record.geo:
         lines.append(f"geo: {record.geo}")
 
-    lines.append("license: MIT/CC BY-SA 4.0")
+    lines.append("license: MIT/CC BY 4.0")
 
     # Relations
     if record.relations:
@@ -98,7 +98,7 @@ def md_to_org(record) -> str:
         lines.append(f"  :CREATED:   {record.created}")
     if record.geo:
         lines.append(f"  :GEO:       {record.geo}")
-    lines.append("  :LICENCE:   MIT/CC BY-SA 4.0")
+    lines.append("  :LICENCE:   MIT/CC BY 4.0")
     lines.append("  :END:")
     lines.append("")
 

@@ -185,4 +185,4 @@ Emacs reader: [hord.el](https://github.com/chenla/hord.el) — card view, live f
 
 ## License
 
-Code: MIT | Content: CC BY-SA 4.0
+Code: MIT | Content: CC BY 4.0

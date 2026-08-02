@@ -10,7 +10,7 @@
   :VER:       645031374.312086758
   :GEO:       48P-491193-1287029-15
   :TYPE:      wh:cat
-  :Licence:   MIT/CC BY-SA 4.0
+  :Licence:   MIT/CC BY 4.0
   :ID:       852a6e49-4b9c-429e-b612-6c505ab78827
   :END:
 

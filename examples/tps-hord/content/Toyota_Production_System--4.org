@@ -9,7 +9,7 @@
   :TYPE:      wh:con
   :CREATED:   2026-04-10T18:39@Prek Leap (11.642600N-104.919210W)
   :GEO:       48P-491193-1287029-15
-  :LICENCE:   MIT/CC BY-SA 4.0
+  :LICENCE:   MIT/CC BY 4.0
   :END:
 
 ** Relations

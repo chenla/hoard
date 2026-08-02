@@ -8,7 +8,7 @@
   :ID:       e5f6a7b8-2001-4000-8000-000000000021
   :TYPE:      wh:per
   :CREATED:   2026-04-22T10:00@Hong Kong
-  :LICENCE:   MIT/CC BY-SA 4.0
+  :LICENCE:   MIT/CC BY 4.0
   :END:
 
 ** Relations
