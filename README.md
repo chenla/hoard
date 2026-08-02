@@ -51,16 +51,27 @@ The `—4` suffix means "concept" (type code 4). Person cards end in `—7`, wor
 
 ```bash
 cd examples/solvay-1927
-hord compile                          # 50 cards → 350 quads
+hord compile                          # 106 cards → 832 quads
 hord holon show Solvay_1927--21       # view the holon
 hord export --holon Solvay_1927--21   # generate browsable HTML
 ```
 
-29 physicists at the Fifth Solvay Conference, each with two cards: a biographical whole card and a conference-specific expression card showing who they were in October 1927.
+29 physicists at the Fifth Solvay Conference, each with two cards — a biographical whole card and a conference-specific expression card showing who they were in October 1927 — plus the concepts, works, and holons that connect them (106 cards in all).
 
 **[Browse the live demo →](https://chenla.github.io/hoard/solvay.html)**
 
 See `examples/solvay-1927/README.md` for local setup.
+
+## Hoard, a hord, and Harness
+
+Three things share a name — keep them straight:
+
+- **Git** — the foundation. Version history, provenance, diffing, distribution — universal, and *yours*.
+- **Hoard** (this repo) — the **engine**. Built on top of git, it teaches a plain git repo to carry structured, typed, AI-readable knowledge (the `.hord/` overlay). Hoard is *code*.
+- **a hord** — the **content**. What you build *with* Hoard: your holons, cards, and quads — your knowledge, living inside a git repo. A hord is *data*, not code. (Hoard is the engine; a hord is what you make with it.)
+- **Harness** — the **workspace**. A hord **+** an AI agent **+** a way of working: it turns a static hord into a living, agent-driven workspace that runs in your own walls and that you own outright. Harness is built *on* Hoard the way an app is built on a database.
+
+**Why "built on git" matters:** it's the architecture, not a dependency. A hord *is* a git repo — so everything git already gives you (versioning, provenance via blob hashes, diffing, offline work, distribution) Hoard inherits for free. And because git is universal and owned by no one, building on it means **you own the whole stack, with no vendor to lock you in.** Delete `.hord/`, run `hord compile`, and the map regenerates — the metadata is disposable; your content is never trapped.
 
 ## What problem does this solve?
 
@@ -143,6 +154,7 @@ hord import ~/Documents/obsidian-vault            # auto-detects source format
 | `hord init` | Create `.hord/` skeleton in a git repo |
 | `hord compile` | Parse org/markdown → generate quads + index |
 | `hord query <term>` | Look up entity, show quads + incoming links |
+| `hord holon list\|show` | List holons; show a holon's members (with expression substitution) |
 | `hord status` | Show entities with stale metadata |
 | `hord new` | Create a new card (interactive or with flags) |
 | `hord capture <text>` | Quick-capture a thought with tags and source |

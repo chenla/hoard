@@ -18,8 +18,23 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   rules, mobile fallback, publishing stack integration
 - **Holon primary section**: parser recognizes `** Primary` sections in holon
   cards, emits `v:h-primary` quads; `v:h-anchor` vocabulary term added
+- **`hord export --mother`**: generate a Mother Hord landing page — a
+  holon-organized index of the whole hord
+- **Solvay 1927 example**: a full demo hord — 29 physicists (biographical
+  whole card + 1927-conference expression card each) plus the concepts, works,
+  and holons that connect them (106 cards, 832 quads); browsable at
+  https://chenla.github.io/hoard/solvay.html
+
+### Changed
+- **License**: documentation and content relicensed from CC-BY-SA-4.0 to
+  **CC-BY-4.0** (attribution-only); code remains MIT
+- **README**: added a "Hoard, a hord, and Harness" orientation section;
+  corrected the Solvay demo card/quad counts; documented the `hord holon`
+  command in the command reference
 
 ### Fixed
+- **`hord --version`** reported `0.1.0` while the package was `0.2.0a1`; now
+  synced to the package version
 - **Tag parser**: `org_parser` now strips trailing commas from `:TAGS:` property
   values — `post-8, dispersal, housing` previously produced tags `['post-8,',
   'dispersal,', 'housing']`, breaking holon tag-based membership matching.
