@@ -7,3 +7,26 @@ v:ntg	v:bt	v:nt	NTG is a subtype of NT (generic)
 v:nti	v:bt	v:nt	NTI is a subtype of NT (instance)
 v:ntp	v:bt	v:nt	NTP is a subtype of NT (partitive)
 v:uf	v:rt	v:use	UF and USE are inverse preference relations
+f:own-shared	v:bt	f:ownership	facet value
+f:own-collab	v:bt	f:ownership	facet value
+f:own-private	v:bt	f:ownership	facet value
+f:prov-native	v:bt	f:provenance	facet value
+f:prov-reference	v:bt	f:provenance	facet value
+f:prov-migrated	v:bt	f:provenance	facet value
+f:st-settled	v:bt	f:status	facet value
+f:st-draft	v:bt	f:status	facet value
+f:st-onhold	v:bt	f:status	facet value
+f:st-deadend	v:bt	f:status	facet value
+f:st-archived	v:bt	f:status	facet value
+f:pres-recordable	v:bt	f:preservation	facet value
+f:pres-reconstructible	v:bt	f:preservation	facet value
+f:pres-apprentice	v:bt	f:preservation	facet value
+f:pres-na	v:bt	f:preservation	facet value
+f:role-source	v:bt	f:role	facet value
+f:role-quote	v:bt	f:role	facet value
+f:role-view	v:bt	f:role	facet value
+f:role-index	v:bt	f:role	facet value
+f:role-spec	v:bt	f:role	facet value
+f:role-concept	v:bt	f:role	facet value
+f:role-person	v:bt	f:role	facet value
+f:role-project	v:bt	f:role	facet value

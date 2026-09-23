@@ -51,3 +51,31 @@ v:h-order	ORDER	Ordering position within the holon (subject=card UUID, object=in
 v:h-cascade	CASCADE	This holon inherits from another (reserved, not yet specified)
 v:h-primary	PRIMARY	Designates the primary content card within a holon (subject=holon, object=card UUID)
 v:h-anchor	ANCHOR	Links a margin reference to the primary text (subject=primary UUID, object=ref card UUID)
+f:ownership	OWNERSHIP	Facet: who can see this and do something with it. Values are f:own-*
+f:own-shared	shared	if someone is one of many people here, this someone can see it and can do something with it
+f:own-collab	collaborative	some people here are doing something with other people at the same time / these people can see it and can do something with it / other people cannot
+f:own-private	private	one someone can see it / other people cannot see it
+f:provenance	PROVENANCE	Facet: where this came from. Values are f:prov-*
+f:prov-native	native	someone here did something / because of this it is here
+f:prov-reference	reference	someone in another place did something / because of this it was there / it is here now because someone here wanted it to be here
+f:prov-migrated	migrated	someone here did something before / it was in another place at that time / it is here now
+f:status	STATUS	Facet: what people here are doing with this. Values are f:st-*
+f:st-settled	settled	people thought of it for a long time / now they do not want it to be other
+f:st-draft	draft	someone did something / because of this it is / it can be other
+f:st-onhold	on-hold	people are not doing something with it now / maybe after some time they will do something with it
+f:st-deadend	dead-end	people did it before / now they know it is not good / it is here because it is good if people know this
+f:st-archived	archived	it was true before / now it is not true / it is here because people want to know it as it was before
+f:preservation	PRESERVATION	Facet: what happens to this if the people who hold it stop being there. Values are f:pres-*
+f:pres-recordable	recordable	if all the people who know it die / someone can know it one more time because of this
+f:pres-reconstructible	reconstructible	if all the people who know it die / someone can do it one more time / if this someone does not do many things for a long time it cannot happen / maybe it will not be the same
+f:pres-apprentice	apprenticeship-only	someone can know it if someone who knows it does it near this someone for a long time / if all these people die it is not there / this can say: it was there before / this cannot say more
+f:pres-na	n/a	if all the people who know it die / something bad does not happen
+f:role	ROLE	Facet: what kind of thing this is. Structural values f:role-* are universal; content values are domain-extensible
+f:role-source	source	someone else said it / these are the words this someone said
+f:role-quote	quote	someone else said something / this is a small part of it / these are the words this someone said
+f:role-view	view	something that is not someone did something with other things here / because of this it is / if these other things are other, it is other
+f:role-index	index	it says: these things are inside something else
+f:role-spec	spec	it says: people here do something like this
+f:role-concept	concept	it says: something is like this
+f:role-person	person	it says something of one someone
+f:role-project	project	people here want to do something / it says of this

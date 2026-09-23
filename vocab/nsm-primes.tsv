@@ -1,0 +1,151 @@
+# Natural Semantic Metalanguage — the defining vocabulary.
+#
+# Every facet-value explication in terms.tsv must be writable in these words
+# and nothing else.  See ybr/ww-s/scaffolds/natural-semantic-metalanguage--card.org
+#
+# Wierzbicka & Goddard.  ~65 primes; the English exponents are given.  A prime
+# is ONE SENSE of the listed word, not the whole word.
+#
+# kind	exponent	note
+prime	I	substantive
+prime	you	substantive
+prime	someone	substantive
+prime	something	substantive
+prime	thing	substantive (= something)
+prime	people	substantive
+prime	body	substantive
+prime	kind	relational substantive
+prime	part	relational substantive
+prime	this	determiner
+prime	same	determiner
+prime	other	determiner
+prime	else	determiner (= other)
+prime	one	quantifier
+prime	two	quantifier
+prime	some	quantifier
+prime	all	quantifier
+prime	much	quantifier
+prime	many	quantifier
+prime	little	quantifier
+prime	few	quantifier
+prime	good	evaluator
+prime	bad	evaluator
+prime	big	descriptor
+prime	small	descriptor
+prime	think	mental predicate
+prime	know	mental predicate
+prime	want	mental predicate
+prime	feel	mental predicate
+prime	see	mental predicate
+prime	hear	mental predicate
+prime	say	speech
+prime	words	speech
+prime	word	speech (= words)
+prime	true	speech
+prime	do	action
+prime	happen	event
+prime	move	movement
+prime	touch	contact
+prime	there	existence (there is)
+prime	be	existence / location / identity
+prime	mine	possession
+prime	live	life
+prime	die	death
+prime	when	time
+prime	time	time
+prime	now	time
+prime	before	time
+prime	after	time
+prime	long	time (a long time)
+prime	short	time (a short time)
+prime	moment	time
+prime	where	space
+prime	place	space
+prime	here	space
+prime	above	space
+prime	below	space
+prime	far	space
+prime	near	space
+prime	side	space
+prime	inside	space
+prime	not	logical
+prime	maybe	logical
+prime	can	logical
+prime	because	logical
+prime	if	logical
+prime	very	intensifier
+prime	more	augmentor
+prime	like	similarity
+prime	as	similarity (= like)
+prime	way	similarity (= like)
+# --- NSM has a SYNTAX as well as a lexicon.  These carry no meaning of their
+# --- own; they are how primes are combined.  Declared, not smuggled.
+grammar	a	article
+grammar	an	article
+grammar	the	article
+grammar	is	copula
+grammar	are	copula
+grammar	was	copula
+grammar	were	copula
+grammar	it	pronoun
+grammar	its	pronoun
+grammar	they	pronoun
+grammar	them	pronoun
+grammar	their	pronoun
+grammar	these	demonstrative plural of this
+grammar	who	relativiser
+grammar	that	complementiser
+grammar	and	conjunction
+grammar	to	infinitive / dative
+grammar	of	genitive
+grammar	with	comitative
+grammar	for	benefactive
+grammar	at	locative
+grammar	in	locative
+grammar	from	ablative
+grammar	will	future
+grammar	does	do-support
+grammar	did	do-support
+grammar	has	have-support
+# --- Inflected forms.  A prime is a MEANING; its exponent inflects normally in
+# --- whatever language carries it.  "someone said" is the prime SAY, not a
+# --- violation.  Listed rather than stemmed, so the set stays auditable.
+form	says	say
+form	said	say
+form	saying	say
+form	does	do
+form	did	do
+form	doing	do
+form	done	do
+form	knows	know
+form	knew	know
+form	knowing	know
+form	thinks	think
+form	thought	think
+form	wants	want
+form	wanted	want
+form	sees	see
+form	saw	see
+form	hears	hear
+form	heard	hear
+form	feels	feel
+form	felt	feel
+form	happens	happen
+form	happened	happen
+form	moves	move
+form	moved	move
+form	touches	touch
+form	touched	touch
+form	lives	live
+form	lived	live
+form	dies	die
+form	died	die
+form	things	thing
+form	someone's	someone
+form	people's	people
+form	cannot	can + not
+form	can't	can + not
+form	don't	do + not
+form	another	a + other
+form	others	other
+form	those	this (distal)
