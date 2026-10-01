@@ -49,3 +49,14 @@ wh:media	Media	Word-hord: media record (image, audio, video, SVG, etc.)
 v:creator	CREATOR	Creator/photographer/artist of a media item
 v:license	LICENSE	License or rights statement (CC BY 4.0, public domain, etc.)
 v:media-file	MEDIA_FILE	Path to media file in lib/media/ relative to hord root
+v:when	WHEN	Flow: the condition under which this fires (the sensor)
+v:then	THEN	Flow: what fires when the condition holds
+v:until	UNTIL	Flow: expiry. A standing instruction without one is a leak
+v:by	BY	Flow: the authority this acts under
+v:because	BECAUSE	Flow: the evidence for a claim (source, method, time)
+v:unless	UNLESS	Flow: the exception, and the shape of a refusal
+v:rather	RATHER	Flow: the alternative not taken, and why not
+v:changes	CHANGES	Flow: what would settle it, or what would make it wrong
+wh:que	Open question	Word-hord: a question that accumulates evidence; disposes, never closes
+wh:dec	Decision	Word-hord: a decision or judgement, with its basis and what would reopen it
+wh:loo	Loop	Word-hord: a negative feedback loop -- sensor, threshold, action. UNTIL is mandatory

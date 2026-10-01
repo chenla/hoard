@@ -33,6 +33,15 @@ REL_TO_PREDICATE = {
     "EO": "v:s-eo",
     "MO": "v:s-mo",
     "IO": "v:s-io",
+    # flow / verb register -- see harness/card-format--v0.1.org
+    "WHEN": "v:when",
+    "THEN": "v:then",
+    "UNTIL": "v:until",
+    "BY": "v:by",
+    "BECAUSE": "v:because",
+    "UNLESS": "v:unless",
+    "RATHER": "v:rather",
+    "CHANGES": "v:changes",
 }
 
 

@@ -51,6 +51,9 @@ SUFFIX_TYPE_MAP = {
     "19": "wh:event",
     "20": "wh:media",
     "21": "wh:holon",
+    "22": "wh:que",
+    "23": "wh:dec",
+    "24": "wh:loo",
 }
 
 # Regex for org property drawer entries (case-insensitive keys)
@@ -60,8 +63,15 @@ PROP_RE = re.compile(r"^\s*:(\w[\w-]*):\s*(.*?)\s*$")
 ID_LINK_RE = re.compile(r"\[\[id:([0-9a-f-]+)\]\[([^\]]*)\]\]")
 
 # Regex for relation lines: - TT :: ... or - RT :: ...
+# Thesaurus relations (ANSI/NISO Z39.19) and the strata/WEMI relations are
+# all CLASSIFICATION relations -- they say what a thing IS, never what happens.
+# The flow relations below are the verb register: a card can now state its
+# condition, what fires, when it expires, whose authority it acts under, what
+# evidences it, its exception, the alternative not taken, and what would change
+# it.  Added 2026-10-01; see harness/card-format--v0.1.org.
 RELATION_RE = re.compile(
-    r"^\s*-\s*(TT|PT|BT|BTG|BTI|BTP|NT|NTG|NTI|NTP|RT|UF|USE|WO|EO|MO|IO)\s*::\s*(.*)",
+    r"^\s*-\s*(TT|PT|BT|BTG|BTI|BTP|NT|NTG|NTI|NTP|RT|UF|USE|WO|EO|MO|IO"
+    r"|WHEN|THEN|UNTIL|BY|BECAUSE|UNLESS|RATHER|CHANGES)\s*::\s*(.*)",
     re.IGNORECASE,
 )
 

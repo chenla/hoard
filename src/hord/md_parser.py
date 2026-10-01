@@ -93,7 +93,9 @@ def _parse_relation_entry(entry: str) -> Relation | None:
     rel_type = parts[0].strip().upper()
     rest = parts[1].strip()
 
-    valid_types = {"TT", "PT", "BT", "BTG", "BTI", "BTP",
+    valid_types = {"WHEN", "THEN", "UNTIL", "BY",
+                   "BECAUSE", "UNLESS", "RATHER", "CHANGES",
+                   "TT", "PT", "BT", "BTG", "BTI", "BTP",
                    "NT", "NTG", "NTI", "NTP", "RT", "UF", "USE",
                    "WO", "EO", "MO", "IO"}
     if rel_type not in valid_types:

@@ -22,10 +22,16 @@ from hord.vocab import Vocabulary, find_vocab
 VALID_RELS = {
     "TT", "PT", "BT", "BTG", "BTI", "BTP",
     "NT", "NTG", "NTI", "NTP", "RT", "UF", "USE",
+    # flow / verb register
+    "WHEN", "THEN", "UNTIL", "BY", "BECAUSE", "UNLESS", "RATHER", "CHANGES",
 }
 
 # Relations that take a UUID target (link to another card)
-UUID_RELS = {"TT", "BT", "BTG", "BTI", "BTP", "NT", "NTG", "NTI", "NTP", "RT", "USE"}
+UUID_RELS = {"TT", "BT", "BTG", "BTI", "BTP", "NT", "NTG", "NTI", "NTP", "RT", "USE",
+             # a flow relation may point at a card (evidence, authority, the
+             # alternative not taken) or carry a plain value (a date, a
+             # condition in prose) -- so these are valid in both forms.
+             "BECAUSE", "BY", "RATHER", "UNLESS", "WHEN", "THEN", "CHANGES"}
 
 # Relations that take a text label (not a card link)
 TEXT_RELS = {"PT", "UF"}

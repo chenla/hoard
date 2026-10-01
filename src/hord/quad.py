@@ -88,6 +88,16 @@ STRUCTURAL_PREDICATES = {
 }
 
 
+# Flow -- the verb register.  Structural says what a thing IS at a moment;
+# strata says what state it is in; FLOW is the causal process between them.
+# This is the overlay specified in June 2026 and blocked until there was a
+# notation for verbs.
+FLOW_PREDICATES = {
+    "v:when", "v:then", "v:until", "v:by",
+    "v:because", "v:unless", "v:rather", "v:changes",
+}
+
+
 def overlay_for_predicate(predicate: str, persona: str | None = None) -> str:
     """Return the overlay name for a given predicate.
     If persona is given and predicate is a persona predicate (v:p-*),
@@ -96,6 +106,8 @@ def overlay_for_predicate(predicate: str, persona: str | None = None) -> str:
         return "strata"
     if predicate in STRUCTURAL_PREDICATES:
         return "structural"
+    if predicate in FLOW_PREDICATES:
+        return "flow"
     if predicate.startswith("v:p-"):
         if persona:
             return f"persona-{persona}"
